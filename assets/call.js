@@ -46,7 +46,8 @@ const createSection = (title, bodyHtml, options = {}) => {
   heading.textContent = title;
 
   const toggle = document.createElement("span");
-  toggle.textContent = options.collapsed ? "+" : "-";
+  toggle.className = "section-toggle";
+  toggle.textContent = options.collapsed ? ">" : "v";
 
   header.appendChild(heading);
   header.appendChild(toggle);
@@ -57,7 +58,7 @@ const createSection = (title, bodyHtml, options = {}) => {
 
   header.addEventListener("click", () => {
     section.classList.toggle("collapsed");
-    toggle.textContent = section.classList.contains("collapsed") ? "+" : "-";
+    toggle.textContent = section.classList.contains("collapsed") ? ">" : "v";
   });
 
   section.appendChild(header);
@@ -182,24 +183,6 @@ const buildFollowUps = (data) => {
   return wrapper;
 };
 
-const buildPanelControls = () => {
-  const controls = document.createElement("div");
-  controls.className = "actions";
-
-  const expand = document.createElement("button");
-  expand.className = "button";
-  expand.textContent = "Expand All";
-
-  const collapse = document.createElement("button");
-  collapse.className = "button";
-  collapse.textContent = "Collapse All";
-
-  controls.appendChild(expand);
-  controls.appendChild(collapse);
-
-  return { controls, expand, collapse };
-};
-
 const buildTabPanels = (data) => {
   tabPanels.innerHTML = "";
   tabBar.innerHTML = "";
@@ -221,9 +204,6 @@ const buildTabPanels = (data) => {
       panel.classList.add("active");
     }
 
-    const { controls, expand, collapse } = buildPanelControls();
-    panel.appendChild(controls);
-
     const content = document.createElement("div");
     if (tab.key === "snapshot") {
       content.appendChild(buildSnapshot(data));
@@ -238,24 +218,6 @@ const buildTabPanels = (data) => {
     }
 
     panel.appendChild(content);
-
-    expand.addEventListener("click", () => {
-      panel.querySelectorAll(".section").forEach((section) => {
-        section.classList.remove("collapsed");
-      });
-      panel.querySelectorAll(".section-header span").forEach((span) => {
-        span.textContent = "-";
-      });
-    });
-
-    collapse.addEventListener("click", () => {
-      panel.querySelectorAll(".section").forEach((section) => {
-        section.classList.add("collapsed");
-      });
-      panel.querySelectorAll(".section-header span").forEach((span) => {
-        span.textContent = "+";
-      });
-    });
 
     tabPanels.appendChild(panel);
   });
@@ -334,7 +296,7 @@ const buildShare = (data) => {
   const link = window.location.href;
   const bullets = (data.bullets || []).slice(0, 3).map((item) => `- ${item}`).join("\n");
   const subject = `Earnings Call Brief: ${data.company} ${data.fyq}`;
-  const body = `Link: ${link}\n\nTL;DR: ${data.tldr || ""}\n\n${bullets}`.trim();
+  const body = `Link: <a href="${link}">Link</a>\n\nTL;DR: ${data.tldr || ""}\n\n${bullets}`.trim();
   emailShare.href = `mailto:?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 
   copyBriefButton.addEventListener("click", async () => {

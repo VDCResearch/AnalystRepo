@@ -9,6 +9,7 @@
   --highlight: #eef4fb;
   --shadow: 0 1px 2px rgba(16, 24, 40, 0.1), 0 6px 18px rgba(16, 24, 40, 0.08);
   --radius: 10px;
+  --nav-height: 64px;
   --mono: "IBM Plex Mono", "Courier New", monospace;
   --serif: "Source Serif 4", "Georgia", serif;
   --sans: "Source Sans 3", "Segoe UI", "Helvetica Neue", sans-serif;
@@ -232,6 +233,22 @@ main {
   gap: 10px;
 }
 
+.call-header .actions .button {
+  border-color: #cbd6e2;
+  background: #ffffff;
+  color: #0b3d5c;
+}
+
+.call-header .actions .button.accent {
+  background: var(--accent-2);
+  border-color: var(--accent-2);
+  color: #fff;
+}
+
+.call-header .actions .button:hover {
+  border-color: #a9bed1;
+}
+
 .call-nav {
   display: flex;
   gap: 10px;
@@ -304,6 +321,7 @@ main {
   padding: 16px 18px;
   margin-bottom: 16px;
   box-shadow: var(--shadow);
+  scroll-margin-top: calc(var(--nav-height) + 16px);
 }
 
 .section-header {
@@ -319,9 +337,10 @@ main {
   font-family: var(--serif);
 }
 
-.section-header span {
+.section-toggle {
   color: var(--muted);
-  font-weight: 600;
+  font-weight: 700;
+  font-size: 0.95rem;
 }
 
 .section-content {
@@ -339,7 +358,7 @@ main {
 
 .sticky-toc {
   position: sticky;
-  top: 20px;
+  top: calc(var(--nav-height) + 16px);
   align-self: start;
   padding: 14px;
   border-radius: 12px;
@@ -377,11 +396,12 @@ main {
 }
 
 .inline-pills span {
-  font-size: 0.75rem;
+  font-size: 0.8rem;
   border-radius: 999px;
   padding: 4px 10px;
   background: var(--highlight);
   border: 1px solid var(--line);
+  color: #223240;
 }
 
 .tldr {
