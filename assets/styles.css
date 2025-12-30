@@ -232,6 +232,16 @@ main {
   gap: 10px;
 }
 
+.call-nav {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.call-nav a {
+  text-decoration: none;
+}
+
 .button {
   border: 1px solid var(--line);
   background: #fff;
@@ -307,6 +317,11 @@ main {
 .section-header h4 {
   margin: 0;
   font-family: var(--serif);
+}
+
+.section-header span {
+  color: var(--muted);
+  font-weight: 600;
 }
 
 .section-content {

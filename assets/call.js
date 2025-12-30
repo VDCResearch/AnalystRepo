@@ -14,6 +14,7 @@ const tabBar = document.getElementById("tabBar");
 const tabPanels = document.getElementById("tabPanels");
 const toc = document.getElementById("toc");
 const tocMeta = document.getElementById("tocMeta");
+const callNav = document.getElementById("callNav");
 
 const emailShare = document.getElementById("emailShare");
 const copyBriefButton = document.getElementById("copyBrief");
@@ -113,7 +114,7 @@ const buildDeepDive = (data) => {
 
   (deep.segments || []).forEach((segment, index) => {
     const body = segment.body ? `<p>${segment.body}</p>` : createList(segment.points || []);
-    wrapper.appendChild(createSection(segment.title || `Segment ${index + 1}`, body, { collapsed: index > 0 }));
+    wrapper.appendChild(createSection(segment.title || `Segment ${index + 1}`, body, { collapsed: false }));
   });
 
   if (deep.metrics && (deep.metrics.numbers || deep.metrics.guidance)) {
@@ -126,7 +127,7 @@ const buildDeepDive = (data) => {
 
   (deep.notes || []).forEach((note, index) => {
     const body = note.body ? `<p>${note.body}</p>` : createList(note.points || []);
-    wrapper.appendChild(createSection(note.title || `Deep note ${index + 1}`, body, { collapsed: true }));
+    wrapper.appendChild(createSection(note.title || `Deep note ${index + 1}`, body, { collapsed: false }));
   });
 
   if (!wrapper.children.length) {
@@ -143,7 +144,7 @@ const buildQna = (data) => {
   if (qna.themes && qna.themes.length) {
     qna.themes.forEach((theme, index) => {
       const body = theme.body ? `<p>${theme.body}</p>` : createList(theme.points || []);
-      wrapper.appendChild(createSection(theme.title || `Theme ${index + 1}`, body, { collapsed: index > 0 }));
+      wrapper.appendChild(createSection(theme.title || `Theme ${index + 1}`, body, { collapsed: false }));
     });
   }
 
@@ -164,8 +165,8 @@ const buildVdc = (data) => {
   const vdc = data.vdc_angle || {};
 
   wrapper.appendChild(createSection("Implications for connected worker", createList(vdc.implications || []), { collapsed: false, id: "vdc-implications" }));
-  wrapper.appendChild(createSection("Competitive notes", createList(vdc.competitive_notes || []), { collapsed: true, id: "vdc-competitive" }));
-  wrapper.appendChild(createSection("Forecast hooks", createList(vdc.forecast_hooks || []), { collapsed: true, id: "vdc-forecast" }));
+  wrapper.appendChild(createSection("Competitive notes", createList(vdc.competitive_notes || []), { collapsed: false, id: "vdc-competitive" }));
+  wrapper.appendChild(createSection("Forecast hooks", createList(vdc.forecast_hooks || []), { collapsed: false, id: "vdc-forecast" }));
 
   return wrapper;
 };
@@ -175,8 +176,8 @@ const buildFollowUps = (data) => {
   const follow = data.follow_ups || {};
 
   wrapper.appendChild(createSection("Action items", createList(follow.action_items || []), { collapsed: false, id: "follow-actions" }));
-  wrapper.appendChild(createSection("Open questions", createList(follow.open_questions || []), { collapsed: true, id: "follow-open" }));
-  wrapper.appendChild(createSection("Watch next quarter", createList(follow.watch_next_quarter || []), { collapsed: true, id: "follow-watch" }));
+  wrapper.appendChild(createSection("Open questions", createList(follow.open_questions || []), { collapsed: false, id: "follow-open" }));
+  wrapper.appendChild(createSection("Watch next quarter", createList(follow.watch_next_quarter || []), { collapsed: false, id: "follow-watch" }));
 
   return wrapper;
 };
@@ -416,6 +417,32 @@ const buildShare = (data) => {
   });
 };
 
+const buildCallNav = async (path) => {
+  if (!callNav) return;
+  try {
+    const response = await fetch("index.json", { cache: "no-store" });
+    const index = await response.json();
+    const calls = index.calls || [];
+    const currentIndex = calls.findIndex((call) => call.path === path);
+    if (currentIndex === -1) return;
+
+    const prev = calls[currentIndex + 1];
+    const next = calls[currentIndex - 1];
+
+    const items = [];
+    if (prev) {
+      items.push(`<a class="button" href="call.html?path=${encodeURIComponent(prev.path)}">Prev: ${prev.company} ${prev.fyq}</a>`);
+    }
+    if (next) {
+      items.push(`<a class="button" href="call.html?path=${encodeURIComponent(next.path)}">Next: ${next.company} ${next.fyq}</a>`);
+    }
+
+    callNav.innerHTML = items.join("");
+  } catch (error) {
+    callNav.innerHTML = "";
+  }
+};
+
 const checkIncomplete = (data) => {
   const missing = [];
   if (!data.participants || !data.participants.length) missing.push("participants");
@@ -460,6 +487,7 @@ const init = async () => {
     bindTabEvents();
     setActiveTab("snapshot");
     buildShare(data);
+    buildCallNav(path);
   } catch (error) {
     callTitle.textContent = "Call not found";
     callMeta.textContent = `Missing or invalid JSON at ${path}`;
