@@ -77,6 +77,24 @@ a {
   margin-left: auto;
 }
 
+.nav-actions .button {
+  background: transparent;
+  border: none;
+  padding: 6px 8px;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.nav-actions .button.accent {
+  background: transparent;
+  border: none;
+  color: var(--accent);
+}
+
+.nav-actions .button:hover {
+  color: var(--ink);
+}
+
 .page-header {
   padding: 28px 8vw 12px;
   display: flex;
