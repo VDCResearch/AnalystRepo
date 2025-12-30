@@ -1,0 +1,191 @@
+{
+  "company": "Dell Technologies",
+  "ticker": "DELL",
+  "fyq": "FY2025Q2",
+  "call_date": "2024-08-29",
+  "tldr": "Q2 FY2025 revenue grew 9% to $25.0B with strong AI server demand and ISG growth of 38%, while gross margin compressed on AI mix and pricing. Dell raised FY2025 guidance to $95.5B-$98.5B revenue and $7.80 +/- $0.25 EPS, and guided Q3 revenue of $24.0B-$25.0B with EPS of $2.00 +/- $0.10.",
+  "bullets": [
+    "Revenue rose 9% to $25.0B and diluted EPS increased 9% to $1.89; ISG revenue surged 38% to $11.6B.",
+    "AI orders were $3.2B with $3.1B of shipments and $3.8B backlog; pipeline expanded across CSPs and enterprise.",
+    "FY2025 guide lifted to $95.5B-$98.5B revenue and $7.80 +/- $0.25 EPS; Q3 revenue $24.0B-$25.0B and EPS $2.00 +/- $0.10."
+  ],
+  "participants": [
+    "Jeff Clarke (CEO)",
+    "Yvonne McGill (CFO)",
+    "Rob Williams (Head of Investor Relations)",
+    "Tyler Johnson (IR)"
+  ],
+  "themes": [
+    "AI server acceleration",
+    "ISG margin recovery",
+    "Storage mix shift to Dell IP",
+    "PC refresh timing",
+    "Sovereign AI opportunity",
+    "Workforce reduction charge",
+    "Capital return and debt paydown",
+    "Pricing pressure"
+  ],
+  "deep_dive": {
+    "segments": [
+      {
+        "title": "Infrastructure Solutions Group (ISG)",
+        "points": [
+          "Revenue grew 38% to $11.6B; server and networking revenue rose 80% to $7.7B.",
+          "Storage revenue declined 5% to $4.0B despite double-digit demand in Dell IP storage.",
+          "Operating income increased 22% to $1.3B with margin improving to 11%."
+        ]
+      },
+      {
+        "title": "Client Solutions Group (CSG)",
+        "points": [
+          "Revenue fell 4% to $12.4B; commercial was flat at $10.6B while consumer declined 22%.",
+          "Operating income was $767M (6.2% margin) amid competitive pricing."
+        ]
+      },
+      {
+        "title": "AI servers and pipeline",
+        "points": [
+          "AI orders were $3.2B and shipments were $3.1B, with backlog at $3.8B.",
+          "Pipeline expanded again and remained multiple of backlog, with growing enterprise adoption."
+        ]
+      }
+    ],
+    "metrics": {
+      "numbers": [
+        {
+          "label": "Revenue",
+          "value": "$25.0B",
+          "note": "+9% YoY"
+        },
+        {
+          "label": "Gross margin",
+          "value": "21.8%",
+          "note": "-230 bps YoY"
+        },
+        {
+          "label": "Operating income",
+          "value": "$2.0B",
+          "note": "8.1% margin"
+        },
+        {
+          "label": "Diluted EPS",
+          "value": "$1.89",
+          "note": "+9% YoY"
+        },
+        {
+          "label": "ISG revenue",
+          "value": "$11.6B",
+          "note": "+38% YoY"
+        },
+        {
+          "label": "CSG revenue",
+          "value": "$12.4B",
+          "note": "-4% YoY"
+        }
+      ],
+      "guidance": [
+        {
+          "label": "FY2025 revenue",
+          "value": "$95.5B - $98.5B",
+          "note": "midpoint +10% YoY"
+        },
+        {
+          "label": "FY2025 EPS",
+          "value": "$7.80 +/- $0.25",
+          "note": "non-GAAP"
+        },
+        {
+          "label": "FY2025 gross margin rate",
+          "value": "-180 bps",
+          "note": "AI mix and pricing"
+        },
+        {
+          "label": "Q3 revenue",
+          "value": "$24.0B - $25.0B",
+          "note": "midpoint +10% YoY"
+        },
+        {
+          "label": "Q3 EPS",
+          "value": "$2.00 +/- $0.10",
+          "note": "non-GAAP"
+        }
+      ]
+    },
+    "notes": [
+      {
+        "title": "Cost actions",
+        "points": [
+          "Operating expense declined 4% and included a $328M workforce reduction charge.",
+          "Dell continues to target low-single-digit OpEx declines for FY2025."
+        ]
+      },
+      {
+        "title": "Capital return",
+        "points": [
+          "Returned $1.0B to shareholders and paid down $1.0B of net debt in Q2.",
+          "Repurchased 5.5M shares at $130.03 and paid a $0.45 dividend."
+        ]
+      }
+    ]
+  },
+  "qna": {
+    "themes": [
+      {
+        "title": "ISG margin expansion",
+        "points": [
+          "Storage mix shifted toward Dell IP with improved pricing discipline.",
+          "AI server profitability improved via engineering value and services attach."
+        ]
+      },
+      {
+        "title": "AI shipment timing",
+        "points": [
+          "Q3 guidance embeds lower AI shipments sequentially based on GPU availability and customer readiness.",
+          "Pipeline and enterprise demand continue to expand."
+        ]
+      }
+    ],
+    "top_questions": [
+      {
+        "question": "What drove the 300 bps sequential jump in ISG margin?",
+        "summary": "Higher server revenue scale, improved storage mix toward Dell IP, and better AI profitability."
+      },
+      {
+        "question": "Why is AI revenue expected to be down sequentially in Q3?",
+        "summary": "Guidance reflects GPU availability and customer delivery timing; pipeline remains multiple of backlog."
+      },
+      {
+        "question": "When does the PC refresh accelerate?",
+        "summary": "Management expects a second-half pickup, with Windows 10 end-of-life and aging installed base as catalysts."
+      }
+    ]
+  },
+  "vdc_angle": {
+    "implications": [
+      "Rising Dell IP storage mix improves ISG margin resilience despite AI mix pressure.",
+      "Enterprise and sovereign AI pipeline growth broadens customer mix beyond Tier 2 CSPs."
+    ],
+    "competitive_notes": [
+      "Pricing remains tight in CSG and large enterprise server bids."
+    ],
+    "forecast_hooks": [
+      "Track Q3 AI shipment timing versus backlog and pipeline growth.",
+      "Monitor storage revenue inflection as Dell IP demand gains scale.",
+      "Watch PC refresh indicators into Q4."
+    ]
+  },
+  "follow_ups": {
+    "action_items": [
+      "Validate enterprise AI attach rates for storage and services.",
+      "Assess Dell IP storage share gains against partner IP declines."
+    ],
+    "open_questions": [
+      "How quickly can AI shipment timing improve as Blackwell supply ramps?",
+      "Will CSG recovery skew more toward Q4 than prior expectations?"
+    ],
+    "watch_next_quarter": [
+      "Q3 ISG margin progression toward the 11%-14% framework.",
+      "AI backlog trajectory versus the $3.8B baseline."
+    ]
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "company": "Dell Technologies",
+  "ticker": "DELL",
+  "fyq": "FY2025Q3",
+  "call_date": "2024-11-26",
+  "tldr": "Q3 FY2025 revenue grew 10% to $24.4B with EPS up 14% to $2.15 as AI and traditional servers drove ISG growth. Dell guided Q4 revenue of $24.0B-$25.0B and EPS of $2.50 +/- $0.10, with full-year revenue growth of ~9% and EPS of $7.81.",
+  "bullets": [
+    "Revenue rose 10% to $24.4B and diluted EPS increased 14% to $2.15; ISG revenue grew 34%.",
+    "AI orders were $3.6B and shipments were $2.9B, lifting backlog to $4.5B as pipeline grew over 50% sequentially.",
+    "Q4 guide: revenue $24.0B-$25.0B and EPS $2.50 +/- $0.10; FY2025 EPS expected at $7.81."
+  ],
+  "participants": [
+    "Jeff Clarke (CEO)",
+    "Yvonne McGill (CFO)",
+    "Paul Franz (Head of Investor Relations)",
+    "Tyler Johnson (IR)"
+  ],
+  "themes": [
+    "AI pipeline expansion",
+    "ISG margin improvement",
+    "Storage lagging servers",
+    "Blackwell transition",
+    "PC refresh pushed to next year",
+    "Enterprise AI growth",
+    "Cost efficiency",
+    "Guidance reset"
+  ],
+  "deep_dive": {
+    "segments": [
+      {
+        "title": "Infrastructure Solutions Group (ISG)",
+        "points": [
+          "Revenue grew 34% to $11.4B; server and networking revenue rose 58% to $7.4B.",
+          "Storage revenue increased 4% to $4.0B with double-digit demand in PowerStore and PowerFlex.",
+          "Operating income was $1.5B with margin at 13.3%, up 230 bps sequentially."
+        ]
+      },
+      {
+        "title": "Client Solutions Group (CSG)",
+        "points": [
+          "Revenue declined 1% to $12.1B; commercial grew 3% while consumer fell 18%.",
+          "Operating income was $694M (5.7% margin) as consumer pricing remained pressured."
+        ]
+      },
+      {
+        "title": "AI servers and pipeline",
+        "points": [
+          "AI orders set a record at $3.6B and shipments totaled $2.9B, with backlog rising to $4.5B.",
+          "Five-quarter pipeline grew more than 50% sequentially, led by CSP and enterprise demand."
+        ]
+      }
+    ],
+    "metrics": {
+      "numbers": [
+        {
+          "label": "Revenue",
+          "value": "$24.4B",
+          "note": "+10% YoY"
+        },
+        {
+          "label": "Gross margin",
+          "value": "22.3%",
+          "note": "-140 bps YoY"
+        },
+        {
+          "label": "Operating income",
+          "value": "$2.2B",
+          "note": "9.0% margin"
+        },
+        {
+          "label": "Diluted EPS",
+          "value": "$2.15",
+          "note": "+14% YoY"
+        },
+        {
+          "label": "ISG revenue",
+          "value": "$11.4B",
+          "note": "+34% YoY"
+        },
+        {
+          "label": "CSG revenue",
+          "value": "$12.1B",
+          "note": "-1% YoY"
+        }
+      ],
+      "guidance": [
+        {
+          "label": "Q4 revenue",
+          "value": "$24.0B - $25.0B",
+          "note": "midpoint +10% YoY"
+        },
+        {
+          "label": "Q4 EPS",
+          "value": "$2.50 +/- $0.10",
+          "note": "non-GAAP"
+        },
+        {
+          "label": "FY2025 revenue growth",
+          "value": "~9%",
+          "note": "midpoint"
+        },
+        {
+          "label": "FY2025 EPS",
+          "value": "$7.81",
+          "note": "+10% YoY"
+        }
+      ]
+    },
+    "notes": [
+      {
+        "title": "Margin drivers",
+        "points": [
+          "Server mix and cost efficiencies drove ISG margin improvement.",
+          "AI server margins were flat to slightly higher sequentially."
+        ]
+      },
+      {
+        "title": "PC refresh timing",
+        "points": [
+          "Commercial demand held up, but broader refresh pushed into calendar 2025.",
+          "Windows 10 end-of-life remains a key catalyst."
+        ]
+      }
+    ]
+  },
+  "qna": {
+    "themes": [
+      {
+        "title": "AI shipment timing",
+        "points": [
+          "Guidance implies Q4 AI shipments down slightly due to Blackwell transition timing.",
+          "Pipeline growth reflects expanding enterprise and CSP demand."
+        ]
+      },
+      {
+        "title": "ISG margin durability",
+        "points": [
+          "Margin gains came from server mix, improved storage pricing, and operating leverage.",
+          "Management expects further improvement in Q4."
+        ]
+      }
+    ],
+    "top_questions": [
+      {
+        "question": "Why did full-year revenue guidance move lower despite a strong AI pipeline?",
+        "summary": "PC refresh timing shifted later and AI demand shifted toward Blackwell, affecting near-term shipments."
+      },
+      {
+        "question": "Is Q4 AI revenue expected to decline sequentially?",
+        "summary": "Management indicated shipments would be slightly down sequentially based on Blackwell ramp timing."
+      },
+      {
+        "question": "How is storage positioned for AI attach?",
+        "summary": "Dell emphasized Dell IP storage, PowerStore and PowerFlex demand, and attach opportunities to AI deployments."
+      }
+    ]
+  },
+  "vdc_angle": {
+    "implications": [
+      "Blackwell transition may create near-term AI shipment volatility but supports longer-term pipeline growth.",
+      "ISG margin expansion suggests Dell is capturing higher-value AI services and storage attach."
+    ],
+    "competitive_notes": [
+      "Consumer PC pricing remains pressured; enterprise AI margins are structurally higher."
+    ],
+    "forecast_hooks": [
+      "Track Q4 AI shipments versus $2.9B Q3 level and backlog growth.",
+      "Monitor storage growth relative to server demand to gauge attach rates."
+    ]
+  },
+  "follow_ups": {
+    "action_items": [
+      "Validate Blackwell delivery timing with supply chain checks.",
+      "Track enterprise AI pipeline conversion and services attach."
+    ],
+    "open_questions": [
+      "How quickly will PC refresh accelerate into calendar 2025?",
+      "Will storage growth sustain as AI deployments scale?"
+    ],
+    "watch_next_quarter": [
+      "Q4 ISG margin progression and OpEx reductions.",
+      "AI backlog changes around the Blackwell ramp."
+    ]
+  }
+}

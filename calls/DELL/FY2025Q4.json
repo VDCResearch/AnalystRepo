@@ -1,0 +1,191 @@
+{
+  "company": "Dell Technologies",
+  "ticker": "DELL",
+  "fyq": "FY2025Q4",
+  "call_date": "2025-02-27",
+  "tldr": "Q4 FY2025 revenue increased 7% to $23.9B with EPS up 18% to $2.68, driven by strong ISG margins and storage mix. Dell posted FY2025 revenue of $95.6B and EPS of $8.14, and guided FY2026 revenue of $101B-$105B with EPS of $9.3 +/- $0.25 on $15B of AI server shipments.",
+  "bullets": [
+    "Q4 revenue rose 7% to $23.9B with EPS up 18% to $2.68; ISG margin hit a record 18.1%.",
+    "AI orders were $1.7B and shipments were $2.1B, with $4.1B backlog; AI backlog reached about $9B as of February.",
+    "FY2026 guide: revenue $101B-$105B, EPS $9.3 +/- $0.25, ISG high-teens growth on $15B of AI shipments."
+  ],
+  "participants": [
+    "Jeff Clarke (CEO)",
+    "Yvonne McGill (CFO)",
+    "Paul Franz (Head of Investor Relations)",
+    "Tyler Johnson (IR)"
+  ],
+  "themes": [
+    "Record ISG margin",
+    "AI backlog expansion",
+    "Dell IP storage mix",
+    "PC refresh expectations",
+    "FY2026 guidance raise",
+    "Capital return acceleration",
+    "Dividend increase",
+    "Tariff uncertainty"
+  ],
+  "deep_dive": {
+    "segments": [
+      {
+        "title": "Infrastructure Solutions Group (ISG)",
+        "points": [
+          "Revenue grew 22% to $11.4B; server and networking revenue rose 37% to $6.6B.",
+          "Storage revenue increased 5% to $4.7B with strong PowerStore and PowerScale demand.",
+          "Operating income rose 44% to $2.1B with a record 18.1% margin."
+        ]
+      },
+      {
+        "title": "Client Solutions Group (CSG)",
+        "points": [
+          "Revenue rose 1% to $11.9B; commercial revenue grew 5% while consumer declined 12%.",
+          "Operating income was $600M (5.3% margin) on competitive pricing pressure."
+        ]
+      },
+      {
+        "title": "AI servers and backlog",
+        "points": [
+          "AI orders were $1.7B and shipments were $2.1B, with backlog ending at $4.1B.",
+          "AI backlog expanded to about $9B as of February, with enterprise adoption rising."
+        ]
+      }
+    ],
+    "metrics": {
+      "numbers": [
+        {
+          "label": "Q4 revenue",
+          "value": "$23.9B",
+          "note": "+7% YoY"
+        },
+        {
+          "label": "Q4 diluted EPS",
+          "value": "$2.68",
+          "note": "+18% YoY"
+        },
+        {
+          "label": "FY2025 revenue",
+          "value": "$95.6B",
+          "note": "+8% YoY"
+        },
+        {
+          "label": "FY2025 EPS",
+          "value": "$8.14",
+          "note": "+10% YoY"
+        },
+        {
+          "label": "ISG margin",
+          "value": "18.1%",
+          "note": "record"
+        },
+        {
+          "label": "CSG margin",
+          "value": "5.3%",
+          "note": "-90 bps sequentially"
+        }
+      ],
+      "guidance": [
+        {
+          "label": "FY2026 revenue",
+          "value": "$101B - $105B",
+          "note": "midpoint +8% YoY"
+        },
+        {
+          "label": "FY2026 EPS",
+          "value": "$9.3 +/- $0.25",
+          "note": "non-GAAP"
+        },
+        {
+          "label": "FY2026 AI shipments",
+          "value": "$15B",
+          "note": "targeted"
+        },
+        {
+          "label": "Q1 FY2026 revenue",
+          "value": "$22.5B - $23.5B",
+          "note": "midpoint +3% YoY"
+        },
+        {
+          "label": "Q1 FY2026 EPS",
+          "value": "$1.65 +/- $0.10",
+          "note": "non-GAAP"
+        }
+      ]
+    },
+    "notes": [
+      {
+        "title": "Capital return",
+        "points": [
+          "Raised annual dividend 18% to $2.10 per share and authorized an additional $10B buyback.",
+          "Returned $10.8B since FY2023 inception through repurchases and dividends."
+        ]
+      },
+      {
+        "title": "FY2026 margin outlook",
+        "points": [
+          "Gross margin rate expected to decline about 100 bps on AI mix and competition.",
+          "ISG margin guided roughly flat; CSG slightly down."
+        ]
+      }
+    ]
+  },
+  "qna": {
+    "themes": [
+      {
+        "title": "FY2026 AI growth assumptions",
+        "points": [
+          "Guidance assumes at least $15B in AI shipments with continued pipeline expansion.",
+          "Management sees supply improving but cites data center readiness constraints."
+        ]
+      },
+      {
+        "title": "Tariffs and pricing",
+        "points": [
+          "Management said new tariff announcements were not included in guidance.",
+          "Tariff costs are treated as input costs with pricing actions as needed."
+        ]
+      }
+    ],
+    "top_questions": [
+      {
+        "question": "How can ISG margins stay flat with AI mix growing?",
+        "summary": "Dell expects storage leverage, Dell IP mix, and scale benefits to offset AI mix dilution."
+      },
+      {
+        "question": "What is embedded in the FY2026 guide for AI shipments?",
+        "summary": "Guidance assumes at least $15B in AI server shipments with pipeline multiples of backlog."
+      },
+      {
+        "question": "Are tariffs included in the FY2026 outlook?",
+        "summary": "Management noted new tariff announcements were not included and would be addressed via supply chain and pricing."
+      }
+    ]
+  },
+  "vdc_angle": {
+    "implications": [
+      "Record ISG margins suggest Dell IP storage mix and AI services attach are scaling.",
+      "FY2026 AI shipment target sets a higher bar for supply chain execution and customer readiness."
+    ],
+    "competitive_notes": [
+      "CSG pricing remains competitive with consumer weakness and enterprise refresh pushed into H2."
+    ],
+    "forecast_hooks": [
+      "Track FY2026 AI shipment ramp versus $15B target.",
+      "Monitor storage mix and margin contribution as Dell IP share grows.",
+      "Watch PC refresh cadence ahead of Windows 10 end-of-life."
+    ]
+  },
+  "follow_ups": {
+    "action_items": [
+      "Validate AI backlog conversion timing against Blackwell supply ramp.",
+      "Check enterprise PC pipeline for refresh acceleration into H2 FY2026."
+    ],
+    "open_questions": [
+      "How quickly can storage attach rates scale with AI deployments?",
+      "What pricing actions will be required if tariffs expand further?"
+    ],
+    "watch_next_quarter": [
+      "Q1 FY2026 ISG margin seasonality versus guidance.",
+      "Updates on AI backlog beyond the $9B level."
+    ]
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "company": "Dell Technologies",
+  "ticker": "DELL",
+  "fyq": "FY2025Q1",
+  "call_date": "2024-05-30",
+  "tldr": "Q1 FY2025 revenue rose 6% to $22.2B with AI server momentum and a return to commercial PC growth, but margins compressed on AI mix and pricing. Management guided FY2025 revenue of $93.5B-$97.5B and EPS of $7.65 +/- $0.25, expecting ISG growth above 20% and CSG low-single-digit growth.",
+  "bullets": [
+    "Revenue grew 6% to $22.2B and diluted EPS was $1.27; ISG revenue rose 22% while CSG was flat.",
+    "AI server orders were $2.6B with $1.7B of shipments; AI pipeline remained multiple of backlog.",
+    "FY2025 guide: revenue $93.5B-$97.5B, EPS $7.65 +/- $0.25; Q2 revenue $23.5B-$24.5B and EPS $1.65 +/- $0.10."
+  ],
+  "participants": [
+    "Jeff Clarke (CEO)",
+    "Yvonne McGill (CFO)",
+    "Rob Williams (Head of Investor Relations)",
+    "Tyler Johnson (IR)"
+  ],
+  "themes": [
+    "AI server momentum",
+    "Gross margin pressure from AI mix",
+    "Commercial PC stabilization",
+    "PC refresh cycle",
+    "Enterprise AI adoption",
+    "Capital return",
+    "Operating expense discipline",
+    "Dell AI Factory"
+  ],
+  "deep_dive": {
+    "segments": [
+      {
+        "title": "Infrastructure Solutions Group (ISG)",
+        "points": [
+          "Revenue grew 22% to $9.2B; server and networking revenue rose 42% to a record $5.5B.",
+          "Storage revenue was flat at $3.8B with strength in HCI, PowerMax, PowerStore, and PowerScale.",
+          "Operating income was $736M (8% margin), down slightly with seasonally lower storage profitability."
+        ]
+      },
+      {
+        "title": "Client Solutions Group (CSG)",
+        "points": [
+          "Revenue was flat at $12.0B; commercial revenue grew 3% to $10.2B while consumer declined 15%.",
+          "Operating income was $732M (6.1% margin) as pricing remained competitive."
+        ]
+      },
+      {
+        "title": "AI servers and pipeline",
+        "points": [
+          "AI server orders were $2.6B with $1.7B shipments; pipeline expanded again and remained a multiple of backlog.",
+          "Management highlighted AI attach opportunities in storage, networking, and services."
+        ]
+      }
+    ],
+    "metrics": {
+      "numbers": [
+        {
+          "label": "Revenue",
+          "value": "$22.2B",
+          "note": "+6% YoY"
+        },
+        {
+          "label": "Gross margin",
+          "value": "22.2%",
+          "note": "-250 bps YoY"
+        },
+        {
+          "label": "Operating income",
+          "value": "$1.5B",
+          "note": "6.6% margin"
+        },
+        {
+          "label": "Diluted EPS",
+          "value": "$1.27",
+          "note": "-3% YoY"
+        },
+        {
+          "label": "ISG revenue",
+          "value": "$9.2B",
+          "note": "+22% YoY"
+        },
+        {
+          "label": "CSG revenue",
+          "value": "$12.0B",
+          "note": "flat YoY"
+        }
+      ],
+      "guidance": [
+        {
+          "label": "FY2025 revenue",
+          "value": "$93.5B - $97.5B",
+          "note": "midpoint +8% YoY"
+        },
+        {
+          "label": "FY2025 EPS",
+          "value": "$7.65 +/- $0.25",
+          "note": "non-GAAP"
+        },
+        {
+          "label": "FY2025 gross margin rate",
+          "value": "-150 bps",
+          "note": "AI mix and pricing"
+        },
+        {
+          "label": "Q2 revenue",
+          "value": "$23.5B - $24.5B",
+          "note": "midpoint +5% YoY"
+        },
+        {
+          "label": "Q2 EPS",
+          "value": "$1.65 +/- $0.10",
+          "note": "non-GAAP"
+        }
+      ]
+    },
+    "notes": [
+      {
+        "title": "Capital return",
+        "points": [
+          "Repurchased 6.7M shares at $108.38 and paid a $0.45 dividend.",
+          "Returned $8B since FY2023 inception, or 103% of adjusted free cash flow."
+        ]
+      },
+      {
+        "title": "Margin drivers",
+        "points": [
+          "AI server mix and competitive pricing pressured gross margin rates.",
+          "ISG margins expected to improve with storage seasonality and mix."
+        ]
+      }
+    ]
+  },
+  "qna": {
+    "themes": [
+      {
+        "title": "AI backlog and lead times",
+        "points": [
+          "Lead times vary by GPU platform and customer allocation, with H100 availability improving and H200/B200 ramping.",
+          "Backlog remains NVIDIA-heavy and pipeline continues to grow."
+        ]
+      },
+      {
+        "title": "AI margin profile",
+        "points": [
+          "AI servers are margin-rate dilutive but margin-dollar accretive.",
+          "Storage seasonality and large-enterprise server mix also pressured margins."
+        ]
+      }
+    ],
+    "top_questions": [
+      {
+        "question": "How should investors think about AI server lead times and backlog conversion?",
+        "summary": "Lead times depend on GPU platform allocation; backlog builds as Dell secures parts and customer delivery slots."
+      },
+      {
+        "question": "Are AI servers driving lower ISG margins?",
+        "summary": "Mix and large-bid server profiles pressured Q1 margins; management expects ISG margins to improve through the year."
+      },
+      {
+        "question": "What signals point to a PC refresh?",
+        "summary": "Management cited an aging installed base, Windows 10 end-of-life, and AI PC capabilities as key catalysts."
+      }
+    ]
+  },
+  "vdc_angle": {
+    "implications": [
+      "AI server mix pressure may persist until storage and services attach ramps.",
+      "Enterprise AI pipeline growth supports multi-quarter ISG upside."
+    ],
+    "competitive_notes": [
+      "Pricing remains competitive in PCs and large enterprise server bids."
+    ],
+    "forecast_hooks": [
+      "Track AI backlog conversion as H200 and B200 availability ramps.",
+      "Watch storage revenue return to growth in the second half.",
+      "Monitor PC refresh indicators through commercial pipeline activity."
+    ]
+  },
+  "follow_ups": {
+    "action_items": [
+      "Validate AI server attach rates with storage and services partners.",
+      "Check commercial PC pipeline trends against Windows 10 refresh timing."
+    ],
+    "open_questions": [
+      "How quickly will AI pricing actions offset input cost inflation?",
+      "When will storage growth turn positive and lift ISG margins?"
+    ],
+    "watch_next_quarter": [
+      "Q2 ISG margin progression and storage mix improvement.",
+      "AI server shipments versus the $1.7B Q1 baseline."
+    ]
+  }
+}
