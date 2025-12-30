@@ -1,0 +1,161 @@
+{
+  "company": "Samsung Electronics",
+  "ticker": "005930.KS",
+  "fyq": "FY2025Q1",
+  "call_date": "2025-04-29",
+  "tldr": "Q1 2025 revenue rose 4% QoQ to KRW 79.14T with operating profit of KRW 6.7T as DX strength offset weaker DS results from HBM softness. Management kept a cautious outlook for 2H recovery, increased shareholder returns, and highlighted AI, robotics, and advanced node investment priorities.",
+  "bullets": [
+    "Revenue increased 4% QoQ to KRW 79.14T and operating profit rose to KRW 6.7T with an 8.4% margin.",
+    "DX revenue climbed 28% on flagship smartphones and high-end appliances, while DS revenue fell 17% due to deferred HBM demand.",
+    "CapEx was KRW 12.0T (DS KRW 10.9T, display KRW 0.5T) and the board declared a KRW 365 dividend with KRW 10T buyback in progress."
+  ],
+  "participants": [
+    "Daniel Oh (Head of Investor Relations)",
+    "Sung-Choi Park (CFO)",
+    "Jae-Jung Kim (EVP, Memory)",
+    "Hyeok-Man Kwon (VP, System LSI)",
+    "Mijung Noh (VP, Foundry)",
+    "Jun-Young Park (EVP, Samsung Display)",
+    "Daniel Araujo (VP, Mobile Experience)",
+    "KL Roh (EVP, Visual Display)"
+  ],
+  "themes": [
+    "HBM demand deferral",
+    "DX strength in flagship phones",
+    "AI and robotics investment",
+    "CapEx discipline",
+    "Shareholder returns",
+    "Tariff and macro uncertainty",
+    "Foundry 2nm readiness",
+    "PC and mobile recovery"
+  ],
+  "deep_dive": {
+    "segments": [
+      {
+        "title": "Device Solutions (DS)",
+        "points": [
+          "Revenue declined 17% QoQ due to lower HBM sales and deferred AI demand.",
+          "Memory focused on servers and high-density products while managing profitability."
+        ]
+      },
+      {
+        "title": "Device eXperience (DX)",
+        "points": [
+          "Revenue rose 28% QoQ driven by Galaxy S25 series and high-value home appliances.",
+          "Visual Display and Digital Appliances contributed to operating profit growth."
+        ]
+      }
+    ],
+    "metrics": {
+      "numbers": [
+        {
+          "label": "Revenue",
+          "value": "KRW 79.14T",
+          "note": "+4% QoQ"
+        },
+        {
+          "label": "Operating profit",
+          "value": "KRW 6.7T",
+          "note": "+KRW 0.2T QoQ"
+        },
+        {
+          "label": "Operating margin",
+          "value": "8.4%",
+          "note": "flat QoQ"
+        },
+        {
+          "label": "SG&A",
+          "value": "KRW 21.4T",
+          "note": "-KRW 0.6T QoQ"
+        },
+        {
+          "label": "CapEx",
+          "value": "KRW 12.0T",
+          "note": "DS KRW 10.9T, display KRW 0.5T"
+        }
+      ],
+      "guidance": [
+        {
+          "label": "FY2025 outlook",
+          "value": "Gradual improvement in 2H",
+          "note": "AI server demand growth and on-device AI tailwinds"
+        }
+      ]
+    },
+    "notes": [
+      {
+        "title": "Shareholder returns",
+        "points": [
+          "Quarterly dividend of KRW 365 per share; Q1 payout of KRW 2.45T scheduled late May.",
+          "KRW 10T buyback plan underway with KRW 3T remaining in progress."
+        ]
+      },
+      {
+        "title": "R&D and sustainability",
+        "points": [
+          "R&D spending rose 15% YoY to a record Q1 level.",
+          "Company ranked first in a global supply chain human rights assessment."
+        ]
+      }
+    ]
+  },
+  "qna": {
+    "themes": [
+      {
+        "title": "Tariffs and supply chain",
+        "points": [
+          "Management highlighted scenario planning and flexible global production to manage tariff volatility.",
+          "Flagship products are exempt from current reciprocal tariffs, with investigations ongoing."
+        ]
+      },
+      {
+        "title": "HBM recovery",
+        "points": [
+          "HBM3E samples were shipped and gradual recovery is expected from Q2.",
+          "HBM4 development remains on track with 2H mass production plans."
+        ]
+      }
+    ],
+    "top_questions": [
+      {
+        "question": "How will Samsung address tariff uncertainty?",
+        "summary": "The company plans to flex global production and focus on premium products to offset cost impacts."
+      },
+      {
+        "question": "When does HBM demand recover?",
+        "summary": "HBM sales are expected to improve sequentially as HBM3E ramps and new GPU launches resume demand."
+      },
+      {
+        "question": "What drove MX profitability gains?",
+        "summary": "Higher flagship mix, cost optimization, and lower component prices supported margins."
+      }
+    ]
+  },
+  "vdc_angle": {
+    "implications": [
+      "HBM pause creates a near-term DS headwind but sets up a rebound with HBM3E/4 ramps.",
+      "DX premium mix and AI features protect margins amid macro uncertainty."
+    ],
+    "competitive_notes": [
+      "Foundry aims to improve profitability by expanding orders across advanced and mature nodes."
+    ],
+    "forecast_hooks": [
+      "Monitor HBM3E contribution starting Q2 and HBM4 timelines.",
+      "Track foldable and flagship mix as tariff pressure builds."
+    ]
+  },
+  "follow_ups": {
+    "action_items": [
+      "Validate HBM3E qualification progress with major GPU customers.",
+      "Track CapEx pacing versus DS demand signals."
+    ],
+    "open_questions": [
+      "Timing for full HBM demand normalization after export control impacts.",
+      "Extent of tariff-related component cost increases for MX."
+    ],
+    "watch_next_quarter": [
+      "Q2 DS rebound and HBM sales recovery.",
+      "DX margin durability as launch effects fade."
+    ]
+  }
+}

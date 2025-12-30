@@ -1,0 +1,166 @@
+{
+  "company": "Samsung Electronics",
+  "ticker": "005930.KS",
+  "fyq": "FY2025Q3",
+  "call_date": "2025-10-29",
+  "tldr": "Q3 2025 revenue surged 15.4% QoQ to KRW 86.1T with operating profit of KRW 12.2T as memory sales hit a record and foundry utilization improved. Samsung guided mixed Q4 conditions, outlined a lower 2025 CapEx plan, and emphasized continued AI-led growth into 2026.",
+  "bullets": [
+    "Revenue rose 15.4% QoQ to KRW 86.1T and operating profit jumped to KRW 12.2T for a 14.1% margin.",
+    "DS sales grew 19% QoQ with record memory revenue from HBM3E and server SSDs; DX revenue rose 11% on foldables.",
+    "Q3 CapEx was KRW 9.2T; full-year 2025 CapEx is projected at KRW 47.4T with dividend raised to KRW 370 per share."
+  ],
+  "participants": [
+    "Daniel Oh (Head of Investor Relations)",
+    "Sung-Choi Park (CFO)",
+    "Jae-Jung Kim (EVP, Memory)",
+    "Hyeok-Man Kwon (VP, System LSI)",
+    "Mijung Noh (VP, Foundry)",
+    "Jun-Young Park (EVP, Samsung Display)",
+    "Daniel Araujo (VP, Mobile Experience)",
+    "KL Roh (EVP, Visual Display)"
+  ],
+  "themes": [
+    "Memory record sales",
+    "HBM3E and server SSD strength",
+    "Foundry utilization rebound",
+    "Foldable launch tailwinds",
+    "CapEx reduction",
+    "AI-led 2026 outlook",
+    "Tariff uncertainty",
+    "Shareholder returns"
+  ],
+  "deep_dive": {
+    "segments": [
+      {
+        "title": "Device Solutions (DS)",
+        "points": [
+          "Sales increased 19% QoQ with record memory revenue led by HBM3E and server SSDs.",
+          "Foundry profitability improved on higher utilization and reduced one-off costs."
+        ]
+      },
+      {
+        "title": "Device eXperience (DX)",
+        "points": [
+          "Revenue increased 11% QoQ on foldable launches and solid flagship sales.",
+          "MX expects premium-led growth but faces rising component costs in Q4."
+        ]
+      }
+    ],
+    "metrics": {
+      "numbers": [
+        {
+          "label": "Revenue",
+          "value": "KRW 86.1T",
+          "note": "+15.4% QoQ"
+        },
+        {
+          "label": "Operating profit",
+          "value": "KRW 12.2T",
+          "note": "+KRW 7.5T QoQ"
+        },
+        {
+          "label": "Operating margin",
+          "value": "14.1%",
+          "note": "+7.9 pts QoQ"
+        },
+        {
+          "label": "SG&A",
+          "value": "KRW 21.3T",
+          "note": "24.8% of revenue"
+        },
+        {
+          "label": "Q3 CapEx",
+          "value": "KRW 9.2T",
+          "note": "DS KRW 7.8T, display KRW 0.8T"
+        }
+      ],
+      "guidance": [
+        {
+          "label": "FY2025 CapEx",
+          "value": "KRW 47.4T",
+          "note": "down KRW 6.3T YoY"
+        },
+        {
+          "label": "Q4 outlook",
+          "value": "Mixed conditions",
+          "note": "AI memory strength offset by DX competition and tariffs"
+        }
+      ]
+    },
+    "notes": [
+      {
+        "title": "Shareholder returns",
+        "points": [
+          "Quarterly dividend of KRW 370 per share; KRW 2.45T payout due late November.",
+          "KRW 10T buyback program completed by Sep 29; remaining cancellations to be decided."
+        ]
+      },
+      {
+        "title": "Memory roadmap",
+        "points": [
+          "HBM3E demand outpaced supply; HBM4 samples shipped with 11 Gbps-plus performance.",
+          "Management expects AI server demand to remain strong into 2026."
+        ]
+      }
+    ]
+  },
+  "qna": {
+    "themes": [
+      {
+        "title": "HBM competitiveness",
+        "points": [
+          "HBM3E shipments rose mid-80% QoQ; mix fully transitioned to HBM3E.",
+          "HBM4 samples shipped; capacity expansion under review."
+        ]
+      },
+      {
+        "title": "Foundry recovery",
+        "points": [
+          "Losses narrowed on better utilization and fewer write-downs.",
+          "2nm GAA mass production started with expanding advanced node backlog."
+        ]
+      }
+    ],
+    "top_questions": [
+      {
+        "question": "What is the memory outlook for 2026?",
+        "summary": "Management expects AI-driven demand to exceed supply, supporting higher HBM and server DRAM volumes."
+      },
+      {
+        "question": "How did foundry profitability improve in Q3?",
+        "summary": "Reduced one-off costs and higher advanced-node utilization drove better results."
+      },
+      {
+        "question": "Can MX sustain margins with rising component costs?",
+        "summary": "Samsung plans to lean on flagship mix, ecosystem products, and process optimization."
+      }
+    ]
+  },
+  "vdc_angle": {
+    "implications": [
+      "Record memory performance reinforces Samsung's leverage to AI server demand cycles.",
+      "CapEx cuts signal discipline while protecting advanced node transitions."
+    ],
+    "competitive_notes": [
+      "TV competition remains price-led, pushing Samsung to emphasize premium differentiation."
+    ],
+    "forecast_hooks": [
+      "Track HBM4 commercialization timelines and capacity expansion decisions.",
+      "Monitor Q4 DS margin sustainability as HBM pricing volatility persists."
+    ]
+  },
+  "follow_ups": {
+    "action_items": [
+      "Validate HBM3E pricing trends versus conventional DRAM margin convergence.",
+      "Watch Q4 foundry utilization and 2nm ramp progress."
+    ],
+    "open_questions": [
+      "Timing for cancellation of remaining repurchased shares.",
+      "Degree of tariff impact on DX demand in Q4."
+    ],
+    "watch_next_quarter": [
+      "Q4 memory pricing trajectory for DRAM and NAND.",
+      "CapEx revisions if AI demand accelerates in 2026."
+    ]
+  }
+}

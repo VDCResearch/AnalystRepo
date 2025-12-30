@@ -1,0 +1,161 @@
+{
+  "company": "Samsung Electronics",
+  "ticker": "005930.KS",
+  "fyq": "FY2025Q2",
+  "call_date": "2025-07-30",
+  "tldr": "Q2 2025 revenue fell 5.8% QoQ to KRW 74.6T and operating profit declined to KRW 4.7T as DX launch effects faded and DS absorbed inventory adjustments. Management expects a 2H rebound on AI memory demand, reiterated shareholder returns, and detailed HBM3E ramp and foundry order momentum.",
+  "bullets": [
+    "Revenue decreased 5.8% QoQ to KRW 74.6T with operating profit of KRW 4.7T and a 6.3% margin.",
+    "DS sales rose 11% QoQ on HBM3E and DDR5, while DX revenue fell 16% after smartphone launch effects.",
+    "CapEx was KRW 11.1T (DS KRW 9.8T, display KRW 0.8T) and the KRW 10T buyback is set to complete by October."
+  ],
+  "participants": [
+    "Daniel Oh (Head of Investor Relations)",
+    "Sung-Choi Park (CFO)",
+    "Jae-Jung Kim (EVP, Memory)",
+    "Hyeok-Man Kwon (VP, System LSI)",
+    "Mijung Noh (VP, Foundry)",
+    "Jun-Young Park (EVP, Samsung Display)",
+    "Daniel Araujo (VP, Mobile Experience)",
+    "KL Roh (EVP, Visual Display)"
+  ],
+  "themes": [
+    "Inventory value adjustments",
+    "HBM3E ramp",
+    "DX post-launch slowdown",
+    "2H recovery outlook",
+    "Tariff uncertainty",
+    "Foundry advanced node ramp",
+    "Share repurchase acceleration",
+    "AI ecosystem expansion"
+  ],
+  "deep_dive": {
+    "segments": [
+      {
+        "title": "Device Solutions (DS)",
+        "points": [
+          "Revenue increased 11% QoQ on higher HBM3E and DDR5 sales and foundry customer expansion.",
+          "Memory recognized inventory valuation adjustments; non-memory booked one-off costs tied to China export restrictions."
+        ]
+      },
+      {
+        "title": "Device eXperience (DX)",
+        "points": [
+          "Revenue declined 16% QoQ due to fading smartphone launch effects and TV competition.",
+          "MX planned premium AI device growth with foldables and XR to offset tariff risks."
+        ]
+      }
+    ],
+    "metrics": {
+      "numbers": [
+        {
+          "label": "Revenue",
+          "value": "KRW 74.6T",
+          "note": "-5.8% QoQ"
+        },
+        {
+          "label": "Operating profit",
+          "value": "KRW 4.7T",
+          "note": "-KRW 2.0T QoQ"
+        },
+        {
+          "label": "Operating margin",
+          "value": "6.3%",
+          "note": "-2.2 pts QoQ"
+        },
+        {
+          "label": "SG&A",
+          "value": "KRW 20.8T",
+          "note": "-KRW 0.6T QoQ"
+        },
+        {
+          "label": "CapEx",
+          "value": "KRW 11.1T",
+          "note": "DS KRW 9.8T, display KRW 0.8T"
+        }
+      ],
+      "guidance": [
+        {
+          "label": "2H outlook",
+          "value": "Earnings recovery",
+          "note": "AI memory demand and improved utilization"
+        }
+      ]
+    },
+    "notes": [
+      {
+        "title": "Shareholder returns",
+        "points": [
+          "Quarterly dividend of KRW 367 per share; KRW 2.45T payout due late August.",
+          "KRW 10T buyback ahead of schedule, completion expected by Oct 8."
+        ]
+      },
+      {
+        "title": "Memory trends",
+        "points": [
+          "DRAM bit growth up low 10% QoQ; NAND bit growth up high 20% QoQ.",
+          "HBM3E shipments increased and HBM4 development progressed with customer samples."
+        ]
+      }
+    ]
+  },
+  "qna": {
+    "themes": [
+      {
+        "title": "HBM roadmap",
+        "points": [
+          "HBM3E mix reached high 80% of HBM volume; HBM4 samples shipped.",
+          "Hybrid copper bonding discussions ongoing with key customers."
+        ]
+      },
+      {
+        "title": "Foundry profitability",
+        "points": [
+          "Losses driven by low utilization and one-off write-downs; improvement expected in 2H.",
+          "Tesla order win supports advanced node utilization and Taylor Fab ramp."
+        ]
+      }
+    ],
+    "top_questions": [
+      {
+        "question": "What is the HBM outlook for 2H?",
+        "summary": "HBM sales are expected to recover step-by-step with HBM3E expansion and HBM4 ramp planning."
+      },
+      {
+        "question": "How will tariffs affect memory demand?",
+        "summary": "Preemptive purchasing may pull forward demand, but Samsung plans flexible mix management to protect profitability."
+      },
+      {
+        "question": "Will foundry losses narrow in 2H?",
+        "summary": "Management expects higher utilization and advanced node ramps to improve profitability."
+      }
+    ]
+  },
+  "vdc_angle": {
+    "implications": [
+      "Inventory adjustments reset DS earnings but set a cleaner base for 2H rebound.",
+      "Foundry order momentum (Tesla) improves credibility in advanced nodes."
+    ],
+    "competitive_notes": [
+      "DX faces intensified TV competition while premium AI devices remain the margin lever."
+    ],
+    "forecast_hooks": [
+      "Track HBM3E mix and HBM4 qualification milestones.",
+      "Monitor DS utilization recovery and foundry margin progression."
+    ]
+  },
+  "follow_ups": {
+    "action_items": [
+      "Verify HBM3E pricing and mix impact in Q3 results.",
+      "Track Taylor Fab ramp timeline and 2026 CapEx signals."
+    ],
+    "open_questions": [
+      "How much pull-forward demand from tariffs reverses in 2H?",
+      "Timing for cancellation of remaining buyback shares."
+    ],
+    "watch_next_quarter": [
+      "Q3 earnings rebound versus Q2 bottoming guidance.",
+      "Memory inventory normalization pace."
+    ]
+  }
+}
