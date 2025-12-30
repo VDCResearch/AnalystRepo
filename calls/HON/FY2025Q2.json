@@ -1,0 +1,195 @@
+{
+  "company": "Honeywell International",
+  "ticker": "HON",
+  "fyq": "FY2025Q2",
+  "call_date": "2025-07-24",
+  "tldr": "Q2 2025 delivered 5% organic sales growth and adjusted EPS of $2.75, beating guidance with orders up 6% and backlog at $36.6B. Management raised full-year sales and EPS guidance while factoring tariffs, completed the PPE divestiture, and highlighted portfolio moves including the Johnson Matthey Catalyst Technologies deal and a building automation tuck-in.",
+  "bullets": [
+    "Organic sales grew 5% with adjusted EPS up 10% to $2.75; orders rose 6% to $10.5B and backlog reached $36.6B.",
+    "Aerospace grew 6% organically (margin 25.5%); industrial automation was flat (margin 19.2%); building automation grew 8% (margin +90 bps); ESS grew 6% led by UOP.",
+    "Guidance raised: FY organic sales growth 4% to 5% (3% to 4% ex-Bombardier), sales $40.8B-$41.3B; Q3 sales $10.0B-$10.3B and EPS $2.50-$2.60."
+  ],
+  "participants": [
+    "Vimal Kapur (CEO)",
+    "Mike Stepniak (CFO)",
+    "Sean Meakim (VP, Investor Relations)"
+  ],
+  "themes": [
+    "Raised full-year guidance",
+    "Tariff mitigation and pricing",
+    "Portfolio transformation and spin preparation",
+    "Johnson Matthey Catalyst Technologies acquisition",
+    "PPE divestiture completed",
+    "Building automation strength",
+    "Aerospace demand resilience",
+    "Industrial automation mixed trends"
+  ],
+  "deep_dive": {
+    "segments": [
+      {
+        "title": "Aerospace Technologies",
+        "points": [
+          "Organic sales rose 6% led by defense and space and commercial aftermarket strength.",
+          "Segment margin declined 170 bps to 25.5% on cost inflation and CASE integration."
+        ]
+      },
+      {
+        "title": "Industrial Automation",
+        "points": [
+          "Organic sales were flat with better sensing and warehouse automation offset by softer PSS and PPE.",
+          "Segment margin expanded 20 bps to 19.2% on productivity and commercial excellence."
+        ]
+      },
+      {
+        "title": "Building Automation",
+        "points": [
+          "Organic sales grew 8% across solutions and products with strong regional demand.",
+          "Margin expanded 90 bps on volume leverage and access solutions accretion."
+        ]
+      },
+      {
+        "title": "Energy and Sustainability Solutions",
+        "points": [
+          "Organic sales grew 6% led by double-digit UOP growth.",
+          "Margin headwinds from cost inflation and a customer settlement offset LNG benefits."
+        ]
+      }
+    ],
+    "metrics": {
+      "numbers": [
+        {
+          "label": "Organic sales growth",
+          "value": "+5%",
+          "note": "Q2 2025"
+        },
+        {
+          "label": "Adj. EPS",
+          "value": "$2.75",
+          "note": "+10% YoY"
+        },
+        {
+          "label": "Orders",
+          "value": "$10.5B",
+          "note": "+6% YoY"
+        },
+        {
+          "label": "Backlog",
+          "value": "$36.6B",
+          "note": "+10% YoY"
+        },
+        {
+          "label": "Free cash flow",
+          "value": "$1.0B",
+          "note": "-$0.1B YoY"
+        }
+      ],
+      "guidance": [
+        {
+          "label": "FY organic sales growth",
+          "value": "4% - 5%",
+          "note": "3% - 4% ex-Bombardier"
+        },
+        {
+          "label": "FY sales",
+          "value": "$40.8B - $41.3B",
+          "note": "includes Sundyne"
+        },
+        {
+          "label": "Q3 sales",
+          "value": "$10.0B - $10.3B",
+          "note": "2% - 4% organic growth"
+        },
+        {
+          "label": "Q3 EPS",
+          "value": "$2.50 - $2.60",
+          "note": "adjusted"
+        },
+        {
+          "label": "FY segment margin",
+          "value": "up 40-60 bps",
+          "note": "down 30-10 bps ex-Bombardier"
+        },
+        {
+          "label": "Q3 segment margin",
+          "value": "22.7% - 23.1%",
+          "note": "company total"
+        }
+      ]
+    },
+    "notes": [
+      {
+        "title": "Portfolio actions",
+        "points": [
+          "Agreed to acquire Johnson Matthey Catalyst Technologies (GBP 1.8B) with close expected in H1 2026.",
+          "Announced Lion Tammer tuck-in for building automation and launched strategic alternatives review for PSS and WWS."
+        ]
+      },
+      {
+        "title": "Tariffs and pricing",
+        "points": [
+          "Guidance assumes tariffs announced to date with mitigation via productivity and pricing actions.",
+          "Margin pressure in aero reflects tariff-driven cost inflation with pricing lag."
+        ]
+      }
+    ]
+  },
+  "qna": {
+    "themes": [
+      {
+        "title": "Demand contingency and orders",
+        "points": [
+          "Management said order trends improved sequentially with strong aerospace orders.",
+          "Energy projects and catalyst timing remain the primary source of uncertainty."
+        ]
+      },
+      {
+        "title": "Aerospace OE and margin outlook",
+        "points": [
+          "Commercial OE revenue softness was described as transitory with expectations for improvement in H2.",
+          "Aero margins are expected to recover as pricing catches up to inflation."
+        ]
+      }
+    ],
+    "top_questions": [
+      {
+        "question": "What is driving the more cautious second-half posture?",
+        "summary": "Management cited tariff uncertainty and delayed energy project and catalyst timing despite strong H1 orders."
+      },
+      {
+        "question": "How should investors view IA short-cycle trends?",
+        "summary": "Orders held up better than feared, but management remains cautious on China-exposed short-cycle businesses."
+      },
+      {
+        "question": "Why was free cash flow guidance unchanged after raising EPS?",
+        "summary": "Inventory build in aerospace is expected to normalize later in the year, offsetting higher earnings."
+      }
+    ]
+  },
+  "vdc_angle": {
+    "implications": [
+      "Catalyst Technologies acquisition expands UOP exposure to sustainable fuels and should raise long-term ESS growth.",
+      "Strategic alternatives for PSS and WWS could reshape the automation portfolio and improve mix."
+    ],
+    "competitive_notes": [
+      "Building automation momentum and access solutions accretion point to share gains in key verticals."
+    ],
+    "forecast_hooks": [
+      "Track Q3 conversion of energy backlog and catalyst shipment timing.",
+      "Watch aero pricing actions versus tariff cost inflation in the second half."
+    ]
+  },
+  "follow_ups": {
+    "action_items": [
+      "Validate UOP catalyst demand and sustainable fuels pipeline with channel checks.",
+      "Monitor PPE exit benefits on IA margins and organic growth in the second half."
+    ],
+    "open_questions": [
+      "Timing and regulatory milestones for the Catalyst Technologies acquisition.",
+      "Outcome and timing for the PSS and WWS strategic alternatives review."
+    ],
+    "watch_next_quarter": [
+      "Q3 organic sales delivery versus the 2% to 4% guide range.",
+      "Backlog conversion in aerospace and energy projects."
+    ]
+  }
+}

@@ -1,0 +1,190 @@
+{
+  "company": "Honeywell International",
+  "ticker": "HON",
+  "fyq": "FY2025Q3",
+  "call_date": "2025-10-23",
+  "tldr": "Q3 2025 organic sales accelerated to 6% with adjusted EPS of $2.82, and orders jumped 22% to $11.9B with a book-to-bill above 1. Management raised full-year guidance again despite the Solstice spin impact, projecting sales of $40.7B-$40.9B and EPS of $10.6-$10.7, with Q4 sales of $10.1B-$10.3B and EPS of $2.52-$2.62.",
+  "bullets": [
+    "Organic sales rose 6% and adjusted EPS increased 9% to $2.82; orders grew 22% to $11.9B and backlog hit another record.",
+    "Aerospace grew 12% organically (margin 26.1%); industrial automation returned to growth (+1%); building automation grew 7% with margin expansion; ESS declined 2% on licensing and catalyst timing.",
+    "Guidance raised: FY organic sales growth ~6% (5% ex-Bombardier), sales $40.7B-$40.9B, EPS $10.6-$10.7; Q4 EPS $2.52-$2.62 with segment margin 22.5% to 22.8%."
+  ],
+  "participants": [
+    "Vimal Kapur (CEO)",
+    "Mike Stepniak (CFO)",
+    "Sean Meakim (VP, Investor Relations)"
+  ],
+  "themes": [
+    "Another guidance raise",
+    "Solstice Advanced Materials spin impact",
+    "Aerospace acceleration",
+    "Industrial automation stabilization",
+    "Building automation momentum",
+    "Energy project and catalyst timing",
+    "Orders surge and record backlog",
+    "Productivity offsets to margin pressure"
+  ],
+  "deep_dive": {
+    "segments": [
+      {
+        "title": "Aerospace Technologies",
+        "points": [
+          "Organic sales grew 12% with strength in commercial aftermarket and defense and space; commercial OE returned to growth.",
+          "Segment margin declined 160 bps to 26.1% on cost inflation and acquisition headwinds, but improved sequentially."
+        ]
+      },
+      {
+        "title": "Industrial Automation",
+        "points": [
+          "Organic sales grew 1% led by sensing and warehouse automation strength.",
+          "Segment margin declined 150 bps to 18.8% due to inflationary pressures."
+        ]
+      },
+      {
+        "title": "Building Automation",
+        "points": [
+          "Organic sales increased 7% with broad-based strength across solutions and products.",
+          "Margin expanded 80 bps on volume leverage and productivity."
+        ]
+      },
+      {
+        "title": "Energy and Sustainability Solutions",
+        "points": [
+          "Organic sales declined 2% as licensing and catalyst deliveries shifted, offsetting refrigerants strength.",
+          "Segment margin was flat at 24.5% with one-time items offsetting cost pressures."
+        ]
+      }
+    ],
+    "metrics": {
+      "numbers": [
+        {
+          "label": "Organic sales growth",
+          "value": "+6%",
+          "note": "Q3 2025"
+        },
+        {
+          "label": "Adj. EPS",
+          "value": "$2.82",
+          "note": "+9% YoY"
+        },
+        {
+          "label": "Orders",
+          "value": "$11.9B",
+          "note": "+22% YoY"
+        },
+        {
+          "label": "Free cash flow",
+          "value": "$1.5B",
+          "note": "-16% YoY"
+        }
+      ],
+      "guidance": [
+        {
+          "label": "FY sales",
+          "value": "$40.7B - $40.9B",
+          "note": "includes Solstice spin impact"
+        },
+        {
+          "label": "FY organic sales growth",
+          "value": "~6%",
+          "note": "~5% ex-Bombardier"
+        },
+        {
+          "label": "FY EPS",
+          "value": "$10.6 - $10.7",
+          "note": "adjusted"
+        },
+        {
+          "label": "Q4 sales",
+          "value": "$10.1B - $10.3B",
+          "note": "8% - 10% organic growth"
+        },
+        {
+          "label": "Q4 EPS",
+          "value": "$2.52 - $2.62",
+          "note": "adjusted"
+        },
+        {
+          "label": "Q4 segment margin",
+          "value": "22.5% - 22.8%",
+          "note": "company total"
+        }
+      ]
+    },
+    "notes": [
+      {
+        "title": "Solstice spin impact",
+        "points": [
+          "Spin expected to reduce 2025 sales by $0.7B, adjusted EPS by ~$0.21, and free cash flow by $0.2B.",
+          "Like-for-like free cash flow expectations remain unchanged despite the spin."
+        ]
+      },
+      {
+        "title": "Orders and backlog",
+        "points": [
+          "Orders grew 22% with broad-based strength and book-to-bill above 1.0.",
+          "Backlog reached a new record, supporting 2026 visibility."
+        ]
+      }
+    ]
+  },
+  "qna": {
+    "themes": [
+      {
+        "title": "Industrial automation mix and orders",
+        "points": [
+          "Management noted timing variability in warehouse automation and mix headwinds driving Q4 softness.",
+          "Orders were strong in Q3 but sustainability of short-cycle recovery remains unproven."
+        ]
+      },
+      {
+        "title": "Energy timing and margin pressure",
+        "points": [
+          "Lower energy prices delayed project licensing and catalyst shipments into 2026.",
+          "Cost inflation and mix pressure drive a more cautious ESS margin outlook."
+        ]
+      }
+    ],
+    "top_questions": [
+      {
+        "question": "Why does IA return to growth in Q3 but soften in Q4?",
+        "summary": "Management cited order timing in warehouse automation and a tougher prior-year comparison."
+      },
+      {
+        "question": "Is aerospace OE recovery sustainable?",
+        "summary": "Management described OE revenue as recoupling to build rates with strong orders supporting H2 growth."
+      },
+      {
+        "question": "How should investors model the Solstice spin impact?",
+        "summary": "The spin reduces 2025 sales by ~$0.7B and adjusted EPS by ~$0.21, with like-for-like FCF unchanged."
+      }
+    ]
+  },
+  "vdc_angle": {
+    "implications": [
+      "Record orders and book-to-bill above 1.0 imply sustained long-cycle demand into 2026.",
+      "Solstice separation clarifies capital allocation and could improve margins in the remaining portfolio."
+    ],
+    "competitive_notes": [
+      "Aerospace aftermarket and defense strength continues to outpace peers with slower OE recovery."
+    ],
+    "forecast_hooks": [
+      "Track Q4 ESS licensing and catalyst shipment timing versus the lower guide.",
+      "Watch IA mix and margin trajectory as warehouse automation order timing normalizes."
+    ]
+  },
+  "follow_ups": {
+    "action_items": [
+      "Check channel signals on aerospace OE inventory drawdown and delivery cadence.",
+      "Validate ESS project timing and catalyst order pipelines for 2026."
+    ],
+    "open_questions": [
+      "How quickly can pricing offsets close the inflation gap in aerospace margins?",
+      "Will IA short-cycle demand hold up as comps get tougher in Q4?"
+    ],
+    "watch_next_quarter": [
+      "Q4 organic sales delivery versus 8% to 10% guidance.",
+      "Solstice separation execution and any stranded cost disclosures."
+    ]
+  }
+}

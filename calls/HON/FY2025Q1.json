@@ -1,0 +1,195 @@
+{
+  "company": "Honeywell International",
+  "ticker": "HON",
+  "fyq": "FY2025Q1",
+  "call_date": "2025-04-29",
+  "tldr": "Q1 2025 beat guidance with 4% organic sales growth, flat segment margin at 23%, and adjusted EPS of $2.51. Management maintained full-year organic sales guidance at 2% to 5% while raising EPS outlook to $10.20 to $10.50 amid tariff uncertainty, and highlighted separation planning, the Sundyne deal, and significant buybacks.",
+  "bullets": [
+    "Organic sales rose 4% with adjusted EPS up 7% to $2.51; orders were $10.6B and backlog hit a record $36.1B.",
+    "Aerospace grew 9% organically (commercial aftermarket +15%) and building automation grew 8%, while industrial automation and ESS declined 2% each.",
+    "Full-year guide: organic sales growth 2% to 5% (1% to 4% ex-Bombardier), sales $39.6B-$40.5B, EPS $10.20-$10.50; Q2 EPS $2.60-$2.70 on $9.8B-$10.1B sales."
+  ],
+  "participants": [
+    "Vimal Kapur (CEO)",
+    "Mike Stepniak (CFO)",
+    "Sean Meakim (VP, Investor Relations)"
+  ],
+  "themes": [
+    "Tariff mitigation and demand uncertainty",
+    "Separation into three companies",
+    "Sundyne acquisition",
+    "Aerospace strength",
+    "Building automation momentum",
+    "Industrial automation softness",
+    "Capital return",
+    "PPE divestiture"
+  ],
+  "deep_dive": {
+    "segments": [
+      {
+        "title": "Aerospace Technologies",
+        "points": [
+          "Organic sales rose 9% with commercial aftermarket up 15% and defense and space delivering another double-digit quarter.",
+          "Segment margin declined to 26.3% on mix and CASE integration headwinds, partially offset by productivity."
+        ]
+      },
+      {
+        "title": "Industrial Automation",
+        "points": [
+          "Organic sales declined 2% with PPE weakness and softer Europe/China, while warehouse and workflow solutions returned to growth (+5%).",
+          "Segment margin fell 130 bps to 17.8% on volume deleverage and receivables write-downs."
+        ]
+      },
+      {
+        "title": "Building Automation",
+        "points": [
+          "Organic sales grew 8% with double-digit growth in building solutions and strength in fire and security products.",
+          "Segment margin expanded 150 bps on volume leverage, productivity, and access solutions accretion."
+        ]
+      },
+      {
+        "title": "Energy and Sustainability Solutions",
+        "points": [
+          "Organic sales declined 2%; EOP grew 2% while advanced materials fell 4% on tough flooring comps.",
+          "Segment margin expanded 230 bps on LNG acquisition benefits and productivity."
+        ]
+      }
+    ],
+    "metrics": {
+      "numbers": [
+        {
+          "label": "Organic sales growth",
+          "value": "+4%",
+          "note": "Q1 2025"
+        },
+        {
+          "label": "Segment margin",
+          "value": "23.0%",
+          "note": "flat YoY"
+        },
+        {
+          "label": "Adj. EPS",
+          "value": "$2.51",
+          "note": "+7% YoY"
+        },
+        {
+          "label": "Orders",
+          "value": "$10.6B",
+          "note": "+3% YoY"
+        },
+        {
+          "label": "Backlog",
+          "value": "$36.1B",
+          "note": "+8% YoY"
+        }
+      ],
+      "guidance": [
+        {
+          "label": "FY sales",
+          "value": "$39.6B - $40.5B",
+          "note": "includes FX, excludes Sundyne"
+        },
+        {
+          "label": "FY organic sales growth",
+          "value": "2% - 5%",
+          "note": "1% - 4% ex-Bombardier"
+        },
+        {
+          "label": "FY EPS",
+          "value": "$10.20 - $10.50",
+          "note": "adjusted"
+        },
+        {
+          "label": "Q2 sales",
+          "value": "$9.8B - $10.1B",
+          "note": "1% - 4% organic growth"
+        },
+        {
+          "label": "Q2 EPS",
+          "value": "$2.60 - $2.70",
+          "note": "adjusted"
+        },
+        {
+          "label": "Q2 segment margin",
+          "value": "22.8% - 23.2%",
+          "note": "down 20 bps to up 20 bps YoY"
+        }
+      ]
+    },
+    "notes": [
+      {
+        "title": "Tariffs and mitigation",
+        "points": [
+          "Guide assumes current tariffs net of mitigation actions and a demand contingency of roughly 1% on organic sales.",
+          "Local-for-local footprint and operating system actions are expected to offset tariff impacts."
+        ]
+      },
+      {
+        "title": "Portfolio actions and capital return",
+        "points": [
+          "Announced Sundyne acquisition; PPE exit expected in early May.",
+          "Repurchased $3B of stock year to date and reaffirmed opportunistic buybacks."
+        ]
+      }
+    ]
+  },
+  "qna": {
+    "themes": [
+      {
+        "title": "Tariffs and demand assumptions",
+        "points": [
+          "Management said tariff impacts are embedded in guidance with mitigation actions underway.",
+          "Demand uncertainty is concentrated in short-cycle IA and some energy projects."
+        ]
+      },
+      {
+        "title": "Aerospace mix and margin",
+        "points": [
+          "OE revenue softness was attributed to mix and revenue recognition timing, not volume.",
+          "Aero margins are expected to remain around the Q1 run rate for 2025."
+        ]
+      }
+    ],
+    "top_questions": [
+      {
+        "question": "How much demand destruction is embedded in the 2025 guide?",
+        "summary": "Management cited about a 1% organic sales impact with roughly $0.18 EPS headwind versus the February outlook."
+      },
+      {
+        "question": "Why did aero OE revenue lag while volumes improved?",
+        "summary": "Mix of cost-over-sale products and revenue timing drove the shortfall; volumes were up and management expects improvement later in the year."
+      },
+      {
+        "question": "What is the timing for the planned separations?",
+        "summary": "Advanced materials is targeted for late 2025/early 2026, with aerospace timing to be refined as regulatory steps progress."
+      }
+    ]
+  },
+  "vdc_angle": {
+    "implications": [
+      "Local-for-local manufacturing reduces tariff exposure versus more globally exposed peers.",
+      "Portfolio moves (Sundyne and PPE exit) continue to tilt Honeywell toward higher-margin, long-cycle end markets."
+    ],
+    "competitive_notes": [
+      "Pricing actions and productivity offsets suggest limited near-term share pressure despite tariff volatility."
+    ],
+    "forecast_hooks": [
+      "Monitor aero OE revenue recoupling with build rates and CASE integration cost timing.",
+      "Track IA margin improvement as PPE exits and tariff mitigation actions ramp."
+    ]
+  },
+  "follow_ups": {
+    "action_items": [
+      "Validate IA demand trends in China and Europe with channel checks.",
+      "Confirm building automation backlog conversion pace in North America and the Middle East."
+    ],
+    "open_questions": [
+      "How quickly will Sundyne close and contribute to 2025 results?",
+      "Will tariff mitigation fully offset the $0.18 EPS headwind assumed in guidance?"
+    ],
+    "watch_next_quarter": [
+      "Q2 margin performance versus the 22.8% to 23.2% guide range.",
+      "Updates on separation timeline and stranded cost planning."
+    ]
+  }
+}

@@ -296,7 +296,7 @@ const buildShare = (data) => {
   const link = window.location.href;
   const bullets = (data.bullets || []).slice(0, 3).map((item) => `- ${item}`).join("\n");
   const subject = `Earnings Call Brief: ${data.company} ${data.fyq}`;
-  const body = `Link: <a href="${link}">Link</a>\n\nTL;DR: ${data.tldr || ""}\n\n${bullets}`.trim();
+  const body = `Link: ${link}\n\nTL;DR: ${data.tldr || ""}\n\n${bullets}`.trim();
   emailShare.href = `mailto:?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 
   copyBriefButton.addEventListener("click", async () => {
