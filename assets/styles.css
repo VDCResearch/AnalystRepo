@@ -1,14 +1,14 @@
 :root {
-  --bg: #f5f7fa;
+  --bg: #e9eff5;
   --ink: #1b2330;
-  --muted: #5a6777;
-  --accent: #0f3d5e;
-  --accent-2: #1f6f8b;
+  --muted: #5f6b7a;
+  --accent: #026aa7;
+  --accent-2: #0079bf;
   --card: #ffffff;
   --line: #d7dde5;
   --highlight: #eef4fb;
-  --shadow: 0 10px 26px rgba(15, 31, 44, 0.08);
-  --radius: 12px;
+  --shadow: 0 1px 2px rgba(16, 24, 40, 0.1), 0 6px 18px rgba(16, 24, 40, 0.08);
+  --radius: 10px;
   --mono: "IBM Plex Mono", "Courier New", monospace;
   --serif: "Source Serif 4", "Georgia", serif;
   --sans: "Source Sans 3", "Segoe UI", "Helvetica Neue", sans-serif;
@@ -22,7 +22,7 @@ body {
   margin: 0;
   font-family: var(--sans);
   color: var(--ink);
-  background: var(--bg);
+  background: linear-gradient(180deg, #e9eff5 0%, #f7f9fb 100%);
   min-height: 100vh;
 }
 
@@ -35,8 +35,8 @@ a {
   align-items: center;
   justify-content: space-between;
   padding: 20px 8vw;
-  border-bottom: 1px solid var(--line);
-  background: #ffffff;
+  border-bottom: 1px solid #d0d9e2;
+  background: #f7f9fb;
   position: sticky;
   top: 0;
   z-index: 10;
@@ -46,7 +46,7 @@ a {
   font-weight: 600;
   letter-spacing: 0.02em;
   font-size: 0.95rem;
-  color: var(--accent);
+  color: #0b3d5c;
   text-transform: uppercase;
 }
 
@@ -103,11 +103,11 @@ main {
 }
 
 .controls {
-  background: var(--card);
+  background: #f7f9fb;
   border-radius: var(--radius);
   padding: 22px;
   border: 1px solid var(--line);
-  box-shadow: none;
+  box-shadow: var(--shadow);
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 16px;
@@ -127,10 +127,11 @@ main {
 .control-block select {
   width: 100%;
   padding: 10px 12px;
-  border-radius: 10px;
+  border-radius: 8px;
   border: 1px solid var(--line);
   font-family: var(--sans);
   font-size: 0.95rem;
+  background: #fff;
 }
 
 .results-grid {
@@ -144,12 +145,18 @@ main {
   border-radius: var(--radius);
   padding: 18px 18px 20px;
   border: 1px solid var(--line);
-  box-shadow: none;
+  box-shadow: var(--shadow);
   display: flex;
   flex-direction: column;
   gap: 12px;
   position: relative;
   overflow: hidden;
+}
+
+.card:hover {
+  border-color: #c4d4e2;
+  transform: translateY(-1px);
+  transition: transform 0.15s ease, border-color 0.15s ease;
 }
 
 .card h3 {
@@ -182,8 +189,8 @@ main {
   font-size: 0.72rem;
   padding: 4px 8px;
   border-radius: 999px;
-  background: var(--highlight);
-  border: 1px solid var(--line);
+  background: #e7f2f8;
+  border: 1px solid #c6deea;
 }
 
 .card .incomplete {
@@ -229,11 +236,11 @@ main {
   border: 1px solid var(--line);
   background: #fff;
   padding: 10px 14px;
-  border-radius: 10px;
+  border-radius: 8px;
   cursor: pointer;
   font-family: var(--sans);
   font-size: 0.9rem;
-  color: var(--accent);
+  color: #0b3d5c;
 }
 
 .button.accent {
@@ -267,9 +274,9 @@ main {
 }
 
 .tab-button.active {
-  background: var(--accent);
+  background: var(--accent-2);
   color: #fff;
-  border-color: var(--accent);
+  border-color: var(--accent-2);
 }
 
 .tab-panel {
@@ -286,7 +293,7 @@ main {
   background: #fff;
   padding: 16px 18px;
   margin-bottom: 16px;
-  box-shadow: none;
+  box-shadow: var(--shadow);
 }
 
 .section-header {
@@ -323,7 +330,7 @@ main {
   border-radius: 12px;
   background: #fff;
   border: 1px solid var(--line);
-  box-shadow: none;
+  box-shadow: var(--shadow);
 }
 
 .sticky-toc h4 {
@@ -364,8 +371,8 @@ main {
 
 .tldr {
   font-size: 1.05rem;
-  background: var(--highlight);
-  border: 1px solid var(--line);
+  background: #f0f6fb;
+  border: 1px solid #cfe2f2;
   border-radius: 14px;
   padding: 14px 16px;
 }
@@ -380,7 +387,7 @@ main {
   border: 1px solid var(--line);
   border-radius: 12px;
   padding: 10px 12px;
-  background: #f8fafc;
+  background: #f4f8fb;
 }
 
 .metric-card h5 {
