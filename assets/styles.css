@@ -67,6 +67,13 @@ a {
   font-weight: 600;
 }
 
+.nav-actions {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
 .page-header {
   padding: 28px 8vw 12px;
   display: flex;
@@ -227,26 +234,20 @@ main {
   color: var(--muted);
 }
 
-.call-header .actions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-}
-
-.call-header .actions .button {
+.nav-actions .button {
   border-color: #d1d5db;
   background: #ffffff;
   color: #111827;
   font-weight: 600;
 }
 
-.call-header .actions .button.accent {
+.nav-actions .button.accent {
   background: var(--accent);
   border-color: var(--accent);
   color: #fff;
 }
 
-.call-header .actions .button:hover {
+.nav-actions .button:hover {
   border-color: #9ca3af;
 }
 
