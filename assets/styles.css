@@ -69,6 +69,11 @@ a {
   font-weight: 600;
 }
 
+.nav-links span.active {
+  color: var(--muted);
+  font-weight: 600;
+}
+
 .nav-actions {
   display: flex;
   gap: 8px;
