@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Earnings Call Brief Library</title>
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <header>
+    <div class="badges">
+      <span class="badge">VDC Enterprise Mobility + Connected Worker</span>
+      <span class="badge">Skim-first, detail-ready</span>
+    </div>
+    <h1 class="site-title">Earnings Call Brief Library</h1>
+    <p class="site-subtitle">
+      Lightweight, internal-ready briefs. Every call is indexed from summary notes only. No transcript text stored or rendered.
+    </p>
+  </header>
+
+  <main>
+    <section class="controls" aria-label="Filters">
+      <div class="control-block">
+        <label for="search">Search everything</label>
+        <input id="search" type="search" placeholder="Themes, product lines, guidance moves..." />
+      </div>
+      <div class="control-block">
+        <label for="company">Company / Ticker</label>
+        <select id="company">
+          <option value="">All companies</option>
+        </select>
+      </div>
+      <div class="control-block">
+        <label for="fyq">FYQ</label>
+        <select id="fyq">
+          <option value="">All quarters</option>
+        </select>
+      </div>
+      <div class="control-block">
+        <label for="theme">Themes</label>
+        <select id="theme">
+          <option value="">All themes</option>
+        </select>
+      </div>
+    </section>
+
+    <section>
+      <div class="results-grid" id="results" aria-live="polite"></div>
+    </section>
+  </main>
+
+  <footer>
+    Last refreshed from /index.json. Update /calls JSON files and rebuild the index to reflect new notes.
+  </footer>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>

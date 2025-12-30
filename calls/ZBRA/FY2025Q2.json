@@ -1,0 +1,177 @@
+{
+  "company": "Zebra Technologies",
+  "ticker": "ZBRA",
+  "fyq": "FY2025Q2",
+  "call_date": "2025-08-05",
+  "tldr": "Q2 2025 beat outlook with ~$1.3B sales (+6%), non-GAAP EPS of $3.61, and modest margin expansion despite tariffs. Management announced the pending $1.3B Elo Touch Solutions acquisition and raised full-year sales, EBITDA margin, EPS, and free cash flow guidance.",
+  "bullets": [
+    "Sales rose about 6% to $1.3B with adj. EBITDA margin of 20.6% and non-GAAP EPS of $3.61 (+14% YoY).",
+    "Full-year sales growth guidance raised to 5% to 7% and EPS to $15.25 to $15.75.",
+    "Announced $1.3B acquisition of Elo Touch Solutions, expected to be immediately accretive."
+  ],
+  "participants": [
+    "Bill Burns (CEO)",
+    "Nathan Winters (CFO)",
+    "Mike Steele (VP, Investor Relations)"
+  ],
+  "themes": [
+    "Elo acquisition",
+    "Raised guidance",
+    "Tariff relief",
+    "RFID strength",
+    "Capital allocation",
+    "Connected frontline"
+  ],
+  "deep_dive": {
+    "segments": [
+      {
+        "title": "Regional performance",
+        "points": [
+          "North America +8% with double-digit mobile computing and RFID growth.",
+          "Asia Pacific +20% led by Australia, New Zealand, and India; Latin America +11%.",
+          "EMEA -1% due to tough prior-year comparisons."
+        ]
+      },
+      {
+        "title": "Product and vertical trends",
+        "points": [
+          "Mobile computing, scanning, and RFID outperformed; transportation and retail led vertical growth.",
+          "Manufacturing remained softer; healthcare cycled strong compare."
+        ]
+      },
+      {
+        "title": "Elo acquisition",
+        "points": [
+          "Elo brings point-of-sale, kiosks, and touchscreen solutions to expand the connected frontline portfolio.",
+          "Management expects $25M of annual EBITDA synergies by year three and immediate accretion." 
+        ]
+      }
+    ],
+    "metrics": {
+      "numbers": [
+        {
+          "label": "Revenue",
+          "value": "$1.3B",
+          "note": "+6%+ YoY"
+        },
+        {
+          "label": "Adj. EBITDA margin",
+          "value": "20.6%",
+          "note": "+10 bps YoY"
+        },
+        {
+          "label": "Non-GAAP EPS",
+          "value": "$3.61",
+          "note": "+14% YoY"
+        },
+        {
+          "label": "Free cash flow",
+          "value": "$288M",
+          "note": "YTD"
+        }
+      ],
+      "guidance": [
+        {
+          "label": "Q3 sales growth",
+          "value": "~2% - 6%",
+          "note": "includes Photoneo benefit"
+        },
+        {
+          "label": "Q3 adj. EBITDA margin",
+          "value": "~21%",
+          "note": "includes $10M tariff impact"
+        },
+        {
+          "label": "Q3 EPS",
+          "value": "$3.60 - $3.80",
+          "note": "non-GAAP"
+        },
+        {
+          "label": "FY2025 EPS",
+          "value": "$15.25 - $15.75",
+          "note": "non-GAAP"
+        },
+        {
+          "label": "FY2025 FCF",
+          "value": ">= $800M",
+          "note": "approx. 100% conversion"
+        }
+      ]
+    },
+    "notes": [
+      {
+        "title": "Tariffs and pricing",
+        "points": [
+          "Full-year gross profit impact after mitigation reduced to about $30M.",
+          "Annualized impact now ~$40M, aided by lower China import rates and pricing actions."
+        ]
+      },
+      {
+        "title": "Capital allocation",
+        "points": [
+          "Repurchased $250M of stock year to date.",
+          "Balance sheet supports pending $1.3B Elo acquisition."
+        ]
+      }
+    ]
+  },
+  "qna": {
+    "themes": [
+      {
+        "title": "Elo strategic fit",
+        "points": [
+          "Elo adds customer-facing devices and expands TAM by about $8B.",
+          "Zebra expects cross-sell opportunities and broader geographic reach."
+        ]
+      },
+      {
+        "title": "Demand and guide balance",
+        "points": [
+          "Management said demand stayed resilient but customers remain cautious on trade policy.",
+          "Guide reflects backlog visibility and balanced second-half assumptions."
+        ]
+      }
+    ],
+    "top_questions": [
+      {
+        "question": "How does Elo overlap with Zebra and what is the customer synergy?",
+        "summary": "Overlap is minimal; Elo adds self-service and POS solutions with cross-sell potential." 
+      },
+      {
+        "question": "What is embedded in second-half demand guidance?",
+        "summary": "Backlog and pipeline support the guide; customers are cautious but executing plans." 
+      },
+      {
+        "question": "How do tariffs and pricing flow through margins?",
+        "summary": "Tariff impact improved; pricing is holding outside mobile computing where exemptions apply." 
+      }
+    ]
+  },
+  "vdc_angle": {
+    "implications": [
+      "Elo acquisition shifts Zebra toward broader connected-frontline workflows and customer-facing endpoints.",
+      "Improved tariff outlook provides margin relief and increases full-year EPS visibility."
+    ],
+    "competitive_notes": [
+      "Elo operates in a fragmented market with strong IP and long-standing customer relationships."
+    ],
+    "forecast_hooks": [
+      "Track Q3 margin performance vs. tariff assumptions and FX headwinds.",
+      "Monitor deal close timing and early integration signals for Elo."
+    ]
+  },
+  "follow_ups": {
+    "action_items": [
+      "Validate Elo cross-sell opportunities in retail, hospitality, and healthcare channels.",
+      "Track RFID demand and transportation logistics momentum into Q3."
+    ],
+    "open_questions": [
+      "How quickly will Elo synergies ramp toward the $25M target?",
+      "Will pricing realization improve if tariff exemptions change?"
+    ],
+    "watch_next_quarter": [
+      "Q3 sales growth delivery vs. 2% to 6% guide.",
+      "Updates on Elo closing, integration planning, and tariff mitigation progress."
+    ]
+  }
+}

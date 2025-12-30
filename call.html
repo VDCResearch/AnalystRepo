@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Call Brief</title>
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <header class="call-header">
+    <div class="badges" id="callBadges"></div>
+    <h1 id="callTitle">Call Brief</h1>
+    <div class="meta" id="callMeta"></div>
+    <div class="inline-pills" id="callParticipants"></div>
+    <div class="actions">
+      <a class="button accent" id="emailShare" href="#">Share via email</a>
+      <button class="button" id="copyBrief">Copy brief</button>
+      <button class="button" id="copyAll">Copy everything</button>
+      <a class="button" href="index.html">Back to library</a>
+    </div>
+  </header>
+
+  <nav class="tab-bar" id="tabBar"></nav>
+
+  <section class="section-shell">
+    <div id="tabPanels"></div>
+    <aside class="sticky-toc">
+      <h4>On this tab</h4>
+      <div id="toc"></div>
+      <div class="toc-meta" id="tocMeta"></div>
+    </aside>
+  </section>
+
+  <footer>
+    This brief is sourced from curated analyst notes only. No transcript text stored or rendered.
+  </footer>
+
+  <script src="assets/call.js"></script>
+</body>
+</html>

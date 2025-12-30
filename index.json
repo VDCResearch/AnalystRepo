@@ -1,0 +1,76 @@
+{
+  "generated_at": "2025-12-30",
+  "calls": [
+    {
+      "company": "Zebra Technologies",
+      "ticker": "ZBRA",
+      "fyq": "FY2025Q3",
+      "call_date": "2025-10-28",
+      "tldr": "Q3 2025 beat outlook with sales of $1.3B (+5%) and non-GAAP EPS of $3.88, led by retail, e-commerce, and RFID strength. Management guided Q4 sales growth of 8% to 11% with EPS of $4.20 to $4.40 and highlighted tariff mitigation progress and a $500M buyback.",
+      "bullets": [
+        "Sales grew 5% to $1.3B with adjusted EBITDA margin of 21.6% and EPS up 11% to $3.88.",
+        "Asset Intelligence and Tracking grew 11% (RFID and printing led) while EVM grew 2% on strong mobile computing and softer scanning.",
+        "Q4 guide calls for 8% to 11% sales growth and EPS of $4.20 to $4.40; full-year EPS guided to about $15.80."
+      ],
+      "themes": [
+        "Retail and e-commerce strength",
+        "RFID momentum",
+        "Tariff mitigation",
+        "Elo acquisition",
+        "Share repurchase",
+        "Segment reporting change",
+        "EMEA softness",
+        "Frontline AI"
+      ],
+      "path": "calls/ZBRA/FY2025Q3.json",
+      "incomplete": false,
+      "search_blob": "Zebra Technologies ZBRA FY2025Q3 2025-10-28 Q3 2025 beat outlook with sales of $1.3B (+5%) and non-GAAP EPS of $3.88, led by retail, e-commerce, and RFID strength. Management guided Q4 sales growth of 8% to 11% with EPS of $4.20 to $4.40 and highlighted tariff mitigation progress and a $500M buyback. Sales grew 5% to $1.3B with adjusted EBITDA margin of 21.6% and EPS up 11% to $3.88. Asset Intelligence and Tracking grew 11% (RFID and printing led) while EVM grew 2% on strong mobile computing and softer scanning. Q4 guide calls for 8% to 11% sales growth and EPS of $4.20 to $4.40; full-year EPS guided to about $15.80. Retail and e-commerce strength RFID momentum Tariff mitigation Elo acquisition Share repurchase Segment reporting change EMEA softness Frontline AI Enterprise Visibility and Mobility (EVM) Segment sales grew 2% with strong mobile computing and tougher compares in scanning. Management sees longer-term upside from AI-enabled devices and wearables. Asset Intelligence and Tracking (AIT) Segment sales grew 11% led by RFID and printing. RFID adoption continues to expand across retail, e-commerce, and logistics workflows. Regional performance North America grew 6% with strength in mobile computing and RFID; Canada was softer. Asia Pacific grew 23% led by Australia, New Zealand, India, and Japan initiatives. Latin America grew 8% on broad-based demand; EMEA declined 3% with weakness in Germany. Tariffs and pricing Expected 2025 gross profit impact reduced to about $24M after mitigation. Pricing actions expected to deliver about $60M annual benefit and roughly 1% sales growth. Capital allocation Planned $500M share repurchases over the next 12 months. Year-to-date buybacks exceeded $300M alongside Photoneo and Elo acquisitions. Demand and outlook Q3 demand was solid with some orders pulled forward; Q4 guide assumes similar year-end spend to last year. Management cited uneven demand in EMEA and Canada with manufacturing still soft. AI and refresh cycle AI opportunity seen in next-gen handhelds and wearables, driving a multi-year refresh cycle. Early pilots for AI Companion show productivity and sales conversion benefits. Why does Q4 guidance imply decelerating organic growth? Management said H2 demand matches prior expectations with some Q3 pull-forward and tougher comps. How should investors think about 2026 demand and long-term targets? Visibility is limited, but uneven demand persists while long-term growth drivers remain intact. How will the $500M buyback be deployed? Plan is to execute steadily over four quarters with flexibility to use market volatility. RFID expansion and frontline AI pilots indicate continued attach opportunities beyond core hardware. Elo integration expands the connected frontline TAM and should improve cross-sell into retail and hospitality. Pricing actions track broader industry moves in response to tariff impacts. Monitor Q4 conversion of pipeline assumed in the guide and incremental margin performance. Watch early benefits from Elo and Photoneo acquisitions on growth and EPS. Track Q4 demand in EMEA and Canada for signs of stabilization. Validate RFID growth drivers with retail and logistics channel checks. How quickly will AI Companion pilots convert into material software revenue? What is the sustainable baseline for China exposure once supply chain changes mature? Early visibility into new segment reporting (Connected Frontline and Asset Visibility and Automation). Update on tariff mitigation and pricing realization into 2026."
+    },
+    {
+      "company": "Zebra Technologies",
+      "ticker": "ZBRA",
+      "fyq": "FY2025Q2",
+      "call_date": "2025-08-05",
+      "tldr": "Q2 2025 beat outlook with ~$1.3B sales (+6%), non-GAAP EPS of $3.61, and modest margin expansion despite tariffs. Management announced the pending $1.3B Elo Touch Solutions acquisition and raised full-year sales, EBITDA margin, EPS, and free cash flow guidance.",
+      "bullets": [
+        "Sales rose about 6% to $1.3B with adj. EBITDA margin of 20.6% and non-GAAP EPS of $3.61 (+14% YoY).",
+        "Full-year sales growth guidance raised to 5% to 7% and EPS to $15.25 to $15.75.",
+        "Announced $1.3B acquisition of Elo Touch Solutions, expected to be immediately accretive."
+      ],
+      "themes": [
+        "Elo acquisition",
+        "Raised guidance",
+        "Tariff relief",
+        "RFID strength",
+        "Capital allocation",
+        "Connected frontline"
+      ],
+      "path": "calls/ZBRA/FY2025Q2.json",
+      "incomplete": false,
+      "search_blob": "Zebra Technologies ZBRA FY2025Q2 2025-08-05 Q2 2025 beat outlook with ~$1.3B sales (+6%), non-GAAP EPS of $3.61, and modest margin expansion despite tariffs. Management announced the pending $1.3B Elo Touch Solutions acquisition and raised full-year sales, EBITDA margin, EPS, and free cash flow guidance. Sales rose about 6% to $1.3B with adj. EBITDA margin of 20.6% and non-GAAP EPS of $3.61 (+14% YoY). Full-year sales growth guidance raised to 5% to 7% and EPS to $15.25 to $15.75. Announced $1.3B acquisition of Elo Touch Solutions, expected to be immediately accretive. Elo acquisition Raised guidance Tariff relief RFID strength Capital allocation Connected frontline Regional performance North America +8% with double-digit mobile computing and RFID growth. Asia Pacific +20% led by Australia, New Zealand, and India; Latin America +11%. EMEA -1% due to tough prior-year comparisons. Product and vertical trends Mobile computing, scanning, and RFID outperformed; transportation and retail led vertical growth. Manufacturing remained softer; healthcare cycled strong compare. Elo acquisition Elo brings point-of-sale, kiosks, and touchscreen solutions to expand the connected frontline portfolio. Management expects $25M of annual EBITDA synergies by year three and immediate accretion. Tariffs and pricing Full-year gross profit impact after mitigation reduced to about $30M. Annualized impact now ~$40M, aided by lower China import rates and pricing actions. Capital allocation Repurchased $250M of stock year to date. Balance sheet supports pending $1.3B Elo acquisition. Elo strategic fit Elo adds customer-facing devices and expands TAM by about $8B. Zebra expects cross-sell opportunities and broader geographic reach. Demand and guide balance Management said demand stayed resilient but customers remain cautious on trade policy. Guide reflects backlog visibility and balanced second-half assumptions. How does Elo overlap with Zebra and what is the customer synergy? Overlap is minimal; Elo adds self-service and POS solutions with cross-sell potential. What is embedded in second-half demand guidance? Backlog and pipeline support the guide; customers are cautious but executing plans. How do tariffs and pricing flow through margins? Tariff impact improved; pricing is holding outside mobile computing where exemptions apply. Elo acquisition shifts Zebra toward broader connected-frontline workflows and customer-facing endpoints. Improved tariff outlook provides margin relief and increases full-year EPS visibility. Elo operates in a fragmented market with strong IP and long-standing customer relationships. Track Q3 margin performance vs. tariff assumptions and FX headwinds. Monitor deal close timing and early integration signals for Elo. Validate Elo cross-sell opportunities in retail, hospitality, and healthcare channels. Track RFID demand and transportation logistics momentum into Q3. How quickly will Elo synergies ramp toward the $25M target? Will pricing realization improve if tariff exemptions change? Q3 sales growth delivery vs. 2% to 6% guide. Updates on Elo closing, integration planning, and tariff mitigation progress."
+    },
+    {
+      "company": "Zebra Technologies",
+      "ticker": "ZBRA",
+      "fyq": "FY2025Q1",
+      "call_date": "2025-04-29",
+      "tldr": "Q1 2025 beat outlook with over $1.3B in sales (+12%), record gross margin, and non-GAAP EPS of $4.20. Demand stayed solid into Q2, but higher tariff costs pushed down full-year margin and EPS guidance.",
+      "bullets": [
+        "Sales grew 12% to over $1.3B with adjusted EBITDA margin of 22.3% and non-GAAP EPS of $4.20 (+42% YoY).",
+        "Asset Intelligence and Tracking grew 18% and EVM grew 9%; all regions posted growth led by EMEA and Latin America.",
+        "Tariff outlook worsened: full-year gross profit impact now about $70M after mitigation; Q2 guide calls for ~4% to 7% sales growth."
+      ],
+      "themes": [
+        "Broad-based demand",
+        "Tariff mitigation",
+        "Margin expansion",
+        "Capital allocation",
+        "Supply chain diversification",
+        "Machine vision acquisition"
+      ],
+      "path": "calls/ZBRA/FY2025Q1.json",
+      "incomplete": false,
+      "search_blob": "Zebra Technologies ZBRA FY2025Q1 2025-04-29 Q1 2025 beat outlook with over $1.3B in sales (+12%), record gross margin, and non-GAAP EPS of $4.20. Demand stayed solid into Q2, but higher tariff costs pushed down full-year margin and EPS guidance. Sales grew 12% to over $1.3B with adjusted EBITDA margin of 22.3% and non-GAAP EPS of $4.20 (+42% YoY). Asset Intelligence and Tracking grew 18% and EVM grew 9%; all regions posted growth led by EMEA and Latin America. Tariff outlook worsened: full-year gross profit impact now about $70M after mitigation; Q2 guide calls for ~4% to 7% sales growth. Broad-based demand Tariff mitigation Margin expansion Capital allocation Supply chain diversification Machine vision acquisition Asset Intelligence and Tracking Segment sales grew 18% on strong printing and RFID demand. RFID adoption continued across retail, logistics, and government workflows. Enterprise Visibility and Mobility Segment sales grew 9% with broad product category strength. Service and software recurring revenue grew slightly amid prior-year install base dynamics. Regional performance North America +7%, EMEA +18%, Asia Pacific +13%, Latin America +18%. Manufacturing lagged other verticals but still grew high single digits. Tariffs Annualized gross profit impact now expected at $80M to $90M after mitigation. Full-year impact estimated at about $70M with $25M to $30M expected in Q2. Capital allocation Repurchased $125M in Q1 and $75M in April. Acquired Photoneo for $62M, adding 3D machine vision capabilities. Demand stability Management said retail strength carried into Q1 and demand remained solid into April. Customers remain positive but cautious amid trade policy uncertainty. Tariff mitigation Supply chain shifts can take 12 to 18 months depending on site readiness. Pricing actions and production moves are key levers to offset tariff impact. Is demand changing as tariffs evolve? Zebra reported stable demand and projects moving forward, but customers are cautious. How quickly can supply chain shifts mitigate tariffs? Moves typically take 12 to 18 months; CapEx is limited due to partner-led production. Why was EMEA growth higher than North America? Management cited easier prior-year comparisons in EMEA and large retail projects. Tariff uncertainty is pressuring margin outlook despite strong demand and operating leverage. Photoneo acquisition expands machine vision exposure beyond core mobility and printing. Pricing actions are a key lever but realization varies by product and contract mix. Track Q2 tariff impact and pricing realization as the April price actions ramp. Watch manufacturing recovery and machine vision momentum through 2025. Monitor customer behavior for signs of tariff-driven order pull-forward. Track timing and magnitude of additional pricing actions. How quickly can additional tariff mitigation move the full-year impact below $70M? Will service and software growth re-accelerate as the installed base rebuilds? Q2 sales growth and margin impact from tariffs. Early contributions from the Photoneo acquisition."
+    }
+  ]
+}

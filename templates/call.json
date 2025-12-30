@@ -1,0 +1,93 @@
+{
+  "company": "Zebra Technologies",
+  "ticker": "ZBRA",
+  "fyq": "FY2025Q1",
+  "call_date": "2025-04-30",
+  "tldr": "Short summary paragraph for skim-first context.",
+  "bullets": [
+    "Bullet 1 with the biggest take.",
+    "Bullet 2 capturing momentum or risk.",
+    "Bullet 3 covering guidance or outlook."
+  ],
+  "participants": [
+    "CEO",
+    "CFO"
+  ],
+  "themes": [
+    "Inventory normalization",
+    "Software attach"
+  ],
+  "deep_dive": {
+    "segments": [
+      {
+        "title": "Segment: Enterprise Mobility",
+        "points": [
+          "Demand returned to replacement cycles in retail.",
+          "Rugged device backlog normalized."
+        ]
+      }
+    ],
+    "metrics": {
+      "numbers": [
+        {
+          "label": "Revenue",
+          "value": "$1.1B",
+          "note": "YoY"
+        }
+      ],
+      "guidance": [
+        {
+          "label": "FY revenue outlook",
+          "value": "$4.6B - $4.7B",
+          "note": "unchanged"
+        }
+      ]
+    },
+    "notes": [
+      {
+        "title": "Margins",
+        "points": [
+          "Gross margin stabilized with mix tailwinds."
+        ]
+      }
+    ]
+  },
+  "qna": {
+    "themes": [
+      {
+        "title": "Pipeline visibility",
+        "points": [
+          "Management sees broader backlog dispersion across verticals."
+        ]
+      }
+    ],
+    "top_questions": [
+      {
+        "question": "When does North America demand normalize?",
+        "summary": "Expecting steady improvement into H2." 
+      }
+    ]
+  },
+  "vdc_angle": {
+    "implications": [
+      "Connected worker deployments are shifting from pilots to scaled rollouts."
+    ],
+    "competitive_notes": [
+      "Partner chatter indicates tighter competition in healthcare mobility."
+    ],
+    "forecast_hooks": [
+      "Watch WMS/EMM bundle attach in FY2025Q2." 
+    ]
+  },
+  "follow_ups": {
+    "action_items": [
+      "Validate channel inventory commentary with reseller calls."
+    ],
+    "open_questions": [
+      "How quickly can services bookings recover?"
+    ],
+    "watch_next_quarter": [
+      "Look for new vertical wins in logistics and parcel." 
+    ]
+  }
+}

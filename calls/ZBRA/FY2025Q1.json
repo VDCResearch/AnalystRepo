@@ -1,0 +1,171 @@
+{
+  "company": "Zebra Technologies",
+  "ticker": "ZBRA",
+  "fyq": "FY2025Q1",
+  "call_date": "2025-04-29",
+  "tldr": "Q1 2025 beat outlook with over $1.3B in sales (+12%), record gross margin, and non-GAAP EPS of $4.20. Demand stayed solid into Q2, but higher tariff costs pushed down full-year margin and EPS guidance.",
+  "bullets": [
+    "Sales grew 12% to over $1.3B with adjusted EBITDA margin of 22.3% and non-GAAP EPS of $4.20 (+42% YoY).",
+    "Asset Intelligence and Tracking grew 18% and EVM grew 9%; all regions posted growth led by EMEA and Latin America.",
+    "Tariff outlook worsened: full-year gross profit impact now about $70M after mitigation; Q2 guide calls for ~4% to 7% sales growth."
+  ],
+  "participants": [
+    "Bill Burns (CEO)",
+    "Nathan Winters (CFO)",
+    "Mike Steele (VP, Investor Relations)"
+  ],
+  "themes": [
+    "Broad-based demand",
+    "Tariff mitigation",
+    "Margin expansion",
+    "Capital allocation",
+    "Supply chain diversification",
+    "Machine vision acquisition"
+  ],
+  "deep_dive": {
+    "segments": [
+      {
+        "title": "Asset Intelligence and Tracking",
+        "points": [
+          "Segment sales grew 18% on strong printing and RFID demand.",
+          "RFID adoption continued across retail, logistics, and government workflows."
+        ]
+      },
+      {
+        "title": "Enterprise Visibility and Mobility",
+        "points": [
+          "Segment sales grew 9% with broad product category strength.",
+          "Service and software recurring revenue grew slightly amid prior-year install base dynamics."
+        ]
+      },
+      {
+        "title": "Regional performance",
+        "points": [
+          "North America +7%, EMEA +18%, Asia Pacific +13%, Latin America +18%.",
+          "Manufacturing lagged other verticals but still grew high single digits."
+        ]
+      }
+    ],
+    "metrics": {
+      "numbers": [
+        {
+          "label": "Revenue",
+          "value": ">$1.3B",
+          "note": "+12% YoY"
+        },
+        {
+          "label": "Adj. EBITDA margin",
+          "value": "22.3%",
+          "note": "+240 bps YoY"
+        },
+        {
+          "label": "Non-GAAP EPS",
+          "value": "$4.20",
+          "note": "+42% YoY"
+        },
+        {
+          "label": "Free cash flow",
+          "value": "$158M",
+          "note": "Q1"
+        }
+      ],
+      "guidance": [
+        {
+          "label": "Q2 sales growth",
+          "value": "~4% - 7%",
+          "note": "neutral FX and M&A"
+        },
+        {
+          "label": "Q2 adj. EBITDA margin",
+          "value": "~19%",
+          "note": ">200 bps tariff impact"
+        },
+        {
+          "label": "Q2 EPS",
+          "value": "$3.00 - $3.50",
+          "note": "non-GAAP"
+        },
+        {
+          "label": "FY2025 EPS",
+          "value": "$13.75 - $14.75",
+          "note": "non-GAAP"
+        }
+      ]
+    },
+    "notes": [
+      {
+        "title": "Tariffs",
+        "points": [
+          "Annualized gross profit impact now expected at $80M to $90M after mitigation.",
+          "Full-year impact estimated at about $70M with $25M to $30M expected in Q2."
+        ]
+      },
+      {
+        "title": "Capital allocation",
+        "points": [
+          "Repurchased $125M in Q1 and $75M in April.",
+          "Acquired Photoneo for $62M, adding 3D machine vision capabilities."
+        ]
+      }
+    ]
+  },
+  "qna": {
+    "themes": [
+      {
+        "title": "Demand stability",
+        "points": [
+          "Management said retail strength carried into Q1 and demand remained solid into April.",
+          "Customers remain positive but cautious amid trade policy uncertainty."
+        ]
+      },
+      {
+        "title": "Tariff mitigation",
+        "points": [
+          "Supply chain shifts can take 12 to 18 months depending on site readiness.",
+          "Pricing actions and production moves are key levers to offset tariff impact."
+        ]
+      }
+    ],
+    "top_questions": [
+      {
+        "question": "Is demand changing as tariffs evolve?",
+        "summary": "Zebra reported stable demand and projects moving forward, but customers are cautious." 
+      },
+      {
+        "question": "How quickly can supply chain shifts mitigate tariffs?",
+        "summary": "Moves typically take 12 to 18 months; CapEx is limited due to partner-led production." 
+      },
+      {
+        "question": "Why was EMEA growth higher than North America?",
+        "summary": "Management cited easier prior-year comparisons in EMEA and large retail projects." 
+      }
+    ]
+  },
+  "vdc_angle": {
+    "implications": [
+      "Tariff uncertainty is pressuring margin outlook despite strong demand and operating leverage.",
+      "Photoneo acquisition expands machine vision exposure beyond core mobility and printing."
+    ],
+    "competitive_notes": [
+      "Pricing actions are a key lever but realization varies by product and contract mix."
+    ],
+    "forecast_hooks": [
+      "Track Q2 tariff impact and pricing realization as the April price actions ramp.",
+      "Watch manufacturing recovery and machine vision momentum through 2025."
+    ]
+  },
+  "follow_ups": {
+    "action_items": [
+      "Monitor customer behavior for signs of tariff-driven order pull-forward.",
+      "Track timing and magnitude of additional pricing actions."
+    ],
+    "open_questions": [
+      "How quickly can additional tariff mitigation move the full-year impact below $70M?",
+      "Will service and software growth re-accelerate as the installed base rebuilds?"
+    ],
+    "watch_next_quarter": [
+      "Q2 sales growth and margin impact from tariffs.",
+      "Early contributions from the Photoneo acquisition."
+    ]
+  }
+}

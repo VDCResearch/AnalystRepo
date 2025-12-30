@@ -1,0 +1,169 @@
+{
+  "company": "Zebra Technologies",
+  "ticker": "ZBRA",
+  "fyq": "FY2025Q3",
+  "call_date": "2025-10-28",
+  "tldr": "Q3 2025 beat outlook with sales of $1.3B (+5%) and non-GAAP EPS of $3.88, led by retail, e-commerce, and RFID strength. Management guided Q4 sales growth of 8% to 11% with EPS of $4.20 to $4.40 and highlighted tariff mitigation progress and a $500M buyback.",
+  "bullets": [
+    "Sales grew 5% to $1.3B with adjusted EBITDA margin of 21.6% and EPS up 11% to $3.88.",
+    "Asset Intelligence and Tracking grew 11% (RFID and printing led) while EVM grew 2% on strong mobile computing and softer scanning.",
+    "Q4 guide calls for 8% to 11% sales growth and EPS of $4.20 to $4.40; full-year EPS guided to about $15.80."
+  ],
+  "participants": [
+    "Bill Burns (CEO)",
+    "Nathan Winters (CFO)",
+    "Mike Steele (VP, Investor Relations)"
+  ],
+  "themes": [
+    "Retail and e-commerce strength",
+    "RFID momentum",
+    "Tariff mitigation",
+    "Elo acquisition",
+    "Share repurchase",
+    "Segment reporting change",
+    "EMEA softness",
+    "Frontline AI"
+  ],
+  "deep_dive": {
+    "segments": [
+      {
+        "title": "Enterprise Visibility and Mobility (EVM)",
+        "points": [
+          "Segment sales grew 2% with strong mobile computing and tougher compares in scanning.",
+          "Management sees longer-term upside from AI-enabled devices and wearables."
+        ]
+      },
+      {
+        "title": "Asset Intelligence and Tracking (AIT)",
+        "points": [
+          "Segment sales grew 11% led by RFID and printing.",
+          "RFID adoption continues to expand across retail, e-commerce, and logistics workflows."
+        ]
+      },
+      {
+        "title": "Regional performance",
+        "points": [
+          "North America grew 6% with strength in mobile computing and RFID; Canada was softer.",
+          "Asia Pacific grew 23% led by Australia, New Zealand, India, and Japan initiatives.",
+          "Latin America grew 8% on broad-based demand; EMEA declined 3% with weakness in Germany."
+        ]
+      }
+    ],
+    "metrics": {
+      "numbers": [
+        {
+          "label": "Revenue",
+          "value": "$1.3B",
+          "note": "Q3 2025, +5% YoY"
+        },
+        {
+          "label": "Adj. EBITDA margin",
+          "value": "21.6%",
+          "note": "+20 bps YoY"
+        },
+        {
+          "label": "Non-GAAP EPS",
+          "value": "$3.88",
+          "note": "+11% YoY"
+        }
+      ],
+      "guidance": [
+        {
+          "label": "Q4 sales growth",
+          "value": "8% - 11%",
+          "note": "includes acquisition and FX benefit"
+        },
+        {
+          "label": "Q4 adj. EBITDA margin",
+          "value": "~22%",
+          "note": "includes $6M net tariff impact"
+        },
+        {
+          "label": "Q4 EPS",
+          "value": "$4.20 - $4.40",
+          "note": "non-GAAP"
+        },
+        {
+          "label": "FY2025 EPS",
+          "value": "~$15.80",
+          "note": "non-GAAP"
+        }
+      ]
+    },
+    "notes": [
+      {
+        "title": "Tariffs and pricing",
+        "points": [
+          "Expected 2025 gross profit impact reduced to about $24M after mitigation.",
+          "Pricing actions expected to deliver about $60M annual benefit and roughly 1% sales growth."
+        ]
+      },
+      {
+        "title": "Capital allocation",
+        "points": [
+          "Planned $500M share repurchases over the next 12 months.",
+          "Year-to-date buybacks exceeded $300M alongside Photoneo and Elo acquisitions."
+        ]
+      }
+    ]
+  },
+  "qna": {
+    "themes": [
+      {
+        "title": "Demand and outlook",
+        "points": [
+          "Q3 demand was solid with some orders pulled forward; Q4 guide assumes similar year-end spend to last year.",
+          "Management cited uneven demand in EMEA and Canada with manufacturing still soft."
+        ]
+      },
+      {
+        "title": "AI and refresh cycle",
+        "points": [
+          "AI opportunity seen in next-gen handhelds and wearables, driving a multi-year refresh cycle.",
+          "Early pilots for AI Companion show productivity and sales conversion benefits."
+        ]
+      }
+    ],
+    "top_questions": [
+      {
+        "question": "Why does Q4 guidance imply decelerating organic growth?",
+        "summary": "Management said H2 demand matches prior expectations with some Q3 pull-forward and tougher comps."
+      },
+      {
+        "question": "How should investors think about 2026 demand and long-term targets?",
+        "summary": "Visibility is limited, but uneven demand persists while long-term growth drivers remain intact."
+      },
+      {
+        "question": "How will the $500M buyback be deployed?",
+        "summary": "Plan is to execute steadily over four quarters with flexibility to use market volatility."
+      }
+    ]
+  },
+  "vdc_angle": {
+    "implications": [
+      "RFID expansion and frontline AI pilots indicate continued attach opportunities beyond core hardware.",
+      "Elo integration expands the connected frontline TAM and should improve cross-sell into retail and hospitality."
+    ],
+    "competitive_notes": [
+      "Pricing actions track broader industry moves in response to tariff impacts."
+    ],
+    "forecast_hooks": [
+      "Monitor Q4 conversion of pipeline assumed in the guide and incremental margin performance.",
+      "Watch early benefits from Elo and Photoneo acquisitions on growth and EPS."
+    ]
+  },
+  "follow_ups": {
+    "action_items": [
+      "Track Q4 demand in EMEA and Canada for signs of stabilization.",
+      "Validate RFID growth drivers with retail and logistics channel checks."
+    ],
+    "open_questions": [
+      "How quickly will AI Companion pilots convert into material software revenue?",
+      "What is the sustainable baseline for China exposure once supply chain changes mature?"
+    ],
+    "watch_next_quarter": [
+      "Early visibility into new segment reporting (Connected Frontline and Asset Visibility and Automation).",
+      "Update on tariff mitigation and pricing realization into 2026."
+    ]
+  }
+}
