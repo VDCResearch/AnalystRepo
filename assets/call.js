@@ -47,7 +47,7 @@ const createSection = (title, bodyHtml, options = {}) => {
 
   const toggle = document.createElement("span");
   toggle.className = "section-toggle";
-  toggle.textContent = options.collapsed ? ">" : "v";
+  toggle.textContent = options.collapsed ? "+" : "-";
 
   header.appendChild(heading);
   header.appendChild(toggle);
@@ -58,7 +58,7 @@ const createSection = (title, bodyHtml, options = {}) => {
 
   header.addEventListener("click", () => {
     section.classList.toggle("collapsed");
-    toggle.textContent = section.classList.contains("collapsed") ? ">" : "v";
+    toggle.textContent = section.classList.contains("collapsed") ? "+" : "-";
   });
 
   section.appendChild(header);
