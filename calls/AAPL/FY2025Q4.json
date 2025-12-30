@@ -1,0 +1,178 @@
+{
+  "company": "Apple Inc.",
+  "ticker": "AAPL",
+  "fyq": "FY2025Q4",
+  "call_date": "2025-10-30",
+  "tldr": "September quarter revenue rose 8% to $102.5B and EPS reached $1.85, closing FY2025 with a record $416B in revenue. Apple guided December-quarter revenue growth of 10%-12% with gross margin of 47%-48% and an estimated $1.4B tariff cost impact.",
+  "bullets": [
+    "Revenue was $102.5B (+8% YoY) and EPS was $1.85, a September quarter record.",
+    "Services hit a record $28.8B (+15%) while iPhone revenue reached $49B (+6%).",
+    "December quarter guide: revenue +10%-12%, iPhone double-digit growth, gross margin 47%-48% with ~$1.4B tariff cost impact."
+  ],
+  "participants": [
+    "Suhasini Chandramouli (Director, Investor Relations)",
+    "Tim Cook (CEO)",
+    "Kevin Parekh (CFO)"
+  ],
+  "themes": [
+    "FY2025 record revenue",
+    "Services strength",
+    "iPhone 17 launch cycle",
+    "Tariff costs",
+    "AI investment growth",
+    "Gross margin expansion",
+    "China recovery outlook",
+    "Holiday demand"
+  ],
+  "deep_dive": {
+    "segments": [
+      {
+        "title": "iPhone",
+        "points": [
+          "Revenue was $49B, up 6% YoY with strong demand for iPhone 17 family.",
+          "Supply constraints limited availability on several models."
+        ]
+      },
+      {
+        "title": "Mac and iPad",
+        "points": [
+          "Mac revenue was $8.7B, up 13% YoY on MacBook Air strength.",
+          "iPad revenue was $7B, flat YoY with a difficult compare."
+        ]
+      },
+      {
+        "title": "Services",
+        "points": [
+          "Revenue hit a record $28.8B, up 15% YoY with broad category growth.",
+          "Fiscal year services revenue surpassed $100B, up 14%."
+        ]
+      }
+    ],
+    "metrics": {
+      "numbers": [
+        {
+          "label": "Revenue",
+          "value": "$102.5B",
+          "note": "+8% YoY"
+        },
+        {
+          "label": "EPS",
+          "value": "$1.85",
+          "note": "+13% YoY"
+        },
+        {
+          "label": "Gross margin",
+          "value": "47.2%",
+          "note": "+70 bps QoQ"
+        },
+        {
+          "label": "Products gross margin",
+          "value": "36.2%",
+          "note": "+170 bps QoQ"
+        },
+        {
+          "label": "Services gross margin",
+          "value": "75.3%",
+          "note": "-30 bps QoQ"
+        }
+      ],
+      "guidance": [
+        {
+          "label": "December quarter revenue",
+          "value": "10% - 12%",
+          "note": "YoY"
+        },
+        {
+          "label": "December quarter gross margin",
+          "value": "47% - 48%",
+          "note": "includes ~$1.4B tariff cost impact"
+        },
+        {
+          "label": "December quarter opex",
+          "value": "$18.1B - $18.5B",
+          "note": "range"
+        },
+        {
+          "label": "December quarter tax rate",
+          "value": "~17%",
+          "note": "expected"
+        }
+      ]
+    },
+    "notes": [
+      {
+        "title": "Tariffs",
+        "points": [
+          "September quarter tariff costs were about $1.1B, in line with prior estimate.",
+          "December quarter tariff costs projected at about $1.4B under current assumptions."
+        ]
+      },
+      {
+        "title": "Capital return",
+        "points": [
+          "Returned $24B to shareholders in Q4, including $20B in buybacks.",
+          "Declared $0.26 dividend payable Nov 13, 2025."
+        ]
+      }
+    ]
+  },
+  "qna": {
+    "themes": [
+      {
+        "title": "iPhone demand and China",
+        "points": [
+          "Management cited strong reception for iPhone 17 in China and expects return to growth.",
+          "Supply constraints limited September quarter iPhone sales."
+        ]
+      },
+      {
+        "title": "Services acceleration",
+        "points": [
+          "Services growth was broad-based and organic, with double-digit growth across markets.",
+          "No unusual one-time impacts were cited."
+        ]
+      }
+    ],
+    "top_questions": [
+      {
+        "question": "Why was Greater China down in Q4?",
+        "summary": "Supply constraints on iPhone models were the primary driver."
+      },
+      {
+        "question": "What is driving December revenue acceleration?",
+        "summary": "Strong iPhone 17 demand and holiday lineup strength support 10%-12% growth."
+      },
+      {
+        "question": "How are tariff costs evolving?",
+        "summary": "Tariff costs are expected to rise with volume, from $1.1B to $1.4B."
+      }
+    ]
+  },
+  "vdc_angle": {
+    "implications": [
+      "Services growth and product mix support elevated gross margins into FY2026.",
+      "Holiday demand and iPhone 17 cycle position Apple for its strongest December quarter."
+    ],
+    "competitive_notes": [
+      "China demand recovery depends on supply normalization and subsidy impact."
+    ],
+    "forecast_hooks": [
+      "Track iPhone supply constraints through December quarter.",
+      "Monitor tariff cost sensitivity as volumes rise."
+    ]
+  },
+  "follow_ups": {
+    "action_items": [
+      "Validate iPhone 17 supply normalization in December.",
+      "Track services growth durability after strong Q4 acceleration."
+    ],
+    "open_questions": [
+      "How quickly can China return to sustained growth?",
+      "Magnitude of AI-driven OpEx growth in FY2026."
+    ],
+    "watch_next_quarter": [
+      "December quarter revenue growth versus 10%-12% guide.",
+      "Gross margin performance with higher tariff costs."
+    ]
+  }
+}

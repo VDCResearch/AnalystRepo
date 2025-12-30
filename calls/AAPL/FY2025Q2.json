@@ -1,0 +1,178 @@
+{
+  "company": "Apple Inc.",
+  "ticker": "AAPL",
+  "fyq": "FY2025Q2",
+  "call_date": "2025-05-01",
+  "tldr": "March quarter revenue was $95.4B (+5%) with EPS of $1.65 as services hit a record and iPhone returned to growth. Apple guided June-quarter revenue to low-to-mid single digits and gross margin to 45.5%-46.5%, including an estimated $900M tariff cost impact.",
+  "bullets": [
+    "Revenue was $95.4B (+5% YoY) and EPS was $1.65 (+8% YoY) with services up 12% to $26.6B.",
+    "iPhone revenue rose 2% to $46.8B; iPad was up 15% while wearables were down 5%.",
+    "June quarter outlook: revenue low-to-mid single digits, gross margin 45.5%-46.5% with ~$900M tariff cost impact."
+  ],
+  "participants": [
+    "Suhasini Chandramouli (Director, Investor Relations)",
+    "Tim Cook (CEO)",
+    "Kevan Parekh (CFO)"
+  ],
+  "themes": [
+    "Services record",
+    "Tariff cost exposure",
+    "India supply shift",
+    "Apple Intelligence expansion",
+    "Capital return",
+    "Gross margin pressure",
+    "iPhone 16 family strength",
+    "Supply chain diversification"
+  ],
+  "deep_dive": {
+    "segments": [
+      {
+        "title": "iPhone",
+        "points": [
+          "Revenue was $46.8B, up 2% YoY on iPhone 16 family demand.",
+          "iPhone install base and upgraders grew to all-time highs."
+        ]
+      },
+      {
+        "title": "Mac and iPad",
+        "points": [
+          "Mac revenue grew 7% to $7.9B with M4 MacBook Air and Mac Studio updates.",
+          "iPad revenue grew 15% to $6.4B on new M3 iPad Air."
+        ]
+      },
+      {
+        "title": "Services",
+        "points": [
+          "Revenue hit a record $26.6B, up 12% YoY with broad-based growth.",
+          "Services gross margin was 75.7% on favorable mix."
+        ]
+      }
+    ],
+    "metrics": {
+      "numbers": [
+        {
+          "label": "Revenue",
+          "value": "$95.4B",
+          "note": "+5% YoY"
+        },
+        {
+          "label": "EPS",
+          "value": "$1.65",
+          "note": "+8% YoY"
+        },
+        {
+          "label": "Gross margin",
+          "value": "47.1%",
+          "note": "+20 bps QoQ"
+        },
+        {
+          "label": "Products gross margin",
+          "value": "35.9%",
+          "note": "-340 bps QoQ"
+        },
+        {
+          "label": "Services gross margin",
+          "value": "75.7%",
+          "note": "+70 bps QoQ"
+        }
+      ],
+      "guidance": [
+        {
+          "label": "June quarter revenue",
+          "value": "low to mid single digits",
+          "note": "YoY"
+        },
+        {
+          "label": "June quarter gross margin",
+          "value": "45.5% - 46.5%",
+          "note": "includes tariff cost impact"
+        },
+        {
+          "label": "June quarter opex",
+          "value": "$15.3B - $15.5B",
+          "note": "range"
+        },
+        {
+          "label": "June quarter tax rate",
+          "value": "~16%",
+          "note": "expected"
+        }
+      ]
+    },
+    "notes": [
+      {
+        "title": "Tariffs and supply chain",
+        "points": [
+          "Estimated $900M cost impact for June quarter under current tariff assumptions.",
+          "Majority of U.S. iPhones expected to be sourced from India in June quarter."
+        ]
+      },
+      {
+        "title": "Capital return",
+        "points": [
+          "Authorized additional $100B in share repurchases and raised dividend 4% to $0.26.",
+          "Returned $29B to shareholders in the quarter."
+        ]
+      }
+    ]
+  },
+  "qna": {
+    "themes": [
+      {
+        "title": "Tariff mitigation",
+        "points": [
+          "Apple plans continued supply chain optimization and inventory build-ahead where feasible.",
+          "Pricing changes were not announced."
+        ]
+      },
+      {
+        "title": "Apple Intelligence impact",
+        "points": [
+          "Markets with Apple Intelligence rollout showed stronger iPhone performance.",
+          "Personalized Siri features require more time to meet quality standards."
+        ]
+      }
+    ],
+    "top_questions": [
+      {
+        "question": "How large could tariff impacts be beyond June?",
+        "summary": "Management said it is difficult to project beyond June due to policy uncertainty."
+      },
+      {
+        "question": "Is there evidence of demand pull-forward?",
+        "summary": "Apple saw no obvious evidence of a significant pull-forward in March quarter demand."
+      },
+      {
+        "question": "What drove product gross margin decline?",
+        "summary": "Mix, seasonality, FX, and loss of leverage were the key drivers."
+      }
+    ]
+  },
+  "vdc_angle": {
+    "implications": [
+      "Tariff exposure is manageable near-term but could pressure margins if policies shift.",
+      "India manufacturing expansion reduces U.S. tariff exposure over time."
+    ],
+    "competitive_notes": [
+      "Services strength offsets hardware seasonality and FX headwinds."
+    ],
+    "forecast_hooks": [
+      "Track June quarter tariff cost versus the $900M estimate.",
+      "Monitor Apple Intelligence language expansion effects on iPhone demand."
+    ]
+  },
+  "follow_ups": {
+    "action_items": [
+      "Validate India-sourced iPhone mix for U.S. shipments.",
+      "Watch for pricing actions if tariffs rise further."
+    ],
+    "open_questions": [
+      "Timing for personalized Siri release beyond 2025.",
+      "Extent of EU DMA impact on services growth."
+    ],
+    "watch_next_quarter": [
+      "June quarter revenue growth versus low-to-mid single digit guide.",
+      "Gross margin impact from tariff cost exposure."
+    ]
+  }
+}

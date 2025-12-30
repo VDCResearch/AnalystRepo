@@ -1,0 +1,178 @@
+{
+  "company": "Apple Inc.",
+  "ticker": "AAPL",
+  "fyq": "FY2025Q3",
+  "call_date": "2025-07-31",
+  "tldr": "June quarter revenue rose 10% to $94B and EPS increased 12% to $1.57 as iPhone, Mac, and services all grew double digits. Apple guided September-quarter revenue to mid-to-high single-digit growth with gross margin of 46%-47% and tariff cost impact of about $1.1B.",
+  "bullets": [
+    "Revenue was $94B (+10% YoY) with EPS of $1.57 (+12% YoY); services reached a record $27.4B (+13%).",
+    "iPhone revenue grew 13% to $44.6B; Mac revenue rose 15% to $8.0B; iPad revenue was $6.6B.",
+    "September quarter outlook: revenue mid-to-high single digits, gross margin 46%-47% including ~$1.1B tariff cost impact."
+  ],
+  "participants": [
+    "Suhasini Chandramouli (Director, Investor Relations)",
+    "Tim Cook (CEO)",
+    "Kevin Parekh (CFO)"
+  ],
+  "themes": [
+    "iPhone 16 strength",
+    "Services acceleration",
+    "AI investment growth",
+    "Tariff cost impact",
+    "CapEx increase",
+    "Supply chain diversification",
+    "Apple Intelligence expansion",
+    "Upgrade momentum"
+  ],
+  "deep_dive": {
+    "segments": [
+      {
+        "title": "iPhone",
+        "points": [
+          "Revenue was $44.6B, up 13% YoY with record June-quarter upgraders.",
+          "iPhone 16 family performance drove growth across all regions."
+        ]
+      },
+      {
+        "title": "Mac and iPad",
+        "points": [
+          "Mac revenue rose 15% to $8.0B on M4 MacBook Air strength.",
+          "iPad revenue was $6.6B with a difficult compare versus prior-year launches."
+        ]
+      },
+      {
+        "title": "Services",
+        "points": [
+          "Revenue hit a record $27.4B, up 13% YoY with broad-based category acceleration.",
+          "App Store revenue grew double digits and cloud services hit an all-time record."
+        ]
+      }
+    ],
+    "metrics": {
+      "numbers": [
+        {
+          "label": "Revenue",
+          "value": "$94.0B",
+          "note": "+10% YoY"
+        },
+        {
+          "label": "EPS",
+          "value": "$1.57",
+          "note": "+12% YoY"
+        },
+        {
+          "label": "Gross margin",
+          "value": "46.5%",
+          "note": "-60 bps QoQ"
+        },
+        {
+          "label": "Products gross margin",
+          "value": "34.5%",
+          "note": "-140 bps QoQ"
+        },
+        {
+          "label": "Services gross margin",
+          "value": "75.6%",
+          "note": "-10 bps QoQ"
+        }
+      ],
+      "guidance": [
+        {
+          "label": "September quarter revenue",
+          "value": "mid to high single digits",
+          "note": "YoY"
+        },
+        {
+          "label": "September quarter gross margin",
+          "value": "46% - 47%",
+          "note": "includes tariff cost impact"
+        },
+        {
+          "label": "September quarter opex",
+          "value": "$15.6B - $15.8B",
+          "note": "range"
+        },
+        {
+          "label": "September quarter tax rate",
+          "value": "~17%",
+          "note": "expected"
+        }
+      ]
+    },
+    "notes": [
+      {
+        "title": "Tariffs",
+        "points": [
+          "June quarter tariff costs were about $800M.",
+          "September quarter tariff costs estimated at about $1.1B under current policy assumptions."
+        ]
+      },
+      {
+        "title": "Capital return",
+        "points": [
+          "Returned over $27B to shareholders, including $21B in buybacks.",
+          "Declared $0.26 dividend payable Aug 14, 2025."
+        ]
+      }
+    ]
+  },
+  "qna": {
+    "themes": [
+      {
+        "title": "AI investment and CapEx",
+        "points": [
+          "CapEx is rising on AI investments and Private Cloud Compute capacity.",
+          "Hybrid model uses both first-party and third-party data centers."
+        ]
+      },
+      {
+        "title": "Tariff pull-ahead",
+        "points": [
+          "Management estimated about 1 point of Q3 growth from pull-ahead demand.",
+          "Pull-ahead was mainly in iPhone and Mac and mostly in the U.S."
+        ]
+      }
+    ],
+    "top_questions": [
+      {
+        "question": "What drove the strong June quarter iPhone performance?",
+        "summary": "Record upgraders and strong iPhone 16 family demand across regions."
+      },
+      {
+        "question": "How is Apple managing tariff exposure?",
+        "summary": "Supply chain optimization and sourcing shifts; outlook assumes current tariff rates hold."
+      },
+      {
+        "question": "Is services strength impacted by the Epic ruling?",
+        "summary": "Management said services growth was broad-based; changes were implemented late in the quarter."
+      }
+    ]
+  },
+  "vdc_angle": {
+    "implications": [
+      "Services momentum supports margin stability despite tariff costs.",
+      "AI investment ramp is becoming a larger driver of CapEx."
+    ],
+    "competitive_notes": [
+      "Supply chain diversification toward India and Vietnam continues for U.S. sales."
+    ],
+    "forecast_hooks": [
+      "Track September quarter tariff costs versus $1.1B estimate.",
+      "Monitor services growth rate relative to June-quarter pace."
+    ]
+  },
+  "follow_ups": {
+    "action_items": [
+      "Validate upgrade rates and switcher mix for iPhone 16 family.",
+      "Watch CapEx trend as AI investments expand."
+    ],
+    "open_questions": [
+      "Magnitude of tariff headwinds if policies change post-September.",
+      "Timing of more personalized Siri features."
+    ],
+    "watch_next_quarter": [
+      "September quarter revenue growth versus mid-to-high single digit guide.",
+      "Gross margin performance with tariff cost impact."
+    ]
+  }
+}
