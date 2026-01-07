@@ -72,6 +72,8 @@ const isSameMonth = (left, right) => {
     && left.getUTCMonth() === right.getUTCMonth();
 };
 
+const getCurrentMonthStart = () => getMonthStart(startOfTodayUtc());
+
 const isWeekend = (date) => {
   const day = date.getUTCDay();
   return day === 0 || day === 6;
@@ -296,9 +298,10 @@ const updateTodayButton = () => {
   if (!calendarElements.today) {
     return;
   }
-  const currentMonth = getMonthStart(new Date());
+  const currentMonth = getCurrentMonthStart();
   const isCurrent = isSameMonth(calendarState.month, currentMonth);
   calendarElements.today.disabled = isCurrent;
+  calendarElements.today.hidden = isCurrent;
 };
 
 const renderCalendar = () => {
@@ -310,7 +313,7 @@ const renderCalendar = () => {
   updateCalendarToggle();
 
   if (!calendarState.month) {
-    calendarState.month = getMonthStart(new Date());
+    calendarState.month = getCurrentMonthStart();
   }
   ensureMonthWithEvents();
   const monthStart = calendarState.month;
@@ -540,7 +543,7 @@ const setupCalendar = () => {
   }).filter(Boolean);
 
   calendarState.eventsByYear.clear();
-  calendarState.month = getMonthStart(new Date());
+  calendarState.month = getCurrentMonthStart();
 
   const shiftMonth = (direction) => {
     if (calendarState.collapsed) {
@@ -568,7 +571,7 @@ const setupCalendar = () => {
 
   if (calendarElements.today) {
     calendarElements.today.addEventListener("click", () => {
-      const currentMonth = getMonthStart(new Date());
+      const currentMonth = getCurrentMonthStart();
       calendarState.month = currentMonth;
       if (calendarState.collapsed && !monthHasEvents(currentMonth.getUTCFullYear(), currentMonth.getUTCMonth())) {
         calendarState.collapsed = false;
