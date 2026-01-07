@@ -18,6 +18,7 @@ const calendarElements = {
   weekdays: document.getElementById("calendarWeekdays"),
   prev: document.getElementById("calendarPrev"),
   next: document.getElementById("calendarNext"),
+  today: document.getElementById("calendarToday"),
   toggle: document.getElementById("calendarToggle")
 };
 
@@ -62,6 +63,14 @@ const startOfTodayUtc = () => {
 };
 
 const pad2 = (value) => String(value).padStart(2, "0");
+
+const isSameMonth = (left, right) => {
+  if (!left || !right) {
+    return false;
+  }
+  return left.getUTCFullYear() === right.getUTCFullYear()
+    && left.getUTCMonth() === right.getUTCMonth();
+};
 
 const isWeekend = (date) => {
   const day = date.getUTCDay();
@@ -283,6 +292,15 @@ const updateCalendarToggle = () => {
   calendarElements.shell.classList.toggle("is-collapsed", calendarState.collapsed);
 };
 
+const updateTodayButton = () => {
+  if (!calendarElements.today) {
+    return;
+  }
+  const currentMonth = getMonthStart(new Date());
+  const isCurrent = isSameMonth(calendarState.month, currentMonth);
+  calendarElements.today.disabled = isCurrent;
+};
+
 const renderCalendar = () => {
   if (!calendarElements.grid || !calendarElements.monthLabel) {
     return;
@@ -296,6 +314,7 @@ const renderCalendar = () => {
   }
   ensureMonthWithEvents();
   const monthStart = calendarState.month;
+  updateTodayButton();
 
   const monthFormatter = new Intl.DateTimeFormat("en-US", {
     month: "long",
@@ -544,6 +563,17 @@ const setupCalendar = () => {
   if (calendarElements.next) {
     calendarElements.next.addEventListener("click", () => {
       shiftMonth(1);
+    });
+  }
+
+  if (calendarElements.today) {
+    calendarElements.today.addEventListener("click", () => {
+      const currentMonth = getMonthStart(new Date());
+      calendarState.month = currentMonth;
+      if (calendarState.collapsed && !monthHasEvents(currentMonth.getUTCFullYear(), currentMonth.getUTCMonth())) {
+        calendarState.collapsed = false;
+      }
+      renderCalendar();
     });
   }
 

@@ -484,6 +484,11 @@ main {
   color: #111827;
 }
 
+.button:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
 .button.accent {
   background: var(--accent);
   color: #fff;
