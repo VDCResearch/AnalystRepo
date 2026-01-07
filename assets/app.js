@@ -17,13 +17,15 @@ const calendarElements = {
   grid: document.getElementById("calendarGrid"),
   weekdays: document.getElementById("calendarWeekdays"),
   prev: document.getElementById("calendarPrev"),
-  next: document.getElementById("calendarNext")
+  next: document.getElementById("calendarNext"),
+  toggle: document.getElementById("calendarToggle")
 };
 
 const calendarState = {
   month: null,
   baseEvents: [],
-  eventsByYear: new Map()
+  eventsByYear: new Map(),
+  collapsed: true
 };
 
 const normalize = (value) => (value || "").toLowerCase();
@@ -58,6 +60,8 @@ const startOfTodayUtc = () => {
   const now = new Date();
   return new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate()));
 };
+
+const pad2 = (value) => String(value).padStart(2, "0");
 
 const isWeekend = (date) => {
   const day = date.getUTCDay();
@@ -218,15 +222,80 @@ const buildEventsForYear = (year) => {
   return map;
 };
 
+const monthHasEvents = (year, month) => {
+  const eventsByYear = buildEventsForYear(year);
+  const prefix = `${year}-${pad2(month + 1)}-`;
+  for (const key of eventsByYear.keys()) {
+    if (key.startsWith(prefix)) {
+      return true;
+    }
+  }
+  return false;
+};
+
+const findMonthWithEvents = (start, direction) => {
+  let candidate = getMonthStart(start);
+  for (let i = 0; i < 240; i += 1) {
+    candidate = addMonths(candidate, direction);
+    if (monthHasEvents(candidate.getUTCFullYear(), candidate.getUTCMonth())) {
+      return candidate;
+    }
+  }
+  return null;
+};
+
+const ensureMonthWithEvents = () => {
+  if (!calendarState.collapsed || !calendarState.month) {
+    return;
+  }
+  const year = calendarState.month.getUTCFullYear();
+  const month = calendarState.month.getUTCMonth();
+  if (monthHasEvents(year, month)) {
+    return;
+  }
+  const next = findMonthWithEvents(calendarState.month, 1);
+  if (next) {
+    calendarState.month = next;
+    return;
+  }
+  const prev = findMonthWithEvents(calendarState.month, -1);
+  if (prev) {
+    calendarState.month = prev;
+  }
+};
+
+const getEventsForDate = (date, year, eventsByYear, eventsByPrevYear, eventsByNextYear) => {
+  const dateKey = toDateKey(date);
+  if (date.getUTCFullYear() === year) {
+    return eventsByYear.get(dateKey) || [];
+  }
+  if (date.getUTCFullYear() < year) {
+    return eventsByPrevYear.get(dateKey) || [];
+  }
+  return eventsByNextYear.get(dateKey) || [];
+};
+
+const updateCalendarToggle = () => {
+  if (!calendarElements.toggle || !calendarElements.shell) {
+    return;
+  }
+  calendarElements.toggle.textContent = calendarState.collapsed ? "Expand" : "Collapse";
+  calendarElements.shell.classList.toggle("is-collapsed", calendarState.collapsed);
+};
+
 const renderCalendar = () => {
   if (!calendarElements.grid || !calendarElements.monthLabel) {
     return;
   }
 
   ensureWeekdays();
+  updateCalendarToggle();
 
-  const monthStart = calendarState.month || getMonthStart(new Date());
-  calendarState.month = monthStart;
+  if (!calendarState.month) {
+    calendarState.month = getMonthStart(new Date());
+  }
+  ensureMonthWithEvents();
+  const monthStart = calendarState.month;
 
   const monthFormatter = new Intl.DateTimeFormat("en-US", {
     month: "long",
@@ -248,7 +317,7 @@ const renderCalendar = () => {
   const month = monthStart.getUTCMonth();
   const firstDay = monthStart.getUTCDay();
   const daysInMonth = new Date(Date.UTC(year, month + 1, 0)).getUTCDate();
-  const totalCells = Math.ceil((firstDay + daysInMonth) / 7) * 7;
+  const weeksInView = Math.ceil((firstDay + daysInMonth) / 7);
 
   const eventsByYear = buildEventsForYear(year);
   const eventsByPrevYear = buildEventsForYear(year - 1);
@@ -257,84 +326,102 @@ const renderCalendar = () => {
   const now = new Date();
   const todayKey = toDateKey(new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate())));
 
-  let cursor = addDays(monthStart, -firstDay);
   const fragment = document.createDocumentFragment();
   const maxEvents = 2;
+  let cursor = addDays(monthStart, -firstDay);
 
-  for (let i = 0; i < totalCells; i += 1) {
-    const dateKey = toDateKey(cursor);
-    const cell = document.createElement("div");
-    cell.className = "calendar-day";
-    cell.setAttribute("role", "gridcell");
-    cell.setAttribute("aria-label", dayFormatter.format(cursor));
+  for (let week = 0; week < weeksInView; week += 1) {
+    const weekDates = [];
+    let weekHasEvents = false;
 
-    if (cursor.getUTCMonth() !== month) {
-      cell.classList.add("is-outside");
+    for (let dayIndex = 0; dayIndex < 7; dayIndex += 1) {
+      weekDates.push(cursor);
+      if (!weekHasEvents) {
+        const events = (!calendarState.collapsed || cursor.getUTCMonth() === month)
+          ? getEventsForDate(cursor, year, eventsByYear, eventsByPrevYear, eventsByNextYear)
+          : [];
+        if (events.length) {
+          weekHasEvents = true;
+        }
+      }
+      cursor = addDays(cursor, 1);
     }
-    if (dateKey === todayKey) {
-      cell.classList.add("is-today");
+
+    if (calendarState.collapsed && !weekHasEvents) {
+      continue;
     }
 
-    const number = document.createElement("div");
-    number.className = "day-number";
-    number.textContent = String(cursor.getUTCDate());
-    cell.appendChild(number);
+    weekDates.forEach((dayDate) => {
+      const dateKey = toDateKey(dayDate);
+      const cell = document.createElement("div");
+      cell.className = "calendar-day";
+      cell.setAttribute("role", "gridcell");
+      cell.setAttribute("aria-label", dayFormatter.format(dayDate));
 
-    const eventsHolder = document.createElement("div");
-    eventsHolder.className = "day-events";
-
-    const yearMap = cursor.getUTCFullYear() === year
-      ? eventsByYear
-      : cursor.getUTCFullYear() < year
-        ? eventsByPrevYear
-        : eventsByNextYear;
-    const events = yearMap.get(dateKey) || [];
-    const visibleEvents = events.slice(0, maxEvents);
-
-    visibleEvents.forEach((event) => {
-      const item = document.createElement("div");
-      item.className = `day-event ${event.type}`;
-
-      const title = document.createElement("div");
-      title.className = "event-title";
-      if (event.type === "actual" && event.path) {
-        const link = document.createElement("a");
-        link.href = `call.html?path=${encodeURIComponent(event.path)}`;
-        link.textContent = event.company;
-        title.appendChild(link);
-      } else {
-        title.textContent = event.company;
+      if (dayDate.getUTCMonth() !== month) {
+        cell.classList.add("is-outside");
+      }
+      if (dateKey === todayKey) {
+        cell.classList.add("is-today");
       }
 
-      const meta = document.createElement("div");
-      meta.className = "event-meta";
-      const metaText = document.createElement("span");
-      const metaParts = [event.ticker, event.displayFyq || event.fyq].filter(Boolean);
-      metaText.textContent = metaParts.join(" · ");
-      meta.appendChild(metaText);
+      const number = document.createElement("div");
+      number.className = "day-number";
+      number.textContent = String(dayDate.getUTCDate());
+      cell.appendChild(number);
 
-      if (event.type === "expected") {
-        const badge = document.createElement("span");
-        badge.className = "event-badge expected";
-        badge.textContent = "Expected";
-        meta.appendChild(badge);
+      const eventsHolder = document.createElement("div");
+      eventsHolder.className = "day-events";
+
+      const events = (!calendarState.collapsed || dayDate.getUTCMonth() === month)
+        ? getEventsForDate(dayDate, year, eventsByYear, eventsByPrevYear, eventsByNextYear)
+        : [];
+      const visibleEvents = events.slice(0, maxEvents);
+
+      visibleEvents.forEach((event) => {
+        const item = document.createElement("div");
+        item.className = `day-event ${event.type}`;
+
+        const title = document.createElement("div");
+        title.className = "event-title";
+        if (event.type === "actual" && event.path) {
+          const link = document.createElement("a");
+          link.href = `call.html?path=${encodeURIComponent(event.path)}`;
+          link.textContent = event.company;
+          title.appendChild(link);
+        } else {
+          title.textContent = event.company;
+        }
+
+        const meta = document.createElement("div");
+        meta.className = "event-meta";
+        const metaText = document.createElement("span");
+        const metaParts = [event.ticker, event.displayFyq || event.fyq].filter(Boolean);
+        metaText.textContent = metaParts.join(" - ");
+        meta.appendChild(metaText);
+
+        if (event.type === "expected") {
+          const badge = document.createElement("span");
+          badge.className = "event-badge expected";
+          badge.textContent = "Expected";
+          meta.appendChild(badge);
+        }
+
+        item.appendChild(title);
+        item.appendChild(meta);
+        eventsHolder.appendChild(item);
+      });
+
+      if (events.length > maxEvents) {
+        const more = document.createElement("div");
+        more.className = "day-more";
+        more.textContent = `+${events.length - maxEvents} more`;
+        eventsHolder.appendChild(more);
       }
 
-      item.appendChild(title);
-      item.appendChild(meta);
-      eventsHolder.appendChild(item);
+      cell.appendChild(eventsHolder);
+      fragment.appendChild(cell);
     });
-
-    if (events.length > maxEvents) {
-      const more = document.createElement("div");
-      more.className = "day-more";
-      more.textContent = `+${events.length - maxEvents} more`;
-      eventsHolder.appendChild(more);
-    }
-
-    cell.appendChild(eventsHolder);
-    fragment.appendChild(cell);
-    cursor = addDays(cursor, 1);
   }
 
   calendarElements.grid.appendChild(fragment);
@@ -436,16 +523,33 @@ const setupCalendar = () => {
   calendarState.eventsByYear.clear();
   calendarState.month = getMonthStart(new Date());
 
+  const shiftMonth = (direction) => {
+    if (calendarState.collapsed) {
+      const next = findMonthWithEvents(calendarState.month, direction);
+      if (next) {
+        calendarState.month = next;
+      }
+    } else {
+      calendarState.month = addMonths(calendarState.month, direction);
+    }
+    renderCalendar();
+  };
+
   if (calendarElements.prev) {
     calendarElements.prev.addEventListener("click", () => {
-      calendarState.month = addMonths(calendarState.month, -1);
-      renderCalendar();
+      shiftMonth(-1);
     });
   }
 
   if (calendarElements.next) {
     calendarElements.next.addEventListener("click", () => {
-      calendarState.month = addMonths(calendarState.month, 1);
+      shiftMonth(1);
+    });
+  }
+
+  if (calendarElements.toggle) {
+    calendarElements.toggle.addEventListener("click", () => {
+      calendarState.collapsed = !calendarState.collapsed;
       renderCalendar();
     });
   }
