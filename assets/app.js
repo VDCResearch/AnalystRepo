@@ -54,6 +54,11 @@ const addDays = (date, days) => {
 
 const addMonths = (date, months) => new Date(Date.UTC(date.getUTCFullYear(), date.getUTCMonth() + months, 1));
 
+const startOfTodayUtc = () => {
+  const now = new Date();
+  return new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate()));
+};
+
 const isWeekend = (date) => {
   const day = date.getUTCDay();
   return day === 0 || day === 6;
@@ -166,6 +171,7 @@ const buildEventsForYear = (year) => {
     return calendarState.eventsByYear.get(year);
   }
   const map = new Map();
+  const today = startOfTodayUtc();
 
   calendarState.baseEvents.forEach((event) => {
     if (event.date.getUTCFullYear() === year) {
@@ -183,6 +189,9 @@ const buildEventsForYear = (year) => {
     }
     const projected = projectDate(event.date, year);
     if (!projected) {
+      return;
+    }
+    if (projected < today) {
       return;
     }
     addEventToMap(map, projected, {
@@ -250,7 +259,7 @@ const renderCalendar = () => {
 
   let cursor = addDays(monthStart, -firstDay);
   const fragment = document.createDocumentFragment();
-  const maxEvents = 3;
+  const maxEvents = 2;
 
   for (let i = 0; i < totalCells; i += 1) {
     const dateKey = toDateKey(cursor);
