@@ -188,8 +188,10 @@ const buildEventsForYear = (year) => {
   const map = new Map();
   const today = startOfTodayUtc();
 
+  const actualKeys = new Set();
   calendarState.baseEvents.forEach((event) => {
     if (event.date.getUTCFullYear() === year) {
+      actualKeys.add(`${event.ticker}|${event.fyq}`);
       addEventToMap(map, event.date, {
         ...event,
         type: "actual",
@@ -209,6 +211,10 @@ const buildEventsForYear = (year) => {
     if (projected < today) {
       return;
     }
+    const projectedFyq = shiftFyq(event.fyq, year - event.date.getUTCFullYear());
+    if (actualKeys.has(`${event.ticker}|${projectedFyq}`)) {
+      return;
+    }
     addEventToMap(map, projected, {
       company: event.company,
       ticker: event.ticker,
@@ -216,7 +222,7 @@ const buildEventsForYear = (year) => {
       path: null,
       date: projected,
       type: "expected",
-      displayFyq: shiftFyq(event.fyq, year - event.date.getUTCFullYear())
+      displayFyq: projectedFyq
     });
   });
 
