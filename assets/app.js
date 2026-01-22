@@ -460,6 +460,10 @@ const matchesFilters = (call) => {
   const companyFilter = elements.company.value;
   const fyqFilter = elements.fyq.value;
   const themeFilter = elements.theme.value;
+  const callDate = parseDate(call.call_date);
+  if (callDate && callDate > startOfTodayUtc()) {
+    return false;
+  }
 
   if (companyFilter && `${call.company} (${call.ticker})` !== companyFilter) {
     return false;
