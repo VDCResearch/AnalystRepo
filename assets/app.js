@@ -355,7 +355,7 @@ const renderCalendar = () => {
   const todayKey = toDateKey(new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate())));
 
   const fragment = document.createDocumentFragment();
-  const maxEvents = 2;
+  const maxEvents = Number.POSITIVE_INFINITY;
   let cursor = addDays(monthStart, -firstDay);
 
   for (let week = 0; week < weeksInView; week += 1) {
