@@ -1,6 +1,86 @@
 {
-  "generated_at": "2025-12-30",
+  "generated_at": "2026-01-22",
   "calls": [
+    {
+      "company": "Dell Technologies",
+      "ticker": "DELL",
+      "fyq": "FY2026Q4",
+      "call_date": "2026-02-26",
+      "tldr": "Upcoming earnings call; date is an estimate and may change.",
+      "bullets": [
+        "Earnings date listed as an estimate; confirm once the company publishes the release.",
+        "Placeholder entry to keep the earnings calendar current.",
+        "Full brief will be added after the call."
+      ],
+      "themes": [],
+      "path": "calls/DELL/FY2026Q4.json",
+      "incomplete": true,
+      "search_blob": "Dell Technologies DELL FY2026Q4 2026-02-26 Upcoming earnings call; date is an estimate and may change. Earnings date listed as an estimate; confirm once the company publishes the release. Placeholder entry to keep the earnings calendar current. Full brief will be added after the call."
+    },
+    {
+      "company": "Zebra Technologies",
+      "ticker": "ZBRA",
+      "fyq": "FY2025Q4",
+      "call_date": "2026-02-12",
+      "tldr": "Upcoming earnings call; date is an estimate and may change.",
+      "bullets": [
+        "Earnings date listed as an estimate; confirm once the company publishes the release.",
+        "Placeholder entry to keep the earnings calendar current.",
+        "Full brief will be added after the call."
+      ],
+      "themes": [],
+      "path": "calls/ZBRA/FY2025Q4.json",
+      "incomplete": true,
+      "search_blob": "Zebra Technologies ZBRA FY2025Q4 2026-02-12 Upcoming earnings call; date is an estimate and may change. Earnings date listed as an estimate; confirm once the company publishes the release. Placeholder entry to keep the earnings calendar current. Full brief will be added after the call."
+    },
+    {
+      "company": "Samsung Electronics",
+      "ticker": "005930.KS",
+      "fyq": "FY2025Q4",
+      "call_date": "2026-01-29",
+      "tldr": "Upcoming earnings call scheduled by the company.",
+      "bullets": [
+        "Samsung IR notice lists the Q4 2025 earnings call on January 29, 2026.",
+        "Placeholder entry to keep the earnings calendar current.",
+        "Full brief will be added after the call."
+      ],
+      "themes": [],
+      "path": "calls/005930.KS/FY2025Q4.json",
+      "incomplete": true,
+      "search_blob": "Samsung Electronics 005930.KS FY2025Q4 2026-01-29 Upcoming earnings call scheduled by the company. Samsung IR notice lists the Q4 2025 earnings call on January 29, 2026. Placeholder entry to keep the earnings calendar current. Full brief will be added after the call."
+    },
+    {
+      "company": "Apple Inc.",
+      "ticker": "AAPL",
+      "fyq": "FY2026Q1",
+      "call_date": "2026-01-29",
+      "tldr": "Upcoming earnings call; date is an estimate and may change.",
+      "bullets": [
+        "Earnings date listed as an estimate; confirm once the company publishes the release.",
+        "Placeholder entry to keep the earnings calendar current.",
+        "Full brief will be added after the call."
+      ],
+      "themes": [],
+      "path": "calls/AAPL/FY2026Q1.json",
+      "incomplete": true,
+      "search_blob": "Apple Inc. AAPL FY2026Q1 2026-01-29 Upcoming earnings call; date is an estimate and may change. Earnings date listed as an estimate; confirm once the company publishes the release. Placeholder entry to keep the earnings calendar current. Full brief will be added after the call."
+    },
+    {
+      "company": "Honeywell International",
+      "ticker": "HON",
+      "fyq": "FY2025Q4",
+      "call_date": "2026-01-29",
+      "tldr": "Upcoming earnings call; date is an estimate and may change.",
+      "bullets": [
+        "Earnings date listed as an estimate; confirm once the company publishes the release.",
+        "Placeholder entry to keep the earnings calendar current.",
+        "Full brief will be added after the call."
+      ],
+      "themes": [],
+      "path": "calls/HON/FY2025Q4.json",
+      "incomplete": true,
+      "search_blob": "Honeywell International HON FY2025Q4 2026-01-29 Upcoming earnings call; date is an estimate and may change. Earnings date listed as an estimate; confirm once the company publishes the release. Placeholder entry to keep the earnings calendar current. Full brief will be added after the call."
+    },
     {
       "company": "Apple Inc.",
       "ticker": "AAPL",
