@@ -1,6 +1,7 @@
 const state = {
   calls: [],
-  filtered: []
+  filtered: [],
+  calendar: []
 };
 
 const elements = {
@@ -19,14 +20,16 @@ const calendarElements = {
   prev: document.getElementById("calendarPrev"),
   next: document.getElementById("calendarNext"),
   today: document.getElementById("calendarToday"),
-  toggle: document.getElementById("calendarToggle")
+  toggle: document.getElementById("calendarToggle"),
+  legend: document.getElementById("calendarLegend")
 };
 
 const calendarState = {
   month: null,
   baseEvents: [],
   eventsByYear: new Map(),
-  collapsed: true
+  collapsed: true,
+  mode: "calls"
 };
 
 const normalize = (value) => (value || "").toLowerCase();
@@ -188,6 +191,21 @@ const buildEventsForYear = (year) => {
   const map = new Map();
   const today = startOfTodayUtc();
 
+  if (calendarState.mode === "feed") {
+    calendarState.baseEvents.forEach((event) => {
+      if (event.date.getUTCFullYear() === year) {
+        addEventToMap(map, event.date, event);
+      }
+    });
+
+    map.forEach((events) => {
+      events.sort((a, b) => a.company.localeCompare(b.company));
+    });
+
+    calendarState.eventsByYear.set(year, map);
+    return map;
+  }
+
   const actualKeys = new Set();
   calendarState.baseEvents.forEach((event) => {
     if (event.date.getUTCFullYear() === year) {
@@ -300,6 +318,19 @@ const updateCalendarToggle = () => {
   calendarElements.shell.classList.toggle("is-collapsed", calendarState.collapsed);
 };
 
+const updateCalendarLegend = () => {
+  if (!calendarElements.legend) {
+    return;
+  }
+
+  if (calendarState.mode === "feed") {
+    calendarElements.legend.innerHTML = "<span class=\"legend-item\"><span class=\"legend-swatch actual\"></span>Quartr feed</span>";
+    return;
+  }
+
+  calendarElements.legend.innerHTML = "<span class=\"legend-item\"><span class=\"legend-swatch actual\"></span>Actual</span><span class=\"legend-item\"><span class=\"legend-swatch expected\"></span>Expected</span>";
+};
+
 const updateTodayButton = () => {
   if (!calendarElements.today) {
     return;
@@ -317,6 +348,7 @@ const renderCalendar = () => {
 
   ensureWeekdays();
   updateCalendarToggle();
+  updateCalendarLegend();
 
   if (!calendarState.month) {
     calendarState.month = getCurrentMonthStart();
@@ -412,31 +444,53 @@ const renderCalendar = () => {
 
         const title = document.createElement("div");
         title.className = "event-title";
-        if (event.type === "actual" && event.path) {
-          const link = document.createElement("a");
-          link.href = `call.html?path=${encodeURIComponent(event.path)}`;
-          link.textContent = event.company;
-          title.appendChild(link);
+        const titleLink = document.createElement("a");
+        const hasCallLink = event.type === "actual" && event.path;
+        const hasExternalLink = !hasCallLink && event.url;
+        if (hasCallLink) {
+          titleLink.href = `call.html?path=${encodeURIComponent(event.path)}`;
+          titleLink.textContent = event.company;
+          title.appendChild(titleLink);
+        } else if (hasExternalLink) {
+          titleLink.href = event.url;
+          titleLink.target = "_blank";
+          titleLink.rel = "noopener";
+          titleLink.textContent = event.company;
+          title.appendChild(titleLink);
         } else {
           title.textContent = event.company;
         }
 
-        const meta = document.createElement("div");
-        meta.className = "event-meta";
-        const metaText = document.createElement("span");
-        const metaParts = [event.ticker, event.displayFyq || event.fyq].filter(Boolean);
-        metaText.textContent = metaParts.join(" - ");
-        meta.appendChild(metaText);
-
-        if (event.type === "expected") {
-          const badge = document.createElement("span");
-          badge.className = "event-badge expected";
-          badge.textContent = "Expected";
-          meta.appendChild(badge);
-        }
-
         item.appendChild(title);
-        item.appendChild(meta);
+
+        const metaParts = [];
+        const fyqLabel = event.displayFyq || event.fyq;
+        if (event.ticker) metaParts.push(event.ticker);
+        if (fyqLabel) metaParts.push(fyqLabel);
+        if (event.timeLabel) metaParts.push(event.timeLabel);
+
+        const metaHasExpected = event.type === "expected";
+        const metaHasText = metaParts.length > 0;
+
+        if (metaHasText || metaHasExpected) {
+          const meta = document.createElement("div");
+          meta.className = "event-meta";
+
+          if (metaHasText) {
+            const metaText = document.createElement("span");
+            metaText.textContent = metaParts.join(" - ");
+            meta.appendChild(metaText);
+          }
+
+          if (metaHasExpected) {
+            const badge = document.createElement("span");
+            badge.className = "event-badge expected";
+            badge.textContent = "Expected";
+            meta.appendChild(badge);
+          }
+
+          item.appendChild(meta);
+        }
         eventsHolder.appendChild(item);
       });
 
@@ -538,19 +592,42 @@ const setupCalendar = () => {
     return;
   }
 
-  calendarState.baseEvents = state.calls.map((call) => {
-    const date = parseDate(call.call_date);
-    if (!date) {
-      return null;
-    }
-    return {
-      company: call.company,
-      ticker: call.ticker,
-      fyq: call.fyq,
-      path: call.path,
-      date
-    };
-  }).filter(Boolean);
+  const feedEvents = (state.calendar || []).filter(Boolean);
+
+  if (feedEvents.length) {
+    calendarState.mode = "feed";
+    calendarState.baseEvents = feedEvents.map((event) => {
+      const start = event.start ? new Date(event.start) : null;
+      if (!start || Number.isNaN(start.getTime())) {
+        return null;
+      }
+      return {
+        company: event.title || "Untitled event",
+        ticker: "",
+        fyq: "",
+        path: null,
+        url: event.url || null,
+        date: start,
+        type: "actual"
+      };
+    }).filter(Boolean);
+  } else {
+    calendarState.mode = "calls";
+    calendarState.baseEvents = state.calls.map((call) => {
+      const date = parseDate(call.call_date);
+      if (!date) {
+        return null;
+      }
+      return {
+        company: call.company,
+        ticker: call.ticker,
+        fyq: call.fyq,
+        path: call.path,
+        date,
+        type: "actual"
+      };
+    }).filter(Boolean);
+  }
 
   calendarState.eventsByYear.clear();
   calendarState.month = getCurrentMonthStart();
@@ -605,6 +682,18 @@ const init = async () => {
     const response = await fetch("index.json", { cache: "no-store" });
     const data = await response.json();
     state.calls = data.calls || [];
+
+    try {
+      const calendarResponse = await fetch("calendar.json", { cache: "no-store" });
+      if (calendarResponse.ok) {
+        const calendarData = await calendarResponse.json();
+        state.calendar = calendarData.events || [];
+      } else {
+        state.calendar = [];
+      }
+    } catch (error) {
+      state.calendar = [];
+    }
     buildFilters();
     renderResults();
     setupCalendar();
