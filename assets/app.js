@@ -450,17 +450,10 @@ const renderCalendar = () => {
 
         const title = document.createElement("div");
         title.className = "event-title";
-        const titleLink = document.createElement("a");
         const hasCallLink = event.type === "actual" && event.path;
-        const hasExternalLink = !hasCallLink && event.url;
         if (hasCallLink) {
+          const titleLink = document.createElement("a");
           titleLink.href = `call.html?path=${encodeURIComponent(event.path)}`;
-          titleLink.textContent = event.company;
-          title.appendChild(titleLink);
-        } else if (hasExternalLink) {
-          titleLink.href = event.url;
-          titleLink.target = "_blank";
-          titleLink.rel = "noopener";
           titleLink.textContent = event.company;
           title.appendChild(titleLink);
         } else {
