@@ -3,7 +3,7 @@
   "ticker": "HON",
   "fyq": "FY2025Q4",
   "call_date": "2026-01-29",
-  "tldr": "Q4 2025: reported sales were $9.8B (+6%) and adjusted sales were $10.1B (+10%, +11% organic) with adjusted EPS of $2.59 (GAAP EPS $0.49). Orders rose 23% organically, lifting backlog sequentially to over $37B, and free cash flow increased 48% to $2.5B. Operating income was pressured by one-time impacts tied to PSS/WWS being classified as held for sale and Flexjet-related litigation matters, while adjusted segment profit increased 23% to $2.3B (adjusted segment margin 22.8%). For FY2025, organic sales were up 7% (6% ex BBD), adjusted EPS was $9.78, and free cash flow was $5.1B. 2026 guidance calls for sales of $38.8B-$39.8B (+3% to +6% organic), segment margin 22.7%-23.1%, adjusted EPS $10.35-$10.65, and free cash flow $5.3B-$5.6B as Honeywell continues portfolio transformation (Solstice spin completed; PSS/WWS held for sale; automation/aerospace separation expected in Q3 2026).",
+  "tldr": "Honeywell delivered Q4 2025 adjusted sales of $10.1B (+11% organic) and adjusted EPS of $2.59 as orders rose 23% and backlog topped $37B, led by Aerospace and Building Automation. Management guided 2026 sales of $38.8B-$39.8B (3%-6% organic) and adjusted EPS of $10.35-$10.65 while continuing portfolio actions (Solstice spin completed; PSS/WWS held for sale; automation/aerospace separation expected Q3 2026).",
   "bullets": [
     "Q4 beat the high end of guidance on adjusted sales and adjusted EPS: adjusted sales $10.1B (+11% organic) and adjusted EPS $2.59, with organic orders +23% and backlog >$37B; free cash flow was $2.5B (+48%). GAAP EPS was $0.49 due to held-for-sale impairment and Flexjet-related litigation impacts.",
     "Segments: Aerospace +21% organic (+13% commercial aftermarket, +10% defense/space) with adjusted margin 26.5% (benefiting from the prior-year Bombardier agreement comp); Building Automation +8% organic with margin 27.0%; Industrial Automation +1% organic driven by WWS (+5%), sensing (+3%), and PSS back to growth (+1%, double-digit orders) but margin fell to 18.4%; ESS -7% organic on petrochemical catalysts with margin 23.7%.",
@@ -16,12 +16,11 @@
     "Mark Macaluso (Investor Relations)"
   ],
   "themes": [
-    "Portfolio transformation and separations (Solstice; PSS/WWS; Automation/Aerospace)",
-    "Aerospace long-cycle growth and backlog conversion",
-    "EMOB + warehouse workflow exposure during PSS/WWS held-for-sale period",
-    "Inflation, pricing, and margin management (BBD comparability)",
-    "Catalysts softness vs UOP long-cycle order momentum (PA&T transition)",
-    "Cash generation, working capital, and deleveraging ahead of separation"
+    "Automation and workflow digitization accelerating",
+    "Asset visibility and data capture adoption expanding",
+    "Pricing and cost pressure shaping margins",
+    "Industrial and logistics demand uneven by region",
+    "Capex discipline influencing capacity"
   ],
   "deep_dive": {
     "segments": [

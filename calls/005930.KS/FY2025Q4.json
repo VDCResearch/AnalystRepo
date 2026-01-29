@@ -3,10 +3,279 @@
   "ticker": "005930.KS",
   "fyq": "FY2025Q4",
   "call_date": "2026-01-29",
-  "tldr": "Upcoming earnings call scheduled by the company.",
+  "tldr": "Samsung delivered record Q4 2025 revenue (KRW 93.8T) and operating profit (KRW 20.1T) as semiconductors rebounded on AI memory demand and pricing. Management highlighted 2026 growth from AI memory ramp and advanced-node foundry execution, while device/consumer segments face seasonal and cost pressures.",
   "bullets": [
-    "Samsung IR notice lists the Q4 2025 earnings call on January 29, 2026.",
-    "Placeholder entry to keep the earnings calendar current.",
-    "Full brief will be added after the call."
-  ]
+    "Q4 2025: revenue KRW 93.8T (+9% QoQ, +24% YoY), operating profit KRW 20.1T (21.4% margin), net profit KRW 19.6T; FY2025 revenue KRW 333.6T and operating profit KRW 43.6T.",
+    "DS led: DS sales KRW 44.0T (+33% QoQ, +46% YoY) and operating profit KRW 16.4T; Memory sales KRW 37.1T (+39% QoQ) with DRAM ASP up ~40% QoQ and NAND ASP up mid-20% QoQ.",
+    "Key 2026 hooks: HBM4 in stable full-scale production with shipments starting Feb (11.7Gbps SKU); 2026 HBM sales expected to increase >3x YoY (capacity fully booked). Foundry targets 2nd-gen 2nm mass production in 2H26 (1.4nm in 2029) and expects 2nm project awards +130% YoY; DX manages component/tariff pressure with Galaxy S26 \"agentic AI\" and premium TV/service expansion."
+  ],
+  "participants": [
+    "Daniel Oh (EVP, Investor Relations)",
+    "Sooncheol Park (EVP, CFO)",
+    "Jaejune Kim (EVP, Memory)",
+    "Jason Shin (EVP, System LSI)",
+    "Sukchae Kang (EVP, Foundry)",
+    "Charles Hur (EVP, Samsung Display Corp.)",
+    "Seong Hyuk Cho (EVP, Mobile Experience)",
+    "Hun Lee (EVP, Visual Display)"
+  ],
+  "themes": [
+    "AI-driven infrastructure demand scaling",
+    "Capex discipline influencing capacity",
+    "Pricing and cost pressure shaping margins",
+    "Supply chain diversification improving resilience"
+  ],
+  "deep_dive": {
+    "segments": [
+      {
+        "title": "Consolidated and segment scorecard",
+        "points": [
+          "Q4 2025: revenue KRW 93.8T (+9% QoQ) and operating profit KRW 20.1T (21.4% margin); net profit KRW 19.6T (EPS KRW 2,909).",
+          "FY2025: revenue KRW 333.6T (+11% YoY) and operating profit KRW 43.6T (+33% YoY).",
+          "Q4 DS: sales KRW 44.0T and operating profit KRW 16.4T; Q4 DX: sales KRW 44.3T and operating profit KRW 1.3T."
+        ]
+      },
+      {
+        "title": "Memory (HBM, DRAM, NAND)",
+        "points": [
+          "Q4 Memory sales were KRW 37.1T (+39% QoQ, +62% YoY) as HBM and high-value server products benefitted from price increases and tight industry supply.",
+          "Q4 DRAM ASP increased ~40% QoQ; NAND ASP increased mid-20% QoQ. Server SSD sales mix increased ~10 percentage points QoQ.",
+          "HBM4: entered stable full-scale production with shipments starting in February; 2026 HBM sales expected to increase by more than 3x YoY, with production-ready capacity fully booked."
+        ]
+      },
+      {
+        "title": "System LSI and Foundry",
+        "points": [
+          "System LSI: earnings declined QoQ on seasonal weakness and customer schedule adjustments; image sensor revenue grew on new 200MP and 50MP big-pixel products.",
+          "Foundry: commenced mass production of 1st-gen 2nm products and initiated shipments of 4nm HBM base-die; revenue improved on strong U.S./China demand, but provisioning costs limited earnings improvement.",
+          "Roadmap: 2nd-gen 2nm mass production targeted for 2H26; 1.4nm targeted for 2029. Samsung expects 2nm project awards to increase by 130% YoY, driven by HPC/AI, and is pushing a turnkey \"one-stop\" model spanning design, foundry, memory, and advanced packaging."
+        ]
+      },
+      {
+        "title": "Samsung Display (SDC)",
+        "points": [
+          "Q4 SDC sales were KRW 9.5T (+17% QoQ) with operating profit of KRW 2.0T.",
+          "Small/medium: benefited from high-end smartphone demand and stable supply; IT and automotive also improved QoQ. Large display benefited from year-end peak demand and mix/productivity.",
+          "2026: plans to drive growth via 8.6-gen IT OLED line mass production while managing price pressure tied to memory cost/supply dynamics."
+        ]
+      },
+      {
+        "title": "Mobile Experience (MX) and Networks",
+        "points": [
+          "Q4 MX/NW sales were KRW 29.3T (-14% QoQ, +13% YoY) with operating profit of KRW 1.9T; Q4 smartphone shipments were ~60M units with ASP of $244 (tablets ~6M).",
+          "Q1 2026: expects smartphone shipments and ASP to increase with new model launches; strategy centers on Galaxy S26 and \"agentic AI\" experiences while offsetting component cost inflation through supply stability and efficiency.",
+          "2026: expects modest smartphone revenue growth with flat volumes; continues focus on flagship mix, foldables (including trifold), and XR initiatives while managing industry-wide cost pressure."
+        ]
+      },
+      {
+        "title": "Visual Display (VD), Digital Appliances (DA) and Harman",
+        "points": [
+          "Q4 VD/DA sales were KRW 14.8T (+6% QoQ) with operating loss of KRW (0.6)T; TV profitability stayed pressured by intense competition, while appliances were pressured by seasonality and U.S. tariffs.",
+          "Q4 Harman sales were KRW 4.6T (+16% QoQ) with operating profit of KRW 0.3T; management highlighted automotive momentum and new consumer audio models for peak season.",
+          "2026: VD targets replacement demand supported by global sports events, expands premium lineup (Micro RGB/Micro LED) and services (Samsung TV Plus, ads); DA pushes AI products plus B2B/D2C/subscription and HVAC growth via FlaktGroup synergies."
+        ]
+      }
+    ],
+    "metrics": {
+      "numbers": [
+        {
+          "label": "Q4 2025 revenue",
+          "value": "KRW 93.8T",
+          "note": "+9% QoQ, +24% YoY"
+        },
+        {
+          "label": "Q4 2025 operating profit",
+          "value": "KRW 20.1T",
+          "note": "21.4% margin (vs KRW 12.2T in Q3 2025)"
+        },
+        {
+          "label": "Q4 2025 net profit",
+          "value": "KRW 19.6T",
+          "note": "EPS KRW 2,909 (common)"
+        },
+        {
+          "label": "FY2025 revenue",
+          "value": "KRW 333.6T",
+          "note": "+11% YoY"
+        },
+        {
+          "label": "FY2025 operating profit",
+          "value": "KRW 43.6T",
+          "note": "+33% YoY"
+        },
+        {
+          "label": "Q4 DS sales / operating profit",
+          "value": "KRW 44.0T / KRW 16.4T",
+          "note": "sales +33% QoQ, +46% YoY"
+        },
+        {
+          "label": "Q4 Memory sales",
+          "value": "KRW 37.1T",
+          "note": "+39% QoQ, +62% YoY"
+        },
+        {
+          "label": "Q4 DX sales / operating profit",
+          "value": "KRW 44.3T / KRW 1.3T",
+          "note": "sales -8% QoQ, +9% YoY"
+        },
+        {
+          "label": "Q4 MX/NW sales / operating profit",
+          "value": "KRW 29.3T / KRW 1.9T",
+          "note": "sales -14% QoQ, +13% YoY"
+        },
+        {
+          "label": "Q4 VD/DA sales / operating profit",
+          "value": "KRW 14.8T / KRW (0.6)T",
+          "note": "competition and tariffs pressured profitability"
+        },
+        {
+          "label": "CapEx (Q4 / FY2025)",
+          "value": "KRW 20.4T / KRW 52.7T",
+          "note": "Q4 DS capex KRW 19.0T"
+        },
+        {
+          "label": "R&D (Q4 / FY2025)",
+          "value": "KRW 10.9T / KRW 37.7T",
+          "note": "FY record"
+        },
+        {
+          "label": "Net cash (FY2025 end)",
+          "value": "KRW 100.6T",
+          "note": "cash KRW 125.8T; debt KRW 25.2T"
+        }
+      ],
+      "guidance": [
+        {
+          "label": "Memory (Q1 2026)",
+          "value": "DRAM bit shipments low single-digit QoQ; NAND bit shipments up mid-single-digit QoQ",
+          "note": "mix stays focused on AI/server demand"
+        },
+        {
+          "label": "HBM4 / HBM4E",
+          "value": "HBM4 shipments start Feb 2026; HBM4E sampling around mid-2026",
+          "note": "2026 HBM sales expected >3x YoY; capacity fully booked"
+        },
+        {
+          "label": "Foundry roadmap",
+          "value": "2nd-gen 2nm mass production targeted for 2H26; 1.4nm targeted for 2029",
+          "note": "expects 2nm project awards +130% YoY (HPC/AI-led)"
+        },
+        {
+          "label": "MX (Q1 2026 / 2026)",
+          "value": "Q1 smartphone shipments and ASP expected to rise with new models; 2026 smartphone revenue modest with flat volumes",
+          "note": "focus on Galaxy S26, foldables, and cost efficiency"
+        },
+        {
+          "label": "VD/DA (2026)",
+          "value": "Premium/AI lineup refresh plus service monetization; DA expands AI products and mitigates tariffs",
+          "note": "sports events support replacement demand; HVAC growth via FlaktGroup"
+        },
+        {
+          "label": "Shareholder returns (FY2025)",
+          "value": "Regular dividends KRW 9.8T plus additional dividend KRW 1.3T",
+          "note": "KRW 6.6T of acquired shares to be canceled; schedule to be disclosed in Q1 2026"
+        }
+      ]
+    },
+    "notes": [
+      {
+        "title": "Cash flow, balance sheet, and capital return",
+        "points": [
+          "FY2025 operating cash flow was KRW 85.3T; purchase of PP&E was KRW 47.5T (cash flow basis).",
+          "FY2025 treasury stock acquisition was KRW 8.2T and dividends paid were KRW 9.9T.",
+          "Cash at FY2025 end was KRW 125.8T with net cash of KRW 100.6T; free cash flow was ~KRW 36.5T."
+        ]
+      },
+      {
+        "title": "Sustainability highlights",
+        "points": [
+          "Developed and deployed a helium reuse system for semiconductor manufacturing, reducing annual consumption by ~4.7 tons and achieving ~19% reuse rate on applied lines.",
+          "SmartThings AI energy saving mode validation across ~187,000 high-efficiency washing machines in 126 countries confirmed ~5.02 GWh energy savings over one year."
+        ]
+      }
+    ]
+  },
+  "qna": {
+    "themes": [
+      {
+        "title": "Memory pricing, bit growth, and 2026 mix",
+        "points": [
+          "DRAM ASP increased ~40% QoQ and NAND ASP increased mid-20% QoQ on higher market pricing and server-heavy mix; server SSD sales mix rose ~10 points QoQ.",
+          "Samsung expects tight undersupply across HBM, conventional DRAM, and NAND, with multi-year supply requests increasing; mix may temporarily tilt toward server DDR versus HBM for profitability, while maintaining flexibility longer term."
+        ]
+      },
+      {
+        "title": "HBM4 roadmap and advanced packaging",
+        "points": [
+          "HBM4 entered final qualification phase, with stable full-scale production and shipments starting in February; capacity for 2026 is fully booked and HBM sales are expected to increase by more than 3x YoY.",
+          "HBM4E: standard sampling planned around mid-2026 and custom HBM products planned in 2H26; Samsung indicated limited near-term demand for 16-high HBM3E/HBM4 as it targets 12-high HBM4E sampling, while progressing hybrid copper bonding (HCB) for selective commercialization."
+        ]
+      },
+      {
+        "title": "Foundry advanced-node pipeline and turnkey model",
+        "points": [
+          "2nd-gen 2nm development is tracking to yield/performance targets with mass production targeted for 2H26; 1.4nm is targeted for 2029 with PDK v1.0 planned for 2H27.",
+          "Management expects 2nm project awards to increase by 130% YoY (HPC/AI-led) and highlighted a \"one-stop\" turnkey model integrating design, foundry, memory, and advanced packaging."
+        ]
+      },
+      {
+        "title": "Shareholder returns and treasury share cancellations",
+        "points": [
+          "Samsung reported FY2025 free cash flow of ~KRW 36.5T; 50% of FCF (KRW 18.3T) is the basis for shareholder returns under its policy.",
+          "Samsung plans KRW 9.8T in regular dividends plus KRW 1.3T additional dividends; of KRW 8.2T shares acquired in 2025, KRW 6.6T (excluding employee-related) is slated for cancellation with schedule disclosure in Q1 2026."
+        ]
+      }
+    ],
+    "top_questions": [
+      {
+        "question": "How did DRAM and NAND pricing/bit shipments trend in Q4?",
+        "summary": "Samsung said DRAM ASP rose ~40% QoQ and NAND ASP rose mid-20% QoQ on higher pricing and server mix; NAND bit growth declined QoQ due to base effects and process migration, while server SSD mix rose ~10 points QoQ."
+      },
+      {
+        "question": "What is the status of HBM4 qualification and packaging (HCB/16-high)?",
+        "summary": "HBM4 is in stable full-scale production with shipments starting in February; Samsung expects limited near-term demand for 16-high HBM3E/HBM4 while preparing HBM4E sampling (12-high) and selective HCB commercialization."
+      },
+      {
+        "question": "What is Samsung's 2026 HBM sales outlook?",
+        "summary": "Samsung expects 2026 HBM sales to increase by more than threefold year-on-year, with production-ready capacity fully booked and demand still exceeding supply."
+      },
+      {
+        "question": "How is the foundry node roadmap progressing (2nm/1.4nm) and what is the customer pipeline?",
+        "summary": "Samsung said 2nd-gen 2nm is tracking to targets with mass production targeted for 2H26; 1.4nm is targeted for 2029, and it expects 2nm project awards to rise 130% YoY, driven by HPC/AI demand."
+      },
+      {
+        "question": "What is the shareholder return pool and what happens to repurchased shares?",
+        "summary": "Samsung reported ~KRW 36.5T FY2025 free cash flow (KRW 18.3T return base) and plans KRW 9.8T regular dividends plus KRW 1.3T additional; KRW 6.6T of acquired shares is slated for cancellation with Q1 2026 schedule disclosure."
+      }
+    ]
+  },
+  "vdc_angle": {
+    "implications": [
+      "VDC EMOB frontline mobility surveys show shared-device operations are common (75.6% of orgs) and users run 5.4 apps on average (up from 2.9 in 2018); Samsung's push toward on-device \"agentic AI\" and Knox feature expansion should be evaluated through shared-user identity, session control, and app authentication friction (not just consumer UX).",
+      "Samsung explicitly called out mobile BOM pressure from rising memory prices; this reinforces a 2026 EMOB risk of elongated refresh cycles, higher device TCO, and tighter supply for enterprise-grade Android handhelds/tablets that compete for components with AI/server demand."
+    ],
+    "competitive_notes": [
+      "In EMOB, rugged-specialist OEMs (e.g., Zebra, Honeywell) retain differentiation via purpose-built scanning, hot-swap power, and long lifecycle support; Samsung's leverage is scale plus Knox security and AI roadmap that can cascade into enterprise SKUs.",
+      "Android remains the dominant OS for frontline mobility; Samsung can lean into Android Enterprise/Knox + EMM partnerships to defend share and reduce management friction in mixed fleets."
+    ],
+    "forecast_hooks": [
+      "Watch for Knox and Android Enterprise program updates tied to Galaxy S26 and foldables that reduce shared-device operational burden (VDC survey: 36.2% still use manual check-in/out; 24% share accounts for temp/seasonal work).",
+      "Track memory pricing/allocation dynamics into 1H26 (Samsung noted customers securing supply) for impact on enterprise device BOMs, lead times, and service pricing.",
+      "Monitor foundry \"one-stop\" turnkey traction (logic + memory + packaging) as a potential differentiator for edge AI/industrial silicon roadmaps."
+    ]
+  },
+  "follow_ups": {
+    "action_items": [
+      "Refresh 2026 connected-worker device cost assumptions for memory-driven BOM pressure and constrained supply.",
+      "Track enterprise-facing Knox / Android Enterprise announcements tied to Galaxy S26 (shared-device workflows, compliance, and manageability)."
+    ],
+    "open_questions": [
+      "How quickly will \"agentic AI\" features become usable in shared-device and compliance-heavy frontline environments?",
+      "Will memory price inflation meaningfully delay enterprise/rugged refresh cycles or shift mix toward service-based device programs?"
+    ],
+    "watch_next_quarter": [
+      "DS: HBM4 shipment ramp (Feb start), pricing/mix, and how quickly Samsung expands supply capacity versus demand.",
+      "DX: profitability through Galaxy S26 launch and whether VD/DA losses narrow amid tariffs and competition."
+    ]
+  }
 }
