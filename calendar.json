@@ -335,15 +335,6 @@
       "url": "https://web.quartr.com/link/companies/15496/events/420279/report?rp=0"
     },
     {
-      "id": "event_402714",
-      "title": "VusionGroup - H2 2025",
-      "date": "2026-02-26",
-      "start": "2026-02-26T00:00:00.000Z",
-      "end": null,
-      "all_day": true,
-      "url": "https://web.quartr.com/link/companies/16423/events/402714/report?rp=0"
-    },
-    {
       "id": "event_409956",
       "title": "Okta - Q4 2026",
       "date": "2026-02-25",
@@ -524,15 +515,6 @@
       "url": "https://web.quartr.com/link/companies/4502/events/411028"
     },
     {
-      "id": "event_531898",
-      "title": "Emerson Electric - AGM 2026",
-      "date": "2026-02-03",
-      "start": "2026-02-03T16:00:00.000Z",
-      "end": "2026-02-03T17:00:00.000Z",
-      "all_day": false,
-      "url": "https://web.quartr.com/link/companies/4502/events/531898"
-    },
-    {
       "id": "event_405387",
       "title": "Kyocera - Q3 2026",
       "date": "2026-02-03",
@@ -612,51 +594,6 @@
       "end": "2026-01-21T17:00:00.000Z",
       "all_day": false,
       "url": "https://web.quartr.com/link/companies/6273/events/398232"
-    },
-    {
-      "id": "event_541304",
-      "title": "Impinj - 28th Annual Needham Growth Conference Virtual",
-      "date": "2026-01-14",
-      "start": "2026-01-14T16:45:00.000Z",
-      "end": "2026-01-14T17:45:00.000Z",
-      "all_day": false,
-      "url": "https://web.quartr.com/link/companies/10694/events/541304"
-    },
-    {
-      "id": "event_539736",
-      "title": "NCR Voyix - 28th Annual ICR Conference 2026",
-      "date": "2026-01-13",
-      "start": "2026-01-13T18:30:00.000Z",
-      "end": "2026-01-13T19:30:00.000Z",
-      "all_day": false,
-      "url": "https://web.quartr.com/link/companies/10653/events/539736"
-    },
-    {
-      "id": "event_537701",
-      "title": "Mettler-Toledo International - 44th Annual J.P. Morgan Healthcare Conference",
-      "date": "2026-01-13",
-      "start": "2026-01-13T00:30:00.000Z",
-      "end": "2026-01-13T01:30:00.000Z",
-      "all_day": false,
-      "url": "https://web.quartr.com/link/companies/10380/events/537701"
-    },
-    {
-      "id": "event_537047",
-      "title": "Okta - 28th Annual Needham Growth Conference",
-      "date": "2026-01-08",
-      "start": "2026-01-08T17:45:00.000Z",
-      "end": "2026-01-08T18:45:00.000Z",
-      "all_day": false,
-      "url": "https://web.quartr.com/link/companies/3870/events/537047"
-    },
-    {
-      "id": "event_548142",
-      "title": "Motorola Solutions - Investor presentation",
-      "date": "2026-01-06",
-      "start": "2026-01-06T00:00:00.000Z",
-      "end": null,
-      "all_day": true,
-      "url": "https://web.quartr.com/link/companies/10230/events/548142/report?rp=0"
     }
   ]
 }

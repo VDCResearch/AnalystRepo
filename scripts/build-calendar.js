@@ -155,6 +155,8 @@ const parseIcsEvents = (icsText) => {
     if (prop.name === "DTEND") current.dtend = prop;
   });
 
+  const isQuarterSummary = (summary) => / - Q[1-4]\s+\d{4}\b/i.test(String(summary || ""));
+
   const normalized = events.map((raw) => {
     const start = parseIcsDate(raw.dtstart);
     if (!start) return null;
@@ -172,7 +174,7 @@ const parseIcsEvents = (icsText) => {
       all_day: start.allDay,
       url
     };
-  }).filter(Boolean);
+  }).filter(Boolean).filter((event) => isQuarterSummary(event.title));
 
   normalized.sort((a, b) => (b.start || "").localeCompare(a.start || ""));
   return normalized;
@@ -201,4 +203,3 @@ build().catch((error) => {
   console.error(error);
   process.exitCode = 1;
 });
-
