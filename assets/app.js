@@ -199,7 +199,13 @@ const buildEventsForYear = (year) => {
     });
 
     map.forEach((events) => {
-      events.sort((a, b) => a.company.localeCompare(b.company));
+      events.sort((a, b) => {
+        const timeDiff = a.date - b.date;
+        if (timeDiff !== 0) {
+          return timeDiff;
+        }
+        return a.company.localeCompare(b.company);
+      });
     });
 
     calendarState.eventsByYear.set(year, map);
@@ -596,11 +602,16 @@ const setupCalendar = () => {
 
   if (feedEvents.length) {
     calendarState.mode = "feed";
+    const timeFormatter = new Intl.DateTimeFormat("en-US", {
+      hour: "numeric",
+      minute: "2-digit"
+    });
     calendarState.baseEvents = feedEvents.map((event) => {
       const start = event.start ? new Date(event.start) : null;
       if (!start || Number.isNaN(start.getTime())) {
         return null;
       }
+      const timeLabel = event.all_day ? "All day" : timeFormatter.format(start);
       return {
         company: event.title || "Untitled event",
         ticker: "",
@@ -608,7 +619,8 @@ const setupCalendar = () => {
         path: null,
         url: event.url || null,
         date: start,
-        type: "actual"
+        type: "actual",
+        timeLabel
       };
     }).filter(Boolean);
   } else {
