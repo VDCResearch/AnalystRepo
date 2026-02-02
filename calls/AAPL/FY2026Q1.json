@@ -3,10 +3,279 @@
   "ticker": "AAPL",
   "fyq": "FY2026Q1",
   "call_date": "2026-01-29",
-  "tldr": "Upcoming earnings call; date is an estimate and may change.",
+  "tldr": "Apple posted a record December quarter with $143.8B in revenue (+16% YoY) and EPS of $2.84 (+19%), led by iPhone revenue of $85.3B (+23%) and Services revenue of $30.0B (+14%) with gross margin at 48.2%. For the March quarter, Apple guided to +13%-16% revenue growth and 48%-49% gross margin, but comprehends constrained iPhone supply (advanced-node SoC capacity) and rising memory pricing.",
   "bullets": [
-    "Earnings date listed as an estimate; confirm once the company publishes the release.",
-    "Placeholder entry to keep the earnings calendar current.",
-    "Full brief will be added after the call."
-  ]
+    "Record quarter: revenue $143.8B (+16% YoY) and EPS $2.84 (+19%); iPhone set an all-time record ($85.3B, +23%) and Services hit $30.0B (+14%) with installed base surpassing 2.5B active devices.",
+    "Supply and cost: Apple exited the quarter with lean iPhone channel inventory and is in a \"supply chase\"; March-quarter iPhone supply is constrained by advanced-node capacity for SoCs, while memory pricing is expected to be a larger gross-margin headwind in Q2 than in Q1.",
+    "Outlook/capital return: March quarter guide calls for +13%-16% revenue growth and 48%-49% gross margin (services growth similar to Q1); Apple returned ~$32B to shareholders and emphasized Apple Intelligence momentum plus a Google collaboration to advance Apple Foundation Models and a more personalized Siri."
+  ],
+  "participants": [
+    "Suhasini Chandramouli (Director, Investor Relations)",
+    "Tim Cook (CEO)",
+    "Kevan Parekh (CFO)"
+  ],
+  "themes": [
+    "Enterprise device refresh cycle evolving",
+    "Services and software attach expanding",
+    "Supply chain diversification improving resilience",
+    "Pricing and cost pressure shaping margins",
+    "AI-driven infrastructure demand scaling"
+  ],
+  "deep_dive": {
+    "segments": [
+      {
+        "title": "Financial snapshot and margin drivers",
+        "points": [
+          "Revenue was $143.8B (+16% YoY) with record EPS of $2.84 (+19%); net income was $42.1B and operating cash flow was a record $53.9B.",
+          "Gross margin was 48.2% (products 40.7%, services 76.5%), aided by favorable mix and leverage; operating expenses were $18.4B (+19% YoY) driven by higher R&D investment."
+        ]
+      },
+      {
+        "title": "iPhone: record demand + supply chase",
+        "points": [
+          "iPhone revenue was a record $85.3B (+23% YoY) with strength across geographies, record upgraders, and strong switcher growth; management said channel inventory was lean exiting the quarter.",
+          "Apple expects constrained iPhone supply in the March quarter, driven by limited availability of advanced-node capacity for iPhone SoCs; management did not commit to a timeline for supply/demand rebalancing."
+        ]
+      },
+      {
+        "title": "Services: broad-based growth + new monetization levers",
+        "points": [
+          "Services revenue was a record $30.0B (+14% YoY) with all-time records cited in advertising, cloud services, music, and payment services; transacting and paid accounts reached all-time highs.",
+          "Management highlighted incremental advertising opportunity via additional search ad inventory in the App Store and product/feature expansion in Wallet (e.g., Digital ID)."
+        ]
+      },
+      {
+        "title": "Mac, iPad, and Wearables",
+        "points": [
+          "Mac revenue was $8.4B (-7% YoY) on a difficult compare versus year-ago launches; management said the Mac install base reached an all-time high, with nearly half of buyers new to Mac.",
+          "iPad revenue was $8.6B (+6% YoY) with over half of purchasers new to iPad and an all-time high install base; Wearables/Home/Accessories revenue was $11.5B (-2% YoY), with management citing constraints on AirPods Pro 3."
+        ]
+      },
+      {
+        "title": "Geography: Greater China rebound + India growth",
+        "points": [
+          "Apple cited all-time revenue records in the Americas, Europe, Japan, and Rest of Asia Pacific; Greater China revenue grew 38% YoY, led by iPhone and record store traffic growth.",
+          "India was called out as a record quarter across iPhone/Mac/iPad and services, with management emphasizing modest market share and a growing installed base as a long runway."
+        ]
+      },
+      {
+        "title": "Apple Intelligence + Google collaboration",
+        "points": [
+          "Management said Apple Intelligence engagement is strong among capable devices and reiterated a privacy-forward approach spanning on-device processing and Private Cloud Compute.",
+          "Apple announced a collaboration with Google to advance the next generation of Apple Foundation Models, intended to support future Apple Intelligence features including a more personalized Siri later in 2026."
+        ]
+      },
+      {
+        "title": "Enterprise adoption and commercial momentum",
+        "points": [
+          "Apple highlighted ongoing enterprise adoption of Apple devices, citing Snowflake deploying over 9,000 Macs company-wide and AstraZeneca rolling out over 5,000 iPad Pros to its pharmaceutical sales team.",
+          "Management also cited expansion of mixed Apple fleets in retail (e.g., Mexico-based Coppel adding MacBook Air alongside a growing iPad deployment), positioning Apple Silicon and Apple Intelligence as productivity and security enablers."
+        ]
+      }
+    ],
+    "metrics": {
+      "numbers": [
+        {
+          "label": "Revenue",
+          "value": "$143.8B",
+          "note": "+16% YoY"
+        },
+        {
+          "label": "EPS (diluted)",
+          "value": "$2.84",
+          "note": "+19% YoY"
+        },
+        {
+          "label": "Net income",
+          "value": "$42.1B",
+          "note": "record"
+        },
+        {
+          "label": "Operating cash flow",
+          "value": "$53.9B",
+          "note": "record"
+        },
+        {
+          "label": "Gross margin",
+          "value": "48.2%",
+          "note": "products 40.7%; services 76.5%"
+        },
+        {
+          "label": "iPhone revenue",
+          "value": "$85.3B",
+          "note": "+23% YoY"
+        },
+        {
+          "label": "Services revenue",
+          "value": "$30.0B",
+          "note": "+14% YoY"
+        },
+        {
+          "label": "Greater China revenue",
+          "value": "$25.5B",
+          "note": "+38% YoY"
+        },
+        {
+          "label": "Installed base",
+          "value": ">2.5B",
+          "note": "active devices"
+        },
+        {
+          "label": "Net cash",
+          "value": "$54B",
+          "note": "$145B cash/securities vs $91B total debt"
+        }
+      ],
+      "guidance": [
+        {
+          "label": "March quarter total revenue",
+          "value": "13% - 16%",
+          "note": "YoY; includes constrained iPhone supply"
+        },
+        {
+          "label": "March quarter services revenue",
+          "value": "Similar YoY growth rate to December quarter",
+          "note": "management color"
+        },
+        {
+          "label": "March quarter gross margin",
+          "value": "48% - 49%",
+          "note": "range"
+        },
+        {
+          "label": "March quarter opex",
+          "value": "$18.4B - $18.7B",
+          "note": "range"
+        },
+        {
+          "label": "March quarter OI&E",
+          "value": "~$100M",
+          "note": "excluding MTM of minority investments"
+        },
+        {
+          "label": "March quarter tax rate",
+          "value": "~17.5%",
+          "note": "expected"
+        },
+        {
+          "label": "Dividend",
+          "value": "$0.26",
+          "note": "payable Feb 12, 2026; record Feb 9"
+        }
+      ]
+    },
+    "notes": [
+      {
+        "title": "Supply constraints",
+        "points": [
+          "Management framed March-quarter constraints as advanced-node capacity (e.g., leading-edge process nodes for iPhone SoCs), rather than demand weakness."
+        ]
+      },
+      {
+        "title": "Memory pricing",
+        "points": [
+          "Memory had minimal gross-margin impact in Q1 but is expected to be a bigger headwind in Q2; Apple said market pricing for memory is increasing significantly."
+        ]
+      },
+      {
+        "title": "Tariffs",
+        "points": [
+          "Apple said the ~$1.4B tariff impact assumed for the December quarter landed roughly in that range; March-quarter outlook assumes tariff policies remain as of the call date."
+        ]
+      },
+      {
+        "title": "Capital return",
+        "points": [
+          "Returned nearly $32B to shareholders, including $3.9B in dividends and $25B in share repurchases (93M shares)."
+        ]
+      }
+    ]
+  },
+  "qna": {
+    "themes": [
+      {
+        "title": "iPhone supply constraints and memory inflation",
+        "points": [
+          "Apple tied March-quarter supply constraints to advanced-node SoC capacity and said it is difficult to predict when supply and demand will balance.",
+          "Management expects memory pricing to be a larger headwind in Q2 gross margin than Q1 and said pricing is rising significantly."
+        ]
+      },
+      {
+        "title": "Greater China strength and durability",
+        "points": [
+          "Apple attributed Greater China growth to iPhone 17 lineup strength, strong store traffic, record upgraders, and double-digit switcher growth.",
+          "Management cited continued headroom in non-iPhone categories where many buyers remain new to Mac/iPad/Watch."
+        ]
+      },
+      {
+        "title": "AI strategy and Google partnership",
+        "points": [
+          "Apple emphasized a \"both\" approach to on-device AI and Private Cloud Compute, with privacy as a differentiator.",
+          "Management did not disclose economics of the Google collaboration and avoided detailing specific AI monetization plans."
+        ]
+      },
+      {
+        "title": "Services growth and advertising",
+        "points": [
+          "Management reiterated broad-based services growth and pointed to incremental App Store search ad inventory and other service feature expansion, without breaking out category-level performance.",
+          "When asked about third-party data suggesting slower App Store growth, Apple reiterated record performance but declined to provide detailed segment disclosure."
+        ]
+      }
+    ],
+    "top_questions": [
+      {
+        "question": "How does memory inflation flow through Apple's model and gross margin?",
+        "summary": "Apple said memory had minimal impact on Q1 gross margin but will be more of a headwind in Q2 and is included in the 48%-49% March-quarter guide."
+      },
+      {
+        "question": "What drove Greater China growth and how durable is it?",
+        "summary": "Management cited iPhone 17 lineup strength, strong store traffic growth, record upgraders, and switcher gains; it highlighted continued runway in other categories as many buyers remain new to those products."
+      },
+      {
+        "question": "How long will iPhone supply constraints last?",
+        "summary": "Apple attributed constraints to leading-edge SoC node capacity and said it is difficult to predict when supply and demand will balance."
+      },
+      {
+        "question": "How does Apple plan to monetize AI (Apple Intelligence / Siri)?",
+        "summary": "Management framed AI as value creation across products and services, reiterated disciplined investment, and did not outline a specific monetization model or timeline."
+      },
+      {
+        "question": "What are the levers to expand advertising beyond the App Store?",
+        "summary": "Apple pointed to additional App Store search ad inventory and said it will continue looking for ways to add user value and expand services opportunities, without committing to specific new surfaces."
+      }
+    ]
+  },
+  "vdc_angle": {
+    "implications": [
+      "Apple's emphasis on privacy-forward AI (on-device + Private Cloud Compute) is a strong fit for regulated and security-sensitive enterprise deployments, but near-term adoption will depend on whether Apple Intelligence features can be governed cleanly via MDM/identity policy in shared and frontline workflows.",
+      "The combination of iPhone supply constraints and rising memory costs could extend enterprise refresh cycles and increase interest in leasing/device-as-a-service; Apple may still gain share if it can secure leading-edge silicon capacity better than Android OEMs.",
+      "Record Services growth and incremental App Store ad inventory highlight a continuing mix shift toward higher-margin recurring revenue, reinforcing margin resilience even as hardware component costs rise."
+    ],
+    "competitive_notes": [
+      "Samsung's latest quarter similarly flagged memory price increases and supply tightness as a 2026 profitability headwind, suggesting cross-industry BOM inflation rather than an Apple-specific issue.",
+      "If Apple holds pricing while competitors raise device ASPs to offset memory costs, Apple could see share tailwinds; if Apple uses pricing as a lever, watch for elasticity impacts in emerging markets."
+    ],
+    "forecast_hooks": [
+      "Track iPhone lead times and channel inventory commentary through the March quarter to gauge when supply catches demand.",
+      "Monitor Services growth composition (ads/payments/cloud) and any incremental ad inventory expansion as a margin lever.",
+      "Watch for enterprise-facing Apple Intelligence controls and timing of the Google-collaboration Siri upgrade; adoption will hinge on governance, privacy posture, and workflow fit."
+    ]
+  },
+  "follow_ups": {
+    "action_items": [
+      "Update iPhone shipment assumptions for March quarter to reflect Apple-reported supply constraints and validate with lead-time/channel checks.",
+      "Cross-check memory pricing commentary and component cost inflation signals across Apple and Samsung to inform device cost/margin sensitivity assumptions.",
+      "Track any announced enterprise governance controls for Apple Intelligence (MDM, identity, logging/retention) as prerequisites for scaled deployment."
+    ],
+    "open_questions": [
+      "When will leading-edge node capacity constraints ease for iPhone SoCs, and does Apple prioritize supply to specific geographies or channels?",
+      "How much of the installed base is Apple-Intelligence-capable today, and what is the adoption curve through 2026?",
+      "Will Apple add new paid tiers or pricing levers tied to Apple Intelligence, or keep monetization indirect through hardware/services attach?"
+    ],
+    "watch_next_quarter": [
+      "March quarter revenue growth versus the 13%-16% guide, and evidence of iPhone supply/demand rebalance.",
+      "Gross margin execution at 48%-49% despite memory price inflation and seasonality.",
+      "Greater China revenue trajectory after the +38% rebound quarter."
+    ]
+  }
 }
