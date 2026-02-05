@@ -44,10 +44,29 @@ const FILTER_DEFAULTS = Object.freeze({
 });
 
 const SORT_OPTIONS = new Set(["date_desc", "date_asc", "company_asc", "company_desc"]);
+const TAG_TONE_COUNT = 8;
 
 const normalize = (value) => (value || "").toLowerCase();
 
 const uniqueSorted = (items) => Array.from(new Set(items.filter(Boolean))).sort();
+
+const hashText = (value) => {
+  const text = String(value || "");
+  let hash = 0;
+  for (let i = 0; i < text.length; i += 1) {
+    hash = ((hash << 5) - hash + text.charCodeAt(i)) >>> 0;
+  }
+  return hash;
+};
+
+const getTagTone = (value) => hashText(normalize(value)) % TAG_TONE_COUNT;
+
+const renderThemeTags = (themes) => {
+  return (themes || [])
+    .slice(0, 4)
+    .map((theme) => `<span class="tag tone-${getTagTone(theme)}">${theme}</span>`)
+    .join("");
+};
 
 const parseDate = (value) => {
   if (!value) {
@@ -758,7 +777,7 @@ const renderResults = () => {
     card.style.animationDelay = `${Math.min(index * 0.05, 0.3)}s`;
 
     const link = `call.html?path=${encodeURIComponent(call.path)}`;
-    const themes = (call.themes || []).slice(0, 4).map((theme) => `<span class="tag">${theme}</span>`).join("");
+    const themes = renderThemeTags(call.themes);
 
     card.innerHTML = `
       ${call.incomplete ? '<span class="incomplete">Incomplete</span>' : ""}

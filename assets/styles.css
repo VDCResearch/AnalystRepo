@@ -548,12 +548,60 @@ main {
 
 .tag {
   border-radius: 999px;
-  border: 1px solid #c8d7eb;
-  background: var(--accent-soft);
-  color: #1f56cc;
+  border: 1px solid #d4deeb;
+  background: #f1f5fb;
+  color: #34516f;
   padding: 4px 8px;
   font-size: 0.7rem;
   font-weight: 600;
+}
+
+.tag.tone-0 {
+  border-color: #c8d7eb;
+  background: #e9f0ff;
+  color: #1f56cc;
+}
+
+.tag.tone-1 {
+  border-color: #bfe7ce;
+  background: #e7f8ef;
+  color: #1f7a4b;
+}
+
+.tag.tone-2 {
+  border-color: #f1d99b;
+  background: #fff6dd;
+  color: #8c650b;
+}
+
+.tag.tone-3 {
+  border-color: #f0ca9f;
+  background: #fff1e4;
+  color: #9a4e1b;
+}
+
+.tag.tone-4 {
+  border-color: #f2c2cb;
+  background: #ffecef;
+  color: #a63043;
+}
+
+.tag.tone-5 {
+  border-color: #bfe6e6;
+  background: #e6f8f8;
+  color: #146a73;
+}
+
+.tag.tone-6 {
+  border-color: #d8ccfb;
+  background: #f1ecff;
+  color: #5d3ea8;
+}
+
+.tag.tone-7 {
+  border-color: #cfd9e8;
+  background: #eef2f8;
+  color: #334a68;
 }
 
 .card .incomplete {
