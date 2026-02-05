@@ -15,10 +15,19 @@ const tabPanels = document.getElementById("tabPanels");
 const toc = document.getElementById("toc");
 const tocMeta = document.getElementById("tocMeta");
 const callNav = document.getElementById("callNav");
+const expandSectionsButton = document.getElementById("expandSections");
+const collapseSectionsButton = document.getElementById("collapseSections");
+const backToTopButton = document.getElementById("backToTop");
 
 const emailShare = document.getElementById("emailShare");
 const copyBriefButton = document.getElementById("copyBrief");
 const copyAllButton = document.getElementById("copyAll");
+
+const tabState = {
+  activeKey: tabs[0].key,
+  sectionSlugCounts: new Map(),
+  sectionObserver: null
+};
 
 const getQuery = () => {
   const params = new URLSearchParams(window.location.search);
@@ -31,23 +40,46 @@ const getQuery = () => {
 
 const slugify = (value) => value.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
 
+const createUniqueSectionId = (rawId) => {
+  const base = slugify(rawId || "section") || "section";
+  const current = tabState.sectionSlugCounts.get(base) || 0;
+  tabState.sectionSlugCounts.set(base, current + 1);
+  return current === 0 ? base : `${base}-${current + 1}`;
+};
+
+const getInitialTab = () => {
+  const params = new URLSearchParams(window.location.search);
+  const requested = params.get("tab");
+  if (tabs.some((tab) => tab.key === requested)) {
+    return requested;
+  }
+  return tabs[0].key;
+};
+
+const updateSectionAria = (section, header, toggle) => {
+  const collapsed = section.classList.contains("collapsed");
+  header.setAttribute("aria-expanded", collapsed ? "false" : "true");
+  toggle.textContent = collapsed ? "+" : "-";
+};
+
 const createSection = (title, bodyHtml, options = {}) => {
   const section = document.createElement("section");
   section.className = "section";
   if (options.collapsed) {
     section.classList.add("collapsed");
   }
-  section.id = options.id || slugify(title);
+  section.id = createUniqueSectionId(options.id || title);
 
   const header = document.createElement("div");
   header.className = "section-header";
+  header.setAttribute("role", "button");
+  header.setAttribute("tabindex", "0");
 
   const heading = document.createElement(options.level || "h3");
   heading.textContent = title;
 
   const toggle = document.createElement("span");
   toggle.className = "section-toggle";
-  toggle.textContent = options.collapsed ? "+" : "-";
 
   header.appendChild(heading);
   header.appendChild(toggle);
@@ -56,13 +88,21 @@ const createSection = (title, bodyHtml, options = {}) => {
   content.className = "section-content";
   content.innerHTML = bodyHtml;
 
-  header.addEventListener("click", () => {
+  const onToggleSection = () => {
     section.classList.toggle("collapsed");
-    toggle.textContent = section.classList.contains("collapsed") ? "+" : "-";
+    updateSectionAria(section, header, toggle);
+  };
+  header.addEventListener("click", onToggleSection);
+  header.addEventListener("keydown", (event) => {
+    if (event.key === "Enter" || event.key === " ") {
+      event.preventDefault();
+      onToggleSection();
+    }
   });
 
   section.appendChild(header);
   section.appendChild(content);
+  updateSectionAria(section, header, toggle);
 
   return section;
 };
@@ -186,12 +226,17 @@ const buildFollowUps = (data) => {
 const buildTabPanels = (data) => {
   tabPanels.innerHTML = "";
   tabBar.innerHTML = "";
+  tabBar.setAttribute("role", "tablist");
+  tabState.sectionSlugCounts.clear();
 
   tabs.forEach((tab, index) => {
     const button = document.createElement("button");
     button.className = "tab-button";
     button.textContent = tab.label;
     button.dataset.tab = tab.key;
+    button.type = "button";
+    button.setAttribute("role", "tab");
+    button.setAttribute("aria-controls", `panel-${tab.key}`);
     if (index === 0) {
       button.classList.add("active");
     }
@@ -200,6 +245,8 @@ const buildTabPanels = (data) => {
     const panel = document.createElement("div");
     panel.className = "tab-panel";
     panel.dataset.tab = tab.key;
+    panel.id = `panel-${tab.key}`;
+    panel.setAttribute("role", "tabpanel");
     if (index === 0) {
       panel.classList.add("active");
     }
@@ -223,6 +270,56 @@ const buildTabPanels = (data) => {
   });
 };
 
+const clearSectionObserver = () => {
+  if (!tabState.sectionObserver) {
+    return;
+  }
+  tabState.sectionObserver.disconnect();
+  tabState.sectionObserver = null;
+};
+
+const highlightTocSection = (sectionId) => {
+  Array.from(toc.querySelectorAll("a")).forEach((link) => {
+    link.classList.toggle("active", link.dataset.sectionId === sectionId);
+  });
+};
+
+const observeVisibleSections = (panel) => {
+  clearSectionObserver();
+  if (typeof IntersectionObserver === "undefined") {
+    return;
+  }
+  const sections = Array.from(panel.querySelectorAll(".section"));
+  if (!sections.length) {
+    return;
+  }
+
+  tabState.sectionObserver = new IntersectionObserver((entries) => {
+    const visible = entries
+      .filter((entry) => entry.isIntersecting)
+      .sort((left, right) => right.intersectionRatio - left.intersectionRatio);
+    if (visible.length) {
+      highlightTocSection(visible[0].target.id);
+    }
+  }, {
+    root: null,
+    rootMargin: "-26% 0px -58% 0px",
+    threshold: [0.2, 0.5, 0.8]
+  });
+
+  sections.forEach((section) => tabState.sectionObserver.observe(section));
+};
+
+const updateSectionControls = (panel) => {
+  const hasSections = !!panel && panel.querySelectorAll(".section").length > 0;
+  if (expandSectionsButton) {
+    expandSectionsButton.disabled = !hasSections;
+  }
+  if (collapseSectionsButton) {
+    collapseSectionsButton.disabled = !hasSections;
+  }
+};
+
 const updateToc = (panel) => {
   const sections = Array.from(panel.querySelectorAll(".section"));
   toc.innerHTML = "";
@@ -230,6 +327,7 @@ const updateToc = (panel) => {
   if (!sections.length) {
     toc.innerHTML = "<div>No sections yet.</div>";
     tocMeta.textContent = "";
+    updateSectionControls(null);
     return;
   }
 
@@ -237,16 +335,36 @@ const updateToc = (panel) => {
     const heading = section.querySelector(".section-header h3, .section-header h4");
     const link = document.createElement("a");
     link.href = `#${section.id}`;
+    link.dataset.sectionId = section.id;
     link.textContent = heading ? heading.textContent : section.id;
     toc.appendChild(link);
   });
 
   tocMeta.textContent = `${sections.length} sections`;
+  highlightTocSection(sections[0].id);
+  observeVisibleSections(panel);
+  updateSectionControls(panel);
 };
 
-const setActiveTab = (key) => {
+const syncTabToUrl = (key) => {
+  const params = new URLSearchParams(window.location.search);
+  if (key && key !== tabs[0].key) {
+    params.set("tab", key);
+  } else {
+    params.delete("tab");
+  }
+  const query = params.toString();
+  const target = `${window.location.pathname}${query ? `?${query}` : ""}`;
+  window.history.replaceState(null, "", target);
+};
+
+const setActiveTab = (key, options = {}) => {
+  const { syncUrl = true } = options;
+  tabState.activeKey = key;
   tabBar.querySelectorAll(".tab-button").forEach((button) => {
-    button.classList.toggle("active", button.dataset.tab === key);
+    const isActive = button.dataset.tab === key;
+    button.classList.toggle("active", isActive);
+    button.setAttribute("aria-selected", isActive ? "true" : "false");
   });
   tabPanels.querySelectorAll(".tab-panel").forEach((panel) => {
     panel.classList.toggle("active", panel.dataset.tab === key);
@@ -254,6 +372,9 @@ const setActiveTab = (key) => {
   const activePanel = tabPanels.querySelector(`.tab-panel[data-tab="${key}"]`);
   if (activePanel) {
     updateToc(activePanel);
+  }
+  if (syncUrl) {
+    syncTabToUrl(key);
   }
 };
 
@@ -263,6 +384,64 @@ const bindTabEvents = () => {
       setActiveTab(event.target.dataset.tab);
     }
   });
+
+  tabBar.addEventListener("keydown", (event) => {
+    if (!event.target.matches(".tab-button")) {
+      return;
+    }
+    const buttons = Array.from(tabBar.querySelectorAll(".tab-button"));
+    const currentIndex = buttons.indexOf(event.target);
+    if (currentIndex === -1) {
+      return;
+    }
+    if (event.key === "ArrowRight") {
+      event.preventDefault();
+      const next = buttons[(currentIndex + 1) % buttons.length];
+      next.focus();
+      setActiveTab(next.dataset.tab);
+      return;
+    }
+    if (event.key === "ArrowLeft") {
+      event.preventDefault();
+      const prev = buttons[(currentIndex - 1 + buttons.length) % buttons.length];
+      prev.focus();
+      setActiveTab(prev.dataset.tab);
+    }
+  });
+};
+
+const setActivePanelSectionState = (collapsed) => {
+  const panel = tabPanels.querySelector(`.tab-panel[data-tab="${tabState.activeKey}"]`);
+  if (!panel) {
+    return;
+  }
+
+  panel.querySelectorAll(".section").forEach((section) => {
+    section.classList.toggle("collapsed", collapsed);
+    const header = section.querySelector(".section-header");
+    const toggle = section.querySelector(".section-toggle");
+    if (header && toggle) {
+      updateSectionAria(section, header, toggle);
+    }
+  });
+};
+
+const bindSectionControlEvents = () => {
+  if (expandSectionsButton) {
+    expandSectionsButton.addEventListener("click", () => {
+      setActivePanelSectionState(false);
+    });
+  }
+  if (collapseSectionsButton) {
+    collapseSectionsButton.addEventListener("click", () => {
+      setActivePanelSectionState(true);
+    });
+  }
+  if (backToTopButton) {
+    backToTopButton.addEventListener("click", () => {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+  }
 };
 
 const buildMeta = (data) => {
@@ -289,7 +468,33 @@ const buildMeta = (data) => {
     badge.className = "badge";
     badge.textContent = "Incomplete";
     callBadges.appendChild(badge);
+    if (data.missing_sections && data.missing_sections.length) {
+      const missing = document.createElement("span");
+      missing.className = "badge";
+      missing.textContent = `${data.missing_sections.length} gaps`;
+      missing.title = `Missing coverage: ${data.missing_sections.join(", ")}`;
+      callBadges.appendChild(missing);
+    }
   }
+};
+
+const flashButtonText = (button, text) => {
+  if (!button) {
+    return;
+  }
+  const original = button.dataset.defaultLabel || button.textContent;
+  button.dataset.defaultLabel = original;
+  button.textContent = text;
+  setTimeout(() => {
+    button.textContent = original;
+  }, 1500);
+};
+
+const copyToClipboard = async (text) => {
+  if (!navigator.clipboard || !navigator.clipboard.writeText) {
+    throw new Error("Clipboard API unavailable");
+  }
+  await navigator.clipboard.writeText(text);
 };
 
 const buildShare = (data) => {
@@ -314,9 +519,12 @@ const buildShare = (data) => {
       vdcText
     ].filter(Boolean).join("\n\n");
 
-    await navigator.clipboard.writeText(text);
-    copyBriefButton.textContent = "Copied";
-    setTimeout(() => (copyBriefButton.textContent = "Copy brief"), 1500);
+    try {
+      await copyToClipboard(text);
+      flashButtonText(copyBriefButton, "Copied");
+    } catch (error) {
+      flashButtonText(copyBriefButton, "Copy failed");
+    }
   });
 
   copyAllButton.addEventListener("click", async () => {
@@ -373,9 +581,12 @@ const buildShare = (data) => {
       ...(follow.watch_next_quarter || []).map((item) => `- ${item}`)
     ].join("\n"));
 
-    await navigator.clipboard.writeText(sections.filter(Boolean).join("\n\n"));
-    copyAllButton.textContent = "Copied";
-    setTimeout(() => (copyAllButton.textContent = "Copy everything"), 1500);
+    try {
+      await copyToClipboard(sections.filter(Boolean).join("\n\n"));
+      flashButtonText(copyAllButton, "Copied");
+    } catch (error) {
+      flashButtonText(copyAllButton, "Copy failed");
+    }
   });
 };
 
@@ -425,6 +636,7 @@ const checkIncomplete = (data) => {
   const hasFollow = (follow.action_items && follow.action_items.length) || (follow.open_questions && follow.open_questions.length) || (follow.watch_next_quarter && follow.watch_next_quarter.length);
   if (!hasFollow) missing.push("follow-ups");
 
+  data.missing_sections = missing;
   if (missing.length) {
     data.incomplete = true;
   }
@@ -433,6 +645,10 @@ const checkIncomplete = (data) => {
 const init = async () => {
   const query = getQuery();
   const path = query.path || (query.ticker && query.fyq ? `calls/${query.ticker}/${query.fyq}.json` : null);
+  const initialTab = getInitialTab();
+
+  bindSectionControlEvents();
+  window.addEventListener("beforeunload", clearSectionObserver);
 
   if (!path) {
     callTitle.textContent = "Missing call path";
@@ -447,7 +663,7 @@ const init = async () => {
     buildMeta(data);
     buildTabPanels(data);
     bindTabEvents();
-    setActiveTab("snapshot");
+    setActiveTab(initialTab, { syncUrl: false });
     buildShare(data);
     buildCallNav(path);
   } catch (error) {

@@ -65,9 +65,22 @@
           <option value="">All themes</option>
         </select>
       </div>
+      <div class="control-block">
+        <label for="sort">Sort by</label>
+        <select id="sort">
+          <option value="date_desc">Newest call date</option>
+          <option value="date_asc">Oldest call date</option>
+          <option value="company_asc">Company A-Z</option>
+          <option value="company_desc">Company Z-A</option>
+        </select>
+      </div>
     </section>
 
     <section>
+      <div class="results-toolbar">
+        <p class="results-summary" id="resultsSummary">Loading call briefs...</p>
+        <button class="button ghost" id="clearFilters" type="button">Clear filters</button>
+      </div>
       <div class="results-grid" id="results" aria-live="polite"></div>
     </section>
   </main>

@@ -198,6 +198,24 @@ main {
   box-shadow: 0 10px 24px rgba(47, 109, 246, 0.26);
 }
 
+.button.ghost {
+  background: transparent;
+  color: #30445f;
+  border-color: var(--line);
+  box-shadow: none;
+}
+
+.button.ghost:hover {
+  border-color: #a7bad3;
+  color: #203652;
+  box-shadow: 0 8px 18px rgba(28, 45, 80, 0.08);
+}
+
+.button.mini {
+  padding: 7px 10px;
+  font-size: 0.75rem;
+}
+
 .controls {
   margin-bottom: 22px;
   padding: 16px;
@@ -438,6 +456,23 @@ main {
   border-color: #cf8f32;
 }
 
+.results-toolbar {
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.results-summary {
+  margin: 0;
+  color: #5f6e86;
+  font-size: 0.84rem;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+}
+
 .results-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
@@ -534,6 +569,12 @@ main {
   font-size: 0.62rem;
   font-weight: 700;
   padding: 4px 8px;
+}
+
+.card.empty-state {
+  gap: 10px;
+  align-items: flex-start;
+  max-width: 480px;
 }
 
 .call-header {
@@ -666,6 +707,12 @@ main {
   cursor: pointer;
 }
 
+.section-header:focus-visible {
+  outline: 2px solid rgba(47, 109, 246, 0.42);
+  outline-offset: 2px;
+  border-radius: 8px;
+}
+
 .section-header h3,
 .section-header h4 {
   margin: 0;
@@ -721,6 +768,17 @@ main {
   letter-spacing: 0.1em;
 }
 
+.toc-actions {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 6px;
+  margin-bottom: 10px;
+}
+
+.toc-actions .button {
+  width: 100%;
+}
+
 .sticky-toc a {
   display: block;
   text-decoration: none;
@@ -737,10 +795,21 @@ main {
   outline: none;
 }
 
+.sticky-toc a.active {
+  color: var(--accent-strong);
+  border-left-color: var(--accent-strong);
+  background: rgba(47, 109, 246, 0.07);
+}
+
 .sticky-toc .toc-meta {
   margin-top: 10px;
   color: #73839c;
   font-size: 0.74rem;
+}
+
+#backToTop {
+  margin-top: 10px;
+  width: 100%;
 }
 
 .tldr {
@@ -855,6 +924,10 @@ footer {
   .site-title {
     max-width: 100%;
     font-size: clamp(1.95rem, 10vw, 2.75rem);
+  }
+
+  .results-toolbar {
+    align-items: stretch;
   }
 
   .controls {

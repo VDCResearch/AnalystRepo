@@ -9,6 +9,9 @@ const elements = {
   company: document.getElementById("company"),
   fyq: document.getElementById("fyq"),
   theme: document.getElementById("theme"),
+  sort: document.getElementById("sort"),
+  clearFilters: document.getElementById("clearFilters"),
+  resultsSummary: document.getElementById("resultsSummary"),
   results: document.getElementById("results")
 };
 
@@ -31,6 +34,16 @@ const calendarState = {
   collapsed: true,
   mode: "calls"
 };
+
+const FILTER_DEFAULTS = Object.freeze({
+  search: "",
+  company: "",
+  fyq: "",
+  theme: "",
+  sort: "date_desc"
+});
+
+const SORT_OPTIONS = new Set(["date_desc", "date_asc", "company_asc", "company_desc"]);
 
 const normalize = (value) => (value || "").toLowerCase();
 
@@ -137,6 +150,140 @@ const shiftFyq = (fyq, offset) => {
   }
   const nextYear = Number(match[1]) + offset;
   return `FY${nextYear}Q${match[2]}`;
+};
+
+const getFilterState = () => ({
+  search: (elements.search?.value || "").trim(),
+  company: elements.company?.value || "",
+  fyq: elements.fyq?.value || "",
+  theme: elements.theme?.value || "",
+  sort: elements.sort?.value || FILTER_DEFAULTS.sort
+});
+
+const getInitialFiltersFromUrl = () => {
+  const params = new URLSearchParams(window.location.search);
+  const sortParam = params.get("sort");
+  return {
+    search: params.get("search") || FILTER_DEFAULTS.search,
+    company: params.get("company") || FILTER_DEFAULTS.company,
+    fyq: params.get("fyq") || FILTER_DEFAULTS.fyq,
+    theme: params.get("theme") || FILTER_DEFAULTS.theme,
+    sort: SORT_OPTIONS.has(sortParam) ? sortParam : FILTER_DEFAULTS.sort
+  };
+};
+
+const INITIAL_FILTERS = getInitialFiltersFromUrl();
+
+const applyInitialFilters = () => {
+  elements.search.value = INITIAL_FILTERS.search;
+  elements.sort.value = INITIAL_FILTERS.sort;
+
+  const hasCompany = Array.from(elements.company.options).some((option) => option.value === INITIAL_FILTERS.company);
+  elements.company.value = hasCompany ? INITIAL_FILTERS.company : FILTER_DEFAULTS.company;
+
+  const hasFyq = Array.from(elements.fyq.options).some((option) => option.value === INITIAL_FILTERS.fyq);
+  elements.fyq.value = hasFyq ? INITIAL_FILTERS.fyq : FILTER_DEFAULTS.fyq;
+
+  const hasTheme = Array.from(elements.theme.options).some((option) => option.value === INITIAL_FILTERS.theme);
+  elements.theme.value = hasTheme ? INITIAL_FILTERS.theme : FILTER_DEFAULTS.theme;
+};
+
+const countActiveFilters = (filters) => {
+  return [filters.search, filters.company, filters.fyq, filters.theme].filter(Boolean).length;
+};
+
+const hasActiveFilters = () => countActiveFilters(getFilterState()) > 0;
+
+const compareByDateDesc = (left, right) => (right.call_date || "").localeCompare(left.call_date || "");
+const compareByDateAsc = (left, right) => (left.call_date || "").localeCompare(right.call_date || "");
+const compareByCompanyAsc = (left, right) => left.company.localeCompare(right.company) || compareByDateDesc(left, right);
+const compareByCompanyDesc = (left, right) => right.company.localeCompare(left.company) || compareByDateDesc(left, right);
+
+const sortMatches = (calls) => {
+  const sorted = [...calls];
+  const selectedSort = SORT_OPTIONS.has(elements.sort.value) ? elements.sort.value : FILTER_DEFAULTS.sort;
+
+  if (selectedSort === "date_asc") {
+    return sorted.sort(compareByDateAsc);
+  }
+  if (selectedSort === "company_asc") {
+    return sorted.sort(compareByCompanyAsc);
+  }
+  if (selectedSort === "company_desc") {
+    return sorted.sort(compareByCompanyDesc);
+  }
+  return sorted.sort(compareByDateDesc);
+};
+
+const syncFiltersToUrl = () => {
+  const filters = getFilterState();
+  const params = new URLSearchParams(window.location.search);
+
+  if (filters.search) {
+    params.set("search", filters.search);
+  } else {
+    params.delete("search");
+  }
+
+  if (filters.company) {
+    params.set("company", filters.company);
+  } else {
+    params.delete("company");
+  }
+
+  if (filters.fyq) {
+    params.set("fyq", filters.fyq);
+  } else {
+    params.delete("fyq");
+  }
+
+  if (filters.theme) {
+    params.set("theme", filters.theme);
+  } else {
+    params.delete("theme");
+  }
+
+  if (filters.sort && filters.sort !== FILTER_DEFAULTS.sort) {
+    params.set("sort", filters.sort);
+  } else {
+    params.delete("sort");
+  }
+
+  const next = params.toString();
+  const current = window.location.search.replace(/^\?/, "");
+  if (next !== current) {
+    const target = `${window.location.pathname}${next ? `?${next}` : ""}`;
+    window.history.replaceState(null, "", target);
+  }
+};
+
+const updateResultsSummary = (matchesCount) => {
+  if (!elements.resultsSummary) {
+    return;
+  }
+  const filters = getFilterState();
+  const activeFilters = countActiveFilters(filters);
+  const summary = `${matchesCount} of ${state.calls.length} call briefs`;
+  const suffix = activeFilters ? ` - ${activeFilters} filter${activeFilters === 1 ? "" : "s"} active` : "";
+  elements.resultsSummary.textContent = `${summary}${suffix}`;
+};
+
+const updateClearFiltersButton = () => {
+  if (!elements.clearFilters) {
+    return;
+  }
+  const active = hasActiveFilters();
+  elements.clearFilters.disabled = !active;
+};
+
+const clearFilters = () => {
+  elements.search.value = FILTER_DEFAULTS.search;
+  elements.company.value = FILTER_DEFAULTS.company;
+  elements.fyq.value = FILTER_DEFAULTS.fyq;
+  elements.theme.value = FILTER_DEFAULTS.theme;
+  elements.sort.value = FILTER_DEFAULTS.sort;
+  renderResults();
+  elements.search.focus();
 };
 
 const buildFilters = () => {
@@ -393,7 +540,7 @@ const renderCalendar = () => {
   const todayKey = toDateKey(new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate())));
 
   const fragment = document.createDocumentFragment();
-  const maxEvents = Number.POSITIVE_INFINITY;
+  const maxEvents = calendarState.collapsed ? 3 : 6;
   let cursor = addDays(monthStart, -firstDay);
 
   for (let week = 0; week < weeksInView; week += 1) {
@@ -451,9 +598,16 @@ const renderCalendar = () => {
         const title = document.createElement("div");
         title.className = "event-title";
         const hasCallLink = event.type === "actual" && event.path;
-        if (hasCallLink) {
+        const hasExternalLink = !hasCallLink && event.url;
+        if (hasCallLink || hasExternalLink) {
           const titleLink = document.createElement("a");
-          titleLink.href = `call.html?path=${encodeURIComponent(event.path)}`;
+          titleLink.href = hasCallLink
+            ? `call.html?path=${encodeURIComponent(event.path)}`
+            : event.url;
+          if (hasExternalLink) {
+            titleLink.target = "_blank";
+            titleLink.rel = "noopener noreferrer";
+          }
           titleLink.textContent = event.company;
           title.appendChild(titleLink);
         } else {
@@ -550,14 +704,24 @@ const matchesFilters = (call) => {
 const renderResults = () => {
   elements.results.innerHTML = "";
 
-  const matches = state.calls.filter(matchesFilters).sort((a, b) => {
-    return (b.call_date || "").localeCompare(a.call_date || "");
-  });
+  const matches = sortMatches(state.calls.filter(matchesFilters));
+  state.filtered = matches;
+  updateResultsSummary(matches.length);
+  updateClearFiltersButton();
+  syncFiltersToUrl();
 
   if (!matches.length) {
     const empty = document.createElement("div");
-    empty.className = "card";
-    empty.innerHTML = "<h3>No matches</h3><p>Try removing a filter or adjusting your search.</p>";
+    empty.className = "card empty-state";
+    empty.innerHTML = `
+      <h3>No matches</h3>
+      <p>Try removing a filter or adjusting your search terms.</p>
+      <button class="button ghost mini" type="button" data-clear-empty>Clear filters</button>
+    `;
+    const clearButton = empty.querySelector("[data-clear-empty]");
+    if (clearButton) {
+      clearButton.addEventListener("click", clearFilters);
+    }
     elements.results.appendChild(empty);
     return;
   }
@@ -682,7 +846,34 @@ const setupCalendar = () => {
   renderCalendar();
 };
 
+const setupInteractions = () => {
+  [elements.search, elements.company, elements.fyq, elements.theme, elements.sort].forEach((input) => {
+    input.addEventListener("input", renderResults);
+    input.addEventListener("change", renderResults);
+  });
+
+  if (elements.clearFilters) {
+    elements.clearFilters.addEventListener("click", clearFilters);
+  }
+
+  // "/" focuses search unless user is already typing in a form field.
+  document.addEventListener("keydown", (event) => {
+    const isTyping = event.target instanceof HTMLElement
+      && (event.target.tagName === "INPUT"
+        || event.target.tagName === "TEXTAREA"
+        || event.target.tagName === "SELECT"
+        || event.target.isContentEditable);
+    if (event.key === "/" && !event.metaKey && !event.ctrlKey && !event.altKey && !isTyping) {
+      event.preventDefault();
+      elements.search.focus();
+      elements.search.select();
+    }
+  });
+};
+
 const init = async () => {
+  setupInteractions();
+
   try {
     const response = await fetch("index.json", { cache: "no-store" });
     const data = await response.json();
@@ -700,17 +891,15 @@ const init = async () => {
       state.calendar = [];
     }
     buildFilters();
+    applyInitialFilters();
     renderResults();
     setupCalendar();
   } catch (error) {
     elements.results.innerHTML = "<div class=\"card\"><h3>Index missing</h3><p>Ensure /index.json is present and valid JSON.</p></div>";
+    updateResultsSummary(0);
+    updateClearFiltersButton();
     setupCalendar();
   }
 };
-
-[elements.search, elements.company, elements.fyq, elements.theme].forEach((input) => {
-  input.addEventListener("input", renderResults);
-  input.addEventListener("change", renderResults);
-});
 
 init();
