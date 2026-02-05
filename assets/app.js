@@ -494,6 +494,25 @@ const updateTodayButton = () => {
   calendarElements.today.hidden = isCurrent;
 };
 
+const pickCollapsedWeekRows = (weekRows) => {
+  if (!weekRows.length) {
+    return [];
+  }
+
+  const today = startOfTodayUtc();
+  const upcomingOrCurrent = weekRows.find((weekRow) => weekRow.hasEvents && weekRow.end >= today);
+  if (upcomingOrCurrent) {
+    return [upcomingOrCurrent];
+  }
+
+  const recentWithEvents = [...weekRows].reverse().find((weekRow) => weekRow.hasEvents);
+  if (recentWithEvents) {
+    return [recentWithEvents];
+  }
+
+  return [weekRows[0]];
+};
+
 const renderCalendar = () => {
   if (!calendarElements.grid || !calendarElements.monthLabel) {
     return;
@@ -542,6 +561,7 @@ const renderCalendar = () => {
   const fragment = document.createDocumentFragment();
   const maxEvents = calendarState.collapsed ? 3 : 6;
   let cursor = addDays(monthStart, -firstDay);
+  const weekRows = [];
 
   for (let week = 0; week < weeksInView; week += 1) {
     const weekDates = [];
@@ -550,7 +570,7 @@ const renderCalendar = () => {
     for (let dayIndex = 0; dayIndex < 7; dayIndex += 1) {
       weekDates.push(cursor);
       if (!weekHasEvents) {
-        const events = (!calendarState.collapsed || cursor.getUTCMonth() === month)
+        const events = cursor.getUTCMonth() === month
           ? getEventsForDate(cursor, year, eventsByYear, eventsByPrevYear, eventsByNextYear)
           : [];
         if (events.length) {
@@ -560,10 +580,16 @@ const renderCalendar = () => {
       cursor = addDays(cursor, 1);
     }
 
-    if (calendarState.collapsed && !weekHasEvents) {
-      continue;
-    }
+    weekRows.push({
+      weekDates,
+      hasEvents: weekHasEvents,
+      end: weekDates[6]
+    });
+  }
 
+  const weekRowsToRender = calendarState.collapsed ? pickCollapsedWeekRows(weekRows) : weekRows;
+
+  weekRowsToRender.forEach(({ weekDates }) => {
     weekDates.forEach((dayDate) => {
       const dateKey = toDateKey(dayDate);
       const cell = document.createElement("div");
@@ -657,7 +683,7 @@ const renderCalendar = () => {
       cell.appendChild(eventsHolder);
       fragment.appendChild(cell);
     });
-  }
+  });
 
   calendarElements.grid.appendChild(fragment);
 };
