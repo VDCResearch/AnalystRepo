@@ -56,6 +56,15 @@
       "url": "https://web.quartr.com/link/companies/14791/events/540014/report?rp=0"
     },
     {
+      "id": "event_553294",
+      "title": "Basler - Q2 2026",
+      "date": "2026-08-05",
+      "start": "2026-08-05T00:00:00.000Z",
+      "end": null,
+      "all_day": true,
+      "url": "https://web.quartr.com/link/companies/13270/events/553294/report?rp=0"
+    },
+    {
       "id": "event_552780",
       "title": "Zebra Technologies - Q2 2026",
       "date": "2026-08-04",
@@ -173,6 +182,15 @@
       "url": "https://web.quartr.com/link/companies/4502/events/551233/report?rp=0"
     },
     {
+      "id": "event_553078",
+      "title": "Mettler-Toledo International - Q1 2026",
+      "date": "2026-05-01",
+      "start": "2026-05-01T00:00:00.000Z",
+      "end": null,
+      "all_day": true,
+      "url": "https://web.quartr.com/link/companies/10380/events/553078/report?rp=0"
+    },
+    {
       "id": "event_548666",
       "title": "Apple - Q2 2026",
       "date": "2026-04-30",
@@ -252,6 +270,15 @@
       "end": "2026-04-23T09:00:00.000Z",
       "all_day": false,
       "url": "https://web.quartr.com/link/companies/4073/events/538219"
+    },
+    {
+      "id": "event_551989",
+      "title": "Alphabet - Q1 2026",
+      "date": "2026-04-23",
+      "start": "2026-04-23T00:00:00.000Z",
+      "end": null,
+      "all_day": true,
+      "url": "https://web.quartr.com/link/companies/4122/events/551989/report?rp=0"
     },
     {
       "id": "event_536584",
@@ -549,6 +576,15 @@
       "end": "2026-02-05T08:30:00.000Z",
       "all_day": false,
       "url": "https://web.quartr.com/link/companies/15852/events/413126"
+    },
+    {
+      "id": "event_396697",
+      "title": "Alphabet - Q4 2025",
+      "date": "2026-02-04",
+      "start": "2026-02-04T21:30:00.000Z",
+      "end": "2026-02-04T22:30:00.000Z",
+      "all_day": false,
+      "url": "https://web.quartr.com/link/companies/4122/events/396697"
     },
     {
       "id": "event_393361",
