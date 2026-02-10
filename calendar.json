@@ -416,6 +416,15 @@
       "url": "https://web.quartr.com/link/companies/13327/events/400054/report?rp=0"
     },
     {
+      "id": "event_412327",
+      "title": "NCR Voyix - Q4 2025",
+      "date": "2026-02-26",
+      "start": "2026-02-26T13:00:00.000Z",
+      "end": "2026-02-26T14:00:00.000Z",
+      "all_day": false,
+      "url": "https://web.quartr.com/link/companies/10653/events/412327"
+    },
+    {
       "id": "event_382878",
       "title": "Dell Technologies - Q4 2026",
       "date": "2026-02-26",
@@ -423,15 +432,6 @@
       "end": null,
       "all_day": true,
       "url": "https://web.quartr.com/link/companies/5910/events/382878/report?rp=0"
-    },
-    {
-      "id": "event_412327",
-      "title": "NCR Voyix - Q4 2025",
-      "date": "2026-02-26",
-      "start": "2026-02-26T00:00:00.000Z",
-      "end": null,
-      "all_day": true,
-      "url": "https://web.quartr.com/link/companies/10653/events/412327/report?rp=0"
     },
     {
       "id": "event_420279",
