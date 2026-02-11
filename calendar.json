@@ -110,6 +110,15 @@
       "url": "https://web.quartr.com/link/companies/4073/events/538220"
     },
     {
+      "id": "event_555375",
+      "title": "Cisco Systems - Q3 2026",
+      "date": "2026-05-13",
+      "start": "2026-05-13T00:00:00.000Z",
+      "end": null,
+      "all_day": true,
+      "url": "https://web.quartr.com/link/companies/4639/events/555375/report?rp=0"
+    },
+    {
       "id": "event_419046",
       "title": "Zebra Technologies - Q1 2026",
       "date": "2026-05-12",
@@ -216,6 +225,15 @@
       "end": null,
       "all_day": true,
       "url": "https://web.quartr.com/link/companies/4762/events/552741/report?rp=0"
+    },
+    {
+      "id": "event_555466",
+      "title": "Motorola Solutions - Q1 2026",
+      "date": "2026-04-30",
+      "start": "2026-04-30T00:00:00.000Z",
+      "end": null,
+      "all_day": true,
+      "url": "https://web.quartr.com/link/companies/10230/events/555466/report?rp=0"
     },
     {
       "id": "event_547962",
