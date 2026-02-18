@@ -3,10 +3,221 @@
   "ticker": "ZBRA",
   "fyq": "FY2025Q4",
   "call_date": "2026-02-12",
-  "tldr": "Upcoming earnings call; date is an estimate and may change.",
+  "tldr": "Zebra reported Q4 sales of $1,475M (+10.6% reported, +2.5% organic) and non-GAAP EPS of $4.33 (+8.3%), with adjusted EBITDA margin flat at 22.1% despite service/software pressure and $76M of restructuring charges. FY2026 guidance calls for 9% to 13% sales growth, non-GAAP EPS of $17.70 to $18.30, and at least $900M of free cash flow, with management planning to fully offset an estimated 2-point memory cost headwind.",
   "bullets": [
-    "Earnings date listed as an estimate; confirm once the company publishes the release.",
-    "Placeholder entry to keep the earnings calendar current.",
-    "Full brief will be added after the call."
-  ]
+    "Q4 results came in above outlook: net sales were $1,475M, adjusted EBITDA was $326M (22.1% margin), and non-GAAP EPS was $4.33.",
+    "Growth was broad but uneven: Connected Frontline organic sales rose 3.6% and Asset Visibility & Automation rose 1.3%; Asia Pacific (+13%), Latin America (+8%), and EMEA (+4%) offset a North America decline (-1%) against tough large-order comps.",
+    "2026 setup points to continued growth with execution risk: management guided Q1 sales growth of 11% to 15% and FY2026 sales growth of 9% to 13%, while using pricing, sourcing, and productivity actions to offset memory inflation starting in Q2."
+  ],
+  "participants": [
+    "Bill Burns (Chief Executive Officer)",
+    "Nathan Winters (Chief Financial Officer)",
+    "Mike Steele (Vice President, Investor Relations)"
+  ],
+  "themes": [
+    "AI-driven infrastructure demand scaling",
+    "Asset visibility and data capture adoption expanding",
+    "Automation and workflow digitization accelerating",
+    "Enterprise device refresh cycle evolving",
+    "Industrial and logistics demand uneven by region",
+    "Portfolio shifts and M&A reshaping focus",
+    "Pricing and cost pressure shaping margins",
+    "Services and software attach expanding",
+    "Supply chain diversification improving resilience"
+  ],
+  "deep_dive": {
+    "segments": [
+      {
+        "title": "Core performance and mix",
+        "points": [
+          "Q4 net sales were $1,475M (+10.6% reported, +2.5% organic), with Connected Frontline sales of $854M and Asset Visibility & Automation sales of $621M.",
+          "Connected Frontline organic growth was +3.6% (led by mobile computing), while Asset Visibility & Automation organic growth was +1.3% (led by printing and supplies).",
+          "Vertical commentary highlighted relative strength in healthcare, manufacturing, and retail/e-commerce, while transportation and logistics cycled tougher prior-year compares in North America."
+        ]
+      },
+      {
+        "title": "Regional demand and pipeline",
+        "points": [
+          "Regional organic growth was Asia Pacific +13%, Latin America +8%, EMEA +4%, and North America -1%.",
+          "Management described run-rate North America demand as solid, with weaker year-over-year comparison tied to fewer very large project orders versus last year.",
+          "EMEA returned to growth with strength in Northern and Central Europe; Japan, India, Brazil, and Mexico were called out as bright spots."
+        ]
+      },
+      {
+        "title": "Margin structure and mitigation plans",
+        "points": [
+          "Adjusted gross margin declined 50 bps to 48.2%, primarily due to lower services and software margins (including higher repair costs in services).",
+          "Adjusted operating expense leverage improved 60 bps, supporting a flat 22.1% adjusted EBITDA margin and non-GAAP EPS growth of 8.3%.",
+          "Management said existing tariff impacts were fully mitigated and guided to fully offset an estimated 2-point gross margin headwind from memory inflation beginning in Q2 via pricing, sourcing, product actions, and productivity savings."
+        ]
+      },
+      {
+        "title": "Portfolio actions and capital allocation",
+        "points": [
+          "Zebra continued integrating Elo Touch and Photoneo, while exiting the robotics business to reallocate toward RFID, machine vision, and AI-powered solutions.",
+          "FY2025 free cash flow was $831M (102% conversion), with year-end cash of $125M, debt of $2.511B, and net leverage around 2.0x.",
+          "The company repurchased $587M of shares in FY2025 and received an additional $1B authorization, with management indicating an aggressive buyback posture into 1H26."
+        ]
+      }
+    ],
+    "metrics": {
+      "numbers": [
+        {
+          "label": "Q4 net sales",
+          "value": "$1,475M",
+          "note": "+10.6% reported YoY; +2.5% organic"
+        },
+        {
+          "label": "Q4 adjusted EBITDA",
+          "value": "$326M",
+          "note": "22.1% margin, flat YoY"
+        },
+        {
+          "label": "Q4 non-GAAP diluted EPS",
+          "value": "$4.33",
+          "note": "+8.3% YoY"
+        },
+        {
+          "label": "Q4 GAAP diluted EPS",
+          "value": "$1.39",
+          "note": "includes $76M restructuring/exit charges"
+        },
+        {
+          "label": "FY2025 free cash flow",
+          "value": "$831M",
+          "note": "102% conversion"
+        },
+        {
+          "label": "Year-end balance sheet",
+          "value": "$125M cash / $2.511B debt",
+          "note": "~2.0x net debt to adjusted EBITDA"
+        }
+      ],
+      "guidance": [
+        {
+          "label": "Q1 FY2026 sales growth",
+          "value": "11% - 15%",
+          "note": "includes ~10 points from acquisitions and FX"
+        },
+        {
+          "label": "Q1 FY2026 adjusted EBITDA margin",
+          "value": "21% - 22%",
+          "note": "non-GAAP"
+        },
+        {
+          "label": "Q1 FY2026 non-GAAP diluted EPS",
+          "value": "$4.05 - $4.35",
+          "note": "management outlook"
+        },
+        {
+          "label": "FY2026 sales growth",
+          "value": "9% - 13%",
+          "note": "includes ~7 points from acquisitions and FX"
+        },
+        {
+          "label": "FY2026 adjusted EBITDA margin",
+          "value": "~22%",
+          "note": "non-GAAP"
+        },
+        {
+          "label": "FY2026 non-GAAP diluted EPS",
+          "value": "$17.70 - $18.30",
+          "note": "assumes ~19% adjusted tax rate"
+        },
+        {
+          "label": "FY2026 free cash flow",
+          "value": "at least $900M",
+          "note": "capex guide of $85M - $95M"
+        }
+      ]
+    },
+    "notes": [
+      {
+        "title": "AI and solution positioning",
+        "points": [
+          "Management framed AI as a multi-year growth driver, with asset visibility data feeding models and connected frontline devices/software delivering model outputs to workers.",
+          "Frontline AI Suite includes enablers, blueprints, and Zebra Companion agents; paid pilots are underway with scaled deployments expected in 2026."
+        ]
+      },
+      {
+        "title": "Refresh and pipeline cadence",
+        "points": [
+          "Retail refreshes were described as more normalized and spread over longer horizons, while large transportation/logistics refreshes tend to run on slower 4-5 year cycles.",
+          "Management expects similar large-project refresh activity in 2026 versus 2025, with additional multiyear transportation/logistics deployments more likely to begin in 2027."
+        ]
+      }
+    ]
+  },
+  "qna": {
+    "themes": [
+      {
+        "title": "Memory inflation and pricing offsets",
+        "points": [
+          "Management said memory pricing creates an estimated 2-point gross margin headwind starting in Q2 on a gross basis.",
+          "Offset plan includes March price increases, supplier co-planning and alternative memory sourcing, product redesign, tariff/supply-chain actions, and productivity from the robotics exit."
+        ]
+      },
+      {
+        "title": "Demand visibility and regional setup",
+        "points": [
+          "Leadership cited healthy backlog and pipeline into 2026, with Q1 guide roughly in line with Q4 partly due to less typical seasonality and Elo mix.",
+          "North America softness was framed as mostly cyclical comp pressure in large deals, while EMEA and APAC trends improved."
+        ]
+      },
+      {
+        "title": "RFID, AI, and refresh cycle trajectory",
+        "points": [
+          "RFID adoption was described as broadening across markets, and management called for high double-digit RFID growth in 2026.",
+          "AI-capable device specs (memory/processing) and new features such as embedded RFID are expected to support next-generation refresh decisions."
+        ]
+      }
+    ],
+    "top_questions": [
+      {
+        "question": "How much margin pressure should investors expect from memory cost inflation in 2026?",
+        "summary": "Management quantified an approximate 2-point gross margin headwind beginning in Q2 but said full-year guidance already assumes complete mitigation through pricing, sourcing, and productivity actions."
+      },
+      {
+        "question": "Why is Q1 revenue guidance comparatively strong versus typical seasonality?",
+        "summary": "Executives attributed the setup to a strong Q4 finish, less year-end spending surge than usual, healthy backlog/pipeline, and Elo's more linear seasonality profile."
+      },
+      {
+        "question": "What are the assumptions for large project demand, refreshes, and RFID growth in 2026?",
+        "summary": "The company expects a similar level of refresh-driven large project activity as 2025, sees larger transportation/logistics multiyear programs skewing to 2027 starts, and guided to high double-digit RFID growth in 2026."
+      }
+    ]
+  },
+  "vdc_angle": {
+    "implications": [
+      "Zebra's AI positioning links physical-world data capture (RFID, machine vision, scanning) with frontline execution, which can increase software and services attach beyond device unit growth.",
+      "The Elo integration expands store and self-service touchpoints, creating cross-sell paths across mobility, kiosks, and digital engagement workflows.",
+      "If memory inflation is offset as planned, FY2026 could show operating leverage despite continued investment in AI, RFID, and machine vision."
+    ],
+    "competitive_notes": [
+      "Pricing actions on memory and tariffs appear industry-wide, but Zebra emphasized differentiated value (AI-ready specs, embedded RFID, workflow software) to sustain pricing.",
+      "Robotics exit narrows focus to higher-conviction automation areas where management sees stronger returns and clearer product-market fit."
+    ],
+    "forecast_hooks": [
+      "Track Q2 gross margin progression as memory costs flow through and March pricing actions annualize.",
+      "Monitor conversion from paid AI pilots to scaled production deployments and software revenue contribution in 2026.",
+      "Watch machine vision return-to-growth trajectory and RFID momentum outside core retail/logistics use cases."
+    ]
+  },
+  "follow_ups": {
+    "action_items": [
+      "Validate March pricing realization and supplier availability assumptions against channel checks heading into Q2.",
+      "Track Elo and Photoneo integration milestones, especially cross-sell wins tied to modern store and automation workflows.",
+      "Monitor services repair-cost trends to confirm management's expectation for flatter services/software margin through 2026."
+    ],
+    "open_questions": [
+      "How quickly will Frontline AI Suite pilots convert into recurring, material software revenue?",
+      "Can Zebra sustain current pricing power if memory/tariff dynamics normalize faster than expected?",
+      "Will transportation and logistics refresh timing move forward from 2027 if customer visibility improves in 2026?"
+    ],
+    "watch_next_quarter": [
+      "Q1 growth quality: organic versus acquisition/FX contribution and regional mix.",
+      "Gross margin bridge detail: memory headwind realized versus mitigation achieved.",
+      "Share repurchase pace relative to free cash flow generation and leverage targets."
+    ]
+  }
 }

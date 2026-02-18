@@ -1,0 +1,266 @@
+{
+  "company": "Cognex Corporation",
+  "ticker": "CGNX",
+  "fyq": "FY2025Q4",
+  "call_date": "2026-02-12",
+  "tldr": "Cognex reported Q4 2025 revenue of $252M (+10% YoY) and adjusted diluted EPS of $0.27 (+35%), capping a turnaround year with full-year revenue of $994M (+9%) and adjusted EBITDA margin of 21.5% (20.7% excluding the one-time commercial partnership). Management paired Q1 2026 guidance of $235M-$255M revenue and $0.22-$0.26 adjusted EPS with portfolio pruning (~$22M revenue) and a $35M-$40M annualized cost-reduction plan targeting a 25% adjusted EBITDA run-rate by year-end 2026.",
+  "bullets": [
+    "Q4 2025 results: revenue $252M (+10% YoY, +9% constant currency), adjusted EBITDA margin 22.7% (+420 bps YoY), and adjusted diluted EPS $0.27 (+35% YoY); management cited strong year-end factory automation demand and steady logistics growth.",
+    "FY2025 results: revenue $994M (+9% as reported; +8% constant currency), adjusted EBITDA margin 21.5% (+440 bps), and adjusted diluted EPS $1.02 (+38%); excluding the one-time commercial partnership, revenue was $982M (+7%), adjusted EBITDA margin was 20.7%, and adjusted EPS was $0.97.",
+    "Capital and outlook: FY2025 free cash flow was $237M (+77% YoY; 138% conversion on adjusted net income), year-end cash and investments were $642M with no debt, and Q1 2026 guidance calls for revenue of $235M-$255M, adjusted EBITDA margin of 19.0%-22.0%, and adjusted diluted EPS of $0.22-$0.26."
+  ],
+  "participants": [
+    "Matt Moschner (President and CEO)",
+    "Dennis Fehr (CFO)",
+    "Greer Aviv (Head of Investor Relations)"
+  ],
+  "themes": [
+    "AI-driven infrastructure demand scaling",
+    "Asset visibility and data capture adoption expanding",
+    "Automation and workflow digitization accelerating",
+    "Industrial and logistics demand uneven by region",
+    "Pricing and cost pressure shaping margins",
+    "Portfolio shifts and M&A reshaping focus"
+  ],
+  "deep_dive": {
+    "segments": [
+      {
+        "title": "Q4 and FY2025 turnaround execution",
+        "points": [
+          "Q4 revenue rose to $252M (+10% YoY; +9% constant currency), GAAP operating margin was 14.0%, and adjusted EBITDA margin reached 22.7%, above the guided range midpoint and the sixth straight quarter of year-over-year expansion.",
+          "Q4 adjusted diluted EPS was $0.27 (+35% YoY) and GAAP diluted EPS was $0.19 (+18% YoY), driven by revenue growth, cost discipline, and a lower diluted share count.",
+          "FY2025 revenue was $994M (+9% YoY), GAAP operating margin was 16.3%, adjusted EBITDA margin was 21.5%, and adjusted diluted EPS was $1.02 (+38% YoY)."
+        ]
+      },
+      {
+        "title": "Portfolio optimization and operating model actions",
+        "points": [
+          "Management said Cognex completed a portfolio review and started exiting approximately $22M of non-core, no-growth or low-margin revenue, including a Japan-focused trading business and product lines such as Mobile SDK and Edge Intelligence.",
+          "The company identified an additional $35M-$40M of annualized cost reductions by end-2026 and reiterated a 25% adjusted EBITDA margin run-rate target exiting 2026.",
+          "Cognex raised its through-cycle adjusted EBITDA margin range to 25%-31% (from 20%-30%), while keeping through-cycle revenue CAGR at 13%-14% and free cash flow conversion above 100%."
+        ]
+      },
+      {
+        "title": "End-market and regional demand signals",
+        "points": [
+          "2025 trends were strongest in logistics, consumer electronics, packaging, and semiconductor, while automotive remained weak; for 2026, management framed an initial view of mid-single- to high-single-digit growth overall rather than formal full-year guidance.",
+          "By end market (deck): logistics was 26% of 2025 revenue and expected to moderate to mid- to high-single-digit growth in 2026 after two outsized years; consumer electronics was 19% of revenue and expected at high-single- to double-digit growth.",
+          "Q4 regional commentary indicated Americas constant-currency revenue grew 11%, Europe 13%, Greater China 7%, and Other Asia was flat; automotive recovery was described as strongest in the Americas, slowest in Europe, and mixed in Asia."
+        ]
+      },
+      {
+        "title": "Cash generation and capital deployment",
+        "points": [
+          "FY2025 operating cash flow was $246M (+65% YoY) and free cash flow was $237M (+77% YoY), with free cash flow conversion of 138% versus adjusted net income.",
+          "Cognex returned $206M to shareholders in 2025, including $151M of repurchases and $55M of dividends.",
+          "As of December 31, 2025, Cognex had $642M in cash and investments and no debt; the board added $500M to the repurchase authorization on February 11, 2026 and declared a quarterly dividend of $0.085 per share."
+        ]
+      }
+    ],
+    "metrics": {
+      "numbers": [
+        {
+          "label": "Q4 revenue",
+          "value": "$252M",
+          "note": "+10% YoY (+9% constant currency)"
+        },
+        {
+          "label": "Q4 adjusted EBITDA margin",
+          "value": "22.7%",
+          "note": "+420 bps YoY"
+        },
+        {
+          "label": "Q4 adjusted diluted EPS",
+          "value": "$0.27",
+          "note": "+35% YoY"
+        },
+        {
+          "label": "FY2025 revenue",
+          "value": "$994M",
+          "note": "+9% YoY as reported"
+        },
+        {
+          "label": "FY2025 revenue (excluding commercial partnership)",
+          "value": "$982M",
+          "note": "+7% YoY"
+        },
+        {
+          "label": "FY2025 adjusted EBITDA margin",
+          "value": "21.5%",
+          "note": "20.7% excluding commercial partnership"
+        },
+        {
+          "label": "FY2025 adjusted diluted EPS",
+          "value": "$1.02",
+          "note": "$0.97 excluding commercial partnership"
+        },
+        {
+          "label": "FY2025 free cash flow",
+          "value": "$237M",
+          "note": "+77% YoY; 138% conversion vs adjusted net income"
+        },
+        {
+          "label": "Year-end cash and investments",
+          "value": "$642M",
+          "note": "no debt"
+        },
+        {
+          "label": "FY2025 capital returned",
+          "value": "$206M",
+          "note": "$151M buybacks and $55M dividends"
+        }
+      ],
+      "guidance": [
+        {
+          "label": "Q1 2026 revenue",
+          "value": "$235M - $255M",
+          "note": "+13% YoY at midpoint"
+        },
+        {
+          "label": "Q1 2026 adjusted EBITDA margin",
+          "value": "19.0% - 22.0%",
+          "note": "+370 bps YoY at midpoint"
+        },
+        {
+          "label": "Q1 2026 adjusted diluted EPS",
+          "value": "$0.22 - $0.26",
+          "note": "+50% YoY at midpoint"
+        },
+        {
+          "label": "Cost reduction target",
+          "value": "$35M - $40M annualized",
+          "note": "targeted by end-2026"
+        },
+        {
+          "label": "Adjusted EBITDA milestone",
+          "value": "25% run-rate",
+          "note": "targeted as company exits 2026"
+        },
+        {
+          "label": "Through-cycle framework",
+          "value": "25% - 31% adjusted EBITDA margin",
+          "note": "revenue CAGR 13%-14% and free cash flow conversion >100%"
+        }
+      ]
+    },
+    "notes": [
+      {
+        "title": "Q4 one-time items and non-GAAP treatment",
+        "points": [
+          "Management referenced a $5M gain from sale of a Natick property and a $13M excess-and-obsolete inventory charge; both were excluded from non-GAAP results.",
+          "Press release reconciliations show reported GAAP gross margin of 65.7% and adjusted gross margin of 71.6% in Q4 2025."
+        ]
+      },
+      {
+        "title": "Divestment timing and vertical mix impact",
+        "points": [
+          "In Q&A, management said most of the ~$22M exiting revenue is the Japan-focused trading business and expects the transaction to close by Q2 2026, with P&L effects largely in 2H 2026.",
+          "Management said the exited revenue is mainly in packaging and, to a lesser extent, logistics, while keeping the same growth expectations for those verticals on a lower base."
+        ]
+      },
+      {
+        "title": "Working capital and cash conversion",
+        "points": [
+          "Management said the cash conversion cycle improved by 57 days year over year (116 days from the 2023 peak), supporting FY2025 free cash flow growth.",
+          "For 2026, management expects less incremental benefit from working-capital optimization but still expects free cash flow conversion to remain above 100%, supported by margin expansion."
+        ]
+      }
+    ]
+  },
+  "qna": {
+    "themes": [
+      {
+        "title": "Portfolio exits: scope, timing, and growth-base reset",
+        "points": [
+          "Analysts asked how the ~$22M revenue exit flows through guidance and vertical assumptions.",
+          "Management said the largest piece is the Japan trading divestment targeted to close by Q2 2026, with most impact showing in 2H 2026, and suggested modeling 2026 growth off a 2025 base net of exited revenue."
+        ]
+      },
+      {
+        "title": "2026 demand view versus Q1 guide",
+        "points": [
+          "Questions focused on reconciling the +13% Q1 midpoint growth guide with a broader mid-single- to high-single-digit 2026 demand view.",
+          "Management attributed the Q1 setup to year-end spending timing shifts and a weak Q1 2025 comparison, while emphasizing limited visibility in a short-cycle business."
+        ]
+      },
+      {
+        "title": "Margin bridge and cost-out cadence",
+        "points": [
+          "Investors pressed on offsets to the $35M-$40M cost program and the cadence of margin benefits.",
+          "Management described OpEx efficiency as the primary lever, with mix as a partial headwind, and said most execution happens in 1H 2026 with clearer financial effects expected by Q3."
+        ]
+      },
+      {
+        "title": "End-market drivers and regional variance",
+        "points": [
+          "Q&A probed logistics moderation, CE demand drivers, and automotive recovery by geography.",
+          "Management cited CE demand from refresh cycles, AI-enabled device features, and supply-chain shifts; logistics remains positive but normalizing after eight quarters of double-digit growth; automotive was described as stronger in the Americas, weakest in Europe, and mixed in Asia."
+        ]
+      },
+      {
+        "title": "Supply chain cost risk",
+        "points": [
+          "Analysts asked about memory pricing and procurement risk.",
+          "Management said no material memory-related cost impact is currently expected and indicated the current outlook already reflects observed supply conditions."
+        ]
+      }
+    ],
+    "top_questions": [
+      {
+        "question": "How should investors model the ~$22M non-core revenue exit in 2026?",
+        "summary": "Management said most of the exit is the Japan-focused trading business expected to close in Q2 2026; they advised applying 2026 growth assumptions to a 2025 revenue base net of the exited business."
+      },
+      {
+        "question": "Is the Q1 midpoint growth of +13% a sign of stronger full-year acceleration?",
+        "summary": "Management said Q1 is influenced by timing shifts from late-2025 spending and a weak prior-year quarter, so they still framed 2026 as an initial mid-single- to high-single-digit growth view rather than full-year guidance."
+      },
+      {
+        "question": "What offsets the $35M-$40M cost savings in the 2026 margin bridge?",
+        "summary": "The company cited favorable 2025 mix that is not fully recurring as a headwind, partially mitigated by portfolio actions and potential pricing stability/tailwind, with OpEx efficiency still the dominant lever."
+      },
+      {
+        "question": "What is driving consumer electronics and logistics demand entering 2026?",
+        "summary": "Management pointed to CE supply-chain relocation, new device form factors, and AI-feature-driven refresh demand, while describing logistics as still healthy but moderating after an extended period of outsized growth."
+      },
+      {
+        "question": "Are higher memory costs becoming a material risk to 2026 guidance?",
+        "summary": "Management said memory has not been a material headwind so far and that procurement conditions are manageable with current supplier relationships and planning practices."
+      }
+    ]
+  },
+  "vdc_angle": {
+    "implications": [
+      "Cognex is positioning AI-enabled machine vision as a workflow productivity lever across logistics and factory automation, with management highlighting broader use cases beyond barcode reading (for example, tunnel standardization plus added vision applications).",
+      "The salesforce transformation signal (9,000 new accounts added in 2025 versus roughly 3,000 in 2024) suggests broader account penetration potential in underpenetrated markets such as packaging.",
+      "Management's decision to exit low-growth/low-margin lines and target 25% adjusted EBITDA run-rate by year-end 2026 indicates a deliberate shift toward higher-quality recurring demand pockets rather than maximizing headline revenue.",
+      "Semiconductor commentary tied to an AI-driven investment cycle supports the case that upstream AI infrastructure spending is feeding demand for high-precision industrial inspection tools."
+    ],
+    "competitive_notes": [
+      "Management highlighted a nearly decade-long AI machine vision buildout plus 2025 launches (DataMan 290, In-Sight 8900, OneVision, SLX), indicating active product-cycle competition in ID, factory automation, and logistics automation.",
+      "Portfolio pruning around Moritex-linked trading and selected non-core software/tools suggests Cognex is prioritizing categories where it believes it has stronger IP differentiation and better long-term margin structure."
+    ],
+    "forecast_hooks": [
+      "Track whether the Japan-focused trading divestment closes in Q2 2026 and how much of the ~$22M revenue exit is visible in 2H 2026 reported mix.",
+      "Watch for Q3 2026 evidence that first-half cost actions are converting into the targeted year-end 25% adjusted EBITDA run-rate.",
+      "Monitor whether logistics growth stabilizes in the guided mid- to high-single-digit band after two years of double-digit growth, and whether CE momentum remains strong through seasonal Q2/Q3 patterns.",
+      "Check if pricing remains stable/tailwind as management expects, given tariffs and mix effects discussed in Q4 and FY2025 commentary."
+    ]
+  },
+  "follow_ups": {
+    "action_items": [
+      "Reconcile 2026 quarterly models to management's base-reset approach (2025 revenue less exited ~$22M business) and confirm when divestment timing is reflected in segment/end-market disclosures.",
+      "Track quarterly progression of adjusted EBITDA margin toward the 25% exit-rate target and separate OpEx savings from mix-driven impacts.",
+      "Monitor end-market updates for logistics, CE, automotive, and semiconductor against the initial 2026 view ranges disclosed in the deck."
+    ],
+    "open_questions": [
+      "Will the announced $35M-$40M cost actions deliver mostly in-year 2026 benefit, or will a larger share annualize into 2027?",
+      "How durable is CE growth if the current AI-device refresh cycle cools later in 2026?",
+      "Can pricing remain a tailwind if tariff exposure or regional mix shifts become less favorable?"
+    ],
+    "watch_next_quarter": [
+      "Any formal update to full-year 2026 guidance posture versus the current 'initial view' framing.",
+      "Progress on closing the Japan-focused trading divestment and any incremental portfolio cleanup actions.",
+      "Q1-to-Q2 revenue timing normalization and implications for logistics and broader factory automation demand visibility."
+    ]
+  }
+}

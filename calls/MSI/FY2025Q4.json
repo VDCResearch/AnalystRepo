@@ -1,0 +1,261 @@
+{
+  "company": "Motorola Solutions",
+  "ticker": "MSI",
+  "fyq": "FY2025Q4",
+  "call_date": "2026-02-11",
+  "tldr": "Motorola Solutions reported Q4 2025 sales of $3.38B (+12%) and non-GAAP EPS of $4.59 (+14%), closing FY2025 with $11.68B of sales (+8%), record operating cash flow, and record ending backlog of $15.7B. Management guided FY2026 revenue of about $12.7B and non-GAAP EPS of $16.70-$16.85, supported by strong orders, continued software and services growth, and a higher Silvus revenue outlook.",
+  "bullets": [
+    "Q4 results were above guide with broad-based growth: sales of $3.38B (+12%), non-GAAP operating earnings of $1.09B (+19%), non-GAAP operating margin of 32.1% (+170 bps), and non-GAAP EPS of $4.59 (+14%); Q4 operating cash flow was $1.3B and free cash flow was $1.1B.",
+    "FY2025 results: sales of $11.68B (+8%), non-GAAP operating earnings of $3.54B (+13%), non-GAAP operating margin of 30.3% (+130 bps), and non-GAAP EPS of $15.38 (+11%); operating cash flow was a record $2.8B (+19%) and free cash flow was $2.6B (+21%).",
+    "Demand indicators and 2026 guide stayed strong: ending backlog reached a record $15.7B (+$1.0B YoY, +$1.2B QoQ) with Q4 orders up 26%; guidance calls for Q1 revenue growth of 6%-7% and non-GAAP EPS of $3.20-$3.25, and FY2026 revenue of about $12.7B with non-GAAP EPS of $16.70-$16.85."
+  ],
+  "participants": [
+    "Greg Brown (Chairman and CEO)",
+    "Jason Winkler (Executive Vice President and CFO)",
+    "Tim Yocum (Vice President, Investor Relations)",
+    "Jack Molloy (Executive Vice President and COO)",
+    "Mahesh Saptharishi (Executive Vice President and CTO)"
+  ],
+  "themes": [
+    "AI-driven infrastructure demand scaling",
+    "Asset visibility and data capture adoption expanding",
+    "Automation and workflow digitization accelerating",
+    "Services and software attach expanding",
+    "Portfolio shifts and M&A reshaping focus",
+    "Pricing and cost pressure shaping margins"
+  ],
+  "deep_dive": {
+    "segments": [
+      {
+        "title": "Products and Systems Integration",
+        "points": [
+          "Q4 revenue was $2.16B (+11% YoY), driven by MCN and Video; non-GAAP operating earnings were $667M with 30.9% margin (+40 bps YoY).",
+          "FY2025 revenue was $7.25B (+5%) and non-GAAP operating earnings were $2.10B with 28.9% margin (+80 bps).",
+          "Q4 notable wins included a $180M P25 system expansion (Tennessee), a $162M U.S. federal P25 device/SVX order, an $81M TETRA system in North Africa, and a $20M Silvus order for an unmanned systems provider."
+        ]
+      },
+      {
+        "title": "Software and Services",
+        "points": [
+          "Q4 revenue was $1.22B (+15% YoY) with growth across all three technologies; non-GAAP operating earnings were $419M and margin was 34.3% (+400 bps).",
+          "FY2025 revenue was $4.43B (+13%) and non-GAAP operating earnings were $1.44B with 32.5% margin (+170 bps).",
+          "Q4 wins included a $201M 10-year P25 services renewal (Maryland), an $86M international command center order, a $79M Prince George's County P25 services/command center order, and large TETRA service orders in the U.K. and Europe."
+        ]
+      },
+      {
+        "title": "Orders, backlog, and regional demand",
+        "points": [
+          "Q4 orders grew 26% and ending backlog reached $15.7B (+$1.0B YoY, +$1.2B QoQ).",
+          "Software and Services backlog increased $1.4B YoY and $945M QoQ; Products and SI backlog was down $323M YoY (strong first-half LMR shipments) but up $235M QoQ on record Q4 MCN and Video orders.",
+          "Q4 regional revenue: North America $2.36B (+7%) and International $1.02B (+26%); FY2025 regional revenue: North America $8.36B (+7%) and International $3.32B (+11%)."
+        ]
+      },
+      {
+        "title": "AI platform and portfolio execution",
+        "points": [
+          "Management launched Dispatcher and Responder Assist Suites at $99 per user per month and positioned Assist as a recurring software growth driver tied to command center workflows.",
+          "APX Next subscribers reached more than 200,000 at end-2025 (target 300,000 by end-2026), while SVX shipments exceeded 15,000 units.",
+          "Silvus integration remained a major portfolio focus; management raised 2026 Silvus revenue expectation to $675M, up $75M versus the prior expectation."
+        ]
+      }
+    ],
+    "metrics": {
+      "numbers": [
+        {
+          "label": "Q4 sales",
+          "value": "$3.38B",
+          "note": "+12% YoY"
+        },
+        {
+          "label": "Q4 non-GAAP EPS",
+          "value": "$4.59",
+          "note": "+14% YoY"
+        },
+        {
+          "label": "Q4 GAAP EPS",
+          "value": "$3.86",
+          "note": "+8% YoY"
+        },
+        {
+          "label": "Q4 non-GAAP operating margin",
+          "value": "32.1%",
+          "note": "+170 bps YoY"
+        },
+        {
+          "label": "FY2025 sales",
+          "value": "$11.68B",
+          "note": "+8% YoY"
+        },
+        {
+          "label": "FY2025 non-GAAP EPS",
+          "value": "$15.38",
+          "note": "+11% YoY"
+        },
+        {
+          "label": "FY2025 non-GAAP operating margin",
+          "value": "30.3%",
+          "note": "+130 bps YoY"
+        },
+        {
+          "label": "FY2025 operating cash flow",
+          "value": "$2.8B",
+          "note": "+19% YoY"
+        },
+        {
+          "label": "FY2025 free cash flow",
+          "value": "$2.6B",
+          "note": "+21% YoY"
+        },
+        {
+          "label": "Ending backlog",
+          "value": "$15.7B",
+          "note": "record; +$1.0B YoY and +$1.2B QoQ"
+        },
+        {
+          "label": "Q4 orders growth",
+          "value": "+26%",
+          "note": "company total"
+        }
+      ],
+      "guidance": [
+        {
+          "label": "Q1 2026 revenue growth",
+          "value": "6% - 7%",
+          "note": "YoY"
+        },
+        {
+          "label": "Q1 2026 non-GAAP EPS",
+          "value": "$3.20 - $3.25",
+          "note": "effective tax rate about 20.5%"
+        },
+        {
+          "label": "FY2026 revenue",
+          "value": "Approximately $12.7B",
+          "note": "includes about $100M favorable FX"
+        },
+        {
+          "label": "FY2026 non-GAAP EPS",
+          "value": "$16.70 - $16.85",
+          "note": "effective tax rate about 22.5%; 168M diluted shares"
+        },
+        {
+          "label": "FY2026 operating cash flow",
+          "value": "Approximately $3.0B",
+          "note": "management expectation"
+        },
+        {
+          "label": "FY2026 segment growth",
+          "value": "Software and Services 10% - 11%; Products and SI 7% - 8%",
+          "note": "technology view: Video 10% - 11%, Command Center 15%, MCN 7% - 8%"
+        }
+      ]
+    },
+    "notes": [
+      {
+        "title": "Capital allocation and balance sheet",
+        "points": [
+          "FY2025 capital deployment included $4.9B of acquisitions (including Silvus), $1.2B of share repurchases, $728M of dividends, and $265M of capex.",
+          "The company repaid $200M of Silvus-related term loans after year-end, leaving $1.3B outstanding."
+        ]
+      },
+      {
+        "title": "Margin and cost bridge into 2026",
+        "points": [
+          "Management guided to about 100 bps of operating margin expansion in 2026 despite an incremental tariff headwind of about $60M in 1H26 and expected memory cost increases.",
+          "Mitigation levers discussed were mix toward software/services, operating leverage, vendor actions, and selective pricing."
+        ]
+      },
+      {
+        "title": "Backlog normalization context",
+        "points": [
+          "Management said more than half of revenue now follows a quick-turn profile (sold and installed within the same year) as product backlog normalizes from prior supply-chain distortion.",
+          "On Q&A, management said there was no residual benefit from repricing legacy pandemic backlog contracts."
+        ]
+      }
+    ]
+  },
+  "qna": {
+    "themes": [
+      {
+        "title": "Silvus growth and defense/federal expansion",
+        "points": [
+          "Management raised 2026 Silvus revenue expectations to $675M and cited continued demand from Ukraine, broader NATO programs, and unmanned systems.",
+          "Executives framed most near-term Silvus opportunity around defense, borders, and unmanned use cases, with state and local use cases more spectrum-dependent."
+        ]
+      },
+      {
+        "title": "2026 margin outlook versus tariff and memory pressure",
+        "points": [
+          "Management acknowledged about $60M of incremental tariff pressure in 1H26 and memory cost inflation but still guided to operating margin expansion.",
+          "The margin thesis emphasized richer mix in software/services, stronger device and application attach, and disciplined cost control."
+        ]
+      },
+      {
+        "title": "Backlog, order durability, and seasonality",
+        "points": [
+          "Management said record Q4 product orders ($2.4B, up about $500M YoY) and a strong pipeline support confidence in 2026 guidance.",
+          "Product backlog is expected to decline seasonally in Q1, then recover, with management expecting double-digit product order growth in Q1 and for full-year 2026."
+        ]
+      },
+      {
+        "title": "Command Center and Assist Suite monetization",
+        "points": [
+          "Management linked command center acceleration to APX Next subscriber growth and integrated AI workflows across 911, CAD, records, and responder tools.",
+          "Assist Suite pricing was positioned at $99 per user per month (incremental to radios), with contract-length flexibility and more feature releases expected through 2026."
+        ]
+      }
+    ],
+    "top_questions": [
+      {
+        "question": "What is driving the higher Silvus outlook and how much is tied to federal and unmanned demand?",
+        "summary": "Management said Silvus execution since close has exceeded expectations and raised 2026 Silvus revenue guidance to $675M, with demand concentrated in Ukraine, NATO markets, and unmanned defense programs."
+      },
+      {
+        "question": "How can margins expand in 2026 despite tariff and memory headwinds?",
+        "summary": "Management guided to about 100 bps operating margin expansion, citing mix shift toward software and services, operating leverage, and mitigation actions against about $60M of incremental tariffs and higher memory costs."
+      },
+      {
+        "question": "Is current backlog and order strength sustainable as product backlog normalizes?",
+        "summary": "Management highlighted three consecutive quarters of double-digit product orders, expected another double-digit year in 2026, and said product backlog should be seasonally lower in Q1 before improving later in the year."
+      },
+      {
+        "question": "How are Assist Suites being sold and what early traction is visible?",
+        "summary": "Assist Suites are sold at $99 per user per month and are incremental to radio hardware; management reported growing adoption across responder and dispatcher workflows and expects continued feature launches on a roughly quarterly cadence."
+      }
+    ]
+  },
+  "vdc_angle": {
+    "implications": [
+      "Motorola is using integrated workflows (radio, video, command center, and AI Assist Suites) to raise software and services attach on an already large installed base.",
+      "Record backlog and sustained double-digit product order expectations suggest public safety and defense demand remains resilient despite backlog normalization dynamics.",
+      "Silvus plus FedRAMP milestones for APX Next, SVX, and digital evidence management expand MSI's ability to compete for federal and defense programs where secure, integrated platforms matter."
+    ],
+    "competitive_notes": [
+      "Management explicitly positioned the $99 Assist Suite offer as more comprehensive and lower-cost versus alternatives, while emphasizing contract flexibility rather than long locked terms.",
+      "Video strategy combines cloud growth (Alta) with on-prem/hybrid pathways (Unity), which management said supports broader deployment flexibility by customer vertical."
+    ],
+    "forecast_hooks": [
+      "Track APX Next subscriber progression from more than 200,000 at end-2025 toward the 300,000 end-2026 target and the related attach of Assist Suites.",
+      "Monitor product order growth and product backlog trajectory through 2026 versus management's call for a normal Q1 dip followed by recovery.",
+      "Watch gross/operating margin performance against tariff and memory headwinds, including evidence of pricing and mix offsets.",
+      "Track Silvus trajectory versus the $675M 2026 target and the mix between Ukraine-linked, NATO, and broader unmanned deployments."
+    ]
+  },
+  "follow_ups": {
+    "action_items": [
+      "Update MSI 2026 model assumptions for segment growth, tax rates, share count, and operating cash flow to align with call guidance.",
+      "Run channel checks on APX Next, SVX, and Assist Suite conversion by use case (dispatcher versus responder) and contract duration.",
+      "Track federal and defense program wins tied to Silvus, FedRAMP-enabled workflows, and unmanned systems demand."
+    ],
+    "open_questions": [
+      "How quickly will Assist Suite seats convert from trial and early deployment into recurring paid scale across large agencies?",
+      "Can double-digit product orders hold if U.S. funding priorities shift at federal or local levels during 2026?",
+      "What level of pricing action is required to fully offset tariffs and memory inflation if cost pressure extends beyond current assumptions?"
+    ],
+    "watch_next_quarter": [
+      "Q1 product backlog seasonality versus management's normalization framework and order growth expectations.",
+      "Command Center growth rate and APX Next subscriber adds versus the 300,000 end-2026 target path.",
+      "Video growth mix between cloud and on-prem/hybrid deployments, including camera unit growth and software attach."
+    ]
+  }
+}
