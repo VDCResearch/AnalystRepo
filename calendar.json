@@ -137,6 +137,15 @@
       "url": "https://web.quartr.com/link/companies/4073/events/538220"
     },
     {
+      "id": "event_559834",
+      "title": "Dell Technologies - Q1 2027",
+      "date": "2026-05-28",
+      "start": "2026-05-28T00:00:00.000Z",
+      "end": null,
+      "all_day": true,
+      "url": "https://web.quartr.com/link/companies/5910/events/559834/report?rp=0"
+    },
+    {
       "id": "event_555375",
       "title": "Cisco Systems - Q3 2026",
       "date": "2026-05-13",
@@ -360,6 +369,15 @@
       "end": null,
       "all_day": true,
       "url": "https://web.quartr.com/link/companies/4122/events/551989/report?rp=0"
+    },
+    {
+      "id": "event_560712",
+      "title": "Socket Mobile - Q1 2026",
+      "date": "2026-04-23",
+      "start": "2026-04-23T00:00:00.000Z",
+      "end": null,
+      "all_day": true,
+      "url": "https://web.quartr.com/link/companies/13327/events/560712/report?rp=0"
     },
     {
       "id": "event_536584",
