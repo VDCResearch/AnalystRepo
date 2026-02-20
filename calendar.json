@@ -632,15 +632,6 @@
       "url": "https://web.quartr.com/link/companies/10380/events/394304"
     },
     {
-      "id": "event_415900",
-      "title": "Hamamatsu Photonics - Q1 2026",
-      "date": "2026-02-06",
-      "start": "2026-02-06T02:00:00.000Z",
-      "end": "2026-02-06T03:00:00.000Z",
-      "all_day": false,
-      "url": "https://web.quartr.com/link/companies/15061/events/415900"
-    },
-    {
       "id": "event_406163",
       "title": "Amazon - Q4 2025",
       "date": "2026-02-05",
@@ -675,6 +666,15 @@
       "end": "2026-02-05T08:30:00.000Z",
       "all_day": false,
       "url": "https://web.quartr.com/link/companies/15852/events/413126"
+    },
+    {
+      "id": "event_415900",
+      "title": "Hamamatsu Photonics - Q1 2026",
+      "date": "2026-02-05",
+      "start": "2026-02-05T00:00:00.000Z",
+      "end": null,
+      "all_day": true,
+      "url": "https://web.quartr.com/link/companies/15061/events/415900/report?rp=0"
     },
     {
       "id": "event_396697",
@@ -713,15 +713,6 @@
       "url": "https://web.quartr.com/link/companies/4502/events/411028"
     },
     {
-      "id": "event_405387",
-      "title": "Kyocera - Q3 2026",
-      "date": "2026-02-03",
-      "start": "2026-02-03T01:30:00.000Z",
-      "end": "2026-02-03T02:30:00.000Z",
-      "all_day": false,
-      "url": "https://web.quartr.com/link/companies/16322/events/405387"
-    },
-    {
       "id": "event_406277",
       "title": "DENSO - Q3 2026",
       "date": "2026-02-03",
@@ -729,6 +720,15 @@
       "end": null,
       "all_day": true,
       "url": "https://web.quartr.com/link/companies/15601/events/406277/report?rp=0"
+    },
+    {
+      "id": "event_405387",
+      "title": "Kyocera - Q3 2026",
+      "date": "2026-02-02",
+      "start": "2026-02-02T00:00:00.000Z",
+      "end": null,
+      "all_day": true,
+      "url": "https://web.quartr.com/link/companies/16322/events/405387/report?rp=0"
     },
     {
       "id": "event_406161",
