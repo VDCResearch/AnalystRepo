@@ -488,6 +488,15 @@
       "url": "https://web.quartr.com/link/companies/14723/events/403502/report?rp=0"
     },
     {
+      "id": "event_420279",
+      "title": "Getac  - Q4 2025",
+      "date": "2026-03-05",
+      "start": "2026-03-05T00:00:00.000Z",
+      "end": null,
+      "all_day": true,
+      "url": "https://web.quartr.com/link/companies/15496/events/420279/report?rp=0"
+    },
+    {
       "id": "event_409956",
       "title": "Okta - Q4 2026",
       "date": "2026-03-04",
@@ -513,15 +522,6 @@
       "end": "2026-02-26T14:00:00.000Z",
       "all_day": false,
       "url": "https://web.quartr.com/link/companies/10653/events/412327"
-    },
-    {
-      "id": "event_420279",
-      "title": "Getac  - Q4 2025",
-      "date": "2026-02-26",
-      "start": "2026-02-26T00:00:00.000Z",
-      "end": null,
-      "all_day": true,
-      "url": "https://web.quartr.com/link/companies/15496/events/420279/report?rp=0"
     },
     {
       "id": "event_394099",
