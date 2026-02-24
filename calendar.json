@@ -245,6 +245,15 @@
       "url": "https://web.quartr.com/link/companies/4502/events/551233/report?rp=0"
     },
     {
+      "id": "event_566341",
+      "title": "Novanta - Q1 2026",
+      "date": "2026-05-05",
+      "start": "2026-05-05T00:00:00.000Z",
+      "end": null,
+      "all_day": true,
+      "url": "https://web.quartr.com/link/companies/12345/events/566341/report?rp=0"
+    },
+    {
       "id": "event_553078",
       "title": "Mettler-Toledo International - Q1 2026",
       "date": "2026-05-01",
@@ -288,6 +297,15 @@
       "end": null,
       "all_day": true,
       "url": "https://web.quartr.com/link/companies/10230/events/555466/report?rp=0"
+    },
+    {
+      "id": "event_566529",
+      "title": "Leonardo DRS - Q1 2026",
+      "date": "2026-04-30",
+      "start": "2026-04-30T00:00:00.000Z",
+      "end": null,
+      "all_day": true,
+      "url": "https://web.quartr.com/link/companies/14677/events/566529/report?rp=0"
     },
     {
       "id": "event_556161",
