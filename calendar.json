@@ -527,10 +527,10 @@
       "id": "event_403502",
       "title": "TKH Group - Q4 2025",
       "date": "2026-03-05",
-      "start": "2026-03-05T00:00:00.000Z",
-      "end": null,
-      "all_day": true,
-      "url": "https://web.quartr.com/link/companies/14723/events/403502/report?rp=0"
+      "start": "2026-03-05T09:00:00.000Z",
+      "end": "2026-03-05T10:00:00.000Z",
+      "all_day": false,
+      "url": "https://web.quartr.com/link/companies/14723/events/403502"
     },
     {
       "id": "event_409956",
@@ -711,33 +711,6 @@
       "end": null,
       "all_day": true,
       "url": "https://web.quartr.com/link/companies/15061/events/415900/report?rp=0"
-    },
-    {
-      "id": "event_396697",
-      "title": "Alphabet - Q4 2025",
-      "date": "2026-02-04",
-      "start": "2026-02-04T21:30:00.000Z",
-      "end": "2026-02-04T22:30:00.000Z",
-      "all_day": false,
-      "url": "https://web.quartr.com/link/companies/4122/events/396697"
-    },
-    {
-      "id": "event_393361",
-      "title": "Avery Dennison - Q4 2025",
-      "date": "2026-02-04",
-      "start": "2026-02-04T16:00:00.000Z",
-      "end": "2026-02-04T17:00:00.000Z",
-      "all_day": false,
-      "url": "https://web.quartr.com/link/companies/4661/events/393361"
-    },
-    {
-      "id": "event_405338",
-      "title": "Panasonic - Q3 2026",
-      "date": "2026-02-04",
-      "start": "2026-02-04T06:30:00.000Z",
-      "end": "2026-02-04T07:30:00.000Z",
-      "all_day": false,
-      "url": "https://web.quartr.com/link/companies/4799/events/405338"
     }
   ]
 }
