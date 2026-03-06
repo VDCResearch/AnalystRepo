@@ -666,51 +666,6 @@
       "end": "2026-02-06T14:30:00.000Z",
       "all_day": false,
       "url": "https://web.quartr.com/link/companies/10380/events/394304"
-    },
-    {
-      "id": "event_406163",
-      "title": "Amazon - Q4 2025",
-      "date": "2026-02-05",
-      "start": "2026-02-05T22:00:00.000Z",
-      "end": "2026-02-05T23:00:00.000Z",
-      "all_day": false,
-      "url": "https://web.quartr.com/link/companies/4762/events/406163"
-    },
-    {
-      "id": "event_393552",
-      "title": "Impinj - Q4 2025",
-      "date": "2026-02-05",
-      "start": "2026-02-05T22:00:00.000Z",
-      "end": "2026-02-05T23:00:00.000Z",
-      "all_day": false,
-      "url": "https://web.quartr.com/link/companies/10694/events/393552"
-    },
-    {
-      "id": "event_373612",
-      "title": "Mildef Group - Q4 2025",
-      "date": "2026-02-05",
-      "start": "2026-02-05T09:00:00.000Z",
-      "end": "2026-02-05T10:00:00.000Z",
-      "all_day": false,
-      "url": "https://web.quartr.com/link/companies/4073/events/373612"
-    },
-    {
-      "id": "event_413126",
-      "title": "OMRON - Q3 2026",
-      "date": "2026-02-05",
-      "start": "2026-02-05T07:30:00.000Z",
-      "end": "2026-02-05T08:30:00.000Z",
-      "all_day": false,
-      "url": "https://web.quartr.com/link/companies/15852/events/413126"
-    },
-    {
-      "id": "event_415900",
-      "title": "Hamamatsu Photonics - Q1 2026",
-      "date": "2026-02-05",
-      "start": "2026-02-05T00:00:00.000Z",
-      "end": null,
-      "all_day": true,
-      "url": "https://web.quartr.com/link/companies/15061/events/415900/report?rp=0"
     }
   ]
 }
