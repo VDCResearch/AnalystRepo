@@ -657,24 +657,6 @@
       "end": null,
       "all_day": true,
       "url": "https://web.quartr.com/link/companies/14791/events/336831/report?rp=0"
-    },
-    {
-      "id": "event_400177",
-      "title": "Motorola Solutions - Q4 2025",
-      "date": "2026-02-11",
-      "start": "2026-02-11T22:00:00.000Z",
-      "end": "2026-02-11T23:00:00.000Z",
-      "all_day": false,
-      "url": "https://web.quartr.com/link/companies/10230/events/400177"
-    },
-    {
-      "id": "event_418034",
-      "title": "Cisco Systems - Q2 2026",
-      "date": "2026-02-11",
-      "start": "2026-02-11T21:30:00.000Z",
-      "end": "2026-02-11T22:30:00.000Z",
-      "all_day": false,
-      "url": "https://web.quartr.com/link/companies/4639/events/418034"
     }
   ]
 }
