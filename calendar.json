@@ -621,42 +621,6 @@
       "end": "2026-02-18T15:00:00.000Z",
       "all_day": false,
       "url": "https://web.quartr.com/link/companies/15307/events/407176"
-    },
-    {
-      "id": "event_400049",
-      "title": "Maplebear - Q4 2025",
-      "date": "2026-02-12",
-      "start": "2026-02-12T22:00:00.000Z",
-      "end": "2026-02-12T23:00:00.000Z",
-      "all_day": false,
-      "url": "https://web.quartr.com/link/companies/15261/events/400049"
-    },
-    {
-      "id": "event_393294",
-      "title": "Zebra Technologies - Q4 2025",
-      "date": "2026-02-12",
-      "start": "2026-02-12T13:30:00.000Z",
-      "end": "2026-02-12T14:30:00.000Z",
-      "all_day": false,
-      "url": "https://web.quartr.com/link/companies/3691/events/393294"
-    },
-    {
-      "id": "event_396954",
-      "title": "Cognex - Q4 2025",
-      "date": "2026-02-12",
-      "start": "2026-02-12T13:30:00.000Z",
-      "end": "2026-02-12T14:30:00.000Z",
-      "all_day": false,
-      "url": "https://web.quartr.com/link/companies/6484/events/396954"
-    },
-    {
-      "id": "event_336831",
-      "title": "JLT Mobile Computers - Q4 2025",
-      "date": "2026-02-12",
-      "start": "2026-02-12T00:00:00.000Z",
-      "end": null,
-      "all_day": true,
-      "url": "https://web.quartr.com/link/companies/14791/events/336831/report?rp=0"
     }
   ]
 }
