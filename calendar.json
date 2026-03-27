@@ -2,16 +2,16 @@
   "source": "quartr",
   "events": [
     {
-      "id": "event_540017",
+      "id": "540017",
       "title": "JLT Mobile Computers - Q4 2026",
       "date": "2027-02-11",
       "start": "2027-02-11T00:00:00.000Z",
       "end": null,
       "all_day": true,
-      "url": "https://web.quartr.com/link/companies/14791/events/540017/report?rp=0"
+      "url": "https://web.quartr.com/link/companies/14791/events/540017/report?rp=1"
     },
     {
-      "id": "event_538222",
+      "id": "538222",
       "title": "Mildef Group - Q4 2026",
       "date": "2027-02-04",
       "start": "2027-02-04T09:00:00.000Z",
@@ -20,7 +20,7 @@
       "url": "https://web.quartr.com/link/companies/4073/events/538222"
     },
     {
-      "id": "event_387834",
+      "id": "387834",
       "title": "Atlas Copco - Q4 2026",
       "date": "2027-01-27",
       "start": "2027-01-27T12:00:00.000Z",
@@ -29,16 +29,16 @@
       "url": "https://web.quartr.com/link/companies/4769/events/387834"
     },
     {
-      "id": "event_540015",
+      "id": "540015",
       "title": "JLT Mobile Computers - Q3 2026",
       "date": "2026-10-23",
       "start": "2026-10-23T00:00:00.000Z",
       "end": null,
       "all_day": true,
-      "url": "https://web.quartr.com/link/companies/14791/events/540015/report?rp=0"
+      "url": "https://web.quartr.com/link/companies/14791/events/540015/report?rp=1"
     },
     {
-      "id": "event_387831",
+      "id": "387831",
       "title": "Atlas Copco - Q3 2026",
       "date": "2026-10-22",
       "start": "2026-10-22T11:00:00.000Z",
@@ -47,7 +47,7 @@
       "url": "https://web.quartr.com/link/companies/4769/events/387831"
     },
     {
-      "id": "event_538221",
+      "id": "538221",
       "title": "Mildef Group - Q3 2026",
       "date": "2026-10-22",
       "start": "2026-10-22T08:00:00.000Z",
@@ -56,43 +56,43 @@
       "url": "https://web.quartr.com/link/companies/4073/events/538221"
     },
     {
-      "id": "event_589603",
+      "id": "589603",
       "title": "Dell Technologies - Q2 2027",
       "date": "2026-09-03",
       "start": "2026-09-03T00:00:00.000Z",
       "end": null,
       "all_day": true,
-      "url": "https://web.quartr.com/link/companies/5910/events/589603/report?rp=0"
+      "url": "https://web.quartr.com/link/companies/5910/events/589603/report?rp=1"
     },
     {
-      "id": "event_540014",
+      "id": "540014",
       "title": "JLT Mobile Computers - Q2 2026",
       "date": "2026-08-12",
       "start": "2026-08-12T00:00:00.000Z",
       "end": null,
       "all_day": true,
-      "url": "https://web.quartr.com/link/companies/14791/events/540014/report?rp=0"
+      "url": "https://web.quartr.com/link/companies/14791/events/540014/report?rp=1"
     },
     {
-      "id": "event_556979",
+      "id": "556979",
       "title": "Viscom - Q2 2026",
       "date": "2026-08-12",
       "start": "2026-08-12T00:00:00.000Z",
       "end": null,
       "all_day": true,
-      "url": "https://web.quartr.com/link/companies/16572/events/556979/report?rp=0"
+      "url": "https://web.quartr.com/link/companies/16572/events/556979/report?rp=1"
     },
     {
-      "id": "event_556198",
+      "id": "556198",
       "title": "TKH Group - Q2 2026",
       "date": "2026-08-11",
       "start": "2026-08-11T00:00:00.000Z",
       "end": null,
       "all_day": true,
-      "url": "https://web.quartr.com/link/companies/14723/events/556198/report?rp=0"
+      "url": "https://web.quartr.com/link/companies/14723/events/556198/report?rp=1"
     },
     {
-      "id": "event_553294",
+      "id": "553294",
       "title": "Basler - Q2 2026",
       "date": "2026-08-05",
       "start": "2026-08-05T12:00:00.000Z",
@@ -101,34 +101,34 @@
       "url": "https://web.quartr.com/link/companies/13270/events/553294"
     },
     {
-      "id": "event_552780",
+      "id": "552780",
       "title": "Zebra Technologies - Q2 2026",
       "date": "2026-08-04",
       "start": "2026-08-04T00:00:00.000Z",
       "end": null,
       "all_day": true,
-      "url": "https://web.quartr.com/link/companies/3691/events/552780/report?rp=0"
+      "url": "https://web.quartr.com/link/companies/3691/events/552780/report?rp=1"
     },
     {
-      "id": "event_553593",
+      "id": "553593",
       "title": "Datalogic - Q2 2026",
       "date": "2026-08-04",
       "start": "2026-08-04T00:00:00.000Z",
       "end": null,
       "all_day": true,
-      "url": "https://web.quartr.com/link/companies/16569/events/553593/report?rp=0"
+      "url": "https://web.quartr.com/link/companies/16569/events/553593/report?rp=1"
     },
     {
-      "id": "event_550310",
+      "id": "550310",
       "title": "VusionGroup - Q2 2026",
       "date": "2026-07-30",
       "start": "2026-07-30T00:00:00.000Z",
       "end": null,
       "all_day": true,
-      "url": "https://web.quartr.com/link/companies/16423/events/550310/report?rp=0"
+      "url": "https://web.quartr.com/link/companies/16423/events/550310/report?rp=1"
     },
     {
-      "id": "event_387814",
+      "id": "387814",
       "title": "Atlas Copco - Q2 2026",
       "date": "2026-07-16",
       "start": "2026-07-16T11:00:00.000Z",
@@ -137,7 +137,7 @@
       "url": "https://web.quartr.com/link/companies/4769/events/387814"
     },
     {
-      "id": "event_538220",
+      "id": "538220",
       "title": "Mildef Group - Q2 2026",
       "date": "2026-07-16",
       "start": "2026-07-16T08:00:00.000Z",
@@ -146,133 +146,133 @@
       "url": "https://web.quartr.com/link/companies/4073/events/538220"
     },
     {
-      "id": "event_559834",
+      "id": "559834",
       "title": "Dell Technologies - Q1 2027",
       "date": "2026-05-28",
       "start": "2026-05-28T00:00:00.000Z",
       "end": null,
       "all_day": true,
-      "url": "https://web.quartr.com/link/companies/5910/events/559834/report?rp=0"
+      "url": "https://web.quartr.com/link/companies/5910/events/559834/report?rp=1"
     },
     {
-      "id": "event_581082",
+      "id": "581082",
       "title": "Okta - Q1 2027",
       "date": "2026-05-26",
       "start": "2026-05-26T00:00:00.000Z",
       "end": null,
       "all_day": true,
-      "url": "https://web.quartr.com/link/companies/3870/events/581082/report?rp=0"
+      "url": "https://web.quartr.com/link/companies/3870/events/581082/report?rp=1"
     },
     {
-      "id": "event_555375",
+      "id": "555375",
       "title": "Cisco Systems - Q3 2026",
       "date": "2026-05-13",
       "start": "2026-05-13T00:00:00.000Z",
       "end": null,
       "all_day": true,
-      "url": "https://web.quartr.com/link/companies/4639/events/555375/report?rp=0"
+      "url": "https://web.quartr.com/link/companies/4639/events/555375/report?rp=1"
     },
     {
-      "id": "event_620569",
+      "id": "620569",
       "title": "Solum - Q1 2026",
       "date": "2026-05-13",
       "start": "2026-05-13T00:00:00.000Z",
       "end": null,
       "all_day": true,
-      "url": "https://web.quartr.com/link/companies/16192/events/620569/report?rp=0"
+      "url": "https://web.quartr.com/link/companies/16192/events/620569/report?rp=1"
     },
     {
-      "id": "event_419046",
-      "title": "Zebra Technologies - Q1 2026",
-      "date": "2026-05-12",
-      "start": "2026-05-12T00:00:00.000Z",
-      "end": null,
-      "all_day": true,
-      "url": "https://web.quartr.com/link/companies/3691/events/419046/report?rp=0"
-    },
-    {
-      "id": "event_419040",
+      "id": "419040",
       "title": "TKH Group - Q1 2026",
       "date": "2026-05-12",
       "start": "2026-05-12T00:00:00.000Z",
       "end": null,
       "all_day": true,
-      "url": "https://web.quartr.com/link/companies/14723/events/419040/report?rp=0"
+      "url": "https://web.quartr.com/link/companies/14723/events/419040/report?rp=1"
     },
     {
-      "id": "event_559247",
-      "title": "Camtek - Q1 2026",
+      "id": "419046",
+      "title": "Zebra Technologies - Q1 2026",
       "date": "2026-05-12",
       "start": "2026-05-12T00:00:00.000Z",
       "end": null,
       "all_day": true,
-      "url": "https://web.quartr.com/link/companies/15307/events/559247/report?rp=0"
+      "url": "https://web.quartr.com/link/companies/3691/events/419046/report?rp=1"
     },
     {
-      "id": "event_420849",
+      "id": "420849",
       "title": "Viscom - Q1 2026",
       "date": "2026-05-12",
       "start": "2026-05-12T00:00:00.000Z",
       "end": null,
       "all_day": true,
-      "url": "https://web.quartr.com/link/companies/16572/events/420849/report?rp=0"
+      "url": "https://web.quartr.com/link/companies/16572/events/420849/report?rp=1"
     },
     {
-      "id": "event_536519",
+      "id": "559247",
+      "title": "Camtek - Q1 2026",
+      "date": "2026-05-12",
+      "start": "2026-05-12T00:00:00.000Z",
+      "end": null,
+      "all_day": true,
+      "url": "https://web.quartr.com/link/companies/15307/events/559247/report?rp=1"
+    },
+    {
+      "id": "536519",
       "title": "Panasonic - Q4 2026",
       "date": "2026-05-08",
       "start": "2026-05-08T00:00:00.000Z",
       "end": null,
       "all_day": true,
-      "url": "https://web.quartr.com/link/companies/4799/events/536519/report?rp=0"
+      "url": "https://web.quartr.com/link/companies/4799/events/536519/report?rp=1"
     },
     {
-      "id": "event_545862",
-      "title": "Hamamatsu Photonics - Q2 2026",
-      "date": "2026-05-08",
-      "start": "2026-05-08T00:00:00.000Z",
-      "end": null,
-      "all_day": true,
-      "url": "https://web.quartr.com/link/companies/15061/events/545862/report?rp=0"
-    },
-    {
-      "id": "event_587651",
-      "title": "Getac  - Q1 2026",
-      "date": "2026-05-08",
-      "start": "2026-05-08T00:00:00.000Z",
-      "end": null,
-      "all_day": true,
-      "url": "https://web.quartr.com/link/companies/15496/events/587651/report?rp=0"
-    },
-    {
-      "id": "event_539804",
+      "id": "539804",
       "title": "OMRON - Q4 2026",
       "date": "2026-05-08",
       "start": "2026-05-08T00:00:00.000Z",
       "end": null,
       "all_day": true,
-      "url": "https://web.quartr.com/link/companies/15852/events/539804/report?rp=0"
+      "url": "https://web.quartr.com/link/companies/15852/events/539804/report?rp=1"
     },
     {
-      "id": "event_571582",
-      "title": "NCR Voyix - Q1 2026",
-      "date": "2026-05-07",
-      "start": "2026-05-07T00:00:00.000Z",
+      "id": "545862",
+      "title": "Hamamatsu Photonics - Q2 2026",
+      "date": "2026-05-08",
+      "start": "2026-05-08T00:00:00.000Z",
       "end": null,
       "all_day": true,
-      "url": "https://web.quartr.com/link/companies/10653/events/571582/report?rp=0"
+      "url": "https://web.quartr.com/link/companies/15061/events/545862/report?rp=1"
     },
     {
-      "id": "event_537072",
+      "id": "587651",
+      "title": "Getac  - Q1 2026",
+      "date": "2026-05-08",
+      "start": "2026-05-08T00:00:00.000Z",
+      "end": null,
+      "all_day": true,
+      "url": "https://web.quartr.com/link/companies/15496/events/587651/report?rp=1"
+    },
+    {
+      "id": "537072",
       "title": "JLT Mobile Computers - Q1 2026",
       "date": "2026-05-07",
       "start": "2026-05-07T00:00:00.000Z",
       "end": null,
       "all_day": true,
-      "url": "https://web.quartr.com/link/companies/14791/events/537072/report?rp=0"
+      "url": "https://web.quartr.com/link/companies/14791/events/537072/report?rp=1"
     },
     {
-      "id": "event_532563",
+      "id": "571582",
+      "title": "NCR Voyix - Q1 2026",
+      "date": "2026-05-07",
+      "start": "2026-05-07T00:00:00.000Z",
+      "end": null,
+      "all_day": true,
+      "url": "https://web.quartr.com/link/companies/10653/events/571582/report?rp=1"
+    },
+    {
+      "id": "532563",
       "title": "Basler - Q1 2026",
       "date": "2026-05-06",
       "start": "2026-05-06T12:00:00.000Z",
@@ -281,34 +281,34 @@
       "url": "https://web.quartr.com/link/companies/13270/events/532563"
     },
     {
-      "id": "event_551233",
+      "id": "551233",
       "title": "Emerson Electric - Q2 2026",
       "date": "2026-05-06",
       "start": "2026-05-06T00:00:00.000Z",
       "end": null,
       "all_day": true,
-      "url": "https://web.quartr.com/link/companies/4502/events/551233/report?rp=0"
+      "url": "https://web.quartr.com/link/companies/4502/events/551233/report?rp=1"
     },
     {
-      "id": "event_566341",
+      "id": "566341",
       "title": "Novanta - Q1 2026",
       "date": "2026-05-05",
       "start": "2026-05-05T00:00:00.000Z",
       "end": null,
       "all_day": true,
-      "url": "https://web.quartr.com/link/companies/12345/events/566341/report?rp=0"
+      "url": "https://web.quartr.com/link/companies/12345/events/566341/report?rp=1"
     },
     {
-      "id": "event_553078",
+      "id": "553078",
       "title": "Mettler-Toledo International - Q1 2026",
       "date": "2026-05-01",
       "start": "2026-05-01T00:00:00.000Z",
       "end": null,
       "all_day": true,
-      "url": "https://web.quartr.com/link/companies/10380/events/553078/report?rp=0"
+      "url": "https://web.quartr.com/link/companies/10380/events/553078/report?rp=1"
     },
     {
-      "id": "event_538070",
+      "id": "538070",
       "title": "Kyocera - Q4 2026",
       "date": "2026-04-30",
       "start": "2026-04-30T12:00:00.000Z",
@@ -317,70 +317,70 @@
       "url": "https://web.quartr.com/link/companies/16322/events/538070"
     },
     {
-      "id": "event_548666",
+      "id": "548666",
       "title": "Apple - Q2 2026",
       "date": "2026-04-30",
       "start": "2026-04-30T00:00:00.000Z",
       "end": null,
       "all_day": true,
-      "url": "https://web.quartr.com/link/companies/4742/events/548666/report?rp=0"
+      "url": "https://web.quartr.com/link/companies/4742/events/548666/report?rp=1"
     },
     {
-      "id": "event_552741",
+      "id": "552741",
       "title": "Amazon - Q1 2026",
       "date": "2026-04-30",
       "start": "2026-04-30T00:00:00.000Z",
       "end": null,
       "all_day": true,
-      "url": "https://web.quartr.com/link/companies/4762/events/552741/report?rp=0"
+      "url": "https://web.quartr.com/link/companies/4762/events/552741/report?rp=1"
     },
     {
-      "id": "event_555844",
-      "title": "Cognex - Q1 2026",
-      "date": "2026-04-30",
-      "start": "2026-04-30T00:00:00.000Z",
-      "end": null,
-      "all_day": true,
-      "url": "https://web.quartr.com/link/companies/6484/events/555844/report?rp=0"
-    },
-    {
-      "id": "event_555466",
+      "id": "555466",
       "title": "Motorola Solutions - Q1 2026",
       "date": "2026-04-30",
       "start": "2026-04-30T00:00:00.000Z",
       "end": null,
       "all_day": true,
-      "url": "https://web.quartr.com/link/companies/10230/events/555466/report?rp=0"
+      "url": "https://web.quartr.com/link/companies/10230/events/555466/report?rp=1"
     },
     {
-      "id": "event_566529",
-      "title": "Leonardo DRS - Q1 2026",
+      "id": "555844",
+      "title": "Cognex - Q1 2026",
       "date": "2026-04-30",
       "start": "2026-04-30T00:00:00.000Z",
       "end": null,
       "all_day": true,
-      "url": "https://web.quartr.com/link/companies/14677/events/566529/report?rp=0"
+      "url": "https://web.quartr.com/link/companies/6484/events/555844/report?rp=1"
     },
     {
-      "id": "event_556161",
+      "id": "556161",
       "title": "Maplebear - Q1 2026",
       "date": "2026-04-30",
       "start": "2026-04-30T00:00:00.000Z",
       "end": null,
       "all_day": true,
-      "url": "https://web.quartr.com/link/companies/15261/events/556161/report?rp=0"
+      "url": "https://web.quartr.com/link/companies/15261/events/556161/report?rp=1"
     },
     {
-      "id": "event_547962",
+      "id": "566529",
+      "title": "Leonardo DRS - Q1 2026",
+      "date": "2026-04-30",
+      "start": "2026-04-30T00:00:00.000Z",
+      "end": null,
+      "all_day": true,
+      "url": "https://web.quartr.com/link/companies/14677/events/566529/report?rp=1"
+    },
+    {
+      "id": "547962",
       "title": "Samsung Electronics - Q1 2026",
       "date": "2026-04-29",
       "start": "2026-04-29T00:00:00.000Z",
       "end": null,
       "all_day": true,
-      "url": "https://web.quartr.com/link/companies/4754/events/547962/report?rp=0"
+      "url": "https://web.quartr.com/link/companies/4754/events/547962/report?rp=1"
     },
     {
-      "id": "event_387807",
+      "id": "387807",
       "title": "Atlas Copco - Q1 2026",
       "date": "2026-04-28",
       "start": "2026-04-28T11:00:00.000Z",
@@ -389,34 +389,34 @@
       "url": "https://web.quartr.com/link/companies/4769/events/387807"
     },
     {
-      "id": "event_548423",
-      "title": "Honeywell International - Q1 2026",
-      "date": "2026-04-28",
-      "start": "2026-04-28T00:00:00.000Z",
-      "end": null,
-      "all_day": true,
-      "url": "https://web.quartr.com/link/companies/5875/events/548423/report?rp=0"
-    },
-    {
-      "id": "event_538177",
+      "id": "538177",
       "title": "DENSO - Q4 2026",
       "date": "2026-04-28",
       "start": "2026-04-28T00:00:00.000Z",
       "end": null,
       "all_day": true,
-      "url": "https://web.quartr.com/link/companies/15601/events/538177/report?rp=0"
+      "url": "https://web.quartr.com/link/companies/15601/events/538177/report?rp=1"
     },
     {
-      "id": "event_535580",
+      "id": "535580",
       "title": "Keyence - Q4 2026",
       "date": "2026-04-24",
       "start": "2026-04-24T00:00:00.000Z",
       "end": null,
       "all_day": true,
-      "url": "https://web.quartr.com/link/companies/11375/events/535580/report?rp=0"
+      "url": "https://web.quartr.com/link/companies/11375/events/535580/report?rp=1"
     },
     {
-      "id": "event_538219",
+      "id": "548423",
+      "title": "Honeywell International - Q1 2026",
+      "date": "2026-04-23",
+      "start": "2026-04-23T12:30:00.000Z",
+      "end": "2026-04-23T13:30:00.000Z",
+      "all_day": false,
+      "url": "https://web.quartr.com/link/companies/5875/events/548423"
+    },
+    {
+      "id": "538219",
       "title": "Mildef Group - Q1 2026",
       "date": "2026-04-23",
       "start": "2026-04-23T08:00:00.000Z",
@@ -425,79 +425,79 @@
       "url": "https://web.quartr.com/link/companies/4073/events/538219"
     },
     {
-      "id": "event_551989",
-      "title": "Alphabet - Q1 2026",
-      "date": "2026-04-23",
-      "start": "2026-04-23T00:00:00.000Z",
-      "end": null,
-      "all_day": true,
-      "url": "https://web.quartr.com/link/companies/4122/events/551989/report?rp=0"
-    },
-    {
-      "id": "event_560712",
-      "title": "Socket Mobile - Q1 2026",
-      "date": "2026-04-23",
-      "start": "2026-04-23T00:00:00.000Z",
-      "end": null,
-      "all_day": true,
-      "url": "https://web.quartr.com/link/companies/13327/events/560712/report?rp=0"
-    },
-    {
-      "id": "event_536584",
+      "id": "536584",
       "title": "Fujitsu - Q4 2026",
       "date": "2026-04-23",
       "start": "2026-04-23T00:00:00.000Z",
       "end": null,
       "all_day": true,
-      "url": "https://web.quartr.com/link/companies/14329/events/536584/report?rp=0"
+      "url": "https://web.quartr.com/link/companies/14329/events/536584/report?rp=1"
     },
     {
-      "id": "event_551948",
-      "title": "Avery Dennison - Q1 2026",
-      "date": "2026-04-22",
-      "start": "2026-04-22T00:00:00.000Z",
+      "id": "551989",
+      "title": "Alphabet - Q1 2026",
+      "date": "2026-04-23",
+      "start": "2026-04-23T00:00:00.000Z",
       "end": null,
       "all_day": true,
-      "url": "https://web.quartr.com/link/companies/4661/events/551948/report?rp=0"
+      "url": "https://web.quartr.com/link/companies/4122/events/551989/report?rp=1"
     },
     {
-      "id": "event_544198",
+      "id": "560712",
+      "title": "Socket Mobile - Q1 2026",
+      "date": "2026-04-23",
+      "start": "2026-04-23T00:00:00.000Z",
+      "end": null,
+      "all_day": true,
+      "url": "https://web.quartr.com/link/companies/13327/events/560712/report?rp=1"
+    },
+    {
+      "id": "544198",
       "title": "Teledyne Technologies - Q1 2026",
       "date": "2026-04-22",
       "start": "2026-04-22T00:00:00.000Z",
       "end": null,
       "all_day": true,
-      "url": "https://web.quartr.com/link/companies/6273/events/544198/report?rp=0"
+      "url": "https://web.quartr.com/link/companies/6273/events/544198/report?rp=1"
     },
     {
-      "id": "event_552753",
+      "id": "551948",
+      "title": "Avery Dennison - Q1 2026",
+      "date": "2026-04-22",
+      "start": "2026-04-22T00:00:00.000Z",
+      "end": null,
+      "all_day": true,
+      "url": "https://web.quartr.com/link/companies/4661/events/551948/report?rp=1"
+    },
+    {
+      "id": "552753",
       "title": "Impinj - Q1 2026",
       "date": "2026-04-22",
       "start": "2026-04-22T00:00:00.000Z",
       "end": null,
       "all_day": true,
-      "url": "https://web.quartr.com/link/companies/10694/events/552753/report?rp=0"
+      "url": "https://web.quartr.com/link/companies/10694/events/552753/report?rp=1"
     },
     {
-      "id": "event_402793",
+      "id": "402793",
       "title": "VusionGroup - Q1 2026 TU",
       "date": "2026-04-21",
       "start": "2026-04-21T00:00:00.000Z",
       "end": null,
       "all_day": true,
-      "url": "https://web.quartr.com/link/companies/16423/events/402793/report?rp=0"
+      "url": "https://web.quartr.com/link/companies/16423/events/402793/report?rp=1"
     },
     {
-      "id": "event_542409",
+      "id": "542409",
       "title": "Nedap - Q1 2026 TU",
       "date": "2026-04-07",
       "start": "2026-04-07T00:00:00.000Z",
       "end": null,
       "all_day": true,
-      "url": "https://web.quartr.com/link/companies/14699/events/542409/report?rp=0"
+      "url": "https://web.quartr.com/link/companies/14699/events/542409/report?rp=1"
     },
     {
-      "id": "event_419885",
+      "id": "419885",
       "title": "Viscom - Q4 2025",
       "date": "2026-04-01",
       "start": "2026-04-01T12:00:00.000Z",
@@ -506,16 +506,16 @@
       "url": "https://web.quartr.com/link/companies/16572/events/419885"
     },
     {
-      "id": "event_403738",
+      "id": "403738",
       "title": "Sonim Technologies - Q4 2025",
       "date": "2026-04-01",
       "start": "2026-04-01T00:00:00.000Z",
       "end": null,
       "all_day": true,
-      "url": "https://web.quartr.com/link/companies/20365/events/403738/report?rp=0"
+      "url": "https://web.quartr.com/link/companies/20365/events/403738/report?rp=1"
     },
     {
-      "id": "event_415576",
+      "id": "415576",
       "title": "Basler - Q4 2025",
       "date": "2026-03-31",
       "start": "2026-03-31T12:00:00.000Z",
@@ -524,25 +524,25 @@
       "url": "https://web.quartr.com/link/companies/13270/events/415576"
     },
     {
-      "id": "event_422737",
+      "id": "422737",
       "title": "Solum - Q4 2025",
       "date": "2026-03-25",
       "start": "2026-03-25T00:00:00.000Z",
       "end": null,
       "all_day": true,
-      "url": "https://web.quartr.com/link/companies/16192/events/422737/report?rp=0"
+      "url": "https://web.quartr.com/link/companies/16192/events/422737/report?rp=1"
     },
     {
-      "id": "event_408645",
+      "id": "408645",
       "title": "Datalogic - Q4 2025",
       "date": "2026-03-19",
       "start": "2026-03-19T00:00:00.000Z",
       "end": null,
       "all_day": true,
-      "url": "https://web.quartr.com/link/companies/16569/events/408645/report?rp=0"
+      "url": "https://web.quartr.com/link/companies/16569/events/408645/report?rp=1"
     },
     {
-      "id": "event_403502",
+      "id": "403502",
       "title": "TKH Group - Q4 2025",
       "date": "2026-03-05",
       "start": "2026-03-05T09:00:00.000Z",
@@ -551,7 +551,7 @@
       "url": "https://web.quartr.com/link/companies/14723/events/403502"
     },
     {
-      "id": "event_409956",
+      "id": "409956",
       "title": "Okta - Q4 2026",
       "date": "2026-03-04",
       "start": "2026-03-04T22:00:00.000Z",
@@ -560,31 +560,13 @@
       "url": "https://web.quartr.com/link/companies/3870/events/409956"
     },
     {
-      "id": "event_420279",
+      "id": "420279",
       "title": "Getac  - Q4 2025",
       "date": "2026-03-02",
       "start": "2026-03-02T00:00:00.000Z",
       "end": null,
       "all_day": true,
-      "url": "https://web.quartr.com/link/companies/15496/events/420279/report?rp=0"
-    },
-    {
-      "id": "event_382878",
-      "title": "Dell Technologies - Q4 2026",
-      "date": "2026-02-26",
-      "start": "2026-02-26T21:30:00.000Z",
-      "end": "2026-02-26T22:30:00.000Z",
-      "all_day": false,
-      "url": "https://web.quartr.com/link/companies/5910/events/382878"
-    },
-    {
-      "id": "event_412327",
-      "title": "NCR Voyix - Q4 2025",
-      "date": "2026-02-26",
-      "start": "2026-02-26T13:00:00.000Z",
-      "end": "2026-02-26T14:00:00.000Z",
-      "all_day": false,
-      "url": "https://web.quartr.com/link/companies/10653/events/412327"
+      "url": "https://web.quartr.com/link/companies/15496/events/420279/report?rp=1"
     }
   ]
 }
