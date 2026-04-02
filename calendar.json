@@ -380,6 +380,15 @@
       "url": "https://web.quartr.com/link/companies/4754/events/547962/report?rp=1"
     },
     {
+      "id": "551948",
+      "title": "Avery Dennison - Q1 2026",
+      "date": "2026-04-28",
+      "start": "2026-04-28T15:00:00.000Z",
+      "end": "2026-04-28T16:00:00.000Z",
+      "all_day": false,
+      "url": "https://web.quartr.com/link/companies/4661/events/551948"
+    },
+    {
       "id": "387807",
       "title": "Atlas Copco - Q1 2026",
       "date": "2026-04-28",
@@ -459,15 +468,6 @@
       "end": null,
       "all_day": true,
       "url": "https://web.quartr.com/link/companies/6273/events/544198/report?rp=1"
-    },
-    {
-      "id": "551948",
-      "title": "Avery Dennison - Q1 2026",
-      "date": "2026-04-22",
-      "start": "2026-04-22T00:00:00.000Z",
-      "end": null,
-      "all_day": true,
-      "url": "https://web.quartr.com/link/companies/4661/events/551948/report?rp=1"
     },
     {
       "id": "552753",
@@ -558,15 +558,6 @@
       "end": "2026-03-04T23:00:00.000Z",
       "all_day": false,
       "url": "https://web.quartr.com/link/companies/3870/events/409956"
-    },
-    {
-      "id": "420279",
-      "title": "Getac  - Q4 2025",
-      "date": "2026-03-02",
-      "start": "2026-03-02T00:00:00.000Z",
-      "end": null,
-      "all_day": true,
-      "url": "https://web.quartr.com/link/companies/15496/events/420279/report?rp=1"
     }
   ]
 }
