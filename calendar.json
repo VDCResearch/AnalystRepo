@@ -3,7 +3,7 @@
   "events": [
     {
       "id": "540017",
-      "title": "JLT Mobile Computers - Q4 2026",
+      "title": "JLT Mobile Computers - Q4 2026 (est.)",
       "date": "2027-02-11",
       "start": "2027-02-11T00:00:00.000Z",
       "end": null,
@@ -30,7 +30,7 @@
     },
     {
       "id": "540015",
-      "title": "JLT Mobile Computers - Q3 2026",
+      "title": "JLT Mobile Computers - Q3 2026 (est.)",
       "date": "2026-10-23",
       "start": "2026-10-23T00:00:00.000Z",
       "end": null,
@@ -57,7 +57,7 @@
     },
     {
       "id": "589603",
-      "title": "Dell Technologies - Q2 2027",
+      "title": "Dell Technologies - Q2 2027 (est.)",
       "date": "2026-09-03",
       "start": "2026-09-03T00:00:00.000Z",
       "end": null,
@@ -66,7 +66,7 @@
     },
     {
       "id": "540014",
-      "title": "JLT Mobile Computers - Q2 2026",
+      "title": "JLT Mobile Computers - Q2 2026 (est.)",
       "date": "2026-08-12",
       "start": "2026-08-12T00:00:00.000Z",
       "end": null,
@@ -75,7 +75,7 @@
     },
     {
       "id": "556979",
-      "title": "Viscom - Q2 2026",
+      "title": "Viscom - Q2 2026 (est.)",
       "date": "2026-08-12",
       "start": "2026-08-12T00:00:00.000Z",
       "end": null,
@@ -84,7 +84,7 @@
     },
     {
       "id": "556198",
-      "title": "TKH Group - Q2 2026",
+      "title": "TKH Group - Q2 2026 (est.)",
       "date": "2026-08-11",
       "start": "2026-08-11T00:00:00.000Z",
       "end": null,
@@ -102,7 +102,7 @@
     },
     {
       "id": "552780",
-      "title": "Zebra Technologies - Q2 2026",
+      "title": "Zebra Technologies - Q2 2026 (est.)",
       "date": "2026-08-04",
       "start": "2026-08-04T00:00:00.000Z",
       "end": null,
@@ -111,7 +111,7 @@
     },
     {
       "id": "553593",
-      "title": "Datalogic - Q2 2026",
+      "title": "Datalogic - Q2 2026 (est.)",
       "date": "2026-08-04",
       "start": "2026-08-04T00:00:00.000Z",
       "end": null,
@@ -120,7 +120,7 @@
     },
     {
       "id": "550310",
-      "title": "VusionGroup - Q2 2026",
+      "title": "VusionGroup - Q2 2026 (est.)",
       "date": "2026-07-30",
       "start": "2026-07-30T00:00:00.000Z",
       "end": null,
@@ -147,7 +147,7 @@
     },
     {
       "id": "559834",
-      "title": "Dell Technologies - Q1 2027",
+      "title": "Dell Technologies - Q1 2027 (est.)",
       "date": "2026-05-28",
       "start": "2026-05-28T00:00:00.000Z",
       "end": null,
@@ -156,7 +156,7 @@
     },
     {
       "id": "581082",
-      "title": "Okta - Q1 2027",
+      "title": "Okta - Q1 2027 (est.)",
       "date": "2026-05-26",
       "start": "2026-05-26T00:00:00.000Z",
       "end": null,
@@ -165,7 +165,7 @@
     },
     {
       "id": "555375",
-      "title": "Cisco Systems - Q3 2026",
+      "title": "Cisco Systems - Q3 2026 (est.)",
       "date": "2026-05-13",
       "start": "2026-05-13T00:00:00.000Z",
       "end": null,
@@ -174,7 +174,7 @@
     },
     {
       "id": "620569",
-      "title": "Solum - Q1 2026",
+      "title": "Solum - Q1 2026 (est.)",
       "date": "2026-05-13",
       "start": "2026-05-13T00:00:00.000Z",
       "end": null,
@@ -183,7 +183,7 @@
     },
     {
       "id": "419040",
-      "title": "TKH Group - Q1 2026",
+      "title": "TKH Group - Q1 2026 (est.)",
       "date": "2026-05-12",
       "start": "2026-05-12T00:00:00.000Z",
       "end": null,
@@ -192,7 +192,7 @@
     },
     {
       "id": "419046",
-      "title": "Zebra Technologies - Q1 2026",
+      "title": "Zebra Technologies - Q1 2026 (est.)",
       "date": "2026-05-12",
       "start": "2026-05-12T00:00:00.000Z",
       "end": null,
@@ -201,7 +201,7 @@
     },
     {
       "id": "420849",
-      "title": "Viscom - Q1 2026",
+      "title": "Viscom - Q1 2026 (est.)",
       "date": "2026-05-12",
       "start": "2026-05-12T00:00:00.000Z",
       "end": null,
@@ -210,7 +210,7 @@
     },
     {
       "id": "559247",
-      "title": "Camtek - Q1 2026",
+      "title": "Camtek - Q1 2026 (est.)",
       "date": "2026-05-12",
       "start": "2026-05-12T00:00:00.000Z",
       "end": null,
@@ -219,7 +219,7 @@
     },
     {
       "id": "536519",
-      "title": "Panasonic - Q4 2026",
+      "title": "Panasonic - Q4 2026 (est.)",
       "date": "2026-05-08",
       "start": "2026-05-08T00:00:00.000Z",
       "end": null,
@@ -228,7 +228,7 @@
     },
     {
       "id": "539804",
-      "title": "OMRON - Q4 2026",
+      "title": "OMRON - Q4 2026 (est.)",
       "date": "2026-05-08",
       "start": "2026-05-08T00:00:00.000Z",
       "end": null,
@@ -237,7 +237,7 @@
     },
     {
       "id": "545862",
-      "title": "Hamamatsu Photonics - Q2 2026",
+      "title": "Hamamatsu Photonics - Q2 2026 (est.)",
       "date": "2026-05-08",
       "start": "2026-05-08T00:00:00.000Z",
       "end": null,
@@ -246,7 +246,7 @@
     },
     {
       "id": "587651",
-      "title": "Getac  - Q1 2026",
+      "title": "Getac  - Q1 2026 (est.)",
       "date": "2026-05-08",
       "start": "2026-05-08T00:00:00.000Z",
       "end": null,
@@ -255,7 +255,7 @@
     },
     {
       "id": "537072",
-      "title": "JLT Mobile Computers - Q1 2026",
+      "title": "JLT Mobile Computers - Q1 2026 (est.)",
       "date": "2026-05-07",
       "start": "2026-05-07T00:00:00.000Z",
       "end": null,
@@ -264,7 +264,7 @@
     },
     {
       "id": "571582",
-      "title": "NCR Voyix - Q1 2026",
+      "title": "NCR Voyix - Q1 2026 (est.)",
       "date": "2026-05-07",
       "start": "2026-05-07T00:00:00.000Z",
       "end": null,
@@ -282,7 +282,7 @@
     },
     {
       "id": "551233",
-      "title": "Emerson Electric - Q2 2026",
+      "title": "Emerson Electric - Q2 2026 (est.)",
       "date": "2026-05-06",
       "start": "2026-05-06T00:00:00.000Z",
       "end": null,
@@ -291,7 +291,7 @@
     },
     {
       "id": "566341",
-      "title": "Novanta - Q1 2026",
+      "title": "Novanta - Q1 2026 (est.)",
       "date": "2026-05-05",
       "start": "2026-05-05T00:00:00.000Z",
       "end": null,
@@ -300,7 +300,7 @@
     },
     {
       "id": "553078",
-      "title": "Mettler-Toledo International - Q1 2026",
+      "title": "Mettler-Toledo International - Q1 2026 (est.)",
       "date": "2026-05-01",
       "start": "2026-05-01T00:00:00.000Z",
       "end": null,
@@ -318,7 +318,7 @@
     },
     {
       "id": "548666",
-      "title": "Apple - Q2 2026",
+      "title": "Apple - Q2 2026 (est.)",
       "date": "2026-04-30",
       "start": "2026-04-30T00:00:00.000Z",
       "end": null,
@@ -327,7 +327,7 @@
     },
     {
       "id": "552741",
-      "title": "Amazon - Q1 2026",
+      "title": "Amazon - Q1 2026 (est.)",
       "date": "2026-04-30",
       "start": "2026-04-30T00:00:00.000Z",
       "end": null,
@@ -336,7 +336,7 @@
     },
     {
       "id": "555466",
-      "title": "Motorola Solutions - Q1 2026",
+      "title": "Motorola Solutions - Q1 2026 (est.)",
       "date": "2026-04-30",
       "start": "2026-04-30T00:00:00.000Z",
       "end": null,
@@ -345,7 +345,7 @@
     },
     {
       "id": "555844",
-      "title": "Cognex - Q1 2026",
+      "title": "Cognex - Q1 2026 (est.)",
       "date": "2026-04-30",
       "start": "2026-04-30T00:00:00.000Z",
       "end": null,
@@ -354,7 +354,7 @@
     },
     {
       "id": "556161",
-      "title": "Maplebear - Q1 2026",
+      "title": "Maplebear - Q1 2026 (est.)",
       "date": "2026-04-30",
       "start": "2026-04-30T00:00:00.000Z",
       "end": null,
@@ -363,7 +363,7 @@
     },
     {
       "id": "566529",
-      "title": "Leonardo DRS - Q1 2026",
+      "title": "Leonardo DRS - Q1 2026 (est.)",
       "date": "2026-04-30",
       "start": "2026-04-30T00:00:00.000Z",
       "end": null,
@@ -371,8 +371,17 @@
       "url": "https://web.quartr.com/link/companies/14677/events/566529/report?rp=1"
     },
     {
+      "id": "552753",
+      "title": "Impinj - Q1 2026",
+      "date": "2026-04-29",
+      "start": "2026-04-29T21:00:00.000Z",
+      "end": "2026-04-29T22:00:00.000Z",
+      "all_day": false,
+      "url": "https://web.quartr.com/link/companies/10694/events/552753"
+    },
+    {
       "id": "547962",
-      "title": "Samsung Electronics - Q1 2026",
+      "title": "Samsung Electronics - Q1 2026 (est.)",
       "date": "2026-04-29",
       "start": "2026-04-29T00:00:00.000Z",
       "end": null,
@@ -399,7 +408,7 @@
     },
     {
       "id": "538177",
-      "title": "DENSO - Q4 2026",
+      "title": "DENSO - Q4 2026 (est.)",
       "date": "2026-04-28",
       "start": "2026-04-28T00:00:00.000Z",
       "end": null,
@@ -408,7 +417,7 @@
     },
     {
       "id": "535580",
-      "title": "Keyence - Q4 2026",
+      "title": "Keyence - Q4 2026 (est.)",
       "date": "2026-04-24",
       "start": "2026-04-24T00:00:00.000Z",
       "end": null,
@@ -435,7 +444,7 @@
     },
     {
       "id": "536584",
-      "title": "Fujitsu - Q4 2026",
+      "title": "Fujitsu - Q4 2026 (est.)",
       "date": "2026-04-23",
       "start": "2026-04-23T00:00:00.000Z",
       "end": null,
@@ -444,7 +453,7 @@
     },
     {
       "id": "551989",
-      "title": "Alphabet - Q1 2026",
+      "title": "Alphabet - Q1 2026 (est.)",
       "date": "2026-04-23",
       "start": "2026-04-23T00:00:00.000Z",
       "end": null,
@@ -453,7 +462,7 @@
     },
     {
       "id": "560712",
-      "title": "Socket Mobile - Q1 2026",
+      "title": "Socket Mobile - Q1 2026 (est.)",
       "date": "2026-04-23",
       "start": "2026-04-23T00:00:00.000Z",
       "end": null,
@@ -462,7 +471,7 @@
     },
     {
       "id": "544198",
-      "title": "Teledyne Technologies - Q1 2026",
+      "title": "Teledyne Technologies - Q1 2026 (est.)",
       "date": "2026-04-22",
       "start": "2026-04-22T00:00:00.000Z",
       "end": null,
@@ -470,17 +479,8 @@
       "url": "https://web.quartr.com/link/companies/6273/events/544198/report?rp=1"
     },
     {
-      "id": "552753",
-      "title": "Impinj - Q1 2026",
-      "date": "2026-04-22",
-      "start": "2026-04-22T00:00:00.000Z",
-      "end": null,
-      "all_day": true,
-      "url": "https://web.quartr.com/link/companies/10694/events/552753/report?rp=1"
-    },
-    {
       "id": "402793",
-      "title": "VusionGroup - Q1 2026 TU",
+      "title": "VusionGroup - Q1 2026 TU (est.)",
       "date": "2026-04-21",
       "start": "2026-04-21T00:00:00.000Z",
       "end": null,
@@ -489,7 +489,7 @@
     },
     {
       "id": "403738",
-      "title": "Sonim Technologies - Q4 2025",
+      "title": "Sonim Technologies - Q4 2025 (est.)",
       "date": "2026-04-08",
       "start": "2026-04-08T00:00:00.000Z",
       "end": null,
@@ -498,7 +498,7 @@
     },
     {
       "id": "542409",
-      "title": "Nedap - Q1 2026 TU",
+      "title": "Nedap - Q1 2026 TU (est.)",
       "date": "2026-04-07",
       "start": "2026-04-07T00:00:00.000Z",
       "end": null,
@@ -525,7 +525,7 @@
     },
     {
       "id": "422737",
-      "title": "Solum - Q4 2025",
+      "title": "Solum - Q4 2025 (est.)",
       "date": "2026-03-25",
       "start": "2026-03-25T00:00:00.000Z",
       "end": null,
@@ -534,7 +534,7 @@
     },
     {
       "id": "408645",
-      "title": "Datalogic - Q4 2025",
+      "title": "Datalogic - Q4 2025 (est.)",
       "date": "2026-03-19",
       "start": "2026-03-19T00:00:00.000Z",
       "end": null,
