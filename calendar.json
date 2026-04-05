@@ -308,6 +308,15 @@
       "url": "https://web.quartr.com/link/companies/10380/events/553078/report?rp=1"
     },
     {
+      "id": "548666",
+      "title": "Apple - Q2 2026",
+      "date": "2026-04-30",
+      "start": "2026-04-30T21:00:00.000Z",
+      "end": "2026-04-30T22:00:00.000Z",
+      "all_day": false,
+      "url": "https://web.quartr.com/link/companies/4742/events/548666"
+    },
+    {
       "id": "538070",
       "title": "Kyocera - Q4 2026",
       "date": "2026-04-30",
@@ -315,15 +324,6 @@
       "end": "2026-04-30T08:50:00.000Z",
       "all_day": false,
       "url": "https://web.quartr.com/link/companies/16322/events/538070"
-    },
-    {
-      "id": "548666",
-      "title": "Apple - Q2 2026 (est.)",
-      "date": "2026-04-30",
-      "start": "2026-04-30T00:00:00.000Z",
-      "end": null,
-      "all_day": true,
-      "url": "https://web.quartr.com/link/companies/4742/events/548666/report?rp=1"
     },
     {
       "id": "552741",
@@ -549,15 +549,6 @@
       "end": "2026-03-05T10:00:00.000Z",
       "all_day": false,
       "url": "https://web.quartr.com/link/companies/14723/events/403502"
-    },
-    {
-      "id": "409956",
-      "title": "Okta - Q4 2026",
-      "date": "2026-03-04",
-      "start": "2026-03-04T22:00:00.000Z",
-      "end": "2026-03-04T23:00:00.000Z",
-      "all_day": false,
-      "url": "https://web.quartr.com/link/companies/3870/events/409956"
     }
   ]
 }
