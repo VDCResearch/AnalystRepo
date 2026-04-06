@@ -146,6 +146,15 @@
       "url": "https://web.quartr.com/link/companies/4073/events/538220"
     },
     {
+      "id": "641327",
+      "title": "Nedap - Q2 2026 (est.)",
+      "date": "2026-07-16",
+      "start": "2026-07-16T00:00:00.000Z",
+      "end": null,
+      "all_day": true,
+      "url": "https://web.quartr.com/link/companies/14699/events/641327/report?rp=1"
+    },
+    {
       "id": "559834",
       "title": "Dell Technologies - Q1 2027 (est.)",
       "date": "2026-05-28",
@@ -490,8 +499,8 @@
     {
       "id": "403738",
       "title": "Sonim Technologies - Q4 2025 (est.)",
-      "date": "2026-04-08",
-      "start": "2026-04-08T00:00:00.000Z",
+      "date": "2026-04-15",
+      "start": "2026-04-15T00:00:00.000Z",
       "end": null,
       "all_day": true,
       "url": "https://web.quartr.com/link/companies/20365/events/403738/report?rp=1"
@@ -540,15 +549,6 @@
       "end": null,
       "all_day": true,
       "url": "https://web.quartr.com/link/companies/16569/events/408645/report?rp=1"
-    },
-    {
-      "id": "403502",
-      "title": "TKH Group - Q4 2025",
-      "date": "2026-03-05",
-      "start": "2026-03-05T09:00:00.000Z",
-      "end": "2026-03-05T10:00:00.000Z",
-      "all_day": false,
-      "url": "https://web.quartr.com/link/companies/14723/events/403502"
     }
   ]
 }
