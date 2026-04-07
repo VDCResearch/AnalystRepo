@@ -299,6 +299,15 @@
       "url": "https://web.quartr.com/link/companies/4502/events/551233/report?rp=1"
     },
     {
+      "id": "566529",
+      "title": "Leonardo DRS - Q1 2026",
+      "date": "2026-05-05",
+      "start": "2026-05-05T14:00:00.000Z",
+      "end": "2026-05-05T15:00:00.000Z",
+      "all_day": false,
+      "url": "https://web.quartr.com/link/companies/14677/events/566529"
+    },
+    {
       "id": "566341",
       "title": "Novanta - Q1 2026 (est.)",
       "date": "2026-05-05",
@@ -369,15 +378,6 @@
       "end": null,
       "all_day": true,
       "url": "https://web.quartr.com/link/companies/15261/events/556161/report?rp=1"
-    },
-    {
-      "id": "566529",
-      "title": "Leonardo DRS - Q1 2026 (est.)",
-      "date": "2026-04-30",
-      "start": "2026-04-30T00:00:00.000Z",
-      "end": null,
-      "all_day": true,
-      "url": "https://web.quartr.com/link/companies/14677/events/566529/report?rp=1"
     },
     {
       "id": "552753",
