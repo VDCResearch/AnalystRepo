@@ -200,6 +200,24 @@
       "url": "https://web.quartr.com/link/companies/16192/events/620569/report?rp=1"
     },
     {
+      "id": "419046",
+      "title": "Zebra Technologies - Q1 2026",
+      "date": "2026-05-12",
+      "start": "2026-05-12T12:30:00.000Z",
+      "end": "2026-05-12T13:30:00.000Z",
+      "all_day": false,
+      "url": "https://web.quartr.com/link/companies/3691/events/419046"
+    },
+    {
+      "id": "566341",
+      "title": "Novanta - Q1 2026",
+      "date": "2026-05-12",
+      "start": "2026-05-12T12:00:00.000Z",
+      "end": "2026-05-12T13:00:00.000Z",
+      "all_day": false,
+      "url": "https://web.quartr.com/link/companies/12345/events/566341"
+    },
+    {
       "id": "420849",
       "title": "Viscom - Q1 2026",
       "date": "2026-05-12",
@@ -216,15 +234,6 @@
       "end": null,
       "all_day": true,
       "url": "https://web.quartr.com/link/companies/14723/events/419040/report?rp=1"
-    },
-    {
-      "id": "419046",
-      "title": "Zebra Technologies - Q1 2026",
-      "date": "2026-05-12",
-      "start": "2026-05-12T00:00:00.000Z",
-      "end": null,
-      "all_day": true,
-      "url": "https://web.quartr.com/link/companies/3691/events/419046/report?rp=1"
     },
     {
       "id": "536519",
@@ -318,12 +327,12 @@
     },
     {
       "id": "551233",
-      "title": "Emerson Electric - Q2 2026 (est.)",
-      "date": "2026-05-06",
-      "start": "2026-05-06T00:00:00.000Z",
-      "end": null,
-      "all_day": true,
-      "url": "https://web.quartr.com/link/companies/4502/events/551233/report?rp=1"
+      "title": "Emerson Electric - Q2 2026",
+      "date": "2026-05-05",
+      "start": "2026-05-05T20:30:00.000Z",
+      "end": "2026-05-05T21:30:00.000Z",
+      "all_day": false,
+      "url": "https://web.quartr.com/link/companies/4502/events/551233"
     },
     {
       "id": "566529",
@@ -333,15 +342,6 @@
       "end": "2026-05-05T15:00:00.000Z",
       "all_day": false,
       "url": "https://web.quartr.com/link/companies/14677/events/566529"
-    },
-    {
-      "id": "566341",
-      "title": "Novanta - Q1 2026 (est.)",
-      "date": "2026-05-05",
-      "start": "2026-05-05T00:00:00.000Z",
-      "end": null,
-      "all_day": true,
-      "url": "https://web.quartr.com/link/companies/12345/events/566341/report?rp=1"
     },
     {
       "id": "548666",
