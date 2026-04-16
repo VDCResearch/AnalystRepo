@@ -254,6 +254,15 @@
       "url": "https://web.quartr.com/link/companies/15307/events/559247/report?rp=1"
     },
     {
+      "id": "650041",
+      "title": "Sonim Technologies - Q1 2026 (est.)",
+      "date": "2026-05-11",
+      "start": "2026-05-11T00:00:00.000Z",
+      "end": null,
+      "all_day": true,
+      "url": "https://web.quartr.com/link/companies/20365/events/650041/report?rp=1"
+    },
+    {
       "id": "553078",
       "title": "Mettler-Toledo International - Q1 2026",
       "date": "2026-05-08",
@@ -371,15 +380,6 @@
       "url": "https://web.quartr.com/link/companies/4754/events/547962"
     },
     {
-      "id": "552741",
-      "title": "Amazon - Q1 2026 (est.)",
-      "date": "2026-04-30",
-      "start": "2026-04-30T00:00:00.000Z",
-      "end": null,
-      "all_day": true,
-      "url": "https://web.quartr.com/link/companies/4762/events/552741/report?rp=1"
-    },
-    {
       "id": "555466",
       "title": "Motorola Solutions - Q1 2026 (est.)",
       "date": "2026-04-30",
@@ -396,6 +396,15 @@
       "end": null,
       "all_day": true,
       "url": "https://web.quartr.com/link/companies/6484/events/555844/report?rp=1"
+    },
+    {
+      "id": "552741",
+      "title": "Amazon - Q1 2026",
+      "date": "2026-04-29",
+      "start": "2026-04-29T21:30:00.000Z",
+      "end": "2026-04-29T22:30:00.000Z",
+      "all_day": false,
+      "url": "https://web.quartr.com/link/companies/4762/events/552741"
     },
     {
       "id": "552753",
@@ -488,22 +497,13 @@
       "url": "https://web.quartr.com/link/companies/13327/events/560712/report?rp=1"
     },
     {
-      "id": "403738",
-      "title": "Sonim Technologies - Q4 2025 (est.)",
-      "date": "2026-04-22",
-      "start": "2026-04-22T00:00:00.000Z",
-      "end": null,
-      "all_day": true,
-      "url": "https://web.quartr.com/link/companies/20365/events/403738/report?rp=1"
-    },
-    {
       "id": "544198",
-      "title": "Teledyne Technologies - Q1 2026 (est.)",
+      "title": "Teledyne Technologies - Q1 2026",
       "date": "2026-04-22",
-      "start": "2026-04-22T00:00:00.000Z",
-      "end": null,
-      "all_day": true,
-      "url": "https://web.quartr.com/link/companies/6273/events/544198/report?rp=1"
+      "start": "2026-04-22T15:00:00.000Z",
+      "end": "2026-04-22T16:00:00.000Z",
+      "all_day": false,
+      "url": "https://web.quartr.com/link/companies/6273/events/544198"
     },
     {
       "id": "402793",
@@ -513,6 +513,15 @@
       "end": null,
       "all_day": true,
       "url": "https://web.quartr.com/link/companies/16423/events/402793/report?rp=1"
+    },
+    {
+      "id": "403738",
+      "title": "Sonim Technologies - Q4 2025",
+      "date": "2026-04-15",
+      "start": "2026-04-15T00:00:00.000Z",
+      "end": null,
+      "all_day": true,
+      "url": "https://web.quartr.com/link/companies/20365/events/403738/report?rp=1"
     },
     {
       "id": "542409",
