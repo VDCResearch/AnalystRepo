@@ -371,6 +371,15 @@
       "url": "https://web.quartr.com/link/companies/14677/events/566529"
     },
     {
+      "id": "535580",
+      "title": "Keyence - Q4 2026 (est.)",
+      "date": "2026-05-01",
+      "start": "2026-05-01T00:00:00.000Z",
+      "end": null,
+      "all_day": true,
+      "url": "https://web.quartr.com/link/companies/11375/events/535580/report?rp=1"
+    },
+    {
       "id": "548666",
       "title": "Apple - Q2 2026",
       "date": "2026-04-30",
@@ -405,6 +414,15 @@
       "end": null,
       "all_day": true,
       "url": "https://web.quartr.com/link/companies/10230/events/555466/report?rp=1"
+    },
+    {
+      "id": "560712",
+      "title": "Socket Mobile - Q1 2026 (est.)",
+      "date": "2026-04-30",
+      "start": "2026-04-30T00:00:00.000Z",
+      "end": null,
+      "all_day": true,
+      "url": "https://web.quartr.com/link/companies/13327/events/560712/report?rp=1"
     },
     {
       "id": "552741",
@@ -470,15 +488,6 @@
       "url": "https://web.quartr.com/link/companies/14329/events/536584/report?rp=1"
     },
     {
-      "id": "535580",
-      "title": "Keyence - Q4 2026 (est.)",
-      "date": "2026-04-24",
-      "start": "2026-04-24T00:00:00.000Z",
-      "end": null,
-      "all_day": true,
-      "url": "https://web.quartr.com/link/companies/11375/events/535580/report?rp=1"
-    },
-    {
       "id": "548423",
       "title": "Honeywell International - Q1 2026",
       "date": "2026-04-23",
@@ -495,15 +504,6 @@
       "end": "2026-04-23T09:00:00.000Z",
       "all_day": false,
       "url": "https://web.quartr.com/link/companies/4073/events/538219"
-    },
-    {
-      "id": "560712",
-      "title": "Socket Mobile - Q1 2026 (est.)",
-      "date": "2026-04-23",
-      "start": "2026-04-23T00:00:00.000Z",
-      "end": null,
-      "all_day": true,
-      "url": "https://web.quartr.com/link/companies/13327/events/560712/report?rp=1"
     },
     {
       "id": "544198",
@@ -567,15 +567,6 @@
       "end": null,
       "all_day": true,
       "url": "https://web.quartr.com/link/companies/16192/events/422737/report?rp=1"
-    },
-    {
-      "id": "408645",
-      "title": "Datalogic - Q4 2025",
-      "date": "2026-03-19",
-      "start": "2026-03-19T00:00:00.000Z",
-      "end": null,
-      "all_day": true,
-      "url": "https://web.quartr.com/link/companies/16569/events/408645/report?rp=1"
     }
   ]
 }
