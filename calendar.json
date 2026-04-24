@@ -56,6 +56,15 @@
       "url": "https://web.quartr.com/link/companies/4769/events/387831/report?rp=1"
     },
     {
+      "id": "654729",
+      "title": "VusionGroup - Q3 2026 TU",
+      "date": "2026-10-20",
+      "start": "2026-10-20T00:00:00.000Z",
+      "end": null,
+      "all_day": true,
+      "url": "https://web.quartr.com/link/companies/16423/events/654729/report?rp=1"
+    },
+    {
       "id": "651751",
       "title": "Nedap - Q3 2026 TU",
       "date": "2026-10-15",
@@ -135,6 +144,15 @@
       "end": null,
       "all_day": true,
       "url": "https://web.quartr.com/link/companies/16569/events/553593/report?rp=1"
+    },
+    {
+      "id": "654125",
+      "title": "Keyence - Q1 2027 (est.)",
+      "date": "2026-07-28",
+      "start": "2026-07-28T00:00:00.000Z",
+      "end": null,
+      "all_day": true,
+      "url": "https://web.quartr.com/link/companies/11375/events/654125/report?rp=1"
     },
     {
       "id": "645485",
@@ -236,6 +254,15 @@
       "url": "https://web.quartr.com/link/companies/16192/events/620569/report?rp=1"
     },
     {
+      "id": "559247",
+      "title": "Camtek - Q1 2026",
+      "date": "2026-05-12",
+      "start": "2026-05-12T13:00:00.000Z",
+      "end": "2026-05-12T14:00:00.000Z",
+      "all_day": false,
+      "url": "https://web.quartr.com/link/companies/15307/events/559247"
+    },
+    {
       "id": "419046",
       "title": "Zebra Technologies - Q1 2026",
       "date": "2026-05-12",
@@ -281,15 +308,6 @@
       "url": "https://web.quartr.com/link/companies/14723/events/419040/report?rp=1"
     },
     {
-      "id": "559247",
-      "title": "Camtek - Q1 2026 (est.)",
-      "date": "2026-05-12",
-      "start": "2026-05-12T00:00:00.000Z",
-      "end": null,
-      "all_day": true,
-      "url": "https://web.quartr.com/link/companies/15307/events/559247/report?rp=1"
-    },
-    {
       "id": "650041",
       "title": "Sonim Technologies - Q1 2026 (est.)",
       "date": "2026-05-11",
@@ -324,6 +342,15 @@
       "end": null,
       "all_day": true,
       "url": "https://web.quartr.com/link/companies/15496/events/587651/report?rp=1"
+    },
+    {
+      "id": "555466",
+      "title": "Motorola Solutions - Q1 2026",
+      "date": "2026-05-07",
+      "start": "2026-05-07T21:00:00.000Z",
+      "end": "2026-05-07T22:00:00.000Z",
+      "all_day": false,
+      "url": "https://web.quartr.com/link/companies/10230/events/555466"
     },
     {
       "id": "555844",
@@ -414,15 +441,6 @@
       "end": "2026-04-30T02:00:00.000Z",
       "all_day": false,
       "url": "https://web.quartr.com/link/companies/4754/events/547962"
-    },
-    {
-      "id": "555466",
-      "title": "Motorola Solutions - Q1 2026 (est.)",
-      "date": "2026-04-30",
-      "start": "2026-04-30T00:00:00.000Z",
-      "end": null,
-      "all_day": true,
-      "url": "https://web.quartr.com/link/companies/10230/events/555466/report?rp=1"
     },
     {
       "id": "560712",
