@@ -200,6 +200,15 @@
       "url": "https://web.quartr.com/link/companies/6273/events/652971/report?rp=1"
     },
     {
+      "id": "656205",
+      "title": "Avery Dennison - Q2 2026 (est.)",
+      "date": "2026-07-21",
+      "start": "2026-07-21T00:00:00.000Z",
+      "end": null,
+      "all_day": true,
+      "url": "https://web.quartr.com/link/companies/4661/events/656205/report?rp=1"
+    },
+    {
       "id": "538220",
       "title": "Mildef Group - Q2 2026",
       "date": "2026-07-16",
@@ -515,15 +524,6 @@
       "url": "https://web.quartr.com/link/companies/4769/events/387807"
     },
     {
-      "id": "538177",
-      "title": "DENSO - Q4 2026",
-      "date": "2026-04-28",
-      "start": "2026-04-28T02:10:00.000Z",
-      "end": "2026-04-28T03:10:00.000Z",
-      "all_day": false,
-      "url": "https://web.quartr.com/link/companies/15601/events/538177/report?rp=1"
-    },
-    {
       "id": "536584",
       "title": "Fujitsu - Q4 2026",
       "date": "2026-04-28",
@@ -531,6 +531,15 @@
       "end": null,
       "all_day": true,
       "url": "https://web.quartr.com/link/companies/14329/events/536584/report?rp=1"
+    },
+    {
+      "id": "538177",
+      "title": "DENSO - Q4 2026",
+      "date": "2026-04-28",
+      "start": "2026-04-28T00:00:00.000Z",
+      "end": null,
+      "all_day": true,
+      "url": "https://web.quartr.com/link/companies/15601/events/538177/report?rp=1"
     },
     {
       "id": "535580",
