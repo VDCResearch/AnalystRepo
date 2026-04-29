@@ -155,6 +155,15 @@
       "url": "https://web.quartr.com/link/companies/15601/events/655742/report?rp=1"
     },
     {
+      "id": "657334",
+      "title": "Amazon - Q2 2026 (est.)",
+      "date": "2026-07-30",
+      "start": "2026-07-30T00:00:00.000Z",
+      "end": null,
+      "all_day": true,
+      "url": "https://web.quartr.com/link/companies/4762/events/657334/report?rp=1"
+    },
+    {
       "id": "655795",
       "title": "Fujitsu - Q1 2027 (est.)",
       "date": "2026-07-29",
@@ -162,6 +171,15 @@
       "end": null,
       "all_day": true,
       "url": "https://web.quartr.com/link/companies/14329/events/655795/report?rp=1"
+    },
+    {
+      "id": "657370",
+      "title": "Impinj - Q2 2026 (est.)",
+      "date": "2026-07-29",
+      "start": "2026-07-29T00:00:00.000Z",
+      "end": null,
+      "all_day": true,
+      "url": "https://web.quartr.com/link/companies/10694/events/657370/report?rp=1"
     },
     {
       "id": "654125",
@@ -198,6 +216,15 @@
       "end": null,
       "all_day": true,
       "url": "https://web.quartr.com/link/companies/6273/events/652971/report?rp=1"
+    },
+    {
+      "id": "657320",
+      "title": "Alphabet - Q2 2026 (est.)",
+      "date": "2026-07-22",
+      "start": "2026-07-22T00:00:00.000Z",
+      "end": null,
+      "all_day": true,
+      "url": "https://web.quartr.com/link/companies/4122/events/657320/report?rp=1"
     },
     {
       "id": "656205",
@@ -407,15 +434,6 @@
       "url": "https://web.quartr.com/link/companies/14791/events/537072/report?rp=1"
     },
     {
-      "id": "560712",
-      "title": "Socket Mobile - Q1 2026 (est.)",
-      "date": "2026-05-07",
-      "start": "2026-05-07T00:00:00.000Z",
-      "end": null,
-      "all_day": true,
-      "url": "https://web.quartr.com/link/companies/13327/events/560712/report?rp=1"
-    },
-    {
       "id": "556161",
       "title": "Maplebear - Q1 2026",
       "date": "2026-05-06",
@@ -432,6 +450,15 @@
       "end": "2026-05-06T13:00:00.000Z",
       "all_day": false,
       "url": "https://web.quartr.com/link/companies/13270/events/532563"
+    },
+    {
+      "id": "560712",
+      "title": "Socket Mobile - Q1 2026",
+      "date": "2026-05-05",
+      "start": "2026-05-05T21:00:00.000Z",
+      "end": "2026-05-05T22:00:00.000Z",
+      "all_day": false,
+      "url": "https://web.quartr.com/link/companies/13327/events/560712"
     },
     {
       "id": "551233",
