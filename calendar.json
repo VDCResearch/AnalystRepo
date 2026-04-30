@@ -146,13 +146,13 @@
       "url": "https://web.quartr.com/link/companies/16569/events/553593/report?rp=1"
     },
     {
-      "id": "655742",
-      "title": "DENSO - Q1 2027 (est.)",
+      "id": "655795",
+      "title": "Fujitsu - Q1 2027 (est.)",
       "date": "2026-07-30",
       "start": "2026-07-30T00:00:00.000Z",
       "end": null,
       "all_day": true,
-      "url": "https://web.quartr.com/link/companies/15601/events/655742/report?rp=1"
+      "url": "https://web.quartr.com/link/companies/14329/events/655795/report?rp=1"
     },
     {
       "id": "657334",
@@ -164,13 +164,13 @@
       "url": "https://web.quartr.com/link/companies/4762/events/657334/report?rp=1"
     },
     {
-      "id": "655795",
-      "title": "Fujitsu - Q1 2027 (est.)",
-      "date": "2026-07-29",
-      "start": "2026-07-29T00:00:00.000Z",
+      "id": "658553",
+      "title": "Apple - Q3 2026 (est.)",
+      "date": "2026-07-30",
+      "start": "2026-07-30T00:00:00.000Z",
       "end": null,
       "all_day": true,
-      "url": "https://web.quartr.com/link/companies/14329/events/655795/report?rp=1"
+      "url": "https://web.quartr.com/link/companies/4742/events/658553/report?rp=1"
     },
     {
       "id": "657370",
@@ -182,6 +182,15 @@
       "url": "https://web.quartr.com/link/companies/10694/events/657370/report?rp=1"
     },
     {
+      "id": "657631",
+      "title": "Kyocera - Q1 2027 (est.)",
+      "date": "2026-07-29",
+      "start": "2026-07-29T00:00:00.000Z",
+      "end": null,
+      "all_day": true,
+      "url": "https://web.quartr.com/link/companies/16322/events/657631/report?rp=1"
+    },
+    {
       "id": "654125",
       "title": "Keyence - Q1 2027 (est.)",
       "date": "2026-07-28",
@@ -189,6 +198,15 @@
       "end": null,
       "all_day": true,
       "url": "https://web.quartr.com/link/companies/11375/events/654125/report?rp=1"
+    },
+    {
+      "id": "655742",
+      "title": "DENSO - Q1 2027 (est.)",
+      "date": "2026-07-28",
+      "start": "2026-07-28T00:00:00.000Z",
+      "end": null,
+      "all_day": true,
+      "url": "https://web.quartr.com/link/companies/15601/events/655742/report?rp=1"
     },
     {
       "id": "645485",
