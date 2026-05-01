@@ -389,15 +389,6 @@
       "url": "https://web.quartr.com/link/companies/14723/events/419040/report?rp=1"
     },
     {
-      "id": "650041",
-      "title": "Sonim Technologies - Q1 2026 (est.)",
-      "date": "2026-05-11",
-      "start": "2026-05-11T00:00:00.000Z",
-      "end": null,
-      "all_day": true,
-      "url": "https://web.quartr.com/link/companies/20365/events/650041/report?rp=1"
-    },
-    {
       "id": "553078",
       "title": "Mettler-Toledo International - Q1 2026",
       "date": "2026-05-08",
@@ -414,6 +405,15 @@
       "end": null,
       "all_day": true,
       "url": "https://web.quartr.com/link/companies/15496/events/587651/report?rp=1"
+    },
+    {
+      "id": "650041",
+      "title": "Sonim Technologies - Q1 2026 (est.)",
+      "date": "2026-05-08",
+      "start": "2026-05-08T00:00:00.000Z",
+      "end": null,
+      "all_day": true,
+      "url": "https://web.quartr.com/link/companies/20365/events/650041/report?rp=1"
     },
     {
       "id": "555466",
@@ -657,15 +657,6 @@
       "end": "2026-04-01T09:00:00.000Z",
       "all_day": false,
       "url": "https://web.quartr.com/link/companies/16572/events/419885"
-    },
-    {
-      "id": "415576",
-      "title": "Basler - Q4 2025",
-      "date": "2026-03-31",
-      "start": "2026-03-31T12:00:00.000Z",
-      "end": "2026-03-31T13:00:00.000Z",
-      "all_day": false,
-      "url": "https://web.quartr.com/link/companies/13270/events/415576"
     }
   ]
 }
