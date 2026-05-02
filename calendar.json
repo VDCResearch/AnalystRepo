@@ -281,6 +281,15 @@
       "url": "https://web.quartr.com/link/companies/14699/events/641327/report?rp=1"
     },
     {
+      "id": "581082",
+      "title": "Okta - Q1 2027",
+      "date": "2026-05-28",
+      "start": "2026-05-28T21:00:00.000Z",
+      "end": "2026-05-28T22:00:00.000Z",
+      "all_day": false,
+      "url": "https://web.quartr.com/link/companies/3870/events/581082"
+    },
+    {
       "id": "559834",
       "title": "Dell Technologies - Q1 2027",
       "date": "2026-05-28",
@@ -288,15 +297,6 @@
       "end": "2026-05-28T21:30:00.000Z",
       "all_day": false,
       "url": "https://web.quartr.com/link/companies/5910/events/559834/report?rp=1"
-    },
-    {
-      "id": "581082",
-      "title": "Okta - Q1 2027 (est.)",
-      "date": "2026-05-26",
-      "start": "2026-05-26T00:00:00.000Z",
-      "end": null,
-      "all_day": true,
-      "url": "https://web.quartr.com/link/companies/3870/events/581082/report?rp=1"
     },
     {
       "id": "545862",
@@ -308,6 +308,15 @@
       "url": "https://web.quartr.com/link/companies/15061/events/545862"
     },
     {
+      "id": "555375",
+      "title": "Cisco Systems - Q3 2026",
+      "date": "2026-05-13",
+      "start": "2026-05-13T20:30:00.000Z",
+      "end": "2026-05-13T21:30:00.000Z",
+      "all_day": false,
+      "url": "https://web.quartr.com/link/companies/4639/events/555375"
+    },
+    {
       "id": "539804",
       "title": "OMRON - Q4 2026",
       "date": "2026-05-13",
@@ -315,15 +324,6 @@
       "end": "2026-05-13T08:30:00.000Z",
       "all_day": false,
       "url": "https://web.quartr.com/link/companies/15852/events/539804"
-    },
-    {
-      "id": "555375",
-      "title": "Cisco Systems - Q3 2026 (est.)",
-      "date": "2026-05-13",
-      "start": "2026-05-13T00:00:00.000Z",
-      "end": null,
-      "all_day": true,
-      "url": "https://web.quartr.com/link/companies/4639/events/555375/report?rp=1"
     },
     {
       "id": "620569",
@@ -648,15 +648,6 @@
       "end": null,
       "all_day": true,
       "url": "https://web.quartr.com/link/companies/14699/events/542409/report?rp=1"
-    },
-    {
-      "id": "419885",
-      "title": "Viscom - Q4 2025",
-      "date": "2026-04-01",
-      "start": "2026-04-01T08:00:00.000Z",
-      "end": "2026-04-01T09:00:00.000Z",
-      "all_day": false,
-      "url": "https://web.quartr.com/link/companies/16572/events/419885"
     }
   ]
 }
