@@ -29,6 +29,15 @@
       "url": "https://web.quartr.com/link/companies/4769/events/387834/report?rp=1"
     },
     {
+      "id": "662870",
+      "title": "Zebra Technologies - Q3 2026",
+      "date": "2026-11-03",
+      "start": "2026-11-03T00:00:00.000Z",
+      "end": null,
+      "all_day": true,
+      "url": "https://web.quartr.com/link/companies/3691/events/662870/report?rp=1"
+    },
+    {
       "id": "540015",
       "title": "JLT Mobile Computers - Q3 2026",
       "date": "2026-10-23",
@@ -128,6 +137,24 @@
       "url": "https://web.quartr.com/link/companies/15261/events/661487/report?rp=1"
     },
     {
+      "id": "662112",
+      "title": "NCR Voyix - Q2 2026 (est.)",
+      "date": "2026-08-06",
+      "start": "2026-08-06T00:00:00.000Z",
+      "end": null,
+      "all_day": true,
+      "url": "https://web.quartr.com/link/companies/10653/events/662112/report?rp=1"
+    },
+    {
+      "id": "662832",
+      "title": "Motorola Solutions - Q2 2026 (est.)",
+      "date": "2026-08-06",
+      "start": "2026-08-06T00:00:00.000Z",
+      "end": null,
+      "all_day": true,
+      "url": "https://web.quartr.com/link/companies/10230/events/662832/report?rp=1"
+    },
+    {
       "id": "553294",
       "title": "Basler - Q2 2026",
       "date": "2026-08-05",
@@ -198,6 +225,15 @@
       "end": null,
       "all_day": true,
       "url": "https://web.quartr.com/link/companies/13327/events/660911/report?rp=1"
+    },
+    {
+      "id": "662325",
+      "title": "Cognex - Q2 2026 (est.)",
+      "date": "2026-07-30",
+      "start": "2026-07-30T00:00:00.000Z",
+      "end": null,
+      "all_day": true,
+      "url": "https://web.quartr.com/link/companies/6484/events/662325/report?rp=1"
     },
     {
       "id": "657370",
@@ -675,15 +711,6 @@
       "end": null,
       "all_day": true,
       "url": "https://web.quartr.com/link/companies/20365/events/403738/report?rp=1"
-    },
-    {
-      "id": "542409",
-      "title": "Nedap - Q1 2026 TU",
-      "date": "2026-04-07",
-      "start": "2026-04-07T00:00:00.000Z",
-      "end": null,
-      "all_day": true,
-      "url": "https://web.quartr.com/link/companies/14699/events/542409/report?rp=1"
     }
   ]
 }
