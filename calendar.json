@@ -200,6 +200,24 @@
       "url": "https://web.quartr.com/link/companies/16569/events/553593/report?rp=1"
     },
     {
+      "id": "666495",
+      "title": "Novanta - Q2 2026 (est.)",
+      "date": "2026-08-04",
+      "start": "2026-08-04T00:00:00.000Z",
+      "end": null,
+      "all_day": true,
+      "url": "https://web.quartr.com/link/companies/12345/events/666495/report?rp=1"
+    },
+    {
+      "id": "666696",
+      "title": "Camtek - Q2 2026 (est.)",
+      "date": "2026-08-04",
+      "start": "2026-08-04T00:00:00.000Z",
+      "end": null,
+      "all_day": true,
+      "url": "https://web.quartr.com/link/companies/15307/events/666696/report?rp=1"
+    },
+    {
       "id": "663930",
       "title": "Mettler-Toledo International - Q2 2026 (est.)",
       "date": "2026-07-31",
