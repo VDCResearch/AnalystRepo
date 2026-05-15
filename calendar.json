@@ -449,7 +449,7 @@
       "start": "2026-05-28T20:30:00.000Z",
       "end": "2026-05-28T21:30:00.000Z",
       "all_day": false,
-      "url": "https://web.quartr.com/link/companies/5910/events/559834/report?rp=1"
+      "url": "https://web.quartr.com/link/companies/5910/events/559834"
     },
     {
       "id": "587651",
@@ -486,6 +486,15 @@
       "end": "2026-05-15T03:00:00.000Z",
       "all_day": false,
       "url": "https://web.quartr.com/link/companies/15061/events/545862"
+    },
+    {
+      "id": "670912",
+      "title": "Datalogic - Q1 2026",
+      "date": "2026-05-14",
+      "start": "2026-05-14T00:00:00.000Z",
+      "end": null,
+      "all_day": true,
+      "url": "https://web.quartr.com/link/companies/16569/events/670912/report?rp=1"
     },
     {
       "id": "555375",
