@@ -29,6 +29,24 @@
       "url": "https://web.quartr.com/link/companies/4769/events/387834/report?rp=1"
     },
     {
+      "id": "673392",
+      "title": "Datalogic - Q3 2026",
+      "date": "2026-11-12",
+      "start": "2026-11-12T00:00:00.000Z",
+      "end": null,
+      "all_day": true,
+      "url": "https://web.quartr.com/link/companies/16569/events/673392/report?rp=1"
+    },
+    {
+      "id": "673446",
+      "title": "Viscom - Q3 2026",
+      "date": "2026-11-12",
+      "start": "2026-11-12T00:00:00.000Z",
+      "end": null,
+      "all_day": true,
+      "url": "https://web.quartr.com/link/companies/16572/events/673446/report?rp=1"
+    },
+    {
       "id": "669518",
       "title": "TKH Group - Q3 2026",
       "date": "2026-11-10",
@@ -792,15 +810,6 @@
       "end": "2026-04-21T17:00:00.000Z",
       "all_day": false,
       "url": "https://web.quartr.com/link/companies/16423/events/402793"
-    },
-    {
-      "id": "403738",
-      "title": "Sonim Technologies - Q4 2025",
-      "date": "2026-04-15",
-      "start": "2026-04-15T00:00:00.000Z",
-      "end": null,
-      "all_day": true,
-      "url": "https://web.quartr.com/link/companies/20365/events/403738/report?rp=1"
     }
   ]
 }
