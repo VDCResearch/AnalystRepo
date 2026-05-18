@@ -137,6 +137,15 @@
       "url": "https://web.quartr.com/link/companies/5910/events/589603/report?rp=1"
     },
     {
+      "id": "673993",
+      "title": "Getac  - Q2 2026 (est.)",
+      "date": "2026-08-13",
+      "start": "2026-08-13T00:00:00.000Z",
+      "end": null,
+      "all_day": true,
+      "url": "https://web.quartr.com/link/companies/15496/events/673993/report?rp=1"
+    },
+    {
       "id": "540014",
       "title": "JLT Mobile Computers - Q2 2026",
       "date": "2026-08-12",
@@ -452,6 +461,24 @@
       "url": "https://web.quartr.com/link/companies/14699/events/641327/report?rp=1"
     },
     {
+      "id": "587651",
+      "title": "Getac  - Q1 2026 (est.)",
+      "date": "2026-05-29",
+      "start": "2026-05-29T00:00:00.000Z",
+      "end": null,
+      "all_day": true,
+      "url": "https://web.quartr.com/link/companies/15496/events/587651/report?rp=1"
+    },
+    {
+      "id": "650041",
+      "title": "Sonim Technologies - Q1 2026 (est.)",
+      "date": "2026-05-29",
+      "start": "2026-05-29T00:00:00.000Z",
+      "end": null,
+      "all_day": true,
+      "url": "https://web.quartr.com/link/companies/20365/events/650041/report?rp=1"
+    },
+    {
       "id": "581082",
       "title": "Okta - Q1 2027",
       "date": "2026-05-28",
@@ -470,28 +497,10 @@
       "url": "https://web.quartr.com/link/companies/5910/events/559834"
     },
     {
-      "id": "587651",
-      "title": "Getac  - Q1 2026 (est.)",
-      "date": "2026-05-22",
-      "start": "2026-05-22T00:00:00.000Z",
-      "end": null,
-      "all_day": true,
-      "url": "https://web.quartr.com/link/companies/15496/events/587651/report?rp=1"
-    },
-    {
-      "id": "650041",
-      "title": "Sonim Technologies - Q1 2026 (est.)",
-      "date": "2026-05-22",
-      "start": "2026-05-22T00:00:00.000Z",
-      "end": null,
-      "all_day": true,
-      "url": "https://web.quartr.com/link/companies/20365/events/650041/report?rp=1"
-    },
-    {
       "id": "620569",
       "title": "Solum - Q1 2026 (est.)",
-      "date": "2026-05-20",
-      "start": "2026-05-20T00:00:00.000Z",
+      "date": "2026-05-27",
+      "start": "2026-05-27T00:00:00.000Z",
       "end": null,
       "all_day": true,
       "url": "https://web.quartr.com/link/companies/16192/events/620569/report?rp=1"
