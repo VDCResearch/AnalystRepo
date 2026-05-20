@@ -461,17 +461,8 @@
       "url": "https://web.quartr.com/link/companies/14699/events/641327/report?rp=1"
     },
     {
-      "id": "587651",
-      "title": "Getac  - Q1 2026 (est.)",
-      "date": "2026-05-29",
-      "start": "2026-05-29T00:00:00.000Z",
-      "end": null,
-      "all_day": true,
-      "url": "https://web.quartr.com/link/companies/15496/events/587651/report?rp=1"
-    },
-    {
       "id": "650041",
-      "title": "Sonim Technologies - Q1 2026 (est.)",
+      "title": "DNA X - Q1 2026 (est.)",
       "date": "2026-05-29",
       "start": "2026-05-29T00:00:00.000Z",
       "end": null,
@@ -513,6 +504,15 @@
       "end": "2026-05-15T03:00:00.000Z",
       "all_day": false,
       "url": "https://web.quartr.com/link/companies/15061/events/545862"
+    },
+    {
+      "id": "587651",
+      "title": "Getac  - Q1 2026",
+      "date": "2026-05-15",
+      "start": "2026-05-15T00:00:00.000Z",
+      "end": null,
+      "all_day": true,
+      "url": "https://web.quartr.com/link/companies/15496/events/587651/report?rp=1"
     },
     {
       "id": "670912",
