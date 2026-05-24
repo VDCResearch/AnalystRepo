@@ -783,33 +783,6 @@
       "end": null,
       "all_day": true,
       "url": "https://web.quartr.com/link/companies/15601/events/538177/report?rp=1"
-    },
-    {
-      "id": "535580",
-      "title": "Keyence - Q4 2026",
-      "date": "2026-04-24",
-      "start": "2026-04-24T00:00:00.000Z",
-      "end": null,
-      "all_day": true,
-      "url": "https://web.quartr.com/link/companies/11375/events/535580/report?rp=1"
-    },
-    {
-      "id": "548423",
-      "title": "Honeywell International - Q1 2026",
-      "date": "2026-04-23",
-      "start": "2026-04-23T12:30:00.000Z",
-      "end": "2026-04-23T13:30:00.000Z",
-      "all_day": false,
-      "url": "https://web.quartr.com/link/companies/5875/events/548423"
-    },
-    {
-      "id": "538219",
-      "title": "Mildef Group - Q1 2026",
-      "date": "2026-04-23",
-      "start": "2026-04-23T08:00:00.000Z",
-      "end": "2026-04-23T09:00:00.000Z",
-      "all_day": false,
-      "url": "https://web.quartr.com/link/companies/4073/events/538219"
     }
   ]
 }
