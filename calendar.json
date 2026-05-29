@@ -21,7 +21,7 @@
     },
     {
       "id": "387834",
-      "title": "Atlas Copco - Q4 2026",
+      "title": "Atlas Copco Group - Q4 2026",
       "date": "2027-01-27",
       "start": "2027-01-27T00:00:00.000Z",
       "end": null,
@@ -93,7 +93,7 @@
     },
     {
       "id": "387831",
-      "title": "Atlas Copco - Q3 2026",
+      "title": "Atlas Copco Group - Q3 2026",
       "date": "2026-10-22",
       "start": "2026-10-22T00:00:00.000Z",
       "end": null,
@@ -462,7 +462,7 @@
     },
     {
       "id": "387814",
-      "title": "Atlas Copco - Q2 2026",
+      "title": "Atlas Copco Group - Q2 2026",
       "date": "2026-07-16",
       "start": "2026-07-16T00:00:00.000Z",
       "end": null,
@@ -756,24 +756,6 @@
       "end": "2026-04-29T21:30:00.000Z",
       "all_day": false,
       "url": "https://web.quartr.com/link/companies/4122/events/551989"
-    },
-    {
-      "id": "551948",
-      "title": "Avery Dennison - Q1 2026",
-      "date": "2026-04-28",
-      "start": "2026-04-28T15:00:00.000Z",
-      "end": "2026-04-28T16:00:00.000Z",
-      "all_day": false,
-      "url": "https://web.quartr.com/link/companies/4661/events/551948"
-    },
-    {
-      "id": "387807",
-      "title": "Atlas Copco - Q1 2026",
-      "date": "2026-04-28",
-      "start": "2026-04-28T11:00:00.000Z",
-      "end": "2026-04-28T12:00:00.000Z",
-      "all_day": false,
-      "url": "https://web.quartr.com/link/companies/4769/events/387807"
     }
   ]
 }
