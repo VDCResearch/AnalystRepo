@@ -155,6 +155,15 @@
       "url": "https://web.quartr.com/link/companies/15496/events/673993/report?rp=1"
     },
     {
+      "id": "683178",
+      "title": "Solum - Q2 2026",
+      "date": "2026-08-13",
+      "start": "2026-08-13T00:00:00.000Z",
+      "end": null,
+      "all_day": true,
+      "url": "https://web.quartr.com/link/companies/16192/events/683178/report?rp=1"
+    },
+    {
       "id": "540014",
       "title": "JLT Mobile Computers - Q2 2026",
       "date": "2026-08-12",
@@ -711,51 +720,6 @@
       "end": "2026-04-30T22:00:00.000Z",
       "all_day": false,
       "url": "https://web.quartr.com/link/companies/4742/events/548666"
-    },
-    {
-      "id": "538070",
-      "title": "Kyocera - Q4 2026",
-      "date": "2026-04-30",
-      "start": "2026-04-30T07:50:00.000Z",
-      "end": "2026-04-30T08:50:00.000Z",
-      "all_day": false,
-      "url": "https://web.quartr.com/link/companies/16322/events/538070"
-    },
-    {
-      "id": "547962",
-      "title": "Samsung Electronics - Q1 2026",
-      "date": "2026-04-30",
-      "start": "2026-04-30T01:00:00.000Z",
-      "end": "2026-04-30T02:00:00.000Z",
-      "all_day": false,
-      "url": "https://web.quartr.com/link/companies/4754/events/547962"
-    },
-    {
-      "id": "552741",
-      "title": "Amazon - Q1 2026",
-      "date": "2026-04-29",
-      "start": "2026-04-29T21:30:00.000Z",
-      "end": "2026-04-29T22:30:00.000Z",
-      "all_day": false,
-      "url": "https://web.quartr.com/link/companies/4762/events/552741"
-    },
-    {
-      "id": "552753",
-      "title": "Impinj - Q1 2026",
-      "date": "2026-04-29",
-      "start": "2026-04-29T21:00:00.000Z",
-      "end": "2026-04-29T22:00:00.000Z",
-      "all_day": false,
-      "url": "https://web.quartr.com/link/companies/10694/events/552753"
-    },
-    {
-      "id": "551989",
-      "title": "Alphabet - Q1 2026",
-      "date": "2026-04-29",
-      "start": "2026-04-29T20:30:00.000Z",
-      "end": "2026-04-29T21:30:00.000Z",
-      "all_day": false,
-      "url": "https://web.quartr.com/link/companies/4122/events/551989"
     }
   ]
 }
