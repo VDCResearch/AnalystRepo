@@ -488,15 +488,6 @@
       "url": "https://web.quartr.com/link/companies/14699/events/641327/report?rp=1"
     },
     {
-      "id": "620569",
-      "title": "Solum - Q1 2026",
-      "date": "2026-06-03",
-      "start": "2026-06-03T00:00:00.000Z",
-      "end": null,
-      "all_day": true,
-      "url": "https://web.quartr.com/link/companies/16192/events/620569/report?rp=1"
-    },
-    {
       "id": "581082",
       "title": "Okta - Q1 2027",
       "date": "2026-05-28",
@@ -540,6 +531,15 @@
       "end": null,
       "all_day": true,
       "url": "https://web.quartr.com/link/companies/15496/events/587651/report?rp=1"
+    },
+    {
+      "id": "620569",
+      "title": "Solum - Q1 2026",
+      "date": "2026-05-14",
+      "start": "2026-05-14T00:00:00.000Z",
+      "end": null,
+      "all_day": true,
+      "url": "https://web.quartr.com/link/companies/16192/events/620569/report?rp=1"
     },
     {
       "id": "670912",
@@ -711,15 +711,6 @@
       "end": "2026-05-05T15:00:00.000Z",
       "all_day": false,
       "url": "https://web.quartr.com/link/companies/14677/events/566529"
-    },
-    {
-      "id": "548666",
-      "title": "Apple - Q2 2026",
-      "date": "2026-04-30",
-      "start": "2026-04-30T21:00:00.000Z",
-      "end": "2026-04-30T22:00:00.000Z",
-      "all_day": false,
-      "url": "https://web.quartr.com/link/companies/4742/events/548666"
     }
   ]
 }
