@@ -594,33 +594,6 @@
       "end": "2026-05-12T13:00:00.000Z",
       "all_day": false,
       "url": "https://web.quartr.com/link/companies/12345/events/566341"
-    },
-    {
-      "id": "419040",
-      "title": "TKH Group - Q1 2026",
-      "date": "2026-05-12",
-      "start": "2026-05-12T08:00:00.000Z",
-      "end": "2026-05-12T09:00:00.000Z",
-      "all_day": false,
-      "url": "https://web.quartr.com/link/companies/14723/events/419040"
-    },
-    {
-      "id": "420849",
-      "title": "Viscom - Q1 2026",
-      "date": "2026-05-12",
-      "start": "2026-05-12T08:00:00.000Z",
-      "end": "2026-05-12T09:00:00.000Z",
-      "all_day": false,
-      "url": "https://web.quartr.com/link/companies/16572/events/420849"
-    },
-    {
-      "id": "536519",
-      "title": "Panasonic - Q4 2026",
-      "date": "2026-05-12",
-      "start": "2026-05-12T06:30:00.000Z",
-      "end": "2026-05-12T07:30:00.000Z",
-      "all_day": false,
-      "url": "https://web.quartr.com/link/companies/4799/events/536519"
     }
   ]
 }
