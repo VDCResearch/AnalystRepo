@@ -558,42 +558,6 @@
       "end": "2026-05-13T21:30:00.000Z",
       "all_day": false,
       "url": "https://web.quartr.com/link/companies/4639/events/555375"
-    },
-    {
-      "id": "539804",
-      "title": "OMRON - Q4 2026",
-      "date": "2026-05-13",
-      "start": "2026-05-13T07:30:00.000Z",
-      "end": "2026-05-13T08:30:00.000Z",
-      "all_day": false,
-      "url": "https://web.quartr.com/link/companies/15852/events/539804"
-    },
-    {
-      "id": "559247",
-      "title": "Camtek - Q1 2026",
-      "date": "2026-05-12",
-      "start": "2026-05-12T13:00:00.000Z",
-      "end": "2026-05-12T14:00:00.000Z",
-      "all_day": false,
-      "url": "https://web.quartr.com/link/companies/15307/events/559247"
-    },
-    {
-      "id": "419046",
-      "title": "Zebra Technologies - Q1 2026",
-      "date": "2026-05-12",
-      "start": "2026-05-12T12:30:00.000Z",
-      "end": "2026-05-12T13:30:00.000Z",
-      "all_day": false,
-      "url": "https://web.quartr.com/link/companies/3691/events/419046"
-    },
-    {
-      "id": "566341",
-      "title": "Novanta - Q1 2026",
-      "date": "2026-05-12",
-      "start": "2026-05-12T12:00:00.000Z",
-      "end": "2026-05-12T13:00:00.000Z",
-      "all_day": false,
-      "url": "https://web.quartr.com/link/companies/12345/events/566341"
     }
   ]
 }
