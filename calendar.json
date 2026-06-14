@@ -200,15 +200,6 @@
       "url": "https://web.quartr.com/link/companies/14723/events/556198/report?rp=1"
     },
     {
-      "id": "676604",
-      "title": "DNA X - Q2 2026",
-      "date": "2026-08-11",
-      "start": "2026-08-11T00:00:00.000Z",
-      "end": null,
-      "all_day": true,
-      "url": "https://web.quartr.com/link/companies/20365/events/676604/report?rp=1"
-    },
-    {
       "id": "669540",
       "title": "Hamamatsu Photonics - Q3 2026",
       "date": "2026-08-07",
@@ -216,6 +207,15 @@
       "end": null,
       "all_day": true,
       "url": "https://web.quartr.com/link/companies/15061/events/669540/report?rp=1"
+    },
+    {
+      "id": "676604",
+      "title": "DNA X - Q2 2026",
+      "date": "2026-08-07",
+      "start": "2026-08-07T00:00:00.000Z",
+      "end": null,
+      "all_day": true,
+      "url": "https://web.quartr.com/link/companies/20365/events/676604/report?rp=1"
     },
     {
       "id": "661487",
@@ -533,15 +533,6 @@
       "url": "https://web.quartr.com/link/companies/15496/events/587651/report?rp=1"
     },
     {
-      "id": "620569",
-      "title": "Solum - Q1 2026",
-      "date": "2026-05-14",
-      "start": "2026-05-14T00:00:00.000Z",
-      "end": null,
-      "all_day": true,
-      "url": "https://web.quartr.com/link/companies/16192/events/620569/report?rp=1"
-    },
-    {
       "id": "670912",
       "title": "Datalogic - Q1 2026",
       "date": "2026-05-14",
@@ -549,15 +540,6 @@
       "end": null,
       "all_day": true,
       "url": "https://web.quartr.com/link/companies/16569/events/670912/report?rp=1"
-    },
-    {
-      "id": "555375",
-      "title": "Cisco Systems - Q3 2026",
-      "date": "2026-05-13",
-      "start": "2026-05-13T20:30:00.000Z",
-      "end": "2026-05-13T21:30:00.000Z",
-      "all_day": false,
-      "url": "https://web.quartr.com/link/companies/4639/events/555375"
     }
   ]
 }
