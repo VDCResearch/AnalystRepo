@@ -146,15 +146,6 @@
       "url": "https://web.quartr.com/link/companies/3870/events/682009/report?rp=1"
     },
     {
-      "id": "673993",
-      "title": "Getac  - Q2 2026",
-      "date": "2026-08-13",
-      "start": "2026-08-13T00:00:00.000Z",
-      "end": null,
-      "all_day": true,
-      "url": "https://web.quartr.com/link/companies/15496/events/673993/report?rp=1"
-    },
-    {
       "id": "683178",
       "title": "Solum - Q2 2026",
       "date": "2026-08-13",
@@ -189,6 +180,15 @@
       "end": null,
       "all_day": true,
       "url": "https://web.quartr.com/link/companies/4639/events/668273/report?rp=1"
+    },
+    {
+      "id": "673993",
+      "title": "Getac  - Q2 2026",
+      "date": "2026-08-12",
+      "start": "2026-08-12T00:00:00.000Z",
+      "end": null,
+      "all_day": true,
+      "url": "https://web.quartr.com/link/companies/15496/events/673993/report?rp=1"
     },
     {
       "id": "556198",
