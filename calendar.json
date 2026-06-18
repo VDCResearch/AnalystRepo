@@ -407,15 +407,6 @@
       "url": "https://web.quartr.com/link/companies/14677/events/660712/report?rp=1"
     },
     {
-      "id": "654125",
-      "title": "Keyence - Q1 2027",
-      "date": "2026-07-27",
-      "start": "2026-07-27T00:00:00.000Z",
-      "end": null,
-      "all_day": true,
-      "url": "https://web.quartr.com/link/companies/11375/events/654125/report?rp=1"
-    },
-    {
       "id": "645485",
       "title": "Samsung Electronics - Q2 2026",
       "date": "2026-07-24",
@@ -423,6 +414,15 @@
       "end": null,
       "all_day": true,
       "url": "https://web.quartr.com/link/companies/4754/events/645485/report?rp=1"
+    },
+    {
+      "id": "654125",
+      "title": "Keyence - Q1 2027",
+      "date": "2026-07-24",
+      "start": "2026-07-24T00:00:00.000Z",
+      "end": null,
+      "all_day": true,
+      "url": "https://web.quartr.com/link/companies/11375/events/654125/report?rp=1"
     },
     {
       "id": "653568",
