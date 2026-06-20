@@ -308,6 +308,15 @@
       "url": "https://web.quartr.com/link/companies/15307/events/666696/report?rp=1"
     },
     {
+      "id": "655742",
+      "title": "DENSO - Q1 2027",
+      "date": "2026-07-31",
+      "start": "2026-07-31T02:20:00.000Z",
+      "end": "2026-07-31T03:20:00.000Z",
+      "all_day": false,
+      "url": "https://web.quartr.com/link/companies/15601/events/655742/report?rp=1"
+    },
+    {
       "id": "663930",
       "title": "Mettler-Toledo International - Q2 2026",
       "date": "2026-07-31",
@@ -315,15 +324,6 @@
       "end": null,
       "all_day": true,
       "url": "https://web.quartr.com/link/companies/10380/events/663930/report?rp=1"
-    },
-    {
-      "id": "655742",
-      "title": "DENSO - Q1 2027",
-      "date": "2026-07-30",
-      "start": "2026-07-30T00:00:00.000Z",
-      "end": null,
-      "all_day": true,
-      "url": "https://web.quartr.com/link/companies/15601/events/655742/report?rp=1"
     },
     {
       "id": "655795",
