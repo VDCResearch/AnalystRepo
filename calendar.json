@@ -486,24 +486,6 @@
       "end": null,
       "all_day": true,
       "url": "https://web.quartr.com/link/companies/14699/events/641327/report?rp=1"
-    },
-    {
-      "id": "581082",
-      "title": "Okta - Q1 2027",
-      "date": "2026-05-28",
-      "start": "2026-05-28T21:00:00.000Z",
-      "end": "2026-05-28T22:00:00.000Z",
-      "all_day": false,
-      "url": "https://web.quartr.com/link/companies/3870/events/581082"
-    },
-    {
-      "id": "559834",
-      "title": "Dell Technologies - Q1 2027",
-      "date": "2026-05-28",
-      "start": "2026-05-28T20:30:00.000Z",
-      "end": "2026-05-28T21:30:00.000Z",
-      "all_day": false,
-      "url": "https://web.quartr.com/link/companies/5910/events/559834"
     }
   ]
 }
