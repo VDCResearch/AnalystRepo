@@ -74,6 +74,15 @@
       "url": "https://web.quartr.com/link/companies/3691/events/662870/report?rp=1"
     },
     {
+      "id": "702819",
+      "title": "Apple - Q4 2026",
+      "date": "2026-10-29",
+      "start": "2026-10-29T00:00:00.000Z",
+      "end": null,
+      "all_day": true,
+      "url": "https://web.quartr.com/link/companies/4742/events/702819/report?rp=1"
+    },
+    {
       "id": "540015",
       "title": "JLT Mobile Computers - Q3 2026",
       "date": "2026-10-23",
@@ -326,6 +335,15 @@
       "url": "https://web.quartr.com/link/companies/10380/events/663930/report?rp=1"
     },
     {
+      "id": "660712",
+      "title": "Leonardo DRS - Q2 2026",
+      "date": "2026-07-30",
+      "start": "2026-07-30T14:00:00.000Z",
+      "end": "2026-07-30T15:00:00.000Z",
+      "all_day": false,
+      "url": "https://web.quartr.com/link/companies/14677/events/660712"
+    },
+    {
       "id": "655795",
       "title": "Fujitsu - Q1 2027",
       "date": "2026-07-30",
@@ -396,15 +414,6 @@
       "end": null,
       "all_day": true,
       "url": "https://web.quartr.com/link/companies/10694/events/657370/report?rp=1"
-    },
-    {
-      "id": "660712",
-      "title": "Leonardo DRS - Q2 2026",
-      "date": "2026-07-29",
-      "start": "2026-07-29T00:00:00.000Z",
-      "end": null,
-      "all_day": true,
-      "url": "https://web.quartr.com/link/companies/14677/events/660712/report?rp=1"
     },
     {
       "id": "645485",
