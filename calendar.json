@@ -83,6 +83,15 @@
       "url": "https://web.quartr.com/link/companies/4742/events/702819/report?rp=1"
     },
     {
+      "id": "705734",
+      "title": "Fujitsu - Q2 2027",
+      "date": "2026-10-29",
+      "start": "2026-10-29T00:00:00.000Z",
+      "end": null,
+      "all_day": true,
+      "url": "https://web.quartr.com/link/companies/14329/events/705734/report?rp=1"
+    },
+    {
       "id": "540015",
       "title": "JLT Mobile Computers - Q3 2026",
       "date": "2026-10-23",
@@ -335,6 +344,15 @@
       "url": "https://web.quartr.com/link/companies/10380/events/663930/report?rp=1"
     },
     {
+      "id": "658553",
+      "title": "Apple - Q3 2026",
+      "date": "2026-07-30",
+      "start": "2026-07-30T21:00:00.000Z",
+      "end": "2026-07-30T22:00:00.000Z",
+      "all_day": false,
+      "url": "https://web.quartr.com/link/companies/4742/events/658553"
+    },
+    {
       "id": "656205",
       "title": "Avery Dennison - Q2 2026",
       "date": "2026-07-30",
@@ -378,15 +396,6 @@
       "end": null,
       "all_day": true,
       "url": "https://web.quartr.com/link/companies/16322/events/657631/report?rp=1"
-    },
-    {
-      "id": "658553",
-      "title": "Apple - Q3 2026",
-      "date": "2026-07-30",
-      "start": "2026-07-30T00:00:00.000Z",
-      "end": null,
-      "all_day": true,
-      "url": "https://web.quartr.com/link/companies/4742/events/658553/report?rp=1"
     },
     {
       "id": "660911",
