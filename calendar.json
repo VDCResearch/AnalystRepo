@@ -74,6 +74,15 @@
       "url": "https://web.quartr.com/link/companies/3691/events/662870/report?rp=1"
     },
     {
+      "id": "706984",
+      "title": "Panasonic - Q2 2027",
+      "date": "2026-10-30",
+      "start": "2026-10-30T00:00:00.000Z",
+      "end": null,
+      "all_day": true,
+      "url": "https://web.quartr.com/link/companies/4799/events/706984/report?rp=1"
+    },
+    {
       "id": "702819",
       "title": "Apple - Q4 2026",
       "date": "2026-10-29",
@@ -371,6 +380,15 @@
       "url": "https://web.quartr.com/link/companies/14677/events/660712"
     },
     {
+      "id": "657631",
+      "title": "Kyocera - Q1 2027",
+      "date": "2026-07-30",
+      "start": "2026-07-30T07:45:00.000Z",
+      "end": "2026-07-30T08:45:00.000Z",
+      "all_day": false,
+      "url": "https://web.quartr.com/link/companies/16322/events/657631"
+    },
+    {
       "id": "645485",
       "title": "Samsung Electronics - Q2 2026",
       "date": "2026-07-30",
@@ -396,15 +414,6 @@
       "end": null,
       "all_day": true,
       "url": "https://web.quartr.com/link/companies/4762/events/657334/report?rp=1"
-    },
-    {
-      "id": "657631",
-      "title": "Kyocera - Q1 2027",
-      "date": "2026-07-30",
-      "start": "2026-07-30T00:00:00.000Z",
-      "end": null,
-      "all_day": true,
-      "url": "https://web.quartr.com/link/companies/16322/events/657631/report?rp=1"
     },
     {
       "id": "660911",
