@@ -479,6 +479,15 @@
       "url": "https://web.quartr.com/link/companies/5875/events/653568"
     },
     {
+      "id": "641327",
+      "title": "Nedap - Q2 2026",
+      "date": "2026-07-23",
+      "start": "2026-07-23T00:00:00.000Z",
+      "end": null,
+      "all_day": true,
+      "url": "https://web.quartr.com/link/companies/14699/events/641327/report?rp=1"
+    },
+    {
       "id": "657320",
       "title": "Alphabet - Q2 2026",
       "date": "2026-07-22",
@@ -513,15 +522,6 @@
       "end": "2026-07-16T09:00:00.000Z",
       "all_day": false,
       "url": "https://web.quartr.com/link/companies/4073/events/538220"
-    },
-    {
-      "id": "641327",
-      "title": "Nedap - Q2 2026",
-      "date": "2026-07-16",
-      "start": "2026-07-16T00:00:00.000Z",
-      "end": null,
-      "all_day": true,
-      "url": "https://web.quartr.com/link/companies/14699/events/641327/report?rp=1"
     }
   ]
 }
