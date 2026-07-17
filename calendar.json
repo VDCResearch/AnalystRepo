@@ -263,6 +263,15 @@
       "url": "https://web.quartr.com/link/companies/15261/events/661487"
     },
     {
+      "id": "662325",
+      "title": "Cognex - Q2 2026",
+      "date": "2026-08-06",
+      "start": "2026-08-06T12:30:00.000Z",
+      "end": "2026-08-06T13:30:00.000Z",
+      "all_day": false,
+      "url": "https://web.quartr.com/link/companies/6484/events/662325"
+    },
+    {
       "id": "666495",
       "title": "Novanta - Q2 2026",
       "date": "2026-08-06",
@@ -362,6 +371,15 @@
       "url": "https://web.quartr.com/link/companies/15601/events/655742/report?rp=1"
     },
     {
+      "id": "657334",
+      "title": "Amazon - Q2 2026",
+      "date": "2026-07-30",
+      "start": "2026-07-30T21:00:00.000Z",
+      "end": "2026-07-30T22:00:00.000Z",
+      "all_day": false,
+      "url": "https://web.quartr.com/link/companies/4762/events/657334"
+    },
+    {
       "id": "658553",
       "title": "Apple - Q3 2026",
       "date": "2026-07-30",
@@ -425,15 +443,6 @@
       "url": "https://web.quartr.com/link/companies/14329/events/655795/report?rp=1"
     },
     {
-      "id": "657334",
-      "title": "Amazon - Q2 2026",
-      "date": "2026-07-30",
-      "start": "2026-07-30T00:00:00.000Z",
-      "end": null,
-      "all_day": true,
-      "url": "https://web.quartr.com/link/companies/4762/events/657334/report?rp=1"
-    },
-    {
       "id": "660911",
       "title": "Socket Mobile - Q2 2026",
       "date": "2026-07-30",
@@ -441,15 +450,6 @@
       "end": null,
       "all_day": true,
       "url": "https://web.quartr.com/link/companies/13327/events/660911/report?rp=1"
-    },
-    {
-      "id": "662325",
-      "title": "Cognex - Q2 2026",
-      "date": "2026-07-30",
-      "start": "2026-07-30T00:00:00.000Z",
-      "end": null,
-      "all_day": true,
-      "url": "https://web.quartr.com/link/companies/6484/events/662325/report?rp=1"
     },
     {
       "id": "657370",
