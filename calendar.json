@@ -245,6 +245,15 @@
       "url": "https://web.quartr.com/link/companies/14723/events/556198/report?rp=1"
     },
     {
+      "id": "666696",
+      "title": "Camtek - Q2 2026",
+      "date": "2026-08-10",
+      "start": "2026-08-10T13:00:00.000Z",
+      "end": "2026-08-10T14:00:00.000Z",
+      "all_day": false,
+      "url": "https://web.quartr.com/link/companies/15307/events/666696"
+    },
+    {
       "id": "669540",
       "title": "Hamamatsu Photonics - Q3 2026",
       "date": "2026-08-07",
@@ -351,15 +360,6 @@
       "end": null,
       "all_day": true,
       "url": "https://web.quartr.com/link/companies/16569/events/553593/report?rp=1"
-    },
-    {
-      "id": "666696",
-      "title": "Camtek - Q2 2026",
-      "date": "2026-08-04",
-      "start": "2026-08-04T00:00:00.000Z",
-      "end": null,
-      "all_day": true,
-      "url": "https://web.quartr.com/link/companies/15307/events/666696/report?rp=1"
     },
     {
       "id": "663930",
