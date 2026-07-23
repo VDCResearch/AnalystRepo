@@ -155,6 +155,15 @@
       "url": "https://web.quartr.com/link/companies/4769/events/387831/report?rp=1"
     },
     {
+      "id": "713940",
+      "title": "Honeywell International - Q3 2026",
+      "date": "2026-10-22",
+      "start": "2026-10-22T00:00:00.000Z",
+      "end": null,
+      "all_day": true,
+      "url": "https://web.quartr.com/link/companies/5875/events/713940/report?rp=1"
+    },
+    {
       "id": "712735",
       "title": "Teledyne Technologies - Q3 2026",
       "date": "2026-10-21",
@@ -162,6 +171,15 @@
       "end": null,
       "all_day": true,
       "url": "https://web.quartr.com/link/companies/6273/events/712735/report?rp=1"
+    },
+    {
+      "id": "714456",
+      "title": "Avery Dennison - Q3 2026",
+      "date": "2026-10-21",
+      "start": "2026-10-21T00:00:00.000Z",
+      "end": null,
+      "all_day": true,
+      "url": "https://web.quartr.com/link/companies/4661/events/714456/report?rp=1"
     },
     {
       "id": "654729",
@@ -218,6 +236,15 @@
       "url": "https://web.quartr.com/link/companies/16192/events/683178/report?rp=1"
     },
     {
+      "id": "556979",
+      "title": "Viscom - Q2 2026",
+      "date": "2026-08-12",
+      "start": "2026-08-12T08:00:00.000Z",
+      "end": "2026-08-12T09:00:00.000Z",
+      "all_day": false,
+      "url": "https://web.quartr.com/link/companies/16572/events/556979"
+    },
+    {
       "id": "540014",
       "title": "JLT Mobile Computers - Q2 2026",
       "date": "2026-08-12",
@@ -225,15 +252,6 @@
       "end": "2026-08-12T07:00:00.000Z",
       "all_day": false,
       "url": "https://web.quartr.com/link/companies/14791/events/540014/report?rp=1"
-    },
-    {
-      "id": "556979",
-      "title": "Viscom - Q2 2026",
-      "date": "2026-08-12",
-      "start": "2026-08-12T00:00:00.000Z",
-      "end": null,
-      "all_day": true,
-      "url": "https://web.quartr.com/link/companies/16572/events/556979/report?rp=1"
     },
     {
       "id": "668273",
@@ -328,11 +346,11 @@
     {
       "id": "662832",
       "title": "Motorola Solutions - Q2 2026",
-      "date": "2026-08-06",
-      "start": "2026-08-06T00:00:00.000Z",
-      "end": null,
-      "all_day": true,
-      "url": "https://web.quartr.com/link/companies/10230/events/662832/report?rp=1"
+      "date": "2026-08-05",
+      "start": "2026-08-05T21:00:00.000Z",
+      "end": "2026-08-05T22:00:00.000Z",
+      "all_day": false,
+      "url": "https://web.quartr.com/link/companies/10230/events/662832"
     },
     {
       "id": "553294",
