@@ -128,6 +128,15 @@
       "url": "https://web.quartr.com/link/companies/4122/events/712854/report?rp=1"
     },
     {
+      "id": "716455",
+      "title": "Keyence - Q2 2027",
+      "date": "2026-10-28",
+      "start": "2026-10-28T00:00:00.000Z",
+      "end": null,
+      "all_day": true,
+      "url": "https://web.quartr.com/link/companies/11375/events/716455/report?rp=1"
+    },
+    {
       "id": "540015",
       "title": "JLT Mobile Computers - Q3 2026",
       "date": "2026-10-23",
@@ -335,6 +344,15 @@
       "url": "https://web.quartr.com/link/companies/12345/events/666495"
     },
     {
+      "id": "660911",
+      "title": "Socket Mobile - Q2 2026",
+      "date": "2026-08-06",
+      "start": "2026-08-06T00:00:00.000Z",
+      "end": null,
+      "all_day": true,
+      "url": "https://web.quartr.com/link/companies/13327/events/660911/report?rp=1"
+    },
+    {
       "id": "662112",
       "title": "NCR Voyix - Q2 2026",
       "date": "2026-08-06",
@@ -495,15 +513,6 @@
       "end": null,
       "all_day": true,
       "url": "https://web.quartr.com/link/companies/14329/events/655795/report?rp=1"
-    },
-    {
-      "id": "660911",
-      "title": "Socket Mobile - Q2 2026",
-      "date": "2026-07-30",
-      "start": "2026-07-30T00:00:00.000Z",
-      "end": null,
-      "all_day": true,
-      "url": "https://web.quartr.com/link/companies/13327/events/660911/report?rp=1"
     },
     {
       "id": "657370",
