@@ -344,24 +344,6 @@
       "url": "https://web.quartr.com/link/companies/12345/events/666495"
     },
     {
-      "id": "660911",
-      "title": "Socket Mobile - Q2 2026",
-      "date": "2026-08-06",
-      "start": "2026-08-06T00:00:00.000Z",
-      "end": null,
-      "all_day": true,
-      "url": "https://web.quartr.com/link/companies/13327/events/660911/report?rp=1"
-    },
-    {
-      "id": "662112",
-      "title": "NCR Voyix - Q2 2026",
-      "date": "2026-08-06",
-      "start": "2026-08-06T00:00:00.000Z",
-      "end": null,
-      "all_day": true,
-      "url": "https://web.quartr.com/link/companies/10653/events/662112/report?rp=1"
-    },
-    {
       "id": "662832",
       "title": "Motorola Solutions - Q2 2026",
       "date": "2026-08-05",
@@ -378,6 +360,15 @@
       "end": "2026-08-05T13:00:00.000Z",
       "all_day": false,
       "url": "https://web.quartr.com/link/companies/13270/events/553294"
+    },
+    {
+      "id": "662112",
+      "title": "NCR Voyix - Q2 2026",
+      "date": "2026-08-05",
+      "start": "2026-08-05T12:00:00.000Z",
+      "end": "2026-08-05T13:00:00.000Z",
+      "all_day": false,
+      "url": "https://web.quartr.com/link/companies/10653/events/662112"
     },
     {
       "id": "667331",
@@ -450,6 +441,15 @@
       "end": "2026-07-30T22:00:00.000Z",
       "all_day": false,
       "url": "https://web.quartr.com/link/companies/4742/events/658553"
+    },
+    {
+      "id": "660911",
+      "title": "Socket Mobile - Q2 2026",
+      "date": "2026-07-30",
+      "start": "2026-07-30T21:00:00.000Z",
+      "end": "2026-07-30T22:00:00.000Z",
+      "all_day": false,
+      "url": "https://web.quartr.com/link/companies/13327/events/660911"
     },
     {
       "id": "714914",
@@ -527,9 +527,9 @@
       "id": "654125",
       "title": "Keyence - Q1 2027",
       "date": "2026-07-28",
-      "start": "2026-07-28T00:00:00.000Z",
-      "end": null,
-      "all_day": true,
+      "start": "2026-07-28T07:00:00.000Z",
+      "end": "2026-07-28T08:00:00.000Z",
+      "all_day": false,
       "url": "https://web.quartr.com/link/companies/11375/events/654125/report?rp=1"
     },
     {
