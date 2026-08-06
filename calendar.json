@@ -65,6 +65,24 @@
       "url": "https://web.quartr.com/link/companies/14723/events/669518/report?rp=1"
     },
     {
+      "id": "726857",
+      "title": "Maplebear - Q3 2026",
+      "date": "2026-11-09",
+      "start": "2026-11-09T00:00:00.000Z",
+      "end": null,
+      "all_day": true,
+      "url": "https://web.quartr.com/link/companies/15261/events/726857/report?rp=1"
+    },
+    {
+      "id": "726910",
+      "title": "Hamamatsu Photonics - Q4 2026",
+      "date": "2026-11-09",
+      "start": "2026-11-09T00:00:00.000Z",
+      "end": null,
+      "all_day": true,
+      "url": "https://web.quartr.com/link/companies/15061/events/726910/report?rp=1"
+    },
+    {
       "id": "721311",
       "title": "Mettler-Toledo International - Q3 2026",
       "date": "2026-11-06",
@@ -117,6 +135,15 @@
       "end": null,
       "all_day": true,
       "url": "https://web.quartr.com/link/companies/3691/events/662870/report?rp=1"
+    },
+    {
+      "id": "726129",
+      "title": "Novanta - Q3 2026",
+      "date": "2026-11-03",
+      "start": "2026-11-03T00:00:00.000Z",
+      "end": null,
+      "all_day": true,
+      "url": "https://web.quartr.com/link/companies/12345/events/726129/report?rp=1"
     },
     {
       "id": "706984",
@@ -189,6 +216,15 @@
       "end": null,
       "all_day": true,
       "url": "https://web.quartr.com/link/companies/10230/events/725439/report?rp=1"
+    },
+    {
+      "id": "726223",
+      "title": "Cognex - Q3 2026",
+      "date": "2026-10-29",
+      "start": "2026-10-29T00:00:00.000Z",
+      "end": null,
+      "all_day": true,
+      "url": "https://web.quartr.com/link/companies/6484/events/726223/report?rp=1"
     },
     {
       "id": "712854",
@@ -353,6 +389,15 @@
       "url": "https://web.quartr.com/link/companies/16192/events/683178/report?rp=1"
     },
     {
+      "id": "668273",
+      "title": "Cisco Systems - Q4 2026",
+      "date": "2026-08-12",
+      "start": "2026-08-12T20:30:00.000Z",
+      "end": "2026-08-12T21:30:00.000Z",
+      "all_day": false,
+      "url": "https://web.quartr.com/link/companies/4639/events/668273"
+    },
+    {
       "id": "556979",
       "title": "Viscom - Q2 2026",
       "date": "2026-08-12",
@@ -369,15 +414,6 @@
       "end": "2026-08-12T07:00:00.000Z",
       "all_day": false,
       "url": "https://web.quartr.com/link/companies/14791/events/540014/report?rp=1"
-    },
-    {
-      "id": "668273",
-      "title": "Cisco Systems - Q4 2026",
-      "date": "2026-08-12",
-      "start": "2026-08-12T00:00:00.000Z",
-      "end": null,
-      "all_day": true,
-      "url": "https://web.quartr.com/link/companies/4639/events/668273/report?rp=1"
     },
     {
       "id": "673993",
