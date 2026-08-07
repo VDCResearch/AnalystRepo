@@ -74,15 +74,6 @@
       "url": "https://web.quartr.com/link/companies/15261/events/726857/report?rp=1"
     },
     {
-      "id": "726910",
-      "title": "Hamamatsu Photonics - Q4 2026",
-      "date": "2026-11-09",
-      "start": "2026-11-09T00:00:00.000Z",
-      "end": null,
-      "all_day": true,
-      "url": "https://web.quartr.com/link/companies/15061/events/726910/report?rp=1"
-    },
-    {
       "id": "721311",
       "title": "Mettler-Toledo International - Q3 2026",
       "date": "2026-11-06",
@@ -99,6 +90,15 @@
       "end": null,
       "all_day": true,
       "url": "https://web.quartr.com/link/companies/15852/events/724510/report?rp=1"
+    },
+    {
+      "id": "726910",
+      "title": "Hamamatsu Photonics - Q4 2026",
+      "date": "2026-11-06",
+      "start": "2026-11-06T00:00:00.000Z",
+      "end": null,
+      "all_day": true,
+      "url": "https://web.quartr.com/link/companies/15061/events/726910/report?rp=1"
     },
     {
       "id": "725027",
