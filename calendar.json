@@ -74,6 +74,15 @@
       "url": "https://web.quartr.com/link/companies/15261/events/726857/report?rp=1"
     },
     {
+      "id": "729189",
+      "title": "Camtek - Q3 2026",
+      "date": "2026-11-09",
+      "start": "2026-11-09T00:00:00.000Z",
+      "end": null,
+      "all_day": true,
+      "url": "https://web.quartr.com/link/companies/15307/events/729189/report?rp=1"
+    },
+    {
       "id": "721311",
       "title": "Mettler-Toledo International - Q3 2026",
       "date": "2026-11-06",
@@ -373,8 +382,8 @@
     {
       "id": "676604",
       "title": "DNA X - Q2 2026",
-      "date": "2026-08-14",
-      "start": "2026-08-14T00:00:00.000Z",
+      "date": "2026-08-21",
+      "start": "2026-08-21T00:00:00.000Z",
       "end": null,
       "all_day": true,
       "url": "https://web.quartr.com/link/companies/20365/events/676604/report?rp=1"
@@ -382,11 +391,20 @@
     {
       "id": "683178",
       "title": "Solum - Q2 2026",
-      "date": "2026-08-13",
-      "start": "2026-08-13T00:00:00.000Z",
+      "date": "2026-08-20",
+      "start": "2026-08-20T00:00:00.000Z",
       "end": null,
       "all_day": true,
       "url": "https://web.quartr.com/link/companies/16192/events/683178/report?rp=1"
+    },
+    {
+      "id": "673993",
+      "title": "Getac  - Q2 2026",
+      "date": "2026-08-19",
+      "start": "2026-08-19T00:00:00.000Z",
+      "end": null,
+      "all_day": true,
+      "url": "https://web.quartr.com/link/companies/15496/events/673993/report?rp=1"
     },
     {
       "id": "668273",
@@ -414,15 +432,6 @@
       "end": "2026-08-12T07:00:00.000Z",
       "all_day": false,
       "url": "https://web.quartr.com/link/companies/14791/events/540014/report?rp=1"
-    },
-    {
-      "id": "673993",
-      "title": "Getac  - Q2 2026",
-      "date": "2026-08-12",
-      "start": "2026-08-12T00:00:00.000Z",
-      "end": null,
-      "all_day": true,
-      "url": "https://web.quartr.com/link/companies/15496/events/673993/report?rp=1"
     },
     {
       "id": "556198",
