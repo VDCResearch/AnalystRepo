@@ -38,6 +38,24 @@
       "url": "https://web.quartr.com/link/companies/14699/events/710669/report?rp=1"
     },
     {
+      "id": "733790",
+      "title": "Getac  - Q3 2026",
+      "date": "2026-11-13",
+      "start": "2026-11-13T00:00:00.000Z",
+      "end": null,
+      "all_day": true,
+      "url": "https://web.quartr.com/link/companies/15496/events/733790/report?rp=1"
+    },
+    {
+      "id": "734448",
+      "title": "Solum  - Q3 2026",
+      "date": "2026-11-13",
+      "start": "2026-11-13T00:00:00.000Z",
+      "end": null,
+      "all_day": true,
+      "url": "https://web.quartr.com/link/companies/16192/events/734448/report?rp=1"
+    },
+    {
       "id": "673392",
       "title": "Datalogic - Q3 2026",
       "date": "2026-11-12",
@@ -399,9 +417,9 @@
     },
     {
       "id": "683178",
-      "title": "Solum - Q2 2026",
-      "date": "2026-08-20",
-      "start": "2026-08-20T00:00:00.000Z",
+      "title": "Solum  - Q2 2026",
+      "date": "2026-08-14",
+      "start": "2026-08-14T00:00:00.000Z",
       "end": null,
       "all_day": true,
       "url": "https://web.quartr.com/link/companies/16192/events/683178/report?rp=1"
@@ -409,8 +427,8 @@
     {
       "id": "673993",
       "title": "Getac  - Q2 2026",
-      "date": "2026-08-19",
-      "start": "2026-08-19T00:00:00.000Z",
+      "date": "2026-08-13",
+      "start": "2026-08-13T00:00:00.000Z",
       "end": null,
       "all_day": true,
       "url": "https://web.quartr.com/link/companies/15496/events/673993/report?rp=1"
