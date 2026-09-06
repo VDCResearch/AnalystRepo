@@ -549,33 +549,6 @@
       "end": "2026-08-06T13:00:00.000Z",
       "all_day": false,
       "url": "https://web.quartr.com/link/companies/12345/events/666495"
-    },
-    {
-      "id": "662832",
-      "title": "Motorola Solutions - Q2 2026",
-      "date": "2026-08-05",
-      "start": "2026-08-05T21:00:00.000Z",
-      "end": "2026-08-05T22:00:00.000Z",
-      "all_day": false,
-      "url": "https://web.quartr.com/link/companies/10230/events/662832"
-    },
-    {
-      "id": "553294",
-      "title": "Basler - Q2 2026",
-      "date": "2026-08-05",
-      "start": "2026-08-05T12:00:00.000Z",
-      "end": "2026-08-05T13:00:00.000Z",
-      "all_day": false,
-      "url": "https://web.quartr.com/link/companies/13270/events/553294"
-    },
-    {
-      "id": "662112",
-      "title": "NCR Voyix - Q2 2026",
-      "date": "2026-08-05",
-      "start": "2026-08-05T12:00:00.000Z",
-      "end": "2026-08-05T13:00:00.000Z",
-      "all_day": false,
-      "url": "https://web.quartr.com/link/companies/10653/events/662112"
     }
   ]
 }
