@@ -218,6 +218,15 @@
       "url": "https://web.quartr.com/link/companies/12345/events/726129/report?rp=1"
     },
     {
+      "id": "719339",
+      "title": "Kyocera - Q2 2027",
+      "date": "2026-11-02",
+      "start": "2026-11-02T00:00:00.000Z",
+      "end": null,
+      "all_day": true,
+      "url": "https://web.quartr.com/link/companies/16322/events/719339/report?rp=1"
+    },
+    {
       "id": "706984",
       "title": "Panasonic - Q2 2027",
       "date": "2026-10-30",
@@ -261,15 +270,6 @@
       "end": null,
       "all_day": true,
       "url": "https://web.quartr.com/link/companies/4754/events/718820/report?rp=1"
-    },
-    {
-      "id": "719339",
-      "title": "Kyocera - Q2 2027",
-      "date": "2026-10-29",
-      "start": "2026-10-29T00:00:00.000Z",
-      "end": null,
-      "all_day": true,
-      "url": "https://web.quartr.com/link/companies/16322/events/719339/report?rp=1"
     },
     {
       "id": "720308",
