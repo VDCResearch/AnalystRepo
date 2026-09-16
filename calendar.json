@@ -2,6 +2,24 @@
   "source": "quartr",
   "events": [
     {
+      "id": "753360",
+      "title": "Atlas Copco Group - Q2 2027",
+      "date": "2027-07-16",
+      "start": "2027-07-16T00:00:00.000Z",
+      "end": null,
+      "all_day": true,
+      "url": "https://web.quartr.com/link/companies/4769/events/753360/report?rp=1"
+    },
+    {
+      "id": "753356",
+      "title": "Atlas Copco Group - Q1 2027",
+      "date": "2027-04-22",
+      "start": "2027-04-22T00:00:00.000Z",
+      "end": null,
+      "all_day": true,
+      "url": "https://web.quartr.com/link/companies/4769/events/753356/report?rp=1"
+    },
+    {
       "id": "746053",
       "title": "TKH Group - Q4 2026",
       "date": "2027-03-04",
