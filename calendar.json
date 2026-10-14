@@ -29,6 +29,24 @@
       "url": "https://web.quartr.com/link/companies/14723/events/746053/report?rp=1"
     },
     {
+      "id": "770308",
+      "title": "Nedap - Q4 2026",
+      "date": "2027-02-24",
+      "start": "2027-02-24T00:00:00.000Z",
+      "end": null,
+      "all_day": true,
+      "url": "https://web.quartr.com/link/companies/14699/events/770308/report?rp=1"
+    },
+    {
+      "id": "769791",
+      "title": "Novanta - Q4 2026",
+      "date": "2027-02-23",
+      "start": "2027-02-23T00:00:00.000Z",
+      "end": null,
+      "all_day": true,
+      "url": "https://web.quartr.com/link/companies/12345/events/769791/report?rp=1"
+    },
+    {
       "id": "764897",
       "title": "Zebra Technologies - Q4 2026",
       "date": "2027-02-16",
@@ -182,6 +200,15 @@
       "url": "https://web.quartr.com/link/companies/4639/events/731525/report?rp=1"
     },
     {
+      "id": "726129",
+      "title": "Novanta - Q3 2026",
+      "date": "2026-11-10",
+      "start": "2026-11-10T13:00:00.000Z",
+      "end": "2026-11-10T14:00:00.000Z",
+      "all_day": false,
+      "url": "https://web.quartr.com/link/companies/12345/events/726129"
+    },
+    {
       "id": "669518",
       "title": "TKH Group - Q3 2026",
       "date": "2026-11-10",
@@ -270,15 +297,6 @@
       "end": "2026-11-03T14:30:00.000Z",
       "all_day": false,
       "url": "https://web.quartr.com/link/companies/3691/events/662870"
-    },
-    {
-      "id": "726129",
-      "title": "Novanta - Q3 2026",
-      "date": "2026-11-03",
-      "start": "2026-11-03T00:00:00.000Z",
-      "end": null,
-      "all_day": true,
-      "url": "https://web.quartr.com/link/companies/12345/events/726129/report?rp=1"
     },
     {
       "id": "702819",
