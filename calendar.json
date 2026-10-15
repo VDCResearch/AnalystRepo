@@ -56,6 +56,15 @@
       "url": "https://web.quartr.com/link/companies/3691/events/764897/report?rp=1"
     },
     {
+      "id": "771163",
+      "title": "Camtek - Q4 2026",
+      "date": "2027-02-12",
+      "start": "2027-02-12T00:00:00.000Z",
+      "end": null,
+      "all_day": true,
+      "url": "https://web.quartr.com/link/companies/15307/events/771163/report?rp=1"
+    },
+    {
       "id": "540017",
       "title": "JLT Mobile Computers - Q4 2026",
       "date": "2027-02-11",
@@ -227,15 +236,6 @@
       "url": "https://web.quartr.com/link/companies/15061/events/726910/report?rp=1"
     },
     {
-      "id": "726857",
-      "title": "Maplebear - Q3 2026",
-      "date": "2026-11-09",
-      "start": "2026-11-09T00:00:00.000Z",
-      "end": null,
-      "all_day": true,
-      "url": "https://web.quartr.com/link/companies/15261/events/726857/report?rp=1"
-    },
-    {
       "id": "729189",
       "title": "Camtek - Q3 2026",
       "date": "2026-11-09",
@@ -263,6 +263,15 @@
       "url": "https://web.quartr.com/link/companies/15852/events/724510/report?rp=1"
     },
     {
+      "id": "726857",
+      "title": "Maplebear - Q3 2026",
+      "date": "2026-11-05",
+      "start": "2026-11-05T22:00:00.000Z",
+      "end": "2026-11-05T23:00:00.000Z",
+      "all_day": false,
+      "url": "https://web.quartr.com/link/companies/15261/events/726857"
+    },
+    {
       "id": "725027",
       "title": "NCR Voyix - Q3 2026",
       "date": "2026-11-05",
@@ -272,6 +281,15 @@
       "url": "https://web.quartr.com/link/companies/10653/events/725027/report?rp=1"
     },
     {
+      "id": "707618",
+      "title": "Emerson Electric - Q4 2026",
+      "date": "2026-11-04",
+      "start": "2026-11-04T13:30:00.000Z",
+      "end": "2026-11-04T14:30:00.000Z",
+      "all_day": false,
+      "url": "https://web.quartr.com/link/companies/4502/events/707618"
+    },
+    {
       "id": "664384",
       "title": "Basler - Q3 2026",
       "date": "2026-11-04",
@@ -279,15 +297,6 @@
       "end": "2026-11-04T14:00:00.000Z",
       "all_day": false,
       "url": "https://web.quartr.com/link/companies/13270/events/664384"
-    },
-    {
-      "id": "707618",
-      "title": "Emerson Electric - Q4 2026",
-      "date": "2026-11-04",
-      "start": "2026-11-04T00:00:00.000Z",
-      "end": null,
-      "all_day": true,
-      "url": "https://web.quartr.com/link/companies/4502/events/707618/report?rp=1"
     },
     {
       "id": "662870",
@@ -464,10 +473,10 @@
       "id": "712735",
       "title": "Teledyne Technologies - Q3 2026",
       "date": "2026-10-21",
-      "start": "2026-10-21T00:00:00.000Z",
-      "end": null,
-      "all_day": true,
-      "url": "https://web.quartr.com/link/companies/6273/events/712735/report?rp=1"
+      "start": "2026-10-21T15:00:00.000Z",
+      "end": "2026-10-21T16:00:00.000Z",
+      "all_day": false,
+      "url": "https://web.quartr.com/link/companies/6273/events/712735"
     },
     {
       "id": "720302",
