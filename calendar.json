@@ -347,10 +347,10 @@
       "id": "719339",
       "title": "Kyocera - Q2 2027",
       "date": "2026-11-02",
-      "start": "2026-11-02T00:00:00.000Z",
-      "end": null,
-      "all_day": true,
-      "url": "https://web.quartr.com/link/companies/16322/events/719339/report?rp=1"
+      "start": "2026-11-02T07:00:00.000Z",
+      "end": "2026-11-02T08:00:00.000Z",
+      "all_day": false,
+      "url": "https://web.quartr.com/link/companies/16322/events/719339"
     },
     {
       "id": "706984",
