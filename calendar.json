@@ -119,6 +119,15 @@
       "url": "https://web.quartr.com/link/companies/4122/events/766353/report?rp=1"
     },
     {
+      "id": "775692",
+      "title": "VusionGroup - Q4 2026",
+      "date": "2027-02-02",
+      "start": "2027-02-02T00:00:00.000Z",
+      "end": null,
+      "all_day": true,
+      "url": "https://web.quartr.com/link/companies/16423/events/775692/report?rp=1"
+    },
+    {
       "id": "764098",
       "title": "Honeywell International - Q4 2026",
       "date": "2027-01-28",
@@ -308,6 +317,15 @@
       "url": "https://web.quartr.com/link/companies/10653/events/725027/report?rp=1"
     },
     {
+      "id": "725439",
+      "title": "Motorola Solutions - Q3 2026",
+      "date": "2026-11-04",
+      "start": "2026-11-04T22:00:00.000Z",
+      "end": "2026-11-04T23:00:00.000Z",
+      "all_day": false,
+      "url": "https://web.quartr.com/link/companies/10230/events/725439"
+    },
+    {
       "id": "707618",
       "title": "Emerson Electric - Q4 2026",
       "date": "2026-11-04",
@@ -423,15 +441,6 @@
       "end": null,
       "all_day": true,
       "url": "https://web.quartr.com/link/companies/11375/events/716455/report?rp=1"
-    },
-    {
-      "id": "725439",
-      "title": "Motorola Solutions - Q3 2026",
-      "date": "2026-10-29",
-      "start": "2026-10-29T00:00:00.000Z",
-      "end": null,
-      "all_day": true,
-      "url": "https://web.quartr.com/link/companies/10230/events/725439/report?rp=1"
     },
     {
       "id": "718726",
