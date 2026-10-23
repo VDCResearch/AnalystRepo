@@ -272,6 +272,15 @@
       "url": "https://web.quartr.com/link/companies/12345/events/726129"
     },
     {
+      "id": "724510",
+      "title": "OMRON - Q2 2027",
+      "date": "2026-11-10",
+      "start": "2026-11-10T07:30:00.000Z",
+      "end": "2026-11-10T08:30:00.000Z",
+      "all_day": false,
+      "url": "https://web.quartr.com/link/companies/15852/events/724510"
+    },
+    {
       "id": "669518",
       "title": "TKH Group - Q3 2026",
       "date": "2026-11-10",
@@ -288,15 +297,6 @@
       "end": "2026-11-06T14:30:00.000Z",
       "all_day": false,
       "url": "https://web.quartr.com/link/companies/10380/events/721311"
-    },
-    {
-      "id": "724510",
-      "title": "OMRON - Q2 2027",
-      "date": "2026-11-06",
-      "start": "2026-11-06T00:00:00.000Z",
-      "end": null,
-      "all_day": true,
-      "url": "https://web.quartr.com/link/companies/15852/events/724510/report?rp=1"
     },
     {
       "id": "726857",
