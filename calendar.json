@@ -182,15 +182,6 @@
       "url": "https://web.quartr.com/link/companies/4661/events/786163/report?rp=1"
     },
     {
-      "id": "787152",
-      "title": "Panasonic - Q3 2027",
-      "date": "2027-02-03",
-      "start": "2027-02-03T00:00:00.000Z",
-      "end": null,
-      "all_day": true,
-      "url": "https://web.quartr.com/link/companies/4799/events/787152/report?rp=1"
-    },
-    {
       "id": "766353",
       "title": "Alphabet - Q4 2026",
       "date": "2027-02-02",
@@ -207,6 +198,15 @@
       "end": null,
       "all_day": true,
       "url": "https://web.quartr.com/link/companies/16423/events/775692/report?rp=1"
+    },
+    {
+      "id": "787152",
+      "title": "Panasonic - Q3 2027",
+      "date": "2027-02-01",
+      "start": "2027-02-01T00:00:00.000Z",
+      "end": null,
+      "all_day": true,
+      "url": "https://web.quartr.com/link/companies/4799/events/787152/report?rp=1"
     },
     {
       "id": "784562",
