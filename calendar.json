@@ -272,6 +272,15 @@
       "url": "https://web.quartr.com/link/companies/14329/events/785115/report?rp=1"
     },
     {
+      "id": "790482",
+      "title": "Apple - Q1 2027",
+      "date": "2027-01-28",
+      "start": "2027-01-28T00:00:00.000Z",
+      "end": null,
+      "all_day": true,
+      "url": "https://web.quartr.com/link/companies/4742/events/790482/report?rp=1"
+    },
+    {
       "id": "387834",
       "title": "Atlas Copco Group - Q4 2026",
       "date": "2027-01-27",
@@ -500,10 +509,10 @@
       "id": "719339",
       "title": "Kyocera - Q2 2027",
       "date": "2026-11-02",
-      "start": "2026-11-02T07:00:00.000Z",
-      "end": "2026-11-02T08:00:00.000Z",
+      "start": "2026-11-02T06:00:00.000Z",
+      "end": "2026-11-02T07:00:00.000Z",
       "all_day": false,
-      "url": "https://web.quartr.com/link/companies/16322/events/719339"
+      "url": "https://web.quartr.com/link/companies/16322/events/719339/report?rp=1"
     },
     {
       "id": "706984",
