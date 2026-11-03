@@ -65,6 +65,15 @@
       "url": "https://web.quartr.com/link/companies/14723/events/746053/report?rp=1"
     },
     {
+      "id": "791761",
+      "title": "Okta - Q4 2027",
+      "date": "2027-03-03",
+      "start": "2027-03-03T00:00:00.000Z",
+      "end": null,
+      "all_day": true,
+      "url": "https://web.quartr.com/link/companies/3870/events/791761/report?rp=1"
+    },
+    {
       "id": "786156",
       "title": "Socket Mobile - Q4 2026",
       "date": "2027-02-25",
@@ -218,15 +227,6 @@
       "url": "https://web.quartr.com/link/companies/4799/events/787152/report?rp=1"
     },
     {
-      "id": "790365",
-      "title": "Kyocera - Q3 2027",
-      "date": "2027-02-01",
-      "start": "2027-02-01T00:00:00.000Z",
-      "end": null,
-      "all_day": true,
-      "url": "https://web.quartr.com/link/companies/16322/events/790365/report?rp=1"
-    },
-    {
       "id": "784562",
       "title": "DENSO - Q3 2027",
       "date": "2027-01-29",
@@ -234,6 +234,15 @@
       "end": null,
       "all_day": true,
       "url": "https://web.quartr.com/link/companies/15601/events/784562/report?rp=1"
+    },
+    {
+      "id": "790365",
+      "title": "Kyocera - Q3 2027",
+      "date": "2027-01-29",
+      "start": "2027-01-29T00:00:00.000Z",
+      "end": null,
+      "all_day": true,
+      "url": "https://web.quartr.com/link/companies/16322/events/790365/report?rp=1"
     },
     {
       "id": "764098",
@@ -302,10 +311,10 @@
       "id": "739392",
       "title": "Okta - Q3 2027",
       "date": "2026-12-01",
-      "start": "2026-12-01T00:00:00.000Z",
-      "end": null,
-      "all_day": true,
-      "url": "https://web.quartr.com/link/companies/3870/events/739392/report?rp=1"
+      "start": "2026-12-01T22:00:00.000Z",
+      "end": "2026-12-01T23:00:00.000Z",
+      "all_day": false,
+      "url": "https://web.quartr.com/link/companies/3870/events/739392"
     },
     {
       "id": "742337",
