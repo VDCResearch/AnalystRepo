@@ -155,6 +155,15 @@
       "url": "https://web.quartr.com/link/companies/15261/events/787992/report?rp=1"
     },
     {
+      "id": "793201",
+      "title": "Motorola Solutions - Q4 2026",
+      "date": "2027-02-10",
+      "start": "2027-02-10T00:00:00.000Z",
+      "end": null,
+      "all_day": true,
+      "url": "https://web.quartr.com/link/companies/10230/events/793201/report?rp=1"
+    },
+    {
       "id": "538222",
       "title": "Mildef Group - Q4 2026",
       "date": "2027-02-04",
@@ -216,6 +225,15 @@
       "end": null,
       "all_day": true,
       "url": "https://web.quartr.com/link/companies/16423/events/775692/report?rp=1"
+    },
+    {
+      "id": "792899",
+      "title": "Emerson Electric - Q1 2027",
+      "date": "2027-02-02",
+      "start": "2027-02-02T00:00:00.000Z",
+      "end": null,
+      "all_day": true,
+      "url": "https://web.quartr.com/link/companies/4502/events/792899/report?rp=1"
     },
     {
       "id": "787152",
@@ -362,6 +380,15 @@
       "url": "https://web.quartr.com/link/companies/20365/events/737055/report?rp=1"
     },
     {
+      "id": "731525",
+      "title": "Cisco Systems - Q1 2027",
+      "date": "2026-11-12",
+      "start": "2026-11-12T21:30:00.000Z",
+      "end": "2026-11-12T22:30:00.000Z",
+      "all_day": false,
+      "url": "https://web.quartr.com/link/companies/4639/events/731525"
+    },
+    {
       "id": "673446",
       "title": "Viscom - Q3 2026",
       "date": "2026-11-12",
@@ -387,15 +414,6 @@
       "end": "2026-11-11T03:00:00.000Z",
       "all_day": false,
       "url": "https://web.quartr.com/link/companies/15061/events/726910"
-    },
-    {
-      "id": "731525",
-      "title": "Cisco Systems - Q1 2027",
-      "date": "2026-11-11",
-      "start": "2026-11-11T00:00:00.000Z",
-      "end": null,
-      "all_day": true,
-      "url": "https://web.quartr.com/link/companies/4639/events/731525/report?rp=1"
     },
     {
       "id": "726129",
