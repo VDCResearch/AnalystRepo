@@ -218,6 +218,15 @@
       "url": "https://web.quartr.com/link/companies/15852/events/797517/report?rp=1"
     },
     {
+      "id": "798141",
+      "title": "Hamamatsu Photonics - Q1 2027",
+      "date": "2027-02-04",
+      "start": "2027-02-04T00:00:00.000Z",
+      "end": null,
+      "all_day": true,
+      "url": "https://web.quartr.com/link/companies/15061/events/798141/report?rp=1"
+    },
+    {
       "id": "786163",
       "title": "Avery Dennison - Q4 2026",
       "date": "2027-02-03",
@@ -443,6 +452,15 @@
       "url": "https://web.quartr.com/link/companies/12345/events/726129"
     },
     {
+      "id": "669518",
+      "title": "TKH Group - Q3 2026 TU",
+      "date": "2026-11-10",
+      "start": "2026-11-10T09:00:00.000Z",
+      "end": "2026-11-10T10:00:00.000Z",
+      "all_day": false,
+      "url": "https://web.quartr.com/link/companies/14723/events/669518"
+    },
+    {
       "id": "724510",
       "title": "OMRON - Q2 2027",
       "date": "2026-11-10",
@@ -450,15 +468,6 @@
       "end": "2026-11-10T08:30:00.000Z",
       "all_day": false,
       "url": "https://web.quartr.com/link/companies/15852/events/724510"
-    },
-    {
-      "id": "669518",
-      "title": "TKH Group - Q3 2026",
-      "date": "2026-11-10",
-      "start": "2026-11-10T00:00:00.000Z",
-      "end": null,
-      "all_day": true,
-      "url": "https://web.quartr.com/link/companies/14723/events/669518/report?rp=1"
     },
     {
       "id": "721311",
