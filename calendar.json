@@ -29,6 +29,15 @@
       "url": "https://web.quartr.com/link/companies/4769/events/753360/report?rp=1"
     },
     {
+      "id": "800069",
+      "title": "TKH Group - Q1 2027",
+      "date": "2027-05-11",
+      "start": "2027-05-11T00:00:00.000Z",
+      "end": null,
+      "all_day": true,
+      "url": "https://web.quartr.com/link/companies/14723/events/800069/report?rp=1"
+    },
+    {
       "id": "786387",
       "title": "Mildef Group - Q1 2027",
       "date": "2027-04-27",
@@ -72,6 +81,15 @@
       "end": null,
       "all_day": true,
       "url": "https://web.quartr.com/link/companies/3870/events/791761/report?rp=1"
+    },
+    {
+      "id": "800442",
+      "title": "Getac  - Q4 2026",
+      "date": "2027-03-01",
+      "start": "2027-03-01T00:00:00.000Z",
+      "end": null,
+      "all_day": true,
+      "url": "https://web.quartr.com/link/companies/15496/events/800442/report?rp=1"
     },
     {
       "id": "786156",
@@ -171,6 +189,15 @@
       "end": null,
       "all_day": true,
       "url": "https://web.quartr.com/link/companies/10230/events/793201/report?rp=1"
+    },
+    {
+      "id": "800025",
+      "title": "Cisco Systems - Q2 2027",
+      "date": "2027-02-10",
+      "start": "2027-02-10T00:00:00.000Z",
+      "end": null,
+      "all_day": true,
+      "url": "https://web.quartr.com/link/companies/4639/events/800025/report?rp=1"
     },
     {
       "id": "798141",
@@ -380,15 +407,6 @@
       "url": "https://web.quartr.com/link/companies/14699/events/710669/report?rp=1"
     },
     {
-      "id": "733790",
-      "title": "Getac  - Q3 2026",
-      "date": "2026-11-20",
-      "start": "2026-11-20T00:00:00.000Z",
-      "end": null,
-      "all_day": true,
-      "url": "https://web.quartr.com/link/companies/15496/events/733790/report?rp=1"
-    },
-    {
       "id": "734448",
       "title": "Solum  - Q3 2026",
       "date": "2026-11-20",
@@ -432,6 +450,15 @@
       "end": null,
       "all_day": true,
       "url": "https://web.quartr.com/link/companies/16569/events/673392/report?rp=1"
+    },
+    {
+      "id": "733790",
+      "title": "Getac  - Q3 2026",
+      "date": "2026-11-12",
+      "start": "2026-11-12T00:00:00.000Z",
+      "end": null,
+      "all_day": true,
+      "url": "https://web.quartr.com/link/companies/15496/events/733790/report?rp=1"
     },
     {
       "id": "726129",
