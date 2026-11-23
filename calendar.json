@@ -65,6 +65,15 @@
       "url": "https://web.quartr.com/link/companies/4769/events/780806/report?rp=1"
     },
     {
+      "id": "807511",
+      "title": "DNA X - Q4 2026",
+      "date": "2027-04-15",
+      "start": "2027-04-15T00:00:00.000Z",
+      "end": null,
+      "all_day": true,
+      "url": "https://web.quartr.com/link/companies/20365/events/807511/report?rp=1"
+    },
+    {
       "id": "790123",
       "title": "Basler - Q4 2026",
       "date": "2027-03-25",
@@ -81,6 +90,15 @@
       "end": null,
       "all_day": true,
       "url": "https://web.quartr.com/link/companies/16572/events/801182/report?rp=1"
+    },
+    {
+      "id": "807387",
+      "title": "Datalogic - Q4 2026",
+      "date": "2027-03-18",
+      "start": "2027-03-18T00:00:00.000Z",
+      "end": null,
+      "all_day": true,
+      "url": "https://web.quartr.com/link/companies/16569/events/807387/report?rp=1"
     },
     {
       "id": "746053",
@@ -407,6 +425,24 @@
       "url": "https://web.quartr.com/link/companies/6273/events/776648/report?rp=1"
     },
     {
+      "id": "710669",
+      "title": "Nedap - Q3 2026",
+      "date": "2026-12-04",
+      "start": "2026-12-04T00:00:00.000Z",
+      "end": null,
+      "all_day": true,
+      "url": "https://web.quartr.com/link/companies/14699/events/710669/report?rp=1"
+    },
+    {
+      "id": "737055",
+      "title": "DNA X - Q3 2026",
+      "date": "2026-12-04",
+      "start": "2026-12-04T00:00:00.000Z",
+      "end": null,
+      "all_day": true,
+      "url": "https://web.quartr.com/link/companies/20365/events/737055/report?rp=1"
+    },
+    {
       "id": "739392",
       "title": "Okta - Q3 2027",
       "date": "2026-12-01",
@@ -416,22 +452,13 @@
       "url": "https://web.quartr.com/link/companies/3870/events/739392"
     },
     {
-      "id": "710669",
-      "title": "Nedap - Q3 2026",
-      "date": "2026-11-27",
-      "start": "2026-11-27T00:00:00.000Z",
+      "id": "673392",
+      "title": "Datalogic - Q3 2026",
+      "date": "2026-11-30",
+      "start": "2026-11-30T00:00:00.000Z",
       "end": null,
       "all_day": true,
-      "url": "https://web.quartr.com/link/companies/14699/events/710669/report?rp=1"
-    },
-    {
-      "id": "737055",
-      "title": "DNA X - Q3 2026",
-      "date": "2026-11-27",
-      "start": "2026-11-27T00:00:00.000Z",
-      "end": null,
-      "all_day": true,
-      "url": "https://web.quartr.com/link/companies/20365/events/737055/report?rp=1"
+      "url": "https://web.quartr.com/link/companies/16569/events/673392/report?rp=1"
     },
     {
       "id": "742337",
@@ -441,15 +468,6 @@
       "end": "2026-11-24T22:30:00.000Z",
       "all_day": false,
       "url": "https://web.quartr.com/link/companies/5910/events/742337"
-    },
-    {
-      "id": "673392",
-      "title": "Datalogic - Q3 2026",
-      "date": "2026-11-23",
-      "start": "2026-11-23T00:00:00.000Z",
-      "end": null,
-      "all_day": true,
-      "url": "https://web.quartr.com/link/companies/16569/events/673392/report?rp=1"
     },
     {
       "id": "734448",
@@ -720,15 +738,6 @@
       "end": "2026-10-28T21:30:00.000Z",
       "all_day": false,
       "url": "https://web.quartr.com/link/companies/4122/events/712854"
-    },
-    {
-      "id": "540015",
-      "title": "JLT Mobile Computers - Q3 2026",
-      "date": "2026-10-23",
-      "start": "2026-10-23T06:00:00.000Z",
-      "end": "2026-10-23T07:00:00.000Z",
-      "all_day": false,
-      "url": "https://web.quartr.com/link/companies/14791/events/540015/report?rp=1"
     }
   ]
 }
