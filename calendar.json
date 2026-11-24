@@ -146,6 +146,15 @@
       "url": "https://web.quartr.com/link/companies/10653/events/794121/report?rp=1"
     },
     {
+      "id": "808266",
+      "title": "Dell Technologies - Q4 2027",
+      "date": "2027-02-25",
+      "start": "2027-02-25T00:00:00.000Z",
+      "end": null,
+      "all_day": true,
+      "url": "https://web.quartr.com/link/companies/5910/events/808266/report?rp=1"
+    },
+    {
       "id": "770308",
       "title": "Nedap - Q4 2026",
       "date": "2027-02-24",
@@ -434,15 +443,6 @@
       "url": "https://web.quartr.com/link/companies/14699/events/710669/report?rp=1"
     },
     {
-      "id": "737055",
-      "title": "DNA X - Q3 2026",
-      "date": "2026-12-04",
-      "start": "2026-12-04T00:00:00.000Z",
-      "end": null,
-      "all_day": true,
-      "url": "https://web.quartr.com/link/companies/20365/events/737055/report?rp=1"
-    },
-    {
       "id": "739392",
       "title": "Okta - Q3 2027",
       "date": "2026-12-01",
@@ -468,6 +468,15 @@
       "end": "2026-11-24T22:30:00.000Z",
       "all_day": false,
       "url": "https://web.quartr.com/link/companies/5910/events/742337"
+    },
+    {
+      "id": "737055",
+      "title": "DNA X - Q3 2026",
+      "date": "2026-11-23",
+      "start": "2026-11-23T00:00:00.000Z",
+      "end": null,
+      "all_day": true,
+      "url": "https://web.quartr.com/link/companies/20365/events/737055/report?rp=1"
     },
     {
       "id": "734448",
